@@ -1,1 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>Hololive Card Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 16px;
+      background: #f5f5f5;
+    }
+    h1 {
+      margin-top: 0;
+    }
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    .toolbar input {
+      padding: 6px 8px;
+      font-size: 14px;
+      min-width: 220px;
+    }
+    .toolbar button {
+      padding: 6px 12px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+    th, td {
+      padding: 6px 8px;
+      border-bottom: 1px solid #ddd;
+      font-size: 13px;
+      text-align: left;
+      white-space: nowrap;
+    }
+    th {
+      background: #eee;
+    }
+    tbody tr:nth-child(even) {
+      background: #fafafa;
+    }
+    .num {
+      text-align: right;
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 11px;
+      background: #eee;
+    }
+    .link-btn {
+      padding: 2px 6px;
+      font-size: 11px;
+      border-radius: 4px;
+      border: 1px solid #888;
+      background: #fff;
+      cursor: pointer;
+    }
+    .status {
+      margin-bottom: 8px;
+      font-size: 12px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hololive Card Portfolio</h1>
+
+  <div class="status" id="status">載入中...</div>
+
+  <div class="toolbar">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="搜尋卡號或名稱（例如 hBP04-001 / 天音）"
+    />
+    <button id="reloadBtn">重新載入</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>卡號</th>
+        <th>名稱</th>
+        <th>稀有度</th>
+        <th class="num">持有張數</th>
+        <th class="num">YUYU 賣價 (JPY)</th>
+        <th class="num">市值 (JPY)</th>
+        <th>YUYU</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+      <!-- 由 main.js 動態填入 -->
+    </tbody>
+  </table>
+
+  <script src="main.js"></script>
+</body>
+</html>
 
