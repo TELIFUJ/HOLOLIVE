@@ -44,9 +44,10 @@ async function fetchPortfolio() {
   setStatus("載入中（向 Supabase 取得資料）…");
 
   const url =
-    `${REST_BASE}/v_portfolio_positions_jpy_v2` +
-    "?select=card_code,name_ja,rarity_code,qty,sell_price_jpy,market_value_jpy,yuyutei_url" +
-    "&order=card_code.asc&order=rarity_code.asc";
+  `${REST_BASE}/v_portfolio_positions_jpy_v2` +
+  "?select=card_code,name_ja,rarity_code,qty,sell_price_jpy,market_value_jpy" +
+  "&order=card_code.asc&order=rarity_code.asc";
+
 
   const resp = await fetch(url, {
     headers: {
