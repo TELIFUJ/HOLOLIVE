@@ -1,23 +1,52 @@
 // === 設定區：改成你自己的 Supabase URL / anon key ===
-// Project URL：Supabase 後台 Settings → API → Project URL
-const PROJECT_URL = "https://mpqvepdodjriigycgmyz.supabase.co";
-// anon key：Supabase 後台 Settings → API → anon public
+// Project URL: Supabase 後台 Settings → API → Project URL
+const PROJECT_URL = "https://mpqvepdodjriiygcmyz.supabase.co";
+// anon key: Supabase 後台 Settings → API → Project API keys → anon public
 const ANON_KEY = "sb_publishable_cKHCb75guFnbR69u1uPvUQ_f_w3jU1c";
 
+// REST base
+const REST_BASE = `${PROJECT_URL}/rest/v1`;
+
+// DOM elements
 const statusEl = document.getElementById("status");
 const tableBody = document.getElementById("tableBody");
 const searchInput = document.getElementById("searchInput");
 const reloadBtn = document.getElementById("reloadBtn");
 
+// 全部資料快取（用來做搜尋）
 let allRows = [];
 
-// 叫 Supabase REST 拿 portfolio_positions_jpy
+// ---- 共用工具 ----
+
+function setStatus(msg) {
+  if (statusEl) statusEl.textContent = msg;
+}
+
+function formatNumber(n) {
+  if (n === null || n === undefined || isNaN(n)) return "-";
+  return n.toLocaleString("ja-JP");
+}
+
+function buildYuyuUrl(row) {
+  // 若 view 本身已有欄位，就直接用
+  if (row.yuyutei_url) return row.yuyutei_url;
+
+  // 後備方案：從 card_code 推一個搜尋連結（不保證 100% 準，但至少點得出去）
+  const code = row.card_code || "";
+  if (!code) return null;
+  const search = encodeURIComponent(code);
+  return `https://yuyu-tei.jp/sell/hocg/s/search?search_word=${search}`;
+}
+
+// ---- 取資料 ----
+
 async function fetchPortfolio() {
-  statusEl.textContent = "載入中...";
-  tableBody.innerHTML = "";
+  setStatus("載入中（向 Supabase 取得資料）…");
 
-  const url = `${PROJECT_URL}/rest/v1/portfolio_positions_with_rarity?select=*`;
-
+  const url =
+    `${REST_BASE}/v_portfolio_positions_jpy_v2` +
+    "?select=card_code,name_ja,rarity_code,qty,sell_price_jpy,market_value_jpy,yuyutei_url" +
+    "&order=card_code.asc&order=rarity_code.asc";
 
   const resp = await fetch(url, {
     headers: {
@@ -28,86 +57,130 @@ async function fetchPortfolio() {
 
   if (!resp.ok) {
     const text = await resp.text();
-    statusEl.textContent = `讀取失敗：${resp.status} ${text}`;
-    return;
+    throw new Error(`Supabase 回應錯誤: ${resp.status} ${text}`);
   }
 
   const data = await resp.json();
-  allRows = Array.isArray(data) ? data : [];
-  statusEl.textContent = `已載入 ${allRows.length} 筆持有資料`;
-  renderTable();
+  return data;
 }
 
-function renderTable() {
-  const keyword = (searchInput.value || "").trim().toLowerCase();
+// ---- 畫表格 ----
 
-  const rows = allRows.filter((row) => {
-    if (!keyword) return true;
-    const code = (row.card_code || "").toLowerCase();
-    const name = (row.name_ja || "").toLowerCase();
-    return code.includes(keyword) || name.includes(keyword);
-  });
-
-  // 依市值排序，高到低
-  rows.sort((a, b) => {
-    const av = a.market_value_jpy ?? 0;
-    const bv = b.market_value_jpy ?? 0;
-    return bv - av;
-  });
-
+function renderTable(rows) {
   tableBody.innerHTML = "";
+
+  if (!rows || rows.length === 0) {
+    setStatus("目前沒有任何持有紀錄。");
+    return;
+  }
 
   for (const row of rows) {
     const tr = document.createElement("tr");
 
-    const market = row.market_value_jpy ?? null;
-    const sell = row.sell_price_jpy ?? null;
+    // 卡號：顯示卡號，本體保持乾淨；版本在稀有度欄位
+    const tdCode = document.createElement("td");
+    tdCode.textContent = row.card_code || "-";
+    tr.appendChild(tdCode);
 
-    tr.innerHTML = `
-      <td>${row.card_code || ""}</td>
-      <td>${row.name_ja || ""}</td>
-      <td><span class="badge">${row.rarity || ""}</span></td>
-      <td class="num">${row.qty ?? ""}</td>
-      <td class="num">${sell != null ? formatNumber(sell) : ""}</td>
-      <td class="num">${market != null ? formatNumber(market) : ""}</td>
-      <td>
-        ${
-          row.external_url
-            ? `<button class="link-btn" data-url="${row.external_url}">開啟</button>`
-            : ""
-        }
-      </td>
-    `;
+    // 名稱（日文）
+    const tdName = document.createElement("td");
+    tdName.textContent = row.name_ja || "-";
+    tr.appendChild(tdName);
+
+    // 稀有度
+    const tdRarity = document.createElement("td");
+    const rarity = row.rarity_code || "-";
+    const badge = document.createElement("span");
+    badge.className = "badge";
+    badge.textContent = rarity;
+    tdRarity.appendChild(badge);
+    tr.appendChild(tdRarity);
+
+    // 持有張數
+    const tdQty = document.createElement("td");
+    tdQty.className = "num";
+    tdQty.textContent = formatNumber(row.qty);
+    tr.appendChild(tdQty);
+
+    // YUYU 賣價
+    const tdPrice = document.createElement("td");
+    tdPrice.className = "num";
+    tdPrice.textContent =
+      row.sell_price_jpy != null ? formatNumber(row.sell_price_jpy) : "-";
+    tr.appendChild(tdPrice);
+
+    // 市值
+    const tdValue = document.createElement("td");
+    tdValue.className = "num";
+    tdValue.textContent =
+      row.market_value_jpy != null ? formatNumber(row.market_value_jpy) : "-";
+    tr.appendChild(tdValue);
+
+    // YUYU 連結
+    const tdLink = document.createElement("td");
+    const url = buildYuyuUrl(row);
+    if (url) {
+      const btn = document.createElement("button");
+      btn.className = "link-btn";
+      btn.textContent = "開啟";
+      btn.addEventListener("click", () => {
+        window.open(url, "_blank", "noopener");
+      });
+      tdLink.appendChild(btn);
+    } else {
+      tdLink.textContent = "-";
+    }
+    tr.appendChild(tdLink);
 
     tableBody.appendChild(tr);
   }
 
-  // 綁定「開啟 YUYUTEI」按鈕
-  tableBody.querySelectorAll("button.link-btn").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const url = btn.getAttribute("data-url");
-      if (url) window.open(url, "_blank");
-    });
+  setStatus(`已載入 ${rows.length} 筆卡片持有資料。`);
+}
+
+// ---- 搜尋 ----
+
+function applyFilter() {
+  const q = (searchInput.value || "").trim().toLowerCase();
+  if (!q) {
+    renderTable(allRows);
+    return;
+  }
+
+  const filtered = allRows.filter((row) => {
+    const code = (row.card_code || "").toLowerCase();
+    const name = (row.name_ja || "").toLowerCase();
+    return code.includes(q) || name.includes(q);
+  });
+
+  renderTable(filtered);
+}
+
+// ---- 入口 ----
+
+async function loadAndRender() {
+  try {
+    setStatus("載入中…");
+    tableBody.innerHTML = "";
+    allRows = await fetchPortfolio();
+    renderTable(allRows);
+  } catch (err) {
+    console.error(err);
+    setStatus(`載入失敗：${err.message}`);
+  }
+}
+
+if (searchInput) {
+  searchInput.addEventListener("input", () => {
+    applyFilter();
   });
 }
 
-function formatNumber(n) {
-  return Number(n).toLocaleString("ja-JP");
+if (reloadBtn) {
+  reloadBtn.addEventListener("click", () => {
+    loadAndRender();
+  });
 }
 
-// 綁事件
-searchInput.addEventListener("input", () => {
-  renderTable();
-});
-reloadBtn.addEventListener("click", () => {
-  fetchPortfolio().catch((e) => {
-    console.error(e);
-    statusEl.textContent = "重新載入失敗";
-  });
-});
-
-// 進入頁面時自動載入一次
-fetchPortfolio().catch((e) => {
-  console.error(e);
-  statusEl.textContent = "載入失敗";
-});
+// 首次載入
+loadAndRender();
