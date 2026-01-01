@@ -1,0 +1,5 @@
+card_code,print_hint,acquisition_type,source_name,acquired_qty,unit_cost,currency,acquired_at,note
+hBD24-001,U,BUY_BOX,YUYU-BOX-2025-12,3,1500,JPY,2025-12-15,第一盒
+hBP04-001,OSR,BUY_SHOP,YUYU-SINGLE-2025-12,2,12000,JPY,2025-12-20,Kanata OSR
+hBP04-008,U,BUY_SHOP,YUYU-SINGLE-2025-12,4,800,JPY,2025-12-20,波のマントラ
+hBP06-001,U,OTHER,FRIEND-TRADE,1,0,JPY,2025-12-25,朋友送

@@ -1,10 +1,12 @@
-name: Sync inventory_lots from CSV
+name: Sync inventory from CSV (v2 with print_id)
 
 on:
   push:
     branches: [ "main" ]
     paths:
-      - "data/inventory_lots.csv"
+      - "data/inventory_lots_v2.csv"
+      - "scripts/sync_inventory_from_csv.py"
+      - ".github/workflows/sync_inventory.yml"
   workflow_dispatch: {}
 
 jobs:
