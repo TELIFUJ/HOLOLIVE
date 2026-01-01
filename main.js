@@ -16,7 +16,7 @@ async function fetchPortfolio() {
   statusEl.textContent = "載入中...";
   tableBody.innerHTML = "";
 
-  const url = `${PROJECT_URL}/rest/v1/portfolio_positions_with_image?select=*`;
+  const url = `${PROJECT_URL}/rest/v1/portfolio_positions_with_rarity?select=*`;
 
 
   const resp = await fetch(url, {
