@@ -1,19 +1,23 @@
-// === Supabase 設定 ===
+// === 設定區：改成你自己的 Supabase URL / anon key ===
+// Project URL: Supabase 後台 Settings → API → Project URL
 const PROJECT_URL = "https://mpqvepdodjriigycgmyz.supabase.co";
+// anon key: Supabase 後台 Settings → API → Project API keys → anon public
 const ANON_KEY = "sb_publishable_cKHCb75guFnbR69u1uPvUQ_f_w3jU1c";
 
+// REST base
 const REST_BASE = `${PROJECT_URL}/rest/v1`;
 
-// DOM
+// DOM elements
 const statusEl = document.getElementById("status");
 const tableBody = document.getElementById("tableBody");
 const searchInput = document.getElementById("searchInput");
 const reloadBtn = document.getElementById("reloadBtn");
 
-// 快取資料
+// 全部資料快取（用來做搜尋）
 let allRows = [];
 
-// 工具
+// ---- 共用工具 ----
+
 function setStatus(msg) {
   if (statusEl) statusEl.textContent = msg;
 }
@@ -24,21 +28,24 @@ function formatNumber(n) {
 }
 
 function buildYuyuUrl(row) {
+  // 若 view 本身已有欄位，就直接用
   if (row.yuyutei_url) return row.yuyutei_url;
+
+  // 後備方案：從 card_code 推一個搜尋連結
   const code = row.card_code || "";
   if (!code) return null;
   const search = encodeURIComponent(code);
   return `https://yuyu-tei.jp/sell/hocg/s/search?search_word=${search}`;
 }
 
-// 取資料（從 v_portfolio_positions_jpy_v2）
+// ---- 取資料 ----
+
 async function fetchPortfolio() {
   setStatus("載入中（向 Supabase 取得資料）…");
 
   const url =
     `${REST_BASE}/v_portfolio_positions_jpy_v2` +
-    "?select=card_code,name_ja,rarity_code,qty," +
-    "sell_price_jpy,market_value_jpy,image_url" +
+    "?select=card_code,name_ja,rarity_code,qty,sell_price_jpy,market_value_jpy,image_url" +
     "&order=card_code.asc&order=rarity_code.asc";
 
   const resp = await fetch(url, {
@@ -53,10 +60,12 @@ async function fetchPortfolio() {
     throw new Error(`Supabase 回應錯誤: ${resp.status} ${text}`);
   }
 
-  return await resp.json();
+  const data = await resp.json();
+  return data;
 }
 
-// 畫表格
+// ---- 畫表格 ----
+
 function renderTable(rows) {
   tableBody.innerHTML = "";
 
@@ -68,28 +77,28 @@ function renderTable(rows) {
   for (const row of rows) {
     const tr = document.createElement("tr");
 
+    // 卡號
+    const tdCode = document.createElement("td");
+    tdCode.textContent = row.card_code || "-";
+    tr.appendChild(tdCode);
+
+    // 名稱（日文）
+    const tdName = document.createElement("td");
+    tdName.textContent = row.name_ja || "（暫時沒有日文名）";
+    tr.appendChild(tdName);
+
     // 卡圖
     const tdImg = document.createElement("td");
     if (row.image_url) {
       const img = document.createElement("img");
       img.src = row.image_url;
       img.alt = row.name_ja || row.card_code || "";
-      img.className = "thumb";
+      img.className = "card-img";
       tdImg.appendChild(img);
     } else {
       tdImg.textContent = "-";
     }
     tr.appendChild(tdImg);
-
-    // 卡號
-    const tdCode = document.createElement("td");
-    tdCode.textContent = row.card_code || "-";
-    tr.appendChild(tdCode);
-
-    // 名稱
-    const tdName = document.createElement("td");
-    tdName.textContent = row.name_ja || "-";
-    tr.appendChild(tdName);
 
     // 稀有度
     const tdRarity = document.createElement("td");
@@ -100,13 +109,13 @@ function renderTable(rows) {
     tdRarity.appendChild(badge);
     tr.appendChild(tdRarity);
 
-    // 張數
+    // 持有張數
     const tdQty = document.createElement("td");
     tdQty.className = "num";
     tdQty.textContent = formatNumber(row.qty);
     tr.appendChild(tdQty);
 
-    // YUYU 價
+    // YUYU 賣價
     const tdPrice = document.createElement("td");
     tdPrice.className = "num";
     tdPrice.textContent =
@@ -142,7 +151,8 @@ function renderTable(rows) {
   setStatus(`已載入 ${rows.length} 筆卡片持有資料。`);
 }
 
-// 搜尋
+// ---- 搜尋 ----
+
 function applyFilter() {
   const q = (searchInput.value || "").trim().toLowerCase();
   if (!q) {
@@ -159,7 +169,8 @@ function applyFilter() {
   renderTable(filtered);
 }
 
-// 入口
+// ---- 入口 ----
+
 async function loadAndRender() {
   try {
     setStatus("載入中…");
@@ -173,11 +184,16 @@ async function loadAndRender() {
 }
 
 if (searchInput) {
-  searchInput.addEventListener("input", applyFilter);
+  searchInput.addEventListener("input", () => {
+    applyFilter();
+  });
 }
 
 if (reloadBtn) {
-  reloadBtn.addEventListener("click", loadAndRender);
+  reloadBtn.addEventListener("click", () => {
+    loadAndRender();
+  });
 }
 
+// 首次載入
 loadAndRender();
