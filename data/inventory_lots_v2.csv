@@ -1,5 +1,21 @@
-card_code,print_hint,acquisition_type,source_name,acquired_qty,unit_cost,currency,acquired_at,note
-hBD24-001,U,BUY_BOX,YUYU-BOX-2025-12,3,1500,JPY,2025-12-15,第一盒
-hBP04-001,OSR,BUY_SHOP,YUYU-SINGLE-2025-12,2,12000,JPY,2025-12-20,Kanata OSR
-hBP04-008,U,BUY_SHOP,YUYU-SINGLE-2025-12,4,800,JPY,2025-12-20,波のマントラ
-hBP06-001,U,OTHER,FRIEND-TRADE,1,0,JPY,2025-12-25,朋友送
+expansion,card_code,rarity,print_hint,acquisition_type,source_name,acquired_qty,unit_cost,currency,acquired_at,note
+,hBP01-039,P,P,GIFT,,1,0,,,"/GOOGLEFINANCE(""Currency:JPYTWD"")"
+,hY01-002,P,P,GIFT,,1,0,,,
+,hY01-001,C,C,BUY_BOX,,19,0,,,
+,hSD01-019,C,C,BUY_BOX,,2,0,,,
+,hBP05-079,U,U,BUY_BOX,,1,0,,,
+,hBP01-108,U,U,BUY_BOX,,2,0,,,
+,hBP01-014,UR,UR,BUY_SINGLE,,1,980,,,
+,hBP01-019,C,C,BUY_BOX,,9,0,,,
+,hBP01-010,U,U,BUY_BOX,,3,0,,,
+,hBP01-114,C,C,BUY_SINGLE,,3,597.5574838,,,
+,hSD08-004,RR,RR,BUY_BOX,,2,0,,,
+,hBP01-011,C,C,BUY_BOX,,2,0,,,
+,hBP01-116,C,C,BUY_SINGLE,,2,0,,,
+,hBP01-013,RR,RR,BUY_BOX,,4,0,,,
+,hBP01-012,U,U,BUY_BOX,,2,0,,,
+,hBP01-012,P,P,BUY_SINGLE,,1,497,,,
+,hBP01-014,RR,RR,BUY_BOX,,3,0,,,
+,hBP05-080,U,U,BUY_BOX,,1,746,,,
+,hBP05-080,P,P,BUY_SINGLE,,1,1800,,,
+,hBP02-084,U,U,BUY_SINGLE,,1,200,,,

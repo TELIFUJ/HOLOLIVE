@@ -5,9 +5,11 @@ from datetime import datetime, timezone
 
 import requests
 
-# === Supabase 設定（沿用你原本的方式） ===
+# === Supabase 連線設定 ===
+
 PROJECT_URL = os.environ.get("SUPABASE_PROJECT_URL")
 SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+
 
 if not PROJECT_URL:
     print("環境變數 SUPABASE_PROJECT_URL 未設定", file=sys.stderr)
