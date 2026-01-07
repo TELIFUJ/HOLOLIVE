@@ -1,8 +1,8 @@
 // === 設定區：改成你自己的 Supabase URL / anon key ===
 // Project URL: Supabase 後台 Settings → API → Project URL
-const PROJECT_URL = "https://mpqvepdodjriigycgmyz.supabase.co";
+const PROJECT_URL = "https://ktcupyeopcffmtzzpewm.supabase.co";
 // anon key: Supabase 後台 Settings → API → Project API keys → anon public
-const ANON_KEY = "sb_publishable_cKHCb75guFnbR69u1uPvUQ_f_w3jU1c";
+const ANON_KEY = "sb_secret_HVh-ee5sjMlKQhdpXGiC7w_GIfx94o3";
 
 // REST base
 const REST_BASE = `${PROJECT_URL}/rest/v1`;
