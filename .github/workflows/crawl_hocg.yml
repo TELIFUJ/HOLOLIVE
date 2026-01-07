@@ -1,4 +1,4 @@
-name: Crawl HOCG cards & prices
+name: Crawl HOCG official cards
 
 on:
   workflow_dispatch: {}
@@ -9,7 +9,7 @@ jobs:
   crawl:
     runs-on: ubuntu-latest
     env:
-      # 一次處理的系列清單（大小寫隨便，程式會幫你轉）
+      # 一次處理的系列清單（大小寫隨便，程式裡會 normalize）
       HOCG_EXPANSIONS: "HPR,HSD11,HSD10,HSD09,HSD08,HSD07,HSD06,HSD05,HSD04,HSD03,HSD02,HSD01,HYS01,HPC01,HCS01,HBP01,HBP02,HBP03,HBP04,HBP05,HBP06,HSD2025SUMMER"
 
     steps:
@@ -30,14 +30,10 @@ jobs:
         run: |
           python scripts/crawl_official_cards.py
 
-      - name: Crawl YUYU prices
-        run: |
-          python scripts/crawl_yuyutei_prices.py
-
-      - name: Commit updated CSV
+      - name: Commit updated official CSV
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add data/*.csv
-          git commit -m "Update HOCG CSV [skip ci]" || echo "No changes to commit"
+          git add data/*_cards_v2.csv
+          git commit -m "Update HOCG official cards [skip ci]" || echo "No changes to commit"
           git push
