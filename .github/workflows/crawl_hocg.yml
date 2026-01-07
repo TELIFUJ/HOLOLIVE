@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "0 15 * * *"   # 每天 23:00 台灣時間左右（15:00 UTC）
 
+# 👇 這一段是新的：允許這個 workflow 寫入內容
+permissions:
+  contents: write
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
