@@ -8,6 +8,9 @@ on:
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    env:
+      # 一次處理的系列清單（大小寫隨便，程式會幫你轉）
+      HOCG_EXPANSIONS: "HPR,HSD11,HSD10,HSD09,HSD08,HSD07,HSD06,HSD05,HSD04,HSD03,HSD02,HSD01,HYS01,HPC01,HCS01,HBP01,HBP02,HBP03,HBP04,HBP05,HBP06,HSD2025SUMMER"
 
     steps:
       - name: Checkout repo
