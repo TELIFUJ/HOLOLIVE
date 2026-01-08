@@ -2,7 +2,7 @@
 // Project URL: Supabase 後台 Settings → API → Project URL
 const PROJECT_URL = "https://ktcupyeopcffmtzzpewm.supabase.co";
 // anon key: Supabase 後台 Settings → API → Project API keys → anon public
-const ANON_KEY = "sb_secret_HVh-ee5sjMlKQhdpXGiC7w_GIfx94o3";
+const ANON_KEY = "sb_publishable_rEvRt6x4kT6pKBUqh06YhQ_jHHO3zWU";
 
 // REST base
 const REST_BASE = `${PROJECT_URL}/rest/v1`;
