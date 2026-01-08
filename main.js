@@ -27,15 +27,35 @@ function formatNumber(n) {
   return n.toLocaleString("ja-JP");
 }
 
+// 舊版通用 URL（現在主要用在賣價 fallback，可保留以後有需要）
 function buildYuyuUrl(row) {
-  // 若 view 本身已有欄位，就直接用
+  // 若 view 本身已有欄位，就直接用（保留相容性）
   if (row.yuyutei_url) return row.yuyutei_url;
 
-  // 後備方案：從 card_code 推一個搜尋連結
   const code = row.card_code || "";
   if (!code) return null;
   const search = encodeURIComponent(code);
   return `https://yuyu-tei.jp/sell/hocg/s/search?search_word=${search}`;
+}
+
+// 專門給「賣價」用：優先用 view 的 sell_url，沒有就退回搜尋頁
+function buildYuyuSellUrl(row) {
+  if (row.sell_url) return row.sell_url;
+
+  const code = row.card_code || "";
+  if (!code) return null;
+  const search = encodeURIComponent(code);
+  return `https://yuyu-tei.jp/sell/hocg/s/search?search_word=${search}`;
+}
+
+// 專門給「收購」用：優先用 view 的 buy_url，沒有就退回搜尋頁
+function buildYuyuBuyUrl(row) {
+  if (row.buy_url) return row.buy_url;
+
+  const code = row.card_code || "";
+  if (!code) return null;
+  const search = encodeURIComponent(code);
+  return `https://yuyu-tei.jp/buy/hocg/s/search?search_word=${search}`;
 }
 
 // ---- 取資料 ----
@@ -45,7 +65,9 @@ async function fetchPortfolio() {
 
   const url =
     `${REST_BASE}/v_portfolio_positions_jpy_v2` +
-    "?select=card_code,name_ja,rarity_code,qty,sell_price_jpy,market_value_jpy,image_url" +
+    "?select=card_code,name_ja,rarity_code,qty," +
+    "sell_price_jpy,buy_price_jpy,market_value_jpy," +
+    "image_url,sell_url,buy_url" +
     "&order=card_code.asc&order=rarity_code.asc";
 
   const resp = await fetch(url, {
@@ -116,11 +138,18 @@ function renderTable(rows) {
     tr.appendChild(tdQty);
 
     // YUYU 賣價
-    const tdPrice = document.createElement("td");
-    tdPrice.className = "num";
-    tdPrice.textContent =
+    const tdSell = document.createElement("td");
+    tdSell.className = "num";
+    tdSell.textContent =
       row.sell_price_jpy != null ? formatNumber(row.sell_price_jpy) : "-";
-    tr.appendChild(tdPrice);
+    tr.appendChild(tdSell);
+
+    // YUYU 收購價
+    const tdBuy = document.createElement("td");
+    tdBuy.className = "num";
+    tdBuy.textContent =
+      row.buy_price_jpy != null ? formatNumber(row.buy_price_jpy) : "-";
+    tr.appendChild(tdBuy);
 
     // 市值
     const tdValue = document.createElement("td");
@@ -129,17 +158,34 @@ function renderTable(rows) {
       row.market_value_jpy != null ? formatNumber(row.market_value_jpy) : "-";
     tr.appendChild(tdValue);
 
-    // YUYU 連結
+    // YUYU 連結（賣價 / 收購）
     const tdLink = document.createElement("td");
-    const url = buildYuyuUrl(row);
-    if (url) {
-      const btn = document.createElement("button");
-      btn.className = "link-btn";
-      btn.textContent = "開啟";
-      btn.addEventListener("click", () => {
-        window.open(url, "_blank", "noopener");
-      });
-      tdLink.appendChild(btn);
+    const sellUrl = buildYuyuSellUrl(row);
+    const buyUrl = buildYuyuBuyUrl(row);
+
+    if (sellUrl || buyUrl) {
+      if (sellUrl) {
+        const btnSell = document.createElement("button");
+        btnSell.className = "link-btn";
+        btnSell.textContent = "賣價";
+        btnSell.addEventListener("click", () => {
+          window.open(sellUrl, "_blank", "noopener");
+        });
+        tdLink.appendChild(btnSell);
+      }
+
+      if (buyUrl) {
+        if (tdLink.firstChild) {
+          tdLink.appendChild(document.createTextNode(" "));
+        }
+        const btnBuy = document.createElement("button");
+        btnBuy.className = "link-btn";
+        btnBuy.textContent = "收購";
+        btnBuy.addEventListener("click", () => {
+          window.open(buyUrl, "_blank", "noopener");
+        });
+        tdLink.appendChild(btnBuy);
+      }
     } else {
       tdLink.textContent = "-";
     }
