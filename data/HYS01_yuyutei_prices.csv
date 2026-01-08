@@ -1,0 +1,9 @@
+card_code,rarity,is_parallel_name,name_ja,sell_price_jpy,buy_price_jpy,raw_sell_price_text,raw_buy_price_text,sell_url,buy_url,is_suspicious,error_message
+hY01-001,C,0,白エール,50,,50 円,,https://yuyu-tei.jp/sell/hocg/card/yell01/10001,,0,
+hY02-001,C,0,緑エール,80,2,80 円,2 円,https://yuyu-tei.jp/sell/hocg/card/yell01/10002,https://yuyu-tei.jp/buy/hocg/card/yell01/10002,0,
+hY03-001,C,0,赤エール,50,,50 円,,https://yuyu-tei.jp/sell/hocg/card/yell01/10003,,0,
+hY04-001,C,0,青エール,80,,80 円,,https://yuyu-tei.jp/sell/hocg/card/yell01/10004,,0,
+hYS01-001,OC,0,七詩ムメイ,180,3,180 円,3 円,https://yuyu-tei.jp/sell/hocg/card/hys01/10001,https://yuyu-tei.jp/buy/hocg/card/hys01/10001,0,
+hYS01-002,OC,0,兎田ぺこら,120,3,120 円,3 円,https://yuyu-tei.jp/sell/hocg/card/hys01/10002,https://yuyu-tei.jp/buy/hocg/card/hys01/10002,0,
+hYS01-003,OC,0,小鳥遊キアラ,120,,120 円,,https://yuyu-tei.jp/sell/hocg/card/hys01/10003,,0,
+hYS01-004,OC,0,星街すいせい,320,10,320 円,10 円,https://yuyu-tei.jp/sell/hocg/card/hys01/10004,https://yuyu-tei.jp/buy/hocg/card/hys01/10004,0,
