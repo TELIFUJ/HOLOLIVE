@@ -63,12 +63,14 @@ function buildYuyuBuyUrl(row) {
 async function fetchPortfolio() {
   setStatus("載入中（向 Supabase 取得資料）…");
 
+  // v3 目前實際存在的欄位：
+  // card_code, rarity, print_id, owned_qty,
+  // yuyu_sell_jpy, yuyu_buy_jpy, market_value_sell, market_value_buy
   const url =
     `${REST_BASE}/v_portfolio_positions_jpy_v3` +
-    "?select=card_code,name_ja,rarity_code,qty," +
-    "sell_price_jpy,buy_price_jpy,market_value_jpy," +
-    "image_url,sell_url,buy_url" +
-    "&order=card_code.asc&order=rarity_code.asc";
+    "?select=card_code,rarity,print_id,owned_qty," +
+    "yuyu_sell_jpy,yuyu_buy_jpy,market_value_sell,market_value_buy" +
+    "&order=card_code.asc&order=rarity.asc";
 
   const resp = await fetch(url, {
     headers: {
@@ -104,12 +106,12 @@ function renderTable(rows) {
     tdCode.textContent = row.card_code || "-";
     tr.appendChild(tdCode);
 
-    // 名稱（日文）
+    // 名稱（日文）—— v3 尚未提供 name_ja，先用預設字樣
     const tdName = document.createElement("td");
     tdName.textContent = row.name_ja || "（暫時沒有日文名）";
     tr.appendChild(tdName);
 
-    // 卡圖
+    // 卡圖 —— v3 尚未提供 image_url，先不顯示圖
     const tdImg = document.createElement("td");
     if (row.image_url) {
       const img = document.createElement("img");
@@ -122,40 +124,44 @@ function renderTable(rows) {
     }
     tr.appendChild(tdImg);
 
-    // 稀有度
+    // 稀有度：優先用 rarity_code，沒有就用 v3 的 rarity
     const tdRarity = document.createElement("td");
-    const rarity = row.rarity_code || "-";
+    const rarity = row.rarity_code || row.rarity || "-";
     const badge = document.createElement("span");
     badge.className = "badge";
     badge.textContent = rarity;
     tdRarity.appendChild(badge);
     tr.appendChild(tdRarity);
 
-    // 持有張數
+    // 持有張數：優先 qty，沒有就用 owned_qty
     const tdQty = document.createElement("td");
     tdQty.className = "num";
-    tdQty.textContent = formatNumber(row.qty);
+    const qty = row.qty ?? row.owned_qty;
+    tdQty.textContent = qty != null ? formatNumber(qty) : "-";
     tr.appendChild(tdQty);
 
-    // YUYU 賣價
+    // YUYU 賣價：優先 sell_price_jpy，沒有就用 yuyu_sell_jpy
     const tdSell = document.createElement("td");
     tdSell.className = "num";
-    tdSell.textContent =
-      row.sell_price_jpy != null ? formatNumber(row.sell_price_jpy) : "-";
+    const sell = row.sell_price_jpy ?? row.yuyu_sell_jpy;
+    tdSell.textContent = sell != null ? formatNumber(sell) : "-";
     tr.appendChild(tdSell);
 
-    // YUYU 收購價
+    // YUYU 收購價：優先 buy_price_jpy，沒有就用 yuyu_buy_jpy
     const tdBuy = document.createElement("td");
     tdBuy.className = "num";
-    tdBuy.textContent =
-      row.buy_price_jpy != null ? formatNumber(row.buy_price_jpy) : "-";
+    const buy = row.buy_price_jpy ?? row.yuyu_buy_jpy;
+    tdBuy.textContent = buy != null ? formatNumber(buy) : "-";
     tr.appendChild(tdBuy);
 
-    // 市值
+    // 市值：優先 market_value_jpy，其次用 market_value_sell，再次 market_value_buy
     const tdValue = document.createElement("td");
     tdValue.className = "num";
-    tdValue.textContent =
-      row.market_value_jpy != null ? formatNumber(row.market_value_jpy) : "-";
+    const mv =
+      row.market_value_jpy ??
+      row.market_value_sell ??
+      row.market_value_buy;
+    tdValue.textContent = mv != null ? formatNumber(mv) : "-";
     tr.appendChild(tdValue);
 
     // YUYU 連結（賣價 / 收購）
