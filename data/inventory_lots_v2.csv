@@ -1,8 +1,8 @@
 expansion,card_code,rarity,print_hint,print_id,acquisition_type,source_name,acquired_qty,unit_cost,currency,acquired_at,note
-,hBP04-063,P,,6123,OTHER,店家賽,1,200,NTD,2026/1/10,
-,hSD11-007,P,,6042,OTHER,店家賽,1,0,NTD,2026/1/10,
-,hSD10-007,P,,6040,OTHER,店家賽,1,0,NTD,2026/1/10,
-,hSD10-002,P,,6039,OTHER,店家賽,1,250,NTD,2026/1/10,
+,hBP04-063,P,,6123,OTHER,店家賽,1,200,NTD,
+,hSD11-007,P,,6042,OTHER,店家賽,1,0,NTD,
+,hSD10-007,P,,6040,OTHER,店家賽,1,0,NTD,
+,hSD10-002,P,,6039,OTHER,店家賽,1,250,NTD,
 ,,,,,BUY_BOX,,,,,,
 ,,,,,BUY_BOX,,,,,,
 ,,,,,BUY_SINGLE,,,,,,
@@ -18,4 +18,5 @@ expansion,card_code,rarity,print_hint,print_id,acquisition_type,source_name,acqu
 ,,,,,BUY_BOX,,,,,,
 ,,,,,BUY_BOX,,,,,,
 ,,,,,BUY_SINGLE,,,,,,
+
 ,,,,,BUY_SINGLE,,,,,,
