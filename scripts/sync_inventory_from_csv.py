@@ -25,34 +25,26 @@ REST_BASE = f"{PROJECT_URL}/rest/v1"
 CSV_PATH = "data/inventory_lots_v2.csv"
 
 
-# ---------- 小工具：正規化卡號 / 系列代號 ----------
+# ---------- 小工具：卡號正規化 ----------
 
-def normalize_card_code(raw: str) -> str:
+def normalize_card_code(raw_code: str) -> str:
     """
-    將卡號統一成：
-    - 第一個字元小寫
-    - 其餘字元全部大寫
-    例：
-        hbp01-001 -> hBP01-001
-        HBP01-001 -> hBP01-001
-        hBp01-001 -> hBP01-001
+    把使用者輸入的卡號統一成「第一個字母小寫，其餘大寫」，
+    例如：hbp04-063、HBP04-063 都會變成 hBP04-063。
     """
-    if raw is None:
+    code = (raw_code or "").strip()
+    if not code:
         return ""
-    s = raw.strip()
-    if not s:
-        return ""
-    s = s.replace(" ", "")
-    # 第一個字元小寫，後面全部大寫
-    return s[0].lower() + s[1:].upper()
 
+    code = code.replace(" ", "")
 
-def normalize_expansion(raw: str) -> str:
-    """
-    系列代碼通常也是 hBP04 / hSD10 這種格式，
-    用跟卡號一樣的規則處理即可。
-    """
-    return normalize_card_code(raw)
+    if len(code) >= 3:
+        first = code[0].lower()
+        second_third = code[1:3].upper()
+        rest = code[3:]
+        return first + second_third + rest
+
+    return code
 
 
 # ---------- 載入 CSV ----------
@@ -62,7 +54,9 @@ def load_csv_rows(path: str):
     讀取 inventory_lots_v2.csv，欄位預期為：
     expansion,card_code,rarity,print_hint,acquisition_type,source_name,
     acquired_qty,unit_cost,currency,acquired_at,note
-    （不再需要 print_id）
+
+    CSV 裡不需要 print_id；print_id 會在程式裡自動判斷。
+    unit_cost 若為空白，視為 0。
     """
     rows: list[dict] = []
 
@@ -87,39 +81,42 @@ def load_csv_rows(path: str):
             raise RuntimeError(f"CSV 欄位缺少：{', '.join(missing)}")
 
         for raw in reader:
-            # ---- 卡號：正規化成 hBPxx-xxx 格式 ----
-            card_code_raw = raw.get("card_code") or ""
-            card_code = normalize_card_code(card_code_raw)
+            raw_code = raw.get("card_code") or ""
+            card_code = normalize_card_code(raw_code)
+
             if not card_code:
                 # 空列直接略過
                 continue
 
             # 數量
             try:
-                qty = int(raw["acquired_qty"])
+                qty = int((raw.get("acquired_qty") or "").strip())
             except ValueError:
                 print(f"[略過] acquired_qty 不是整數: {raw}", file=sys.stderr)
                 continue
 
-            # 單價
-            try:
-                unit_cost = float(raw["unit_cost"])
-            except ValueError:
-                print(f"[略過] unit_cost 不是數字: {raw}", file=sys.stderr)
-                continue
+            # 單價：空白 → 0，有填但不是數字才當錯
+            raw_cost = (raw.get("unit_cost") or "").strip()
+            if raw_cost == "":
+                unit_cost = 0.0
+            else:
+                try:
+                    unit_cost = float(raw_cost)
+                except ValueError:
+                    print(f"[略過] unit_cost 不是數字: {raw}", file=sys.stderr)
+                    continue
 
             rows.append(
                 {
-                    "expansion": normalize_expansion(raw.get("expansion") or ""),
+                    "expansion": (raw.get("expansion") or "").strip(),
                     "card_code": card_code,
-                    # 稀有度一律轉大寫：p / osr -> P / OSR
-                    "rarity": (raw.get("rarity") or "").strip().upper(),
+                    "rarity": (raw.get("rarity") or "").strip(),
                     "print_hint": (raw.get("print_hint") or "").strip(),
                     "acquisition_type": (raw.get("acquisition_type") or "").strip(),
                     "source_name": (raw.get("source_name") or "").strip(),
                     "acquired_qty": qty,
                     "unit_cost": unit_cost,
-                    "currency": (raw.get("currency") or "J").strip()[:1].upper(),
+                    "currency": (raw.get("currency") or "J").strip()[:1],
                     "acquired_at": (raw.get("acquired_at") or "").strip(),
                     "note": (raw.get("note") or "").strip(),
                 }
@@ -146,7 +143,7 @@ def clear_inventory_lots_raw():
     resp = requests.delete(
         f"{REST_BASE}/inventory_lots_raw",
         headers=supabase_headers(prefer="return=minimal"),
-        params={"id": "gt.0"},  # 一定要有條件，才不會噴 DELETE requires a WHERE clause
+        params={"id": "gt.0"},
         timeout=30,
     )
     if not resp.ok:
@@ -168,13 +165,19 @@ def insert_inventory_lots_raw(rows: list[dict]):
 
     for r in rows:
         acquired_at = r["acquired_at"] or now_ts
+        print_hint = r["print_hint"]
+
+        # 如果 print_hint 是純數字，就當成 print_id，用來 join 價格表
+        print_id = None
+        if print_hint and print_hint.isdigit():
+            print_id = int(print_hint)
 
         payload.append(
             {
                 "expansion": r["expansion"],
                 "card_code": r["card_code"],
                 "rarity": r["rarity"],
-                "print_hint": r["print_hint"],
+                "print_hint": print_hint,
                 "acquisition_type": r["acquisition_type"],
                 "source_name": r["source_name"],
                 "acquired_qty": r["acquired_qty"],
@@ -182,6 +185,7 @@ def insert_inventory_lots_raw(rows: list[dict]):
                 "currency": r["currency"],
                 "acquired_at": acquired_at,
                 "note": r["note"],
+                "print_id": print_id,
             }
         )
 
