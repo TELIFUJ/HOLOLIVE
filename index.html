@@ -77,6 +77,27 @@
       max-height: 90px;
       max-width: 140px;
       display: block;
+      cursor: pointer; /* 建議加：讓使用者知道可以點 */
+    }
+
+    /* ==== 放大圖片用的 modal ==== */
+    .image-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+    .image-modal.active {
+      display: flex;
+    }
+    .image-modal img {
+      max-width: 90vw;
+      max-height: 90vh;
+      box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+      background: #fff;
     }
   </style>
 </head>
@@ -113,6 +134,29 @@
     </tbody>
   </table>
 
+  <!-- 圖片放大用的 modal -->
+  <div id="imageModal" class="image-modal">
+    <img id="modalImage" src="" alt="" />
+  </div>
+
   <script src="main.js?v=3"></script>
+
+  <!-- 彈出／關閉 modal 的簡單腳本（也可以搬去 main.js） -->
+  <script>
+    const imageModal = document.getElementById("imageModal");
+    const modalImage = document.getElementById("modalImage");
+
+    document.addEventListener("click", (e) => {
+      const img = e.target.closest(".card-img");
+      if (!img) return;
+      modalImage.src = img.src;
+      imageModal.classList.add("active");
+    });
+
+    imageModal.addEventListener("click", () => {
+      imageModal.classList.remove("active");
+      modalImage.src = "";
+    });
+  </script>
 </body>
 </html>

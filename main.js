@@ -13,6 +13,10 @@ const tableBody = document.getElementById("tableBody");
 const searchInput = document.getElementById("searchInput");
 const reloadBtn = document.getElementById("reloadBtn");
 
+// 圖片放大 modal
+const imageModal = document.getElementById("imageModal");
+const modalImage = document.getElementById("modalImage");
+
 // 全部資料快取（用來做搜尋）
 let allRows = [];
 
@@ -24,18 +28,7 @@ function setStatus(msg) {
 
 function formatNumber(n) {
   if (n === null || n === undefined || isNaN(n)) return "-";
-  return n.toLocaleString("ja-JP");
-}
-
-// 舊版通用 URL（現在主要用在賣價 fallback，可保留以後有需要）
-function buildYuyuUrl(row) {
-  // 若 view 本身已有欄位，就直接用（保留相容性）
-  if (row.yuyutei_url) return row.yuyutei_url;
-
-  const code = row.card_code || "";
-  if (!code) return null;
-  const search = encodeURIComponent(code);
-  return `https://yuyu-tei.jp/sell/hocg/s/search?search_word=${search}`;
+  return Number(n).toLocaleString("ja-JP");
 }
 
 // 專門給「賣價」用：優先用 view 的 sell_url，沒有就退回搜尋頁
@@ -63,14 +56,12 @@ function buildYuyuBuyUrl(row) {
 async function fetchPortfolio() {
   setStatus("載入中（向 Supabase 取得資料）…");
 
-  // v3 目前實際存在的欄位：
-  // card_code, rarity, print_id, owned_qty,
-  // yuyu_sell_jpy, yuyu_buy_jpy, market_value_sell, market_value_buy
   const url =
     `${REST_BASE}/v_portfolio_positions_jpy_v3` +
-    "?select=card_code,rarity,print_id,owned_qty," +
-    "yuyu_sell_jpy,yuyu_buy_jpy,market_value_sell,market_value_buy" +
-    "&order=card_code.asc&order=rarity.asc";
+    "?select=card_code,name_ja,rarity_code,qty," +
+    "sell_price_jpy,buy_price_jpy,market_value_jpy," +
+    "image_url,sell_url,buy_url" +
+    "&order=card_code.asc&order=rarity_code.asc";
 
   const resp = await fetch(url, {
     headers: {
@@ -106,62 +97,67 @@ function renderTable(rows) {
     tdCode.textContent = row.card_code || "-";
     tr.appendChild(tdCode);
 
-    // 名稱（日文）—— v3 尚未提供 name_ja，先用預設字樣
+    // 名稱（日文）
     const tdName = document.createElement("td");
     tdName.textContent = row.name_ja || "（暫時沒有日文名）";
     tr.appendChild(tdName);
 
-    // 卡圖 —— v3 尚未提供 image_url，先不顯示圖
+    // 卡圖（小圖，可點擊放大）
     const tdImg = document.createElement("td");
     if (row.image_url) {
       const img = document.createElement("img");
       img.src = row.image_url;
       img.alt = row.name_ja || row.card_code || "";
       img.className = "card-img";
+      img.loading = "lazy";
+
+      img.addEventListener("click", () => {
+        if (!imageModal || !modalImage) return;
+        modalImage.src = row.image_url;
+        modalImage.alt = img.alt;
+        imageModal.classList.add("active");
+      });
+
       tdImg.appendChild(img);
     } else {
       tdImg.textContent = "-";
     }
     tr.appendChild(tdImg);
 
-    // 稀有度：優先用 rarity_code，沒有就用 v3 的 rarity
+    // 稀有度
     const tdRarity = document.createElement("td");
-    const rarity = row.rarity_code || row.rarity || "-";
+    const rarity = row.rarity_code || "-";
     const badge = document.createElement("span");
     badge.className = "badge";
     badge.textContent = rarity;
     tdRarity.appendChild(badge);
     tr.appendChild(tdRarity);
 
-    // 持有張數：優先 qty，沒有就用 owned_qty
+    // 持有張數
     const tdQty = document.createElement("td");
     tdQty.className = "num";
-    const qty = row.qty ?? row.owned_qty;
-    tdQty.textContent = qty != null ? formatNumber(qty) : "-";
+    tdQty.textContent = formatNumber(row.qty);
     tr.appendChild(tdQty);
 
-    // YUYU 賣價：優先 sell_price_jpy，沒有就用 yuyu_sell_jpy
+    // YUYU 賣價
     const tdSell = document.createElement("td");
     tdSell.className = "num";
-    const sell = row.sell_price_jpy ?? row.yuyu_sell_jpy;
-    tdSell.textContent = sell != null ? formatNumber(sell) : "-";
+    tdSell.textContent =
+      row.sell_price_jpy != null ? formatNumber(row.sell_price_jpy) : "-";
     tr.appendChild(tdSell);
 
-    // YUYU 收購價：優先 buy_price_jpy，沒有就用 yuyu_buy_jpy
+    // YUYU 收購價
     const tdBuy = document.createElement("td");
     tdBuy.className = "num";
-    const buy = row.buy_price_jpy ?? row.yuyu_buy_jpy;
-    tdBuy.textContent = buy != null ? formatNumber(buy) : "-";
+    tdBuy.textContent =
+      row.buy_price_jpy != null ? formatNumber(row.buy_price_jpy) : "-";
     tr.appendChild(tdBuy);
 
-    // 市值：優先 market_value_jpy，其次用 market_value_sell，再次 market_value_buy
+    // 市值
     const tdValue = document.createElement("td");
     tdValue.className = "num";
-    const mv =
-      row.market_value_jpy ??
-      row.market_value_sell ??
-      row.market_value_buy;
-    tdValue.textContent = mv != null ? formatNumber(mv) : "-";
+    tdValue.textContent =
+      row.market_value_jpy != null ? formatNumber(row.market_value_jpy) : "-";
     tr.appendChild(tdValue);
 
     // YUYU 連結（賣價 / 收購）
@@ -235,15 +231,27 @@ async function loadAndRender() {
   }
 }
 
+// 關鍵字搜尋
 if (searchInput) {
   searchInput.addEventListener("input", () => {
     applyFilter();
   });
 }
 
+// 重新載入
 if (reloadBtn) {
   reloadBtn.addEventListener("click", () => {
     loadAndRender();
+  });
+}
+
+// 點擊遮罩關閉圖片
+if (imageModal) {
+  imageModal.addEventListener("click", () => {
+    imageModal.classList.remove("active");
+    if (modalImage) {
+      modalImage.src = "";
+    }
   });
 }
 

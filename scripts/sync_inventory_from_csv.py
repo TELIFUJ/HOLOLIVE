@@ -27,12 +27,15 @@ CSV_PATH = "data/inventory_lots_v2.csv"
 
 # ---------- 載入 CSV ----------
 
-def load_csv_rows(path: str):
+def load_csv_rows(path: str) -> list[dict]:
     """
     讀取 inventory_lots_v2.csv，欄位預期為：
-    expansion,card_code,rarity,print_hint,acquisition_type,source_name,
-    acquired_qty,unit_cost,currency,acquired_at,note
-    （不再需要 print_id）
+
+    expansion,card_code,rarity,print_hint,print_id,
+    acquisition_type,source_name,acquired_qty,unit_cost,
+    currency,acquired_at,note
+
+    print_id 對應 hocg_card_prints.print_id，可以為空。
     """
     rows: list[dict] = []
 
@@ -44,6 +47,7 @@ def load_csv_rows(path: str):
             "card_code",
             "rarity",
             "print_hint",
+            "print_id",
             "acquisition_type",
             "source_name",
             "acquired_qty",
@@ -65,16 +69,30 @@ def load_csv_rows(path: str):
             # 數量
             try:
                 qty = int(raw["acquired_qty"])
-            except ValueError:
+            except (ValueError, TypeError):
                 print(f"[略過] acquired_qty 不是整數: {raw}", file=sys.stderr)
                 continue
 
             # 單價
             try:
                 unit_cost = float(raw["unit_cost"])
-            except ValueError:
+            except (ValueError, TypeError):
                 print(f"[略過] unit_cost 不是數字: {raw}", file=sys.stderr)
                 continue
+
+            # print_id（可以為空）
+            raw_print_id = (raw.get("print_id") or "").strip()
+            if raw_print_id == "":
+                print_id = None
+            else:
+                try:
+                    print_id = int(raw_print_id)
+                except ValueError:
+                    print(
+                        f"[警告] print_id 不是整數，視為 None: {raw_print_id} (row={raw})",
+                        file=sys.stderr,
+                    )
+                    print_id = None
 
             rows.append(
                 {
@@ -82,6 +100,7 @@ def load_csv_rows(path: str):
                     "card_code": card_code,
                     "rarity": (raw.get("rarity") or "").strip(),
                     "print_hint": (raw.get("print_hint") or "").strip(),
+                    "print_id": print_id,
                     "acquisition_type": (raw.get("acquisition_type") or "").strip(),
                     "source_name": (raw.get("source_name") or "").strip(),
                     "acquired_qty": qty,
@@ -97,7 +116,7 @@ def load_csv_rows(path: str):
 
 # ---------- Supabase REST 小工具 ----------
 
-def supabase_headers(prefer: str | None = None):
+def supabase_headers(prefer: str | None = None) -> dict:
     headers = {
         "apikey": SERVICE_ROLE_KEY,
         "Authorization": f"Bearer {SERVICE_ROLE_KEY}",
@@ -108,7 +127,7 @@ def supabase_headers(prefer: str | None = None):
     return headers
 
 
-def clear_inventory_lots_raw():
+def clear_inventory_lots_raw() -> None:
     """每次同步前把 staging 表清空，避免舊資料殘留。"""
     resp = requests.delete(
         f"{REST_BASE}/inventory_lots_raw",
@@ -125,32 +144,36 @@ def clear_inventory_lots_raw():
         sys.exit(1)
 
 
-def insert_inventory_lots_raw(rows: list[dict]):
+def insert_inventory_lots_raw(rows: list[dict]) -> None:
     if not rows:
         print("CSV 沒有資料，不做任何事")
         return
 
     now_ts = datetime.now(timezone.utc).isoformat()
-    payload = []
+    payload: list[dict] = []
 
     for r in rows:
         acquired_at = r["acquired_at"] or now_ts
 
-        payload.append(
-            {
-                "expansion": r["expansion"],
-                "card_code": r["card_code"],
-                "rarity": r["rarity"],
-                "print_hint": r["print_hint"],
-                "acquisition_type": r["acquisition_type"],
-                "source_name": r["source_name"],
-                "acquired_qty": r["acquired_qty"],
-                "unit_cost": r["unit_cost"],
-                "currency": r["currency"],
-                "acquired_at": acquired_at,
-                "note": r["note"],
-            }
-        )
+        record = {
+            "expansion": r["expansion"],
+            "card_code": r["card_code"],
+            "rarity": r["rarity"],
+            "print_hint": r["print_hint"],
+            "acquisition_type": r["acquisition_type"],
+            "source_name": r["source_name"],
+            "acquired_qty": r["acquired_qty"],
+            "unit_cost": r["unit_cost"],
+            "currency": r["currency"],
+            "acquired_at": acquired_at,
+            "note": r["note"],
+        }
+
+        # 只有在 print_id 有值時才送出，避免強制寫入 null 覆蓋
+        if r.get("print_id") is not None:
+            record["print_id"] = r["print_id"]
+
+        payload.append(record)
 
     resp = requests.post(
         f"{REST_BASE}/inventory_lots_raw",
@@ -169,12 +192,13 @@ def insert_inventory_lots_raw(rows: list[dict]):
     print(f"成功寫入 {len(payload)} 筆 inventory_lots_raw 記錄")
 
 
-def main():
+def main() -> None:
     rows = load_csv_rows(CSV_PATH)
     if not rows:
         print("CSV 沒有任何持有資料，結束")
         return
 
+    print(f"從 CSV 讀到 {len(rows)} 筆交易")
     clear_inventory_lots_raw()
     insert_inventory_lots_raw(rows)
 
