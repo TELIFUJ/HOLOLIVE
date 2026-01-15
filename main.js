@@ -75,12 +75,12 @@ function rarityToClass(rarity) {
 async function fetchPortfolio() {
   setStatus("載入中（向 Supabase 取得資料）…");
 
-  // v5 view 要有 expansion 欄位；如果沒有可以把 expansion 拿掉
+  // 注意：這裡已經拿掉 expansion，不要再 select 它
   const url =
     `${REST_BASE}/v_portfolio_positions_jpy_v5` +
     "?select=card_code,name_ja,rarity_code,qty," +
     "sell_price_jpy,buy_price_jpy,market_value_jpy," +
-    "image_url,sell_url,buy_url,print_id,expansion" +
+    "image_url,sell_url,buy_url,print_id" +
     "&order=card_code.asc" +
     "&order=rarity_code.asc" +
     "&order=print_id.asc.nullslast";
@@ -241,40 +241,18 @@ function renderTable(rows) {
 // ---------------- 篩選器 options ----------------
 
 function buildFilterOptions(rows) {
-  if (!expansionFilter && !nameFilter) return;
-
-  const expSet = new Set();
   const nameSet = new Set();
 
   for (const row of rows) {
-    if (row.expansion) expSet.add(row.expansion);
     if (row.name_ja) nameSet.add(row.name_ja);
   }
 
-  if (expansionFilter) {
-    while (expansionFilter.options.length > 1) {
-      expansionFilter.remove(1);
-    }
-  }
+  // 版本下拉先全部保留原樣，不動它（未來 view 加 expansion 再來填）
   if (nameFilter) {
     while (nameFilter.options.length > 1) {
       nameFilter.remove(1);
     }
-  }
-
-  const expansions = Array.from(expSet).sort();
-  const names = Array.from(nameSet).sort((a, b) => a.localeCompare(b, "ja"));
-
-  if (expansionFilter) {
-    for (const exp of expansions) {
-      const opt = document.createElement("option");
-      opt.value = exp;
-      opt.textContent = exp;
-      expansionFilter.appendChild(opt);
-    }
-  }
-
-  if (nameFilter) {
+    const names = Array.from(nameSet).sort((a, b) => a.localeCompare(b, "ja"));
     for (const name of names) {
       const opt = document.createElement("option");
       opt.value = name;
@@ -292,10 +270,6 @@ function applyFilter() {
   const q = (searchInput && searchInput.value ? searchInput.value : "")
     .trim()
     .toLowerCase();
-  const expVal =
-    expansionFilter && expansionFilter.value
-      ? expansionFilter.value.trim()
-      : "";
   const nameVal =
     nameFilter && nameFilter.value ? nameFilter.value.trim() : "";
 
@@ -305,10 +279,6 @@ function applyFilter() {
       const name = (row.name_ja || "").toLowerCase();
       return code.includes(q) || name.includes(q);
     });
-  }
-
-  if (expVal) {
-    filtered = filtered.filter((row) => row.expansion === expVal);
   }
 
   if (nameVal) {
@@ -328,8 +298,7 @@ function parseDecklogId(input) {
   return m ? m[1].toUpperCase() : null;
 }
 
-// 注意：實際上 Decklog API 可能有 CORS 限制，前端直接打會被擋住。
-// 真正要上線時，最好改成用你自己的 backend proxy。
+// 注意：實際上 Decklog API 可能有 CORS 限制
 async function fetchDecklogDeck(deckId) {
   const url = `https://decklog-en.bushiroad.com/api/deck/${deckId}`;
   const resp = await fetch(url, { mode: "cors" });
@@ -366,7 +335,7 @@ function buildDeckRequirementMap(deckJson) {
 
 // 比對：牌組需求 vs 目前庫存（只看 card_code，不看稀有度）
 function diffDeckAndInventory(deckMap) {
-  // 整理你目前庫存：card_code -> { qty, name_ja, image_url }
+  // 整理目前庫存：card_code -> { qty, name_ja, image_url }
   const invMap = new Map();
 
   for (const row of allRows) {
@@ -390,7 +359,7 @@ function diffDeckAndInventory(deckMap) {
   for (const [code, need] of deckMap.entries()) {
     const inv = invMap.get(code);
     const have = inv ? inv.qty : 0;
-    const short = need - have; // >0 表示缺，<=0 表示足夠或多
+    const short = need - have;
     const extra = have > need ? have - need : 0;
 
     if (short > 0) {
@@ -497,9 +466,7 @@ async function handleDecklogCompare() {
     }
 
     setStatus(`從 Decklog 取得牌組 ${deckId} 中…`);
-    if (decklogResult) {
-      decklogResult.innerHTML = "";
-    }
+    if (decklogResult) decklogResult.innerHTML = "";
 
     const deckJson = await fetchDecklogDeck(deckId);
     const deckMap = buildDeckRequirementMap(deckJson);
@@ -509,18 +476,11 @@ async function handleDecklogCompare() {
 
     if (diff.length === 0) {
       setStatus(`牌組 ${deckId} 所需卡片你都已有足夠庫存。`);
-      if (decklogResult) {
-        renderDecklogDiff(deckId, diff);
-      } else {
-        alert(`牌組 ${deckId} 所需卡片你都已有足夠庫存。`);
-      }
+      if (decklogResult) renderDecklogDiff(deckId, diff);
+      else alert(`牌組 ${deckId} 所需卡片你都已有足夠庫存。`);
     } else {
-      // 畫在畫面上（如果有 decklogResult 區域）
-      if (decklogResult) {
-        renderDecklogDiff(deckId, diff);
-      }
+      if (decklogResult) renderDecklogDiff(deckId, diff);
 
-      // 另外給一個簡短 summary
       const lines = diff
         .slice(0, 10)
         .map(
@@ -565,12 +525,7 @@ if (searchInput) {
   });
 }
 
-// 版本／名稱篩選
-if (expansionFilter) {
-  expansionFilter.addEventListener("change", () => {
-    applyFilter();
-  });
-}
+// 名稱篩選
 if (nameFilter) {
   nameFilter.addEventListener("change", () => {
     applyFilter();
@@ -595,9 +550,7 @@ if (decklogBtn) {
 if (imageModal) {
   imageModal.addEventListener("click", () => {
     imageModal.classList.remove("active");
-    if (modalImage) {
-      modalImage.src = "";
-    }
+    if (modalImage) modalImage.src = "";
   });
 }
 
