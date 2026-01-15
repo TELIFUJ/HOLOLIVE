@@ -13,30 +13,45 @@
     }
     h1 {
       margin-top: 0;
+      font-size: 22px;
     }
     .toolbar {
       display: flex;
-      gap: 12px;
+      gap: 8px;
       align-items: center;
       margin-bottom: 12px;
       flex-wrap: wrap;
     }
-    .toolbar input {
+    .toolbar input,
+    .toolbar select {
       padding: 6px 8px;
       font-size: 14px;
-      min-width: 220px;
+      min-width: 180px;
     }
     .toolbar button {
       padding: 6px 12px;
       font-size: 14px;
       cursor: pointer;
     }
+    .status {
+      margin-bottom: 8px;
+      font-size: 12px;
+      color: #555;
+    }
+
+    .table-wrapper {
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
     table {
       width: 100%;
       border-collapse: collapse;
-      background: #fff;
     }
-    th, td {
+    th,
+    td {
       padding: 6px 8px;
       border-bottom: 1px solid #ddd;
       font-size: 13px;
@@ -53,13 +68,45 @@
     .num {
       text-align: right;
     }
+
     .badge {
       display: inline-block;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 11px;
-      background: #eee;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      background: #ffe0b2;
+      color: #5d4037;
     }
+
+    .badge.r-osr,
+    .badge.r-sec {
+      background: #ffccbc;
+      color: #4e342e;
+    }
+    .badge.r-rr,
+    .badge.r-sr {
+      background: #d1c4e9;
+      color: #311b92;
+    }
+    .badge.r-r {
+      background: #c5e1a5;
+      color: #33691e;
+    }
+    .badge.r-u {
+      background: #bbdefb;
+      color: #0d47a1;
+    }
+    .badge.r-c {
+      background: #e0e0e0;
+      color: #424242;
+    }
+    .badge.r-p {
+      background: #fff59d;
+      color: #827717;
+    }
+
     .link-btn {
       padding: 2px 6px;
       font-size: 11px;
@@ -68,16 +115,12 @@
       background: #fff;
       cursor: pointer;
     }
-    .status {
-      margin-bottom: 8px;
-      font-size: 12px;
-      color: #555;
-    }
+
     .card-img {
       max-height: 90px;
       max-width: 140px;
       display: block;
-      cursor: pointer; /* 建議加：讓使用者知道可以點 */
+      cursor: pointer;
     }
 
     /* ==== 放大圖片用的 modal ==== */
@@ -99,6 +142,71 @@
       box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
       background: #fff;
     }
+
+    /* ===== 手機版：改成「一張卡一張卡」卡片式排版，不用橫向捲動 ===== */
+    @media (max-width: 768px) {
+      .table-wrapper {
+        box-shadow: none;
+        background: transparent;
+      }
+
+      table {
+        border-collapse: separate;
+        border-spacing: 0 8px;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tbody tr {
+        display: block;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        padding: 6px 8px;
+      }
+
+      tbody tr td {
+        display: flex;
+        align-items: center;
+        border-bottom: none;
+        padding: 2px 0;
+        white-space: normal;
+      }
+
+      tbody tr td::before {
+        content: attr(data-label);
+        flex: 0 0 70px;
+        font-size: 11px;
+        color: #777;
+        margin-right: 4px;
+      }
+
+      tbody tr td.img-cell {
+        justify-content: center;
+        margin: 4px 0;
+      }
+      tbody tr td.img-cell::before {
+        content: "";
+        margin: 0;
+        flex: 0 0 0;
+      }
+
+      .card-img {
+        max-height: 120px;
+      }
+
+      .toolbar {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .toolbar input,
+      .toolbar select,
+      .toolbar button {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -112,51 +220,51 @@
       id="searchInput"
       placeholder="搜尋卡號或名稱（例如 hBP04-001 / 天音）"
     />
+    <select id="expansionFilter">
+      <option value="">全部版本</option>
+    </select>
+    <select id="nameFilter">
+      <option value="">全部角色／卡名</option>
+    </select>
     <button id="reloadBtn">重新載入</button>
   </div>
 
-  <table>
-    <thead>
-      <tr>
-        <th>卡號</th>
-        <th>名稱</th>
-        <th>卡圖</th>
-        <th>稀有度</th>
-        <th class="num">持有張數</th>
-        <th class="num">YUYU 賣價 (JPY)</th>
-        <th class="num">YUYU 收購價 (JPY)</th>
-        <th class="num">市值 (JPY)</th>
-        <th>YUYU</th>
-      </tr>
-    </thead>
-    <tbody id="tableBody">
-      <!-- 由 main.js 動態填入 -->
-    </tbody>
-  </table>
+  <!-- 之後要做 Decklog 串接時用的輸入區（先放位子） -->
+  <div class="toolbar" style="margin-top: 0;">
+    <input
+      type="text"
+      id="decklogInput"
+      placeholder="輸入 Decklog ID 或網址（例如 693B7）"
+    />
+    <button id="decklogBtn">試算此牌組 vs 我的庫存</button>
+  </div>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>卡號</th>
+          <th>名稱</th>
+          <th>卡圖</th>
+          <th>稀有度</th>
+          <th class="num">持有張數</th>
+          <th class="num">YUYU 賣價 (JPY)</th>
+          <th class="num">YUYU 收購價 (JPY)</th>
+          <th class="num">市值 (JPY)</th>
+          <th>YUYU</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- 由 main.js 動態填入 -->
+      </tbody>
+    </table>
+  </div>
 
   <!-- 圖片放大用的 modal -->
   <div id="imageModal" class="image-modal">
     <img id="modalImage" src="" alt="" />
   </div>
 
-  <script src="main.js?v=3"></script>
-
-  <!-- 彈出／關閉 modal 的簡單腳本（也可以搬去 main.js） -->
-  <script>
-    const imageModal = document.getElementById("imageModal");
-    const modalImage = document.getElementById("modalImage");
-
-    document.addEventListener("click", (e) => {
-      const img = e.target.closest(".card-img");
-      if (!img) return;
-      modalImage.src = img.src;
-      imageModal.classList.add("active");
-    });
-
-    imageModal.addEventListener("click", () => {
-      imageModal.classList.remove("active");
-      modalImage.src = "";
-    });
-  </script>
+  <script src="main.js?v=4"></script>
 </body>
 </html>
