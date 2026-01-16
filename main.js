@@ -14,18 +14,30 @@ const searchInput = document.getElementById("searchInput");
 const reloadBtn = document.getElementById("reloadBtn");
 const expansionFilter = document.getElementById("expansionFilter");
 const nameFilter = document.getElementById("nameFilter");
-const totalAllEl = document.getElementById("totalAllValue");
-const totalFilteredEl = document.getElementById("totalFilteredValue");
+const decklogInput = document.getElementById("decklogInput");
+const decklogBtn = document.getElementById("decklogBtn");
 
+// 分頁相關 DOM
+const pageSizeSelect = document.getElementById("pageSize");
+const prevPageBtn = document.getElementById("prevPage");
+const nextPageBtn = document.getElementById("nextPage");
+const pageInfoEl = document.getElementById("pageInfo");
+
+// 圖片放大 modal
+const imageModal = document.getElementById("imageModal");
+const modalImage = document.getElementById("modalImage");
+
+// 總市值顯示 DOM
+const totalAllValueEl = document.getElementById("totalAllValue");
+const totalFilteredValueEl = document.getElementById("totalFilteredValue");
+
+// 全部資料快取（用來做搜尋／篩選／分頁）
 let allRows = [];
 let filteredRows = [];
 
-// pagination state
+// 分頁狀態
+let pageSize = 10;
 let currentPage = 1;
-let pageSize = 50;
-
-// decklog cache
-const decklogCache = new Map();
 
 // ---- 共用工具 ----
 
@@ -35,346 +47,563 @@ function setStatus(msg) {
 
 function formatNumber(n) {
   if (n === null || n === undefined || isNaN(n)) return "-";
-  return Number(n).toLocaleString("en-US");
+  return Number(n).toLocaleString("ja-JP");
 }
 
-function formatJpy(n) {
-  if (n === null || n === undefined || isNaN(n)) return "-";
-  return Number(n).toLocaleString("en-US");
+// 專門給「賣價」用：優先用 view 的 sell_url，沒有就退回搜尋頁
+function buildYuyuSellUrl(row) {
+  if (row.sell_url) return row.sell_url;
+
+  const code = row.card_code || "";
+  if (!code) return null;
+  const search = encodeURIComponent(code);
+  return `https://yuyu-tei.jp/sell/hocg/s/search?search_word=${search}`;
 }
 
-function getRarityDisplay(rarity) {
+// 專門給「收購」用：優先用 view 的 buy_url，沒有就退回搜尋頁
+function buildYuyuBuyUrl(row) {
+  if (row.buy_url) return row.buy_url;
+
+  const code = row.card_code || "";
+  if (!code) return null;
+  const search = encodeURIComponent(code);
+  return `https://yuyu-tei.jp/buy/hocg/s/search?search_word=${search}`;
+}
+
+// 根據稀有度決定 badge class（只是為了配色）
+function rarityToClass(rarity) {
   if (!rarity) return "";
-  return rarity;
+  const r = rarity.toUpperCase();
+  if (r === "OSR" || r === "SEC") return "r-osr";
+  if (r === "RR") return "r-rr";
+  if (r === "SR") return "r-sr";
+  if (r === "R") return "r-r";
+  if (r === "U") return "r-u";
+  if (r === "C") return "r-c";
+  if (r === "P") return "r-p";
+  return "";
 }
 
-function safeGet(obj, key, fallback = "") {
-  if (!obj) return fallback;
-  const v = obj[key];
-  return v === undefined || v === null ? fallback : v;
-}
+// ---- 市值計算相關 ----
 
-function updateSummary() {
-  if (!allRows || allRows.length === 0) {
-    if (totalAllEl) totalAllEl.textContent = "-";
-    if (totalFilteredEl) totalFilteredEl.textContent = "-";
-    return;
-  }
+function calcTotalValue(rows) {
+  if (!Array.isArray(rows)) return 0;
+  let sum = 0;
 
-  let totalAll = 0;
-  for (const row of allRows) {
-    const v = Number(row.market_value_jpy ?? 0);
-    if (!Number.isNaN(v)) totalAll += v;
-  }
+  for (const row of rows) {
+    let v = row.market_value_jpy;
 
-  let totalFiltered = 0;
-  if (filteredRows && filteredRows.length > 0) {
-    for (const row of filteredRows) {
-      const v = Number(row.market_value_jpy ?? 0);
-      if (!Number.isNaN(v)) totalFiltered += v;
+    // 雙保險：如果 view 沒給 market_value_jpy，就用 qty * (buy or sell)
+    if (v === null || v === undefined) {
+      const qty = Number(row.qty || 0);
+      const base = Number(
+        row.buy_price_jpy != null
+          ? row.buy_price_jpy
+          : row.sell_price_jpy != null
+          ? row.sell_price_jpy
+          : 0
+      );
+      if (!Number.isNaN(qty) && !Number.isNaN(base)) {
+        v = qty * base;
+      } else {
+        v = 0;
+      }
+    }
+
+    const num = Number(v);
+    if (!Number.isNaN(num)) {
+      sum += num;
     }
   }
 
-  if (totalAllEl) totalAllEl.textContent = formatNumber(totalAll);
-  if (totalFilteredEl) totalFilteredEl.textContent = formatNumber(totalFiltered);
+  return sum;
 }
 
-// ---- Supabase REST 抓資料 ----
+function updateTotals() {
+  if (totalAllValueEl) {
+    const totalAll = calcTotalValue(allRows);
+    totalAllValueEl.textContent = formatNumber(totalAll);
+  }
+
+  if (totalFilteredValueEl) {
+    const totalFiltered = calcTotalValue(filteredRows);
+    totalFilteredValueEl.textContent = formatNumber(totalFiltered);
+  }
+}
+
+// ---- 取資料 ----
 
 async function fetchPortfolio() {
+  setStatus("載入中（向 Supabase 取得資料）…");
+
   const url =
-    `${REST_BASE}/v_portfolio_positions_jpy_v8` +
-    "?select=card_code,name_ja,rarity_code,qty," +
-    "sell_price_jpy,buy_price_jpy,market_value_jpy," +
-    "image_url,sell_url,buy_url,print_id,expansion,official_products,release_dates,release_label" +
+    `${REST_BASE}/v_portfolio_positions_jpy_v7` +
+    "?select=" +
+    [
+      "card_code",
+      "name_ja",
+      "rarity_code",
+      "qty",
+      "sell_price_jpy",
+      "buy_price_jpy",
+      "market_value_jpy",
+      "image_url",
+      "sell_url",
+      "buy_url",
+      "print_id",
+      "expansion",
+      "official_products",
+      "release_dates",
+      "release_label",
+    ].join(",") +
     "&order=card_code.asc&order=rarity_code.asc&order=print_id.asc.nullslast";
 
-  setStatus("從 Supabase 讀取資料中...");
-  const res = await fetch(url, {
+  const resp = await fetch(url, {
     headers: {
       apikey: ANON_KEY,
       Authorization: `Bearer ${ANON_KEY}`,
     },
   });
 
-  if (!res.ok) {
-    setStatus(`讀取失敗: ${res.status} ${res.statusText}`);
-    throw new Error("Failed to fetch portfolio");
+  if (!resp.ok) {
+    const text = await resp.text();
+    throw new Error(`Supabase 回應錯誤: ${resp.status} ${text}`);
   }
 
-  const data = await res.json();
-  setStatus(`載入完成，共 ${data.length} 筆`);
+  const data = await resp.json();
   return data;
 }
 
-// ---- 渲染表格 ----
+// ---- 畫表格（只負責畫傳進來的 rows，不管分頁總量）----
 
-function renderTablePage() {
-  if (!Array.isArray(filteredRows)) return;
-  if (!tableBody) return;
-
+function renderTable(rows) {
   tableBody.innerHTML = "";
 
-  const totalRows = filteredRows.length;
-  const totalPages = Math.max(1, Math.ceil(totalRows / pageSize));
-  if (currentPage > totalPages) currentPage = totalPages;
+  if (!rows || rows.length === 0) {
+    // 不在這裡 setStatus，交給分頁函式統一處理
+    return;
+  }
 
-  const start = (currentPage - 1) * pageSize;
-  const end = Math.min(start + pageSize, totalRows);
-  const pageRows = filteredRows.slice(start, end);
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
-  for (const row of pageRows) {
+  for (const row of rows) {
     const tr = document.createElement("tr");
 
-    const codeTd = document.createElement("td");
-    codeTd.className = "code-cell";
-    codeTd.textContent = row.card_code || "";
-    tr.appendChild(codeTd);
+    // 卡號
+    const tdCode = document.createElement("td");
+    tdCode.textContent = row.card_code || "-";
+    if (isMobile) tdCode.setAttribute("data-label", "卡號");
+    tr.appendChild(tdCode);
 
-    const rarityTd = document.createElement("td");
-    rarityTd.textContent = getRarityDisplay(row.rarity_code);
-    tr.appendChild(rarityTd);
+    // 名稱（日文）
+    const tdName = document.createElement("td");
+    tdName.textContent = row.name_ja || "（暫時沒有日文名）";
+    if (isMobile) tdName.setAttribute("data-label", "名稱");
+    tr.appendChild(tdName);
 
-    const nameTd = document.createElement("td");
-    const nameDiv = document.createElement("div");
-    nameDiv.textContent = row.name_ja || "";
-    nameTd.appendChild(nameDiv);
+    // 系列（expansion）
+    const tdExpansion = document.createElement("td");
+    tdExpansion.textContent = row.expansion || "-";
+    if (isMobile) tdExpansion.setAttribute("data-label", "系列");
+    tr.appendChild(tdExpansion);
 
-    if (row.expansion) {
-      const expDiv = document.createElement("div");
-      expDiv.style.fontSize = "10px";
-      expDiv.style.color = "#6b7280";
-      expDiv.textContent = row.expansion;
-      nameTd.appendChild(expDiv);
-    }
+    // 卡圖（小圖，可點擊放大）
+    const tdImg = document.createElement("td");
+    tdImg.className = "img-cell";
+    if (isMobile) tdImg.setAttribute("data-label", "卡圖");
 
-    tr.appendChild(nameTd);
-
-    const qtyTd = document.createElement("td");
-    qtyTd.className = "number-cell";
-    qtyTd.textContent = formatNumber(row.qty);
-    tr.appendChild(qtyTd);
-
-    const sellTd = document.createElement("td");
-    sellTd.className = "number-cell";
-    sellTd.textContent = formatJpy(row.sell_price_jpy);
-    tr.appendChild(sellTd);
-
-    const buyTd = document.createElement("td");
-    buyTd.className = "number-cell";
-    buyTd.textContent = formatJpy(row.buy_price_jpy);
-    tr.appendChild(buyTd);
-
-    const mvTd = document.createElement("td");
-    mvTd.className = "number-cell";
-    mvTd.textContent = formatJpy(row.market_value_jpy);
-    tr.appendChild(mvTd);
-
-    const imgTd = document.createElement("td");
     if (row.image_url) {
       const img = document.createElement("img");
       img.src = row.image_url;
-      img.alt = row.card_code || "";
-      img.className = "card-thumb";
-      img.addEventListener("click", () => openImageModal(row.image_url));
-      imgTd.appendChild(img);
-    }
-    tr.appendChild(imgTd);
+      img.alt = row.name_ja || row.card_code || "";
+      img.className = "card-img";
+      img.loading = "lazy";
 
-    const linkTd = document.createElement("td");
-    if (row.sell_url) {
-      const aSell = document.createElement("a");
-      aSell.href = row.sell_url;
-      aSell.target = "_blank";
-      aSell.rel = "noopener noreferrer";
-      aSell.className = "url-link";
-      aSell.textContent = "YUYU 賣價";
-      linkTd.appendChild(aSell);
-    }
-    if (row.buy_url) {
-      const aBuy = document.createElement("a");
-      aBuy.href = row.buy_url;
-      aBuy.target = "_blank";
-      aBuy.rel = "noopener noreferrer";
-      aBuy.className = "url-link";
-      aBuy.textContent = "YUYU 收購";
-      linkTd.appendChild(aBuy);
-    }
+      img.addEventListener("click", () => {
+        if (!imageModal || !modalImage) return;
+        modalImage.src = row.image_url;
+        modalImage.alt = img.alt;
+        imageModal.classList.add("active");
+      });
 
-    tr.appendChild(linkTd);
+      tdImg.appendChild(img);
+    } else {
+      tdImg.textContent = "-";
+    }
+    tr.appendChild(tdImg);
+
+    // 稀有度
+    const tdRarity = document.createElement("td");
+    tdRarity.className = "num";
+    const rarity = row.rarity_code || "-";
+    if (isMobile) tdRarity.setAttribute("data-label", "稀有度");
+
+    const badge = document.createElement("span");
+    badge.className = "badge";
+    const rarityClass = rarityToClass(rarity);
+    if (rarityClass) {
+      badge.classList.add(rarityClass);
+    }
+    badge.textContent = rarity;
+    tdRarity.appendChild(badge);
+    tr.appendChild(tdRarity);
+
+    // 持有張數
+    const tdQty = document.createElement("td");
+    tdQty.className = "num";
+    tdQty.textContent = formatNumber(row.qty);
+    if (isMobile) tdQty.setAttribute("data-label", "持有張數");
+    tr.appendChild(tdQty);
+
+    // YUYU 賣價
+    const tdSell = document.createElement("td");
+    tdSell.className = "num";
+    tdSell.textContent =
+      row.sell_price_jpy != null ? formatNumber(row.sell_price_jpy) : "-";
+    if (isMobile) tdSell.setAttribute("data-label", "賣價");
+    tr.appendChild(tdSell);
+
+    // YUYU 收購價
+    const tdBuy = document.createElement("td");
+    tdBuy.className = "num";
+    tdBuy.textContent =
+      row.buy_price_jpy != null ? formatNumber(row.buy_price_jpy) : "-";
+    if (isMobile) tdBuy.setAttribute("data-label", "收購價");
+    tr.appendChild(tdBuy);
+
+    // 市值
+    const tdValue = document.createElement("td");
+    tdValue.className = "num";
+    tdValue.textContent =
+      row.market_value_jpy != null ? formatNumber(row.market_value_jpy) : "-";
+    if (isMobile) tdValue.setAttribute("data-label", "市值");
+    tr.appendChild(tdValue);
+
+    // YUYU 連結（賣價 / 收購）
+    const tdLink = document.createElement("td");
+    if (isMobile) tdLink.setAttribute("data-label", "YUYU");
+
+    const sellUrl = buildYuyuSellUrl(row);
+    const buyUrl = buildYuyuBuyUrl(row);
+
+    if (sellUrl || buyUrl) {
+      if (sellUrl) {
+        const btnSell = document.createElement("button");
+        btnSell.className = "link-btn";
+        btnSell.textContent = "賣價";
+        btnSell.addEventListener("click", () => {
+          window.open(sellUrl, "_blank", "noopener");
+        });
+        tdLink.appendChild(btnSell);
+      }
+
+      if (buyUrl) {
+        if (tdLink.firstChild) {
+          tdLink.appendChild(document.createTextNode(" "));
+        }
+        const btnBuy = document.createElement("button");
+        btnBuy.className = "link-btn";
+        btnBuy.textContent = "收購";
+        btnBuy.addEventListener("click", () => {
+          window.open(buyUrl, "_blank", "noopener");
+        });
+        tdLink.appendChild(btnBuy);
+      }
+    } else {
+      tdLink.textContent = "-";
+    }
+    tr.appendChild(tdLink);
+
     tableBody.appendChild(tr);
   }
+}
 
-  const pageInfoEl = document.getElementById("pageInfo");
-  const prevBtn = document.getElementById("prevPageBtn");
-  const nextBtn = document.getElementById("nextPageBtn");
+// ---- 分頁：根據 filteredRows + pageSize + currentPage 決定顯示 ----
 
+function renderTablePage() {
+  const total = filteredRows.length;
+  const totalPages = total === 0 ? 1 : Math.ceil(total / pageSize);
+
+  if (currentPage > totalPages) currentPage = totalPages;
+  if (currentPage < 1) currentPage = 1;
+
+  const start = (currentPage - 1) * pageSize;
+  const end = start + pageSize;
+  const pageRows = filteredRows.slice(start, end);
+
+  renderTable(pageRows);
+
+  // 更新分頁資訊
   if (pageInfoEl) {
-    pageInfoEl.textContent = `${currentPage} / ${Math.max(
-      1,
-      Math.ceil(totalRows / pageSize)
-    )} 頁（共 ${totalRows} 筆）`;
+    const pageDisplay = total === 0 ? 0 : currentPage;
+    pageInfoEl.textContent = `第 ${pageDisplay} / ${totalPages} 頁（共 ${total} 筆）`;
   }
 
-  if (prevBtn) {
-    prevBtn.disabled = currentPage <= 1;
+  if (prevPageBtn) {
+    prevPageBtn.disabled = currentPage <= 1 || total === 0;
   }
-  if (nextBtn) {
-    nextBtn.disabled = currentPage >= Math.ceil(totalRows / pageSize);
+  if (nextPageBtn) {
+    nextPageBtn.disabled = currentPage >= totalPages || total === 0;
   }
+
+  setStatus(`共 ${total} 筆卡片持有資料，顯示第 ${currentPage} / ${totalPages} 頁。`);
 }
 
-// ---- 圖片放大 modal ----
-
-function openImageModal(src) {
-  const modal = document.getElementById("imageModal");
-  const modalImg = document.getElementById("modalImage");
-  if (!modal || !modalImg) return;
-  modalImg.src = src;
-  modal.classList.add("active");
-}
-
-function closeImageModal() {
-  const modal = document.getElementById("imageModal");
-  if (!modal) return;
-  modal.classList.remove("active");
-}
-
-(function setupModalClose() {
-  const modal = document.getElementById("imageModal");
-  if (!modal) return;
-  modal.addEventListener("click", (e) => {
-    if (e.target === modal) {
-      closeImageModal();
-    }
-  });
-})();
-
-// ---- 搜尋 / 篩選 ----
-
-function applyFilter() {
-  if (!allRows) return;
-  const q = (searchInput?.value || "").trim();
-  const expValue = expansionFilter?.value || "";
-  const nameValue = (nameFilter?.value || "").trim();
-
-  let rows = allRows;
-
-  if (q) {
-    const lower = q.toLowerCase();
-    rows = rows.filter((r) => {
-      const code = (r.card_code || "").toLowerCase();
-      const name = (r.name_ja || "").toLowerCase();
-      return code.includes(lower) || name.includes(lower);
-    });
-  }
-
-  if (expValue) {
-    rows = rows.filter((r) => (r.expansion || "") === expValue);
-  }
-
-  if (nameValue) {
-    const lowerName = nameValue.toLowerCase();
-    rows = rows.filter((r) =>
-      (r.name_ja || "").toLowerCase().includes(lowerName)
-    );
-  }
-
-  filteredRows = rows;
-  currentPage = 1;
-  updateSummary();
-  renderTablePage();
-}
+// ---- 篩選器 options ----
 
 function buildFilterOptions(rows) {
-  if (!expansionFilter) return;
-  const expansions = new Set();
+  const expSet = new Set();
+  const nameSet = new Set();
 
   for (const row of rows) {
-    if (row.expansion) {
-      expansions.add(row.expansion);
-    }
+    if (row.expansion) expSet.add(row.expansion);
+    if (row.name_ja) nameSet.add(row.name_ja);
   }
 
-  const current = expansionFilter.value;
-  expansionFilter.innerHTML = "";
-  const optAll = document.createElement("option");
-  optAll.value = "";
-  optAll.textContent = "全部";
-  expansionFilter.appendChild(optAll);
-
-  Array.from(expansions)
-    .sort()
-    .forEach((exp) => {
+  if (expansionFilter) {
+    while (expansionFilter.options.length > 1) {
+      expansionFilter.remove(1);
+    }
+    const expansions = Array.from(expSet).sort();
+    for (const exp of expansions) {
       const opt = document.createElement("option");
       opt.value = exp;
       opt.textContent = exp;
       expansionFilter.appendChild(opt);
-    });
+    }
+  }
 
-  if (current && expansions.has(current)) {
-    expansionFilter.value = current;
+  if (nameFilter) {
+    while (nameFilter.options.length > 1) {
+      nameFilter.remove(1);
+    }
+    const names = Array.from(nameSet).sort((a, b) => a.localeCompare(b, "ja"));
+    for (const name of names) {
+      const opt = document.createElement("option");
+      opt.value = name;
+      opt.textContent = name;
+      nameFilter.appendChild(opt);
+    }
   }
 }
 
-// ---- 初始化 ----
+// ---- 搜尋 / 篩選 ----
 
-async function init() {
+function applyFilter() {
+  const q = (searchInput?.value || "").trim().toLowerCase();
+  const expVal = (expansionFilter?.value || "").trim();
+  const nameVal = (nameFilter?.value || "").trim();
+
+  let rows = allRows;
+
+  if (q) {
+    rows = rows.filter((row) => {
+      const code = (row.card_code || "").toLowerCase();
+      const name = (row.name_ja || "").toLowerCase();
+      return code.includes(q) || name.includes(q);
+    });
+  }
+
+  if (expVal) {
+    rows = rows.filter((row) => row.expansion === expVal);
+  }
+
+  if (nameVal) {
+    rows = rows.filter((row) => row.name_ja === nameVal);
+  }
+
+  filteredRows = rows;
+  currentPage = 1;
+  updateTotals();
+  renderTablePage();
+}
+
+// ---- Decklog 相關 ----
+
+// 解析輸入（可以是 693B7 或完整網址）
+function parseDecklogId(input) {
+  if (!input) return null;
+  const trimmed = input.trim();
+  const m = trimmed.match(/([0-9A-Z]{5})$/i);
+  return m ? m[1].toUpperCase() : null;
+}
+
+async function fetchDecklogDeck(deckId) {
+  const url = `https://decklog-en.bushiroad.com/api/deck/${deckId}`;
+  const resp = await fetch(url, { mode: "cors" });
+
+  if (!resp.ok) {
+    const text = await resp.text();
+    throw new Error(`Decklog 回應錯誤: ${resp.status} ${text}`);
+  }
+
+  const json = await resp.json();
+  return json;
+}
+
+// 從 Decklog JSON 抓出 card_number -> 需求張數
+function buildDeckRequirementMap(deckJson) {
+  const map = new Map();
+
+  function addList(list) {
+    if (!Array.isArray(list)) return;
+    for (const item of list) {
+      const code = item.card_number;
+      const num = Number(item.num || 0);
+      if (!code || !num) continue;
+      map.set(code, (map.get(code) || 0) + num);
+    }
+  }
+
+  addList(deckJson.list);
+  addList(deckJson.sub_list);
+  addList(deckJson.p_list);
+
+  return map;
+}
+
+// 比對：牌組需求 vs 目前庫存
+function diffDeckAndInventory(deckMap) {
+  const invMap = new Map();
+  for (const row of allRows) {
+    const code = row.card_code;
+    const qty = Number(row.qty || 0);
+    if (!code || !qty) continue;
+    invMap.set(code, (invMap.get(code) || 0) + qty);
+  }
+
+  const result = [];
+
+  for (const [code, need] of deckMap.entries()) {
+    const have = invMap.get(code) || 0;
+    if (have < need) {
+      result.push({
+        card_code: code,
+        need,
+        have,
+        short: need - have,
+      });
+    }
+  }
+
+  return result;
+}
+
+async function handleDecklogCompare() {
   try {
+    const raw = decklogInput?.value;
+    const deckId = parseDecklogId(raw);
+    if (!deckId) {
+      alert("請輸入正確的 Decklog ID 或網址（結尾 5 碼）。");
+      return;
+    }
+
+    setStatus(`從 Decklog 取得牌組 ${deckId} 中…`);
+    const deckJson = await fetchDecklogDeck(deckId);
+    const deckMap = buildDeckRequirementMap(deckJson);
+    const diff = diffDeckAndInventory(deckMap);
+
+    if (diff.length === 0) {
+      setStatus(`牌組 ${deckId} 所需卡片你都已有足夠庫存。`);
+    } else {
+      console.table(diff);
+      const lines = diff
+        .slice(0, 10)
+        .map(
+          (d) =>
+            `${d.card_code}: 需要 ${d.need}，目前 ${d.have}，缺少 ${d.short}`
+        );
+      alert(
+        `牌組 ${deckId} 有 ${diff.length} 種卡片庫存不足（前 10 筆）：\n` +
+          lines.join("\n")
+      );
+      setStatus(
+        `牌組 ${deckId} 比對完成，有 ${diff.length} 種卡片庫存不足（詳細見 console）。`
+      );
+    }
+  } catch (err) {
+    console.error(err);
+    setStatus(`Decklog 比對失敗：${err.message}`);
+    alert(`Decklog 比對失敗：${err.message}`);
+  }
+}
+
+// ---- 入口 ----
+
+async function loadAndRender() {
+  try {
+    setStatus("載入中…");
+    tableBody.innerHTML = "";
     allRows = await fetchPortfolio();
     buildFilterOptions(allRows);
     filteredRows = allRows;
     currentPage = 1;
-    updateSummary();
+    updateTotals();
     renderTablePage();
-  } catch (e) {
-    console.error(e);
+  } catch (err) {
+    console.error(err);
+    setStatus(`載入失敗：${err.message}`);
   }
 }
 
-if (reloadBtn) {
-  reloadBtn.addEventListener("click", () => {
-    init();
-  });
-}
-
+// 關鍵字搜尋
 if (searchInput) {
   searchInput.addEventListener("input", () => {
     applyFilter();
   });
 }
 
+// 版本／名稱篩選
 if (expansionFilter) {
   expansionFilter.addEventListener("change", () => {
     applyFilter();
   });
 }
-
 if (nameFilter) {
-  nameFilter.addEventListener("input", () => {
+  nameFilter.addEventListener("change", () => {
     applyFilter();
   });
 }
 
-const prevBtn = document.getElementById("prevPageBtn");
-const nextBtn = document.getElementById("nextPageBtn");
-const pageSizeSelect = document.getElementById("pageSizeSelect");
+// 重新載入
+if (reloadBtn) {
+  reloadBtn.addEventListener("click", () => {
+    loadAndRender();
+  });
+}
 
-if (prevBtn) {
-  prevBtn.addEventListener("click", () => {
+// Decklog 比對
+if (decklogBtn) {
+  decklogBtn.addEventListener("click", () => {
+    handleDecklogCompare();
+  });
+}
+
+// 分頁：每頁筆數切換
+if (pageSizeSelect) {
+  pageSizeSelect.addEventListener("change", () => {
+    const v = Number(pageSizeSelect.value);
+    pageSize = Number.isFinite(v) && v > 0 ? v : 10;
+    currentPage = 1;
+    renderTablePage();
+  });
+}
+
+// 分頁：上一頁／下一頁
+if (prevPageBtn) {
+  prevPageBtn.addEventListener("click", () => {
     if (currentPage > 1) {
       currentPage -= 1;
       renderTablePage();
     }
   });
 }
-
-if (nextBtn) {
-  nextBtn.addEventListener("click", () => {
-    const totalPages = Math.max(
-      1,
-      Math.ceil(filteredRows.length / pageSize)
-    );
+if (nextPageBtn) {
+  nextPageBtn.addEventListener("click", () => {
+    const totalPages =
+      filteredRows.length === 0
+        ? 1
+        : Math.ceil(filteredRows.length / pageSize);
     if (currentPage < totalPages) {
       currentPage += 1;
       renderTablePage();
@@ -382,13 +611,15 @@ if (nextBtn) {
   });
 }
 
-if (pageSizeSelect) {
-  pageSizeSelect.addEventListener("change", (e) => {
-    const v = Number(e.target.value || "50");
-    pageSize = Number.isNaN(v) || v <= 0 ? 50 : v;
-    currentPage = 1;
-    renderTablePage();
+// 點擊遮罩關閉圖片
+if (imageModal) {
+  imageModal.addEventListener("click", () => {
+    imageModal.classList.remove("active");
+    if (modalImage) {
+      modalImage.src = "";
+    }
   });
 }
 
-init();
+// 首次載入
+loadAndRender();

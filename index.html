@@ -1,409 +1,288 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hololive Card Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      body {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #f9fafb;
-        color: #111827;
-      }
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>Hololive Card Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 16px;
+      background: #f5f5f5;
+    }
+    h1 {
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+    .status {
+      margin-bottom: 8px;
+      font-size: 12px;
+      color: #555;
+    }
 
-      header {
-        padding: 12px 16px;
-        background: #111827;
-        color: #f9fafb;
-      }
+    /* 工具列／篩選列 */
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .toolbar input[type="text"],
+    .toolbar select,
+    .toolbar button {
+      font-size: 14px;
+      padding: 6px 8px;
+    }
+    .toolbar input[type="text"] {
+      min-width: 180px;
+    }
+    .toolbar select {
+      min-width: 120px;
+    }
+    .toolbar button {
+      cursor: pointer;
+    }
 
-      header h1 {
-        margin: 0;
-        font-size: 18px;
-      }
+    /* 總市值區 */
+    .totals {
+      margin-bottom: 8px;
+      font-size: 13px;
+      color: #333;
+    }
+    .totals-line {
+      margin: 2px 0;
+    }
+    .totals-line strong {
+      font-weight: 600;
+    }
 
-      main {
-        padding: 12px 16px 24px 16px;
-      }
+    /* 分頁列 */
+    .pager {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
+    .pager select {
+      padding: 4px 6px;
+      font-size: 13px;
+    }
+    .pager button {
+      padding: 4px 8px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .pager button:disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
 
-      #status {
-        margin: 8px 0;
-        font-size: 14px;
-        color: #6b7280;
-      }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+    th, td {
+      padding: 6px 8px;
+      border-bottom: 1px solid #ddd;
+      font-size: 13px;
+      text-align: left;
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+    th {
+      background: #eee;
+    }
+    tbody tr:nth-child(even) {
+      background: #fafafa;
+    }
+    .num {
+      text-align: right;
+    }
 
-      .controls {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        align-items: center;
-        margin: 8px 0 4px 0;
-      }
+    .badge {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 999px;
+      font-size: 11px;
+      background: #eee;
+      font-weight: 600;
+    }
 
-      .controls label {
-        font-size: 14px;
-      }
+    /* 稀有度配色 */
+    .badge.r-osr { background: #7b1fa2; color: #fff; } /* OSR / SEC */
+    .badge.r-rr  { background: #3949ab; color: #fff; }
+    .badge.r-sr  { background: #1e88e5; color: #fff; }
+    .badge.r-r   { background: #43a047; color: #fff; }
+    .badge.r-u   { background: #fb8c00; color: #fff; }
+    .badge.r-c   { background: #757575; color: #fff; }
+    .badge.r-p   { background: #c2185b; color: #fff; }
 
-      .controls input[type="text"],
-      .controls select {
-        padding: 4px 8px;
-        font-size: 14px;
-        border-radius: 4px;
-        border: 1px solid #d1d5db;
-        min-width: 120px;
-      }
+    .link-btn {
+      padding: 2px 6px;
+      font-size: 11px;
+      border-radius: 4px;
+      border: 1px solid #888;
+      background: #fff;
+      cursor: pointer;
+    }
 
-      .controls button {
-        padding: 4px 10px;
-        font-size: 14px;
-        border-radius: 4px;
-        border: 1px solid #4b5563;
-        background: #111827;
-        color: white;
-        cursor: pointer;
-      }
+    .card-img {
+      max-height: 90px;
+      max-width: 140px;
+      display: block;
+      cursor: pointer;
+    }
+    .img-cell {
+      min-width: 90px;
+    }
 
-      .controls button:hover {
-        background: #374151;
-      }
+    /* 放大圖片用的 modal */
+    .image-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+    .image-modal.active {
+      display: flex;
+    }
+    .image-modal img {
+      max-width: 90vw;
+      max-height: 90vh;
+      box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+      background: #fff;
+    }
 
-      .filter-group {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        align-items: center;
+    /* 行動裝置：讓每列變「卡片」＋ data-label 顯示欄位名 */
+    @media (max-width: 768px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
       }
-
-      #summaryBox {
-        margin: 12px 0;
-        padding: 8px 12px;
-        background: #f3f4f6;
-        border-radius: 8px;
-        font-size: 14px;
-      }
-      #summaryBox div + div {
-        margin-top: 4px;
-      }
-
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 8px;
-        font-size: 12px;
-      }
-
       thead {
-        position: sticky;
-        top: 0;
-        background: #e5e7eb;
-        z-index: 1;
-      }
-
-      th,
-      td {
-        padding: 4px 6px;
-        border: 1px solid #e5e7eb;
-        text-align: left;
-        vertical-align: top;
-      }
-
-      th {
-        font-weight: 600;
-        font-size: 11px;
-        white-space: nowrap;
-      }
-
-      td {
-        font-size: 12px;
-      }
-
-      img.card-thumb {
-        max-height: 90px;
-        max-width: 70px;
-        cursor: pointer;
-        display: block;
-      }
-
-      .code-cell {
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-          "Liberation Mono", "Courier New", monospace;
-        font-size: 11px;
-        white-space: nowrap;
-      }
-
-      .number-cell {
-        text-align: right;
-        white-space: nowrap;
-      }
-
-      .nowrap {
-        white-space: nowrap;
-      }
-
-      .url-link {
-        display: block;
-        font-size: 11px;
-        color: #2563eb;
-        text-decoration: none;
-        margin-top: 2px;
-      }
-
-      .url-link:hover {
-        text-decoration: underline;
-      }
-
-      .pagination {
-        margin-top: 8px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        font-size: 12px;
-      }
-
-      .pagination button {
-        padding: 2px 6px;
-        font-size: 12px;
-        border-radius: 4px;
-        border: 1px solid #9ca3af;
-        background: white;
-        cursor: pointer;
-      }
-
-      .pagination button:disabled {
-        opacity: 0.4;
-        cursor: default;
-      }
-
-      .pagination select {
-        padding: 2px 6px;
-        font-size: 12px;
-      }
-
-      @media (max-width: 768px) {
-        table {
-          font-size: 11px;
-        }
-
-        th,
-        td {
-          padding: 3px;
-        }
-
-        .controls {
-          flex-direction: column;
-          align-items: flex-start;
-        }
-      }
-
-      .decklog-link {
-        margin-top: 4px;
-        display: inline-block;
-        padding: 2px 4px;
-        font-size: 10px;
-        border-radius: 3px;
-        background: #f97316;
-        color: #fff;
-        text-decoration: none;
-      }
-
-      .decklog-link:hover {
-        opacity: 0.9;
-      }
-
-      .image-modal {
-        position: fixed;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.7);
         display: none;
-        align-items: center;
-        justify-content: center;
-        z-index: 9999;
       }
-
-      .image-modal.active {
-        display: flex;
-      }
-
-      .image-modal img {
-        max-width: 90vw;
-        max-height: 90vh;
-        box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+      tbody tr {
+        border: 1px solid #ddd;
+        margin-bottom: 8px;
         background: #fff;
       }
-
-      .mobile-hide {
-        display: table-cell;
+      td {
+        border-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
-
-      @media (max-width: 640px) {
-        .mobile-hide {
-          display: none;
-        }
-
-        table {
-          font-size: 11px;
-        }
-
-        th,
-        td {
-          padding: 3px;
-        }
-
-        thead {
-          display: none;
-        }
-
-        table,
-        tbody,
-        tr,
-        td {
-          display: block;
-          width: 100%;
-        }
-
-        tr {
-          margin-bottom: 8px;
-          border: 1px solid #e5e7eb;
-          border-radius: 4px;
-          overflow: hidden;
-          background: #ffffff;
-        }
-
-        td {
-          border: none;
-          border-bottom: 1px solid #e5e7eb;
-          position: relative;
-          padding-left: 36%;
-          min-height: 28px;
-        }
-
-        td::before {
-          position: absolute;
-          left: 8px;
-          width: 28%;
-          white-space: nowrap;
-          font-weight: 600;
-          font-size: 11px;
-          color: #4b5563;
-        }
-
-        td:nth-of-type(1)::before {
-          content: "卡號";
-        }
-        td:nth-of-type(2)::before {
-          content: "稀有度";
-        }
-        td:nth-of-type(3)::before {
-          content: "名稱";
-        }
-        td:nth-of-type(4)::before {
-          content: "張數";
-        }
-        td:nth-of-type(5)::before {
-          content: "賣價";
-        }
-        td:nth-of-type(6)::before {
-          content: "收購價";
-        }
-        td:nth-of-type(7)::before {
-          content: "市值";
-        }
-        td:nth-of-type(8)::before {
-          content: "圖片";
-        }
-        td:nth-of-type(9)::before {
-          content: "YUYU 連結";
-        }
+      td::before {
+        content: attr(data-label);
+        flex: 0 0 80px;
+        font-weight: 600;
+        color: #555;
+        margin-right: 8px;
       }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Hololive Card Portfolio</h1>
-    </header>
-    <main>
-      <div id="status">載入中...</div>
+      .img-cell {
+        justify-content: center;
+      }
+      .img-cell::before {
+        content: attr(data-label);
+        flex: 0 0 0;
+        margin-right: 0;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Hololive Card Portfolio</h1>
 
-      <div class="controls">
-        <div class="filter-group">
-          <label>
-            搜尋：
-            <input
-              type="text"
-              id="searchInput"
-              placeholder="卡號 / 日文名"
-            />
-          </label>
+  <div class="status" id="status">載入中...</div>
 
-          <label>
-            系列：
-            <select id="expansionFilter">
-              <option value="">全部</option>
-            </select>
-          </label>
+  <div class="toolbar">
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="搜尋卡號或名稱（例如 hBP04-001 / 天音）"
+    />
 
-          <label>
-            名稱包含：
-            <input
-              type="text"
-              id="nameFilter"
-              placeholder="名稱關鍵字"
-            />
-          </label>
-        </div>
+    <select id="expansionFilter">
+      <option value="">全部系列</option>
+      <!-- options 由 main.js 動態產生（如果 view 有 expansion 欄位） -->
+    </select>
 
-        <button id="reloadBtn">重新載入</button>
-      </div>
+    <select id="nameFilter">
+      <option value="">全部角色</option>
+      <!-- options 由 main.js 動態產生 -->
+    </select>
 
-      <div id="summaryBox">
-        <div>
-          全部持有市值合計（以 YUYU 收購價優先）：
-          <span id="totalAllValue">-</span> JPY
-        </div>
-        <div>
-          目前列表市值合計：
-          <span id="totalFilteredValue">-</span> JPY
-        </div>
-      </div>
+    <input
+      type="text"
+      id="decklogInput"
+      placeholder="Decklog ID 或網址（例如 693B7）"
+    />
+    <button id="decklogBtn">試算牌組 vs 我的庫存</button>
 
-      <table>
-        <thead>
-          <tr>
-            <th>卡號</th>
-            <th>稀有度</th>
-            <th>名稱</th>
-            <th>張數</th>
-            <th>賣價 (JPY)</th>
-            <th>收購價 (JPY)</th>
-            <th>市值 (JPY)</th>
-            <th>圖片</th>
-            <th>連結</th>
-          </tr>
-        </thead>
-        <tbody id="tableBody"></tbody>
-      </table>
+    <button id="reloadBtn">重新載入</button>
+  </div>
 
-      <div class="pagination">
-        <button id="prevPageBtn">&lt;</button>
-        <span id="pageInfo"></span>
-        <button id="nextPageBtn">&gt;</button>
-
-        <span style="margin-left: 8px">每頁筆數：</span>
-        <select id="pageSizeSelect">
-          <option value="20">20</option>
-          <option value="50" selected>50</option>
-          <option value="100">100</option>
-        </select>
-      </div>
-    </main>
-
-    <div id="imageModal" class="image-modal">
-      <img id="modalImage" src="" alt="" />
+  <div class="totals">
+    <div class="totals-line">
+      全部持有市值合計（以 YUYU 收購價優先）：
+      <strong><span id="totalAllValue">-</span> JPY</strong>
     </div>
+    <div class="totals-line">
+      目前列表市值合計：
+      <strong><span id="totalFilteredValue">-</span> JPY</strong>
+    </div>
+  </div>
 
-    <script src="main.js?v=8"></script>
-  </body>
+  <div class="pager">
+    <label>
+      每頁顯示
+      <select id="pageSize">
+        <option value="10">10</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+      筆
+    </label>
+
+    <button id="prevPage">&lt; 上一頁</button>
+    <span id="pageInfo">第 1 / 1 頁</span>
+    <button id="nextPage">下一頁 &gt;</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>卡號</th>
+        <th>名稱</th>
+        <th>系列</th>
+        <th>卡圖</th>
+        <th class="num">稀有度</th>
+        <th class="num">持有張數</th>
+        <th class="num">YUYU 賣價 (JPY)</th>
+        <th class="num">YUYU 收購價 (JPY)</th>
+        <th class="num">市值 (JPY)</th>
+        <th>YUYU</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+      <!-- 由 main.js 動態填入 -->
+    </tbody>
+  </table>
+
+  <!-- 圖片放大用的 modal -->
+  <div id="imageModal" class="image-modal">
+    <img id="modalImage" src="" alt="" />
+  </div>
+
+  <script src="main.js?v=6"></script>
+</body>
 </html>
