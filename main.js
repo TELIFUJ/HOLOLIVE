@@ -137,7 +137,7 @@ async function fetchPortfolio() {
   setStatus("載入中（向 Supabase 取得資料）…");
 
   const url =
-    `${REST_BASE}/v_portfolio_positions_jpy_v7` +
+    `${REST_BASE}/v_portfolio_positions_jpy_v8` +
     "?select=" +
     [
       "card_code",
