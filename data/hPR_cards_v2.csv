@@ -2221,7 +2221,10 @@ LIMITED：ターンに１枚しか使えない。
 ryota
 カードナンバー：
 hSD01-016"
-hPR,hSD01-017,マネちゃん,https://hololive-official-cardgame.com/cardlist/?id=505&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD01-017_P.png,,PRカード,イラストレーター名：株式会社HIKE / Trigonoカードナンバー：hSD01-017,1,"Q: Q hSD01-017〈マネちゃん〉の「このカードは、自分の手札がこのカードを含まずに１枚以上なければ使えない。」とは1枚のときも含みますか？
+hPR,hSD01-017,マネちゃん,https://hololive-official-cardgame.com/cardlist/?id=505&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD01-017_P.png,,PRカード,イラストレーター名：株式会社HIKE / Trigonoカードナンバー：hSD01-017,2,"Q: Q 自分の手札が5枚で、デッキが0枚の時に、手札にあるhSD01-017〈マネちゃん〉を使用できますか？
+A: A はい、できます。 その場合、手札をすべてデッキに戻してシャッフルした後、デッキから可能な限り引きます。
+
+Q: Q hSD01-017〈マネちゃん〉の「このカードは、自分の手札がこのカードを含まずに１枚以上なければ使えない。」とは1枚のときも含みますか？
 A: A はい、含みます。","カードタイプ
 サポート・スタッフ・LIMITED
 レアリティ
@@ -2509,30 +2512,6 @@ SP推しスキル
 チェリ子
 カードナンバー：
 hBP01-004"
-hPR,hBP01-009,天音かなた,https://hololive-official-cardgame.com/cardlist/?id=188&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-009_P.png,,PRカード,カードナンバー：hBP01-009,1,"Q: Q 相手のhBP01-050〈風真いろは〉のギフト「用心棒」が発揮している状態で、hBP01-009〈天音かなた〉の〈こんかなた～〉を使用することはできますか？
-A: A アーツの使用を宣言できますが、正常にアーツの対象を選ぶことができないため、アーツを使ったことにはならず、ダメージを与えることはできません。 [2025/03/11更新]hBP01-009〈天音かなた〉にhBP01-114〈石の斧〉が付いている場合でも、「このツールが付いているホロメンがアーツを使った時」能力は発揮しません。","カードタイプ
-ホロメン
-タグ
-#JP
-#4期生
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-90
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-こんかなた～　40
-このアーツは、相手のセンターホロメンしか対象にできない。
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP01-009"
 hPR,hBP01-012,天音かなた,https://hololive-official-cardgame.com/cardlist/?id=203&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-012_P.png,,PRカード,カードナンバー：hBP01-012,1,"Q: Q 自分のステージのホロメン全員がマスコットが付いている状態でhBP01-012〈天音かなた〉にBloomした場合、ブルームエフェクト「アイドルかなたそを」は能力が発揮しますか？
 A: A はい、発揮します。 ただし、マスコットを付けられるホロメンが存在しないため、確認後、デッキをシャッフルし、能力が終了します。","カードタイプ
 ホロメン
@@ -4026,7 +4005,10 @@ Debut
 しゅがお
 カードナンバー：
 hBP02-029"
-hPR,hBP02-032,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=1403&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-032_P.png,,PRカード,イラストレーター名：宝鐘マリンカードナンバー：hBP02-032,2,"Q: Q 自分のアーカイブにhBP02-032〈宝鐘マリン〉のみがある時、hBP05-067〈不知火フレア〉のギフト「カラフルストリーム」の能力で、エール２枚をhBP02-033〈宝鐘マリン〉に付け替えました。 この場合、アーカイブにあるhBP02-032〈宝鐘マリン〉を手札に加えなければなりませんか？
+hPR,hBP02-032,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=1403&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-032_P.png,,PRカード,イラストレーター名：宝鐘マリンカードナンバー：hBP02-032,3,"Q: Q 自分のステージのDebutホロメンの〈宝鐘マリン〉をhBP02-032〈宝鐘マリン〉にBloomさせました。このとき、ブルームエフェクト「宝鐘の海賊団」を使用しませんでした。その後、同ターン中にhBP06-090〈ブルームステージ〉を使用して、hBP02-032〈宝鐘マリン〉をもう一度hBP02-032〈宝鐘マリン〉にBloomさせました。この2度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用することはできますか？
+A: A いいえ、使用できません。 ブルームエフェクトはすべて強制発揮のため、すでに1度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用している扱いとなります。 そのため『自分のブルームエフェクト「宝鐘の海賊団」はターンに1回しか使えない。』が有効となっており、同じターンの間、ブルームエフェクト「宝鐘の海賊団」は使用できません。
+
+Q: Q 自分のアーカイブにhBP02-032〈宝鐘マリン〉のみがある時、hBP05-067〈不知火フレア〉のギフト「カラフルストリーム」の能力で、エール２枚をhBP02-033〈宝鐘マリン〉に付け替えました。 この場合、アーカイブにあるhBP02-032〈宝鐘マリン〉を手札に加えなければなりませんか？
 A: A はい、必ず加えます。
 
 Q: Q hBP02-032〈宝鐘マリン〉の《ブルームエフェクト》「宝鐘の海賊団」の、「自分のブルームエフェクト「宝鐘の海賊団」はターンに1回しか使えない。」とは、[ターンに1回]とどう違うのですか？

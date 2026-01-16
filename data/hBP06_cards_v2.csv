@@ -95,7 +95,11 @@ LIMITED：ターンに1枚しか使えない。
 ぱとり
 カードナンバー：
 hBP06-089"
-hBP06,hBP06-090,ブルームステージ,https://hololive-official-cardgame.com/cardlist/?id=1567&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-090_U.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：みゃーこカードナンバー：hBP06-090,0,,"カードタイプ
+hBP06,hBP06-090,ブルームステージ,https://hololive-official-cardgame.com/cardlist/?id=1567&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-090_U.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：みゃーこカードナンバー：hBP06-090,2,"Q: Q 自分のステージのDebutホロメンの〈宝鐘マリン〉をhBP02-032〈宝鐘マリン〉にBloomさせました。このとき、ブルームエフェクト「宝鐘の海賊団」を使用しませんでした。その後、同ターン中にhBP06-090〈ブルームステージ〉を使用して、hBP02-032〈宝鐘マリン〉をもう一度hBP02-032〈宝鐘マリン〉にBloomさせました。この2度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用することはできますか？
+A: A いいえ、使用できません。 ブルームエフェクトはすべて強制発揮のため、すでに1度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用している扱いとなります。 そのため『自分のブルームエフェクト「宝鐘の海賊団」はターンに1回しか使えない。』が有効となっており、同じターンの間、ブルームエフェクト「宝鐘の海賊団」は使用できません。
+
+Q: Q 自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。 このターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？
+A: A いいえ、できません。 hBP06-090〈ブルームステージ〉は、真下にあるカードがDebutホロメンである1stホロメンをもう1回Bloomさせることができます。","カードタイプ
 サポート・イベント・LIMITED
 レアリティ
 U
@@ -280,7 +284,8 @@ C
 いじゅういん
 カードナンバー：
 hBP06-102"
-hBP06,hBP06-103,まつりす,https://hololive-official-cardgame.com/cardlist/?id=1580&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-103_C.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：いじゅういんカードナンバー：hBP06-103,0,,"カードタイプ
+hBP06,hBP06-103,まつりす,https://hololive-official-cardgame.com/cardlist/?id=1580&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-103_C.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：いじゅういんカードナンバー：hBP06-103,1,"Q: Q hBP06-103〈まつりす〉をステージの〈夏色まつり〉に付けました。次のターンに、サイコロを振った時に〈夏色まつり〉に付いているhBP06-103〈まつりす〉の能力を使用してサイコロの目の数を4にしました。その後、hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」を使用しました。この場合、このターンにアーカイブしたhBP06-103〈まつりす〉を「このターンに自分が使っていたサポートカード」として数えられますか？
+A: A いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。","カードタイプ
 サポート・ファン
 レアリティ
 C
@@ -677,7 +682,10 @@ SP推しスキル
 砂利さや(か)
 カードナンバー：
 hBP06-002"
-hBP06,hBP06-003,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=1480&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-003_OSR.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：江田藤カードナンバー：hBP06-003,2,"Q: Q hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の能力は、Buzzホロメンなら〈風真いろは〉以外にもエールを送れますか？
+hBP06,hBP06-003,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=1480&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-003_OSR.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：江田藤カードナンバー：hBP06-003,3,"Q: Q 自身のステージのエールの枚数が4枚の時に、hBP06-003〈風真いろは〉のSP推しスキル「アルティメットつよつよござる」を使用しました。 その後、自身のステージのエールの枚数が5枚になった場合、〈風真いろは〉のアーツダメージは+50になりますか？
+A: A いいえ、+40となります。 「アルティメットつよつよござる」は、能力の解決時点でのエールのみを参照し、その後の変化は参照しません。
+
+Q: Q hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の能力は、Buzzホロメンなら〈風真いろは〉以外にもエールを送れますか？
 A: A はい、送れます。
 
 Q: Q hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の「[BuzzホロメンかBuzzホロメンからBloomしている〈風真いろは〉]」とは、どういう意味ですか？
@@ -802,7 +810,10 @@ SP推しスキル
 ちひろ綺華
 カードナンバー：
 hBP06-007"
-hBP06,hBP06-008,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1485&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-008_OSR.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：薫る石カードナンバー：hBP06-008,3,"Q: Q hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」の能力は、先攻1ターン目でも使えるサポートカードの枚数は2枚になりますか？
+hBP06,hBP06-008,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1485&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-008_OSR.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：薫る石カードナンバー：hBP06-008,4,"Q: Q 自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。 このターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？
+A: A いいえ、できません。 hBP06-090〈ブルームステージ〉は、真下にあるカードがDebutホロメンである1stホロメンをもう1回Bloomさせることができます。
+
+Q: Q hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」の能力は、先攻1ターン目でも使えるサポートカードの枚数は2枚になりますか？
 A: A いいえ、なりません。
 
 Q: Q hBP06-008〈夏色まつり〉の推しスキル「おまつりわっしょーい！！！」の能力でサイコロを振り、出た目がライフの数と同じ場合、自分のデッキから、カード1枚を手札に加えるのと、自分のデッキの上から1枚をホロパワーにする順番を自分で選ぶことはできますか？
@@ -2592,7 +2603,14 @@ Debut
 gaha
 カードナンバー：
 hBP06-073"
-hBP06,hBP06-074,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1551&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-074_C.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：MyungYiカードナンバー：hBP06-074,0,,"カードタイプ
+hBP06,hBP06-074,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1551&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-074_C.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：MyungYiカードナンバー：hBP06-074,3,"Q: Q hBP06-103〈まつりす〉をステージの〈夏色まつり〉に付けました。次のターンに、サイコロを振った時に〈夏色まつり〉に付いているhBP06-103〈まつりす〉の能力を使用してサイコロの目の数を4にしました。その後、hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」を使用しました。この場合、このターンにアーカイブしたhBP06-103〈まつりす〉を「このターンに自分が使っていたサポートカード」として数えられますか？
+A: A いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。
+
+Q: Q hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」の「このターンに自分が使っていたサポートカード」は、hBP01-003〈アキ・ローゼンタール〉の推しスキル「サバイバルパワー」で、手札以外の領域からホロメンへ付けた場合を数えますか？
+A: A いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。
+
+Q: Q hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」の「このターンに自分が使っていたサポートカード」は、コラボした後に使用したサポートカードも数えられますか？
+A: A いいえ、コラボエフェクト「天使界隈」を使用するまでに使っていたサポートカードの枚数のみを数えます。","カードタイプ
 ホロメン
 タグ
 #JP
@@ -3014,7 +3032,11 @@ LIMITED：ターンに1枚しか使えない。
 ぱとり
 カードナンバー：
 hBP06-089"
-hBP06,hBP06-090,ブルームステージ,https://hololive-official-cardgame.com/cardlist/?id=1690&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-090_S.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：みゃーこカードナンバー：hBP06-090,0,,"カードタイプ
+hBP06,hBP06-090,ブルームステージ,https://hololive-official-cardgame.com/cardlist/?id=1690&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-090_S.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：みゃーこカードナンバー：hBP06-090,2,"Q: Q 自分のステージのDebutホロメンの〈宝鐘マリン〉をhBP02-032〈宝鐘マリン〉にBloomさせました。このとき、ブルームエフェクト「宝鐘の海賊団」を使用しませんでした。その後、同ターン中にhBP06-090〈ブルームステージ〉を使用して、hBP02-032〈宝鐘マリン〉をもう一度hBP02-032〈宝鐘マリン〉にBloomさせました。この2度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用することはできますか？
+A: A いいえ、使用できません。 ブルームエフェクトはすべて強制発揮のため、すでに1度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用している扱いとなります。 そのため『自分のブルームエフェクト「宝鐘の海賊団」はターンに1回しか使えない。』が有効となっており、同じターンの間、ブルームエフェクト「宝鐘の海賊団」は使用できません。
+
+Q: Q 自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。 このターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？
+A: A いいえ、できません。 hBP06-090〈ブルームステージ〉は、真下にあるカードがDebutホロメンである1stホロメンをもう1回Bloomさせることができます。","カードタイプ
 サポート・イベント・LIMITED
 レアリティ
 S
@@ -3157,7 +3179,8 @@ S
 いじゅういん
 カードナンバー：
 hBP06-102"
-hBP06,hBP06-103,まつりす,https://hololive-official-cardgame.com/cardlist/?id=1700&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-103_S.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：いじゅういんカードナンバー：hBP06-103,0,,"カードタイプ
+hBP06,hBP06-103,まつりす,https://hololive-official-cardgame.com/cardlist/?id=1700&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-103_S.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：いじゅういんカードナンバー：hBP06-103,1,"Q: Q hBP06-103〈まつりす〉をステージの〈夏色まつり〉に付けました。次のターンに、サイコロを振った時に〈夏色まつり〉に付いているhBP06-103〈まつりす〉の能力を使用してサイコロの目の数を4にしました。その後、hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」を使用しました。この場合、このターンにアーカイブしたhBP06-103〈まつりす〉を「このターンに自分が使っていたサポートカード」として数えられますか？
+A: A いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。","カードタイプ
 サポート・ファン
 レアリティ
 S
@@ -3450,7 +3473,10 @@ SP推しスキル
 砂利さや(か)
 カードナンバー：
 hBP06-002"
-hBP06,hBP06-003,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=1596&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-003_OUR.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：江田藤カードナンバー：hBP06-003,2,"Q: Q hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の能力は、Buzzホロメンなら〈風真いろは〉以外にもエールを送れますか？
+hBP06,hBP06-003,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=1596&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-003_OUR.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：江田藤カードナンバー：hBP06-003,3,"Q: Q 自身のステージのエールの枚数が4枚の時に、hBP06-003〈風真いろは〉のSP推しスキル「アルティメットつよつよござる」を使用しました。 その後、自身のステージのエールの枚数が5枚になった場合、〈風真いろは〉のアーツダメージは+50になりますか？
+A: A いいえ、+40となります。 「アルティメットつよつよござる」は、能力の解決時点でのエールのみを参照し、その後の変化は参照しません。
+
+Q: Q hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の能力は、Buzzホロメンなら〈風真いろは〉以外にもエールを送れますか？
 A: A はい、送れます。
 
 Q: Q hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の「[BuzzホロメンかBuzzホロメンからBloomしている〈風真いろは〉]」とは、どういう意味ですか？
@@ -3476,7 +3502,10 @@ SP推しスキル
 江田藤
 カードナンバー：
 hBP06-003"
-hBP06,hBP06-003,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=1603&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-003_SEC.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：江田藤カードナンバー：hBP06-003,2,"Q: Q hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の能力は、Buzzホロメンなら〈風真いろは〉以外にもエールを送れますか？
+hBP06,hBP06-003,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=1603&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-003_SEC.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：江田藤カードナンバー：hBP06-003,3,"Q: Q 自身のステージのエールの枚数が4枚の時に、hBP06-003〈風真いろは〉のSP推しスキル「アルティメットつよつよござる」を使用しました。 その後、自身のステージのエールの枚数が5枚になった場合、〈風真いろは〉のアーツダメージは+50になりますか？
+A: A いいえ、+40となります。 「アルティメットつよつよござる」は、能力の解決時点でのエールのみを参照し、その後の変化は参照しません。
+
+Q: Q hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の能力は、Buzzホロメンなら〈風真いろは〉以外にもエールを送れますか？
 A: A はい、送れます。
 
 Q: Q hBP06-003〈風真いろは〉の推しスキル「迷ったらまず実行！」の「[BuzzホロメンかBuzzホロメンからBloomしている〈風真いろは〉]」とは、どういう意味ですか？
@@ -3623,7 +3652,10 @@ SP推しスキル
 ちひろ綺華
 カードナンバー：
 hBP06-007"
-hBP06,hBP06-008,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1601&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-008_OUR.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：gahaカードナンバー：hBP06-008,3,"Q: Q hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」の能力は、先攻1ターン目でも使えるサポートカードの枚数は2枚になりますか？
+hBP06,hBP06-008,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1601&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-008_OUR.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：gahaカードナンバー：hBP06-008,4,"Q: Q 自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。 このターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？
+A: A いいえ、できません。 hBP06-090〈ブルームステージ〉は、真下にあるカードがDebutホロメンである1stホロメンをもう1回Bloomさせることができます。
+
+Q: Q hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」の能力は、先攻1ターン目でも使えるサポートカードの枚数は2枚になりますか？
 A: A いいえ、なりません。
 
 Q: Q hBP06-008〈夏色まつり〉の推しスキル「おまつりわっしょーい！！！」の能力でサイコロを振り、出た目がライフの数と同じ場合、自分のデッキから、カード1枚を手札に加えるのと、自分のデッキの上から1枚をホロパワーにする順番を自分で選ぶことはできますか？
@@ -3652,7 +3684,10 @@ SP推しスキル
 gaha
 カードナンバー：
 hBP06-008"
-hBP06,hBP06-008,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1605&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-008_SEC.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：gahaカードナンバー：hBP06-008,3,"Q: Q hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」の能力は、先攻1ターン目でも使えるサポートカードの枚数は2枚になりますか？
+hBP06,hBP06-008,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1605&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-008_SEC.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：gahaカードナンバー：hBP06-008,4,"Q: Q 自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。 このターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？
+A: A いいえ、できません。 hBP06-090〈ブルームステージ〉は、真下にあるカードがDebutホロメンである1stホロメンをもう1回Bloomさせることができます。
+
+Q: Q hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」の能力は、先攻1ターン目でも使えるサポートカードの枚数は2枚になりますか？
 A: A いいえ、なりません。
 
 Q: Q hBP06-008〈夏色まつり〉の推しスキル「おまつりわっしょーい！！！」の能力でサイコロを振り、出た目がライフの数と同じ場合、自分のデッキから、カード1枚を手札に加えるのと、自分のデッキの上から1枚をホロパワーにする順番を自分で選ぶことはできますか？
@@ -5537,7 +5572,14 @@ Debut
 ジぅ( ･w･ ）
 カードナンバー：
 hBP06-072"
-hBP06,hBP06-074,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1672&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-074_S.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：MyungYiカードナンバー：hBP06-074,0,,"カードタイプ
+hBP06,hBP06-074,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1672&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-074_S.png,2025年12月19日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：MyungYiカードナンバー：hBP06-074,3,"Q: Q hBP06-103〈まつりす〉をステージの〈夏色まつり〉に付けました。次のターンに、サイコロを振った時に〈夏色まつり〉に付いているhBP06-103〈まつりす〉の能力を使用してサイコロの目の数を4にしました。その後、hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」を使用しました。この場合、このターンにアーカイブしたhBP06-103〈まつりす〉を「このターンに自分が使っていたサポートカード」として数えられますか？
+A: A いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。
+
+Q: Q hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」の「このターンに自分が使っていたサポートカード」は、hBP01-003〈アキ・ローゼンタール〉の推しスキル「サバイバルパワー」で、手札以外の領域からホロメンへ付けた場合を数えますか？
+A: A いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。
+
+Q: Q hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」の「このターンに自分が使っていたサポートカード」は、コラボした後に使用したサポートカードも数えられますか？
+A: A いいえ、コラボエフェクト「天使界隈」を使用するまでに使っていたサポートカードの枚数のみを数えます。","カードタイプ
 ホロメン
 タグ
 #JP

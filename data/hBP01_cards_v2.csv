@@ -56,7 +56,10 @@ LIMITED：ターンに１枚しか使えない。
 JinArt こばやかわやまと
 カードナンバー：
 hBP01-109"
-hBP01,hBP01-110,鈍器でぶっ叩くわよ！,https://hololive-official-cardgame.com/cardlist/?id=151&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-110_U.png,2024年09月20日(金),ブースターパック「ブルーミングレディアンス」,カードナンバー：hBP01-110,1,"Q: Q 自分の推しホロメンがhBP01-002〈七詩ムメイ〉の状態で、hBP01-110〈鈍器でぶっ叩くわよ！〉を能力変更して使用する場合に、変更されるのは能力の一部「相手のホロメンのエール１枚をアーカイブする。」が変更になりますか？それとも能力すべて「サイコロを１回振る：３以下の時、相手のホロメンのエール１枚をアーカイブする。」が変更になりますか？
+hBP01,hBP01-110,鈍器でぶっ叩くわよ！,https://hololive-official-cardgame.com/cardlist/?id=151&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-110_U.png,2024年09月20日(金),ブースターパック「ブルーミングレディアンス」,カードナンバー：hBP01-110,2,"Q: Q 相手のホロメンに1枚もエールが付いていない時に、hBP01-110〈鈍器でぶっ叩くわよ！〉を使用できますか？
+A: A いいえ、できません。 相手のホロメンのエールをアーカイブできない場合、サイコロのみを振ることもできません。
+
+Q: Q 自分の推しホロメンがhBP01-002〈七詩ムメイ〉の状態で、hBP01-110〈鈍器でぶっ叩くわよ！〉を能力変更して使用する場合に、変更されるのは能力の一部「相手のホロメンのエール１枚をアーカイブする。」が変更になりますか？それとも能力すべて「サイコロを１回振る：３以下の時、相手のホロメンのエール１枚をアーカイブする。」が変更になりますか？
 A: A 能力全てが変更されます。 サイコロを振り、3以下を出す必要もありません。","カードタイプ
 サポート・イベント・LIMITED
 レアリティ
@@ -85,7 +88,8 @@ LIMITED：ターンに１枚しか使えない。
 SAKON
 カードナンバー：
 hBP01-111"
-hBP01,hBP01-112,わくわくいたずらタイム,https://hololive-official-cardgame.com/cardlist/?id=153&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-112_U.png,2024年09月20日(金),ブースターパック「ブルーミングレディアンス」,カードナンバー：hBP01-112,0,,"カードタイプ
+hBP01,hBP01-112,わくわくいたずらタイム,https://hololive-official-cardgame.com/cardlist/?id=153&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-112_U.png,2024年09月20日(金),ブースターパック「ブルーミングレディアンス」,カードナンバー：hBP01-112,1,"Q: Q 相手のステージにバックホロメンがいない時に、hBP01-112〈わくわくいたずらタイム〉を使用できますか？
+A: A いいえ、できません。 相手のバックホロメンがいない場合、サイコロのみを振ることもできません。","カードタイプ
 サポート・イベント
 レアリティ
 U
@@ -377,7 +381,10 @@ SP推しスキル
 Hiroko
 カードナンバー：
 hBP01-002"
-hBP01,hBP01-003,アキ・ローゼンタール,https://hololive-official-cardgame.com/cardlist/?id=26&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-003_OSR.png,2024年09月20日(金),ブースターパック「ブルーミングレディアンス」,イラストレーター名：Hirokoカードナンバー：hBP01-003,1,"Q: Q 自分のアーカイブに4枚のhBP01-114〈石の斧〉が存在している状態でhBP01-003〈アキ・ローゼンタール〉の推しスキル「サバイバルパワー」を使用することはできますか？
+hBP01,hBP01-003,アキ・ローゼンタール,https://hololive-official-cardgame.com/cardlist/?id=26&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-003_OSR.png,2024年09月20日(金),ブースターパック「ブルーミングレディアンス」,イラストレーター名：Hirokoカードナンバー：hBP01-003,2,"Q: Q hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」の「このターンに自分が使っていたサポートカード」は、hBP01-003〈アキ・ローゼンタール〉の推しスキル「サバイバルパワー」で、手札以外の領域からホロメンへ付けた場合を数えますか？
+A: A いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。
+
+Q: Q 自分のアーカイブに4枚のhBP01-114〈石の斧〉が存在している状態でhBP01-003〈アキ・ローゼンタール〉の推しスキル「サバイバルパワー」を使用することはできますか？
 A: A はい、使用できます。 使用した場合は、デッキの中を確認した後、デッキをシャッフルします。","カードタイプ
 推しホロメン
 レアリティ
@@ -3273,7 +3280,10 @@ LIMITED：ターンに1枚しか使えない。
 JinArt KABAKURA
 カードナンバー：
 hSD01-019"
-hBP01,hSD01-020,ホロリスの輪,https://hololive-official-cardgame.com/cardlist/?id=20&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-020_C.png,2024年09月20日(金),ブースターパック「ブルーミングレディアンス」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：JinArt KABAKURAカードナンバー：hSD01-020,1,"Q: Q hSD01-020〈ホロリスの輪〉を使用し、サイコロの目が2以下の時に、hBP01-015〈七詩ムメイ〉のアーツ「Oh,Hi」を使用した場合、アーツダメージはプラスされますか？
+hBP01,hSD01-020,ホロリスの輪,https://hololive-official-cardgame.com/cardlist/?id=20&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-020_C.png,2024年09月20日(金),ブースターパック「ブルーミングレディアンス」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：JinArt KABAKURAカードナンバー：hSD01-020,2,"Q: Q 自分のアーカイブにエールがない時に、hSD01-020〈ホロリスの輪〉を使用することはできますか？
+A: A いいえ、できません。 自分のアーカイブにエールがない場合、サイコロのみを振ることもできません。
+
+Q: Q hSD01-020〈ホロリスの輪〉を使用し、サイコロの目が2以下の時に、hBP01-015〈七詩ムメイ〉のアーツ「Oh,Hi」を使用した場合、アーツダメージはプラスされますか？
 A: A はい、アーツダメージはプラスされます。 サイコロの結果は問わず、サポートカードの能力は発揮されているので、使用したとみなされアーツダメージがプラスされます。","カードタイプ
 サポート・イベント
 レアリティ
@@ -3451,7 +3461,10 @@ SP推しスキル
 Hiroko
 カードナンバー：
 hBP01-002"
-hBP01,hBP01-003,アキ・ローゼンタール,https://hololive-official-cardgame.com/cardlist/?id=27&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-003_OUR.png,2024年09月20日(金),ブースターパック「ブルーミングレディアンス」,イラストレーター名：Hirokoカードナンバー：hBP01-003,1,"Q: Q 自分のアーカイブに4枚のhBP01-114〈石の斧〉が存在している状態でhBP01-003〈アキ・ローゼンタール〉の推しスキル「サバイバルパワー」を使用することはできますか？
+hBP01,hBP01-003,アキ・ローゼンタール,https://hololive-official-cardgame.com/cardlist/?id=27&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-003_OUR.png,2024年09月20日(金),ブースターパック「ブルーミングレディアンス」,イラストレーター名：Hirokoカードナンバー：hBP01-003,2,"Q: Q hBP06-074〈夏色まつり〉のコラボエフェクト「天使界隈」の「このターンに自分が使っていたサポートカード」は、hBP01-003〈アキ・ローゼンタール〉の推しスキル「サバイバルパワー」で、手札以外の領域からホロメンへ付けた場合を数えますか？
+A: A いいえ、コラボエフェクト「天使界隈」は、そのターンに手札からプレイされたサポートカードのみを数えます。
+
+Q: Q 自分のアーカイブに4枚のhBP01-114〈石の斧〉が存在している状態でhBP01-003〈アキ・ローゼンタール〉の推しスキル「サバイバルパワー」を使用することはできますか？
 A: A はい、使用できます。 使用した場合は、デッキの中を確認した後、デッキをシャッフルします。","カードタイプ
 推しホロメン
 レアリティ
