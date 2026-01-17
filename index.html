@@ -2,259 +2,301 @@
 <html lang="zh-Hant">
   <head>
     <meta charset="UTF-8" />
-    <title>Hololive Card Portfolio（YUYU 市值試算）</title>
+    <title>Hololive 卡片持有市值 v8</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
       :root {
-        --bg: #f5f5f5;
-        --card-bg: #ffffff;
-        --border: #e0e0e0;
-        --accent: #1976d2;
-        --accent-soft: #e3f2fd;
-        --text-main: #212121;
-        --text-sub: #666666;
-      }
-
-      * {
-        box-sizing: border-box;
+        --bg-page: #f3f4f6;
+        --bg-card: #ffffff;
+        --border-subtle: #e5e7eb;
+        --text-main: #111827;
+        --text-muted: #6b7280;
+        --accent: #2563eb;
       }
 
       body {
         margin: 0;
-        padding: 0;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          sans-serif;
-        background: var(--bg);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+          system-ui, sans-serif;
+        background: var(--bg-page);
         color: var(--text-main);
       }
 
-      .page {
+      .container {
         max-width: 1200px;
         margin: 0 auto;
         padding: 16px;
       }
 
-      .card {
-        background: var(--card-bg);
-        border-radius: 12px;
-        border: 1px solid var(--border);
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-        padding: 16px;
-        margin-bottom: 16px;
-      }
-
-      .card-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        gap: 8px;
-        margin-bottom: 8px;
-      }
-
       h1 {
-        margin: 0;
-        font-size: 20px;
+        font-size: 1.4rem;
+        margin: 0 0 4px 0;
       }
 
       .subtitle {
-        margin: 0 0 12px;
-        font-size: 13px;
-        color: var(--text-sub);
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin: 0 0 12px 0;
+      }
+
+      .subtitle code {
+        font-size: 0.8rem;
+        background: #e5e7eb;
+        padding: 1px 4px;
+        border-radius: 4px;
+      }
+
+      .stat-bar {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        margin-bottom: 16px;
+        font-size: 0.9rem;
+      }
+
+      .stat-item {
+        background: var(--bg-card);
+        border-radius: 8px;
+        padding: 8px 10px;
+        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+      }
+
+      .stat-item strong {
+        font-weight: 600;
+      }
+
+      @media (min-width: 768px) {
+        .stat-bar {
+          flex-direction: row;
+          align-items: stretch;
+        }
+        .stat-item {
+          flex: 1;
+        }
       }
 
       .toolbar {
         display: flex;
         flex-wrap: wrap;
-        gap: 8px;
-        padding: 8px;
-        margin-bottom: 8px;
-        border-radius: 8px;
-        background: #fafafa;
+        gap: 8px 16px;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 12px;
       }
 
       .toolbar-group {
         display: flex;
         flex-wrap: wrap;
+        gap: 8px 12px;
         align-items: center;
-        gap: 6px;
       }
 
       label {
-        font-size: 13px;
-        color: var(--text-sub);
-        display: inline-flex;
-        align-items: center;
-        gap: 4px;
+        font-size: 0.85rem;
+        color: var(--text-main);
       }
 
       input[type="text"],
       select,
-      input[type="number"] {
-        padding: 4px 8px;
-        font-size: 13px;
-        border-radius: 6px;
-        border: 1px solid var(--border);
-        min-width: 0;
+      textarea {
+        font-size: 0.85rem;
+        padding: 4px 6px;
+        border-radius: 4px;
+        border: 1px solid #d1d5db;
+        background: #ffffff;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        width: 100%;
+        resize: vertical;
+        min-height: 80px;
       }
 
       button {
+        font-size: 0.85rem;
         padding: 4px 10px;
-        font-size: 13px;
-        border-radius: 999px;
-        border: 1px solid var(--accent);
+        border-radius: 4px;
+        border: none;
         background: var(--accent);
-        color: white;
+        color: #ffffff;
         cursor: pointer;
         white-space: nowrap;
       }
 
-      button.secondary-btn {
-        background: white;
-        color: var(--accent);
+      button.secondary {
+        background: #6b7280;
       }
 
       button:disabled {
-        opacity: 0.6;
+        opacity: 0.5;
         cursor: default;
       }
 
-      .status-line {
-        font-size: 12px;
-        color: var(--text-sub);
-        margin: 4px 0 0;
-      }
-
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        font-size: 12px;
-      }
-
-      thead {
-        background: #fafafa;
-      }
-
-      th,
-      td {
-        border-bottom: 1px solid var(--border);
-        padding: 4px 6px;
-        text-align: left;
-      }
-
-      th {
-        font-weight: 600;
-        white-space: nowrap;
-      }
-
-      tbody tr:hover {
-        background: #f9fbff;
-      }
-
-      .number {
-        text-align: right;
-        white-space: nowrap;
-      }
-
-      .totals {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        font-size: 13px;
-        margin-top: 8px;
-      }
-
-      .totals span {
-        white-space: nowrap;
-      }
-
-      .chip {
-        display: inline-flex;
-        align-items: center;
-        padding: 2px 8px;
-        border-radius: 999px;
-        border: 1px solid var(--border);
-        font-size: 11px;
-        background: #fafafa;
-        margin-right: 4px;
-        margin-bottom: 4px;
-      }
-
-      .chip strong {
-        margin-right: 4px;
-      }
-
-      .img-cell img {
-        max-height: 52px;
-        display: block;
-      }
-
-      .img-cell {
-        width: 80px;
-      }
-
-      .decklog-section {
-        margin-top: 12px;
-        border-top: 1px dashed var(--border);
-        padding-top: 8px;
-      }
-
-      .decklog-status {
-        font-size: 12px;
-        color: var(--text-sub);
-        margin-bottom: 6px;
-      }
-
-      .decklog-table {
-        max-height: 280px;
-        overflow: auto;
-        border: 1px solid var(--border);
-        border-radius: 8px;
-        background: white;
-      }
-
-      .badge {
-        display: inline-flex;
-        align-items: center;
-        padding: 2px 6px;
-        border-radius: 999px;
-        font-size: 11px;
-        border: 1px solid var(--border);
-        background: #fafafa;
-        gap: 4px;
-      }
-
-      .badge-dot {
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-        background: #ccc;
-      }
-
-      .badge-dot.buy {
-        background: #2e7d32;
-      }
-
-      .badge-dot.sell {
-        background: #1565c0;
-      }
-
-      .badge-dot.zero {
-        background: #bdbdbd;
-      }
-
-      .footer-note {
-        margin-top: 12px;
-        font-size: 11px;
-        color: var(--text-sub);
-      }
-
-      .link {
+      .status {
+        font-size: 0.85rem;
         color: var(--accent);
+        margin-bottom: 8px;
+      }
+
+      .status-inline {
+        font-size: 0.8rem;
+        color: var(--accent);
+        margin-left: 8px;
+      }
+
+      .page-info {
+        font-size: 0.8rem;
+        color: var(--text-muted);
+      }
+
+      .table-wrapper {
+        overflow-x: auto;
+        background: var(--bg-card);
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(15, 23, 42, 0.1);
+        margin-bottom: 8px;
+      }
+
+      table.data-table {
+        width: 100%;
+        min-width: 720px;
+        border-collapse: collapse;
+      }
+
+      table.data-table thead {
+        background: #e5e7eb;
+      }
+
+      table.data-table th,
+      table.data-table td {
+        padding: 6px 8px;
+        border-bottom: 1px solid var(--border-subtle);
+        font-size: 0.8rem;
+      }
+
+      table.data-table th {
+        text-align: left;
+        white-space: nowrap;
+      }
+
+      table.data-table tbody tr:nth-child(even) {
+        background: #f9fafb;
+      }
+
+      table.data-table tbody tr:hover {
+        background: #eff6ff;
+      }
+
+      td.numeric {
+        text-align: right;
+      }
+
+      td.img-cell {
+        text-align: center;
+      }
+
+      td.img-cell img {
+        max-height: 80px;
+        cursor: pointer;
+      }
+
+      td.links-cell {
+        white-space: nowrap;
+      }
+
+      .link-btn {
+        display: inline-block;
+        padding: 2px 6px;
+        margin-right: 4px;
+        font-size: 0.75rem;
+        border-radius: 999px;
+        background: #f97316;
+        color: #ffffff;
         text-decoration: none;
       }
 
-      .link:hover {
-        text-decoration: underline;
+      .link-btn:hover {
+        background: #ea580c;
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 999px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        background: #e5e7eb;
+        color: #111827;
+      }
+
+      .badge.r-osr {
+        background: #f97316;
+        color: #ffffff;
+      }
+
+      .badge.r-rr {
+        background: #ef4444;
+        color: #ffffff;
+      }
+
+      .badge.r-sr {
+        background: #6366f1;
+        color: #ffffff;
+      }
+
+      .badge.r-r {
+        background: #10b981;
+        color: #ffffff;
+      }
+
+      .badge.r-u {
+        background: #06b6d4;
+        color: #ffffff;
+      }
+
+      .badge.r-c {
+        background: #9ca3af;
+        color: #ffffff;
+      }
+
+      .badge.r-p {
+        background: #e11d48;
+        color: #ffffff;
+      }
+
+      .short-cell {
+        color: #b91c1c;
+        font-weight: 600;
+      }
+
+      .decklog-section {
+        margin-top: 32px;
+      }
+
+      .decklog-section h2 {
+        font-size: 1.1rem;
+        margin-bottom: 4px;
+      }
+
+      .helper-text {
+        font-size: 0.8rem;
+        color: var(--text-muted);
+        margin-bottom: 8px;
+      }
+
+      .decklog-summary {
+        font-size: 0.85rem;
+        margin: 8px 0 12px 0;
+      }
+
+      .decklog-actions {
+        margin-top: 8px;
+        margin-bottom: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
       }
 
       .image-modal {
@@ -275,188 +317,158 @@
         max-width: 90vw;
         max-height: 90vh;
         box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
-        background: #fff;
+        background: #ffffff;
       }
 
       @media (max-width: 768px) {
-        .card-header {
-          flex-direction: column;
-          align-items: flex-start;
-          gap: 4px;
+        table.data-table {
+          min-width: 640px;
         }
-
-        h1 {
-          font-size: 18px;
-        }
-
         .toolbar {
-          flex-direction: column;
           align-items: flex-start;
-        }
-
-        .toolbar-group {
-          width: 100%;
-        }
-
-        .toolbar-group label {
-          flex: 1;
-        }
-
-        input[type="text"],
-        select {
-          width: 100%;
-        }
-
-        .img-cell {
-          width: 60px;
-        }
-
-        th,
-        td {
-          padding: 4px;
         }
       }
     </style>
   </head>
   <body>
-    <div class="page">
-      <div class="card">
-        <div class="card-header">
-          <div>
-            <h1>Hololive Card Portfolio</h1>
-            <p class="subtitle">
-              從 Supabase 讀取持有清單（v_portfolio_positions_jpy_v8），以
-              YUYU 買價估算市值。
-            </p>
-          </div>
+    <div class="container">
+      <h1>Hololive 卡片持有市值總覽</h1>
+      <p class="subtitle">
+        以 YUYU
+        <strong>收購價</strong>
+        估算市值；資料來源：
+        <code>v_portfolio_positions_jpy_v8</code>
+        （Supabase view）
+      </p>
+
+      <!-- 上方總覽數字 -->
+      <div class="stat-bar">
+        <div class="stat-item">
+          <strong>全部持有市值（收購價）：</strong>
+          ¥<span id="allTotalJpy">-</span>
+          （約 NT$<span id="allTotalTwd">-</span>）
+        </div>
+        <div class="stat-item">
+          <strong>目前列表（套用篩選後）：</strong>
+          筆數 <span id="recordCount">-</span>｜
+          張數 <span id="totalQty">-</span>｜
+          市值 ¥<span id="totalMarketJpy">-</span>
+          （約 NT$<span id="totalMarketTwd">-</span>）
+        </div>
+      </div>
+
+      <!-- 篩選＋分頁控制列 -->
+      <div class="toolbar">
+        <div class="toolbar-group">
+          <label>
+            關鍵字：
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="卡號／日文名稱"
+            />
+          </label>
+
+          <label>
+            系列：
+            <select id="expansionFilter">
+              <option value="">全部系列</option>
+            </select>
+          </label>
+
+          <button id="reloadBtn">重新整理</button>
         </div>
 
-        <div class="toolbar">
-          <div class="toolbar-group">
-            <label>
-              關鍵字搜尋：
-              <input
-                id="searchInput"
-                type="text"
-                placeholder="卡號、日文名、備註"
-              />
-            </label>
-            <button id="reloadBtn" class="secondary-btn">重新讀取</button>
-          </div>
+        <div class="toolbar-group">
+          <label>
+            每頁顯示：
+            <select id="pageSize">
+              <option value="10">10 筆</option>
+              <option value="20">20 筆</option>
+              <option value="50">50 筆</option>
+              <option value="100">100 筆</option>
+            </select>
+          </label>
+          <span id="pageInfo" class="page-info">第 1 / 1 頁</span>
+          <button id="prevPageBtn">上一頁</button>
+          <button id="nextPageBtn">下一頁</button>
+        </div>
+      </div>
 
-          <div class="toolbar-group">
-            <label>
-              版本：
-              <select id="expansionFilter">
-                <option value="">全部版本</option>
-              </select>
-            </label>
-            <label>
-              名稱篩選：
-              <select id="nameFilter">
-                <option value="">全部名稱</option>
-              </select>
-            </label>
-          </div>
+      <div id="status" class="status">初始化中...</div>
 
-          <div class="toolbar-group">
-            <label for="decklogInput">
-              Decklog：
-              <input
-                id="decklogInput"
-                type="text"
-                placeholder="貼上 Decklog 書籤產生的 JSON"
-              />
-            </label>
-            <button id="decklogBtn" class="secondary-btn">比對</button>
-          </div>
+      <!-- 主持有列表 -->
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>卡號</th>
+              <th>稀有度</th>
+              <th>日文名稱</th>
+              <th>系列</th>
+              <th>圖片</th>
+              <th>持有張數</th>
+              <th>YUYU 收購價 (JPY)</th>
+              <th>YUYU 販售價 (JPY)</th>
+              <th>持有市值 (收購)</th>
+              <th>YUYU</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+
+      <!-- Decklog 比對區塊 -->
+      <section class="decklog-section">
+        <h2>Decklog 牌組比對</h2>
+        <p class="helper-text">
+          步驟：① 在 Decklog 牌組頁面點你的「Decklog → JSON」書籤，讓網站把牌組轉成
+          JSON 並複製到剪貼簿；② 把 JSON 貼在下面；③ 按「比對 Decklog」。
+        </p>
+        <textarea
+          id="decklogInput"
+          placeholder='例如：{"deck_id":"3671H","main":{"hBP01-001":1,...}}'
+        ></textarea>
+
+        <div class="decklog-actions">
+          <button id="decklogBtn">比對 Decklog</button>
+          <button id="decklogExportBtn" class="secondary">
+            下載比對結果 CSV
+          </button>
+          <span id="decklogStatus" class="status-inline"></span>
         </div>
 
-        <div id="status" class="status-line">載入中…</div>
+        <div id="decklogSummary" class="decklog-summary">
+          尚未載入任何 Decklog 牌組。
+        </div>
 
-        <div style="overflow: auto; max-height: 60vh; margin-top: 8px">
-          <table>
+        <div class="table-wrapper">
+          <table class="data-table">
             <thead>
               <tr>
                 <th>卡號</th>
                 <th>稀有度</th>
                 <th>日文名稱</th>
                 <th>圖片</th>
-                <th class="number">持有數量</th>
-                <th class="number">YUYU 賣價</th>
-                <th class="number">YUYU 收購價</th>
-                <th class="number">持有市值（買價）</th>
-                <th>版本</th>
-                <th>備註</th>
+                <th>牌組需求</th>
+                <th>目前持有</th>
+                <th>缺少</th>
+                <th>YUYU 收購價</th>
+                <th>YUYU 販售價</th>
+                <th>YUYU</th>
               </tr>
             </thead>
-            <tbody id="tableBody"></tbody>
+            <tbody id="deckCompareBody"></tbody>
           </table>
         </div>
-
-        <div class="totals">
-          <span id="totalRows">筆數：-</span>
-          <span id="totalQty">總張數：-</span>
-          <span id="totalValue">總市值（日圓）：-</span>
-          <span id="totalValueTwd">約合新台幣：-</span>
-        </div>
-
-        <div class="decklog-section" id="decklogSection" style="display: none">
-          <div class="decklog-status" id="decklogStatus">
-            Decklog：尚未比對
-          </div>
-          <div class="decklog-table">
-            <table>
-              <thead>
-                <tr>
-                  <th>卡號</th>
-                  <th>日文名稱</th>
-                  <th>圖片</th>
-                  <th class="number">需要</th>
-                  <th class="number">現有</th>
-                  <th class="number">還缺</th>
-                </tr>
-              </thead>
-              <tbody id="decklogTbody"></tbody>
-            </table>
-          </div>
-        </div>
-
-        <div class="footer-note">
-          <div>
-            市值計算邏輯：
-            <span class="badge">
-              <span class="badge-dot buy"></span>
-              <span>優先用 YUYU 收購價 × 持有數量</span>
-            </span>
-            ，若某張沒有收購價，則視為 0（不再改用賣價）。
-          </div>
-          <div style="margin-top: 4px">
-            資料來源：
-            <a
-              href="https://yuyu-tei.jp/"
-              target="_blank"
-              rel="noreferrer"
-              class="link"
-              >遊々亭</a
-            >
-            ，官方卡表：
-            <a
-              href="https://hololive-official-cardgame.com/cardlist/"
-              target="_blank"
-              rel="noreferrer"
-              class="link"
-              >Hololive Official Card Game</a
-            >。
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
 
+    <!-- 圖片放大 modal -->
     <div id="imageModal" class="image-modal">
-      <img id="modalImage" src="" alt="" />
+      <img id="modalImage" src="" alt="card" />
     </div>
 
-    <script src="main.js?v=8"></script>
+    <script src="main.js?v=10"></script>
   </body>
 </html>
