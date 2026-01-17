@@ -334,6 +334,8 @@
           placeholder="搜尋卡號或名稱（例如 hBP04-001 / 天音）"
         />
 
+        <button id="clearSearchBtn">清除搜尋 / 篩選</button>
+
         <select id="expansionFilter">
           <option value="">全部系列</option>
           <!-- options 由 main.js 動態產生（如果 view 有 expansion 欄位） -->
@@ -346,55 +348,6 @@
 
         <button id="reloadBtn">重新載入持有清單</button>
       </div>
-
-      <!-- Decklog JSON 版比對區 -->
-      <section class="decklog-panel">
-        <h2>Decklog 牌組比對</h2>
-        <p class="decklog-help">
-          步驟：① 在 Decklog 牌組頁面按你的「Decklog → JSON」書籤，② 將複製到剪貼簿的 JSON
-          貼到下方文字框，③ 按「比對 Decklog」。
-        </p>
-        <textarea
-          id="decklogInput"
-          rows="6"
-          placeholder="請在這裡貼上 Decklog JSON（包含 list 或 main/sub 等欄位）"
-        ></textarea>
-
-        <div class="decklog-actions">
-          <button id="decklogCompareBtn">比對 Decklog</button>
-          <button id="decklogDownloadCsvBtn" disabled>
-            下載比對結果 CSV
-          </button>
-          <span id="decklogStatus" class="decklog-status">
-            尚未載入任何 Decklog 牌組。
-          </span>
-        </div>
-
-        <div class="table-wrapper decklog-table-wrapper">
-          <table class="decklog-table">
-            <thead>
-              <tr>
-                <th>卡號</th>
-                <th>稀有度</th>
-                <th>日文名稱</th>
-                <th>圖片</th>
-                <th>牌組需求</th>
-                <th>目前持有</th>
-                <th>缺少張數</th>
-                <th>YUYU 收購價</th>
-                <th>YUYU 賣價</th>
-                <th>補齊成本（收購）</th>
-                <th>YUYU 連結</th>
-              </tr>
-            </thead>
-            <tbody id="decklogResultBody">
-              <tr>
-                <td colspan="11">尚未載入任何 Decklog 牌組。</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
 
       <div class="totals">
         <div>
@@ -451,6 +404,56 @@
       </div>
 
       <div class="status" id="status">初始化中...</div>
+
+      <!-- Decklog JSON 版比對區：移到頁面最下方 -->
+      <section class="decklog-panel">
+        <h2>Decklog 牌組比對</h2>
+        <p class="decklog-help">
+          步驟：① 在 Decklog 牌組頁面按你的「Decklog → JSON」書籤，② 將複製到剪貼簿的
+          JSON 貼到下方文字框，③ 按「比對 Decklog」。
+        </p>
+        <textarea
+          id="decklogInput"
+          rows="6"
+          placeholder="請在這裡貼上 Decklog JSON（包含 list 或 main/sub 等欄位）"
+        ></textarea>
+
+        <div class="decklog-actions">
+          <button id="decklogCompareBtn">比對 Decklog</button>
+          <button id="decklogDownloadCsvBtn" disabled>
+            下載比對結果 CSV
+          </button>
+          <button id="decklogClearBtn" type="button">清除 Decklog</button>
+          <span id="decklogStatus" class="decklog-status">
+            尚未載入任何 Decklog 牌組。
+          </span>
+        </div>
+
+        <div class="table-wrapper decklog-table-wrapper">
+          <table class="decklog-table">
+            <thead>
+              <tr>
+                <th>卡號</th>
+                <th>稀有度</th>
+                <th>日文名稱</th>
+                <th>圖片</th>
+                <th>牌組需求</th>
+                <th>目前持有</th>
+                <th>缺少張數</th>
+                <th>YUYU 收購價</th>
+                <th>YUYU 賣價</th>
+                <th>補齊成本（收購）</th>
+                <th>YUYU 連結</th>
+              </tr>
+            </thead>
+            <tbody id="decklogResultBody">
+              <tr>
+                <td colspan="11">尚未載入任何 Decklog 牌組。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
       <div id="imageModal" class="image-modal">
         <img id="modalImage" src="" alt="" />
