@@ -1,7 +1,5 @@
-// === 設定區：改成你自己的 Supabase URL / anon key ===
-// Project URL: Supabase 後台 Settings → API → Project URL
+// === 設定區：Supabase URL / anon key ===
 const PROJECT_URL = "https://ktcupyeopcffmtzzpewm.supabase.co";
-// anon key: Supabase 後台 Settings → API → Project API keys → anon public
 const ANON_KEY = "sb_publishable_rEvRt6x4kT6pKBUqh06YhQ_jHHO3zWU";
 
 // REST base
@@ -22,17 +20,32 @@ const totalAllValueEl = document.getElementById("totalAllValue");
 const totalFilteredValueEl = document.getElementById("totalFilteredValue");
 const totalFilteredCountEl = document.getElementById("totalFilteredCount");
 const clearSearchBtn = document.getElementById("clearSearchBtn");
+const filterSummaryEl = document.getElementById("filterSummary");
 
 const imageModal = document.getElementById("imageModal");
 const modalImage = document.getElementById("modalImage");
 
-// 全部資料快取（用來做搜尋 / 篩選 / Decklog 比對）
+// Decklog DOM
+const decklogInput = document.getElementById("decklogInput");
+const decklogCompareBtn = document.getElementById("decklogCompareBtn");
+const decklogStatusSpan = document.getElementById("decklogStatus");
+const decklogResultBody = document.getElementById("decklogResultBody");
+const decklogDownloadCsvBtn = document.getElementById("decklogDownloadCsvBtn");
+const decklogClearBtn = document.getElementById("decklogClearBtn");
+const decklogShowAll = document.getElementById("decklogShowAll");
+
+// 資料與狀態
 let allRows = [];
 let filteredRows = [];
 
-// 分頁狀態
 let currentPage = 1;
 let pageSize = 50;
+
+let sortKey = "card_code";
+let sortAsc = true;
+
+let lastDecklogDiffRows = [];
+let decklogShowAllFlag = false;
 
 /* ---------------- 共用工具 ---------------- */
 
@@ -55,6 +68,8 @@ function rarityToClass(rarity) {
   const r = rarity.toUpperCase();
   if (r.includes("SEC")) return "rarity-chip rarity-sec";
   if (r.includes("SSR")) return "rarity-chip rarity-ssr";
+  if (r === "OSR") return "rarity-chip rarity-osr";
+  if (r === "P" || r.includes("PR")) return "rarity-chip rarity-pr";
   if (r.includes("UR") || r.includes("LR")) return "rarity-chip rarity-ur";
   return "rarity-chip";
 }
@@ -72,13 +87,11 @@ function buildYuyuSellUrl(code) {
 function buildYuyuBuyUrl(cardOrRow) {
   if (!cardOrRow) return null;
 
-  // 如果是字串，視為卡號
   if (typeof cardOrRow === "string") {
     const search = encodeURIComponent(cardOrRow);
     return `https://yuyu-tei.jp/buy/hocg/s/search?search_word=${search}`;
   }
 
-  // 如果是整列 row，優先用 view 給的 buy_url
   if (cardOrRow.buy_url) return cardOrRow.buy_url;
 
   const code = cardOrRow.card_code || "";
@@ -87,11 +100,15 @@ function buildYuyuBuyUrl(cardOrRow) {
   return `https://yuyu-tei.jp/buy/hocg/s/search?search_word=${search}`;
 }
 
-/* ---------------- 持有市值（收購價）計算 ---------------- */
+/* ---------------- 市值計算（收購價） ---------------- */
 
 function getRowMarketValueBuy(row) {
   const qty = Number(row.qty || 0);
-  const base = Number(row.buy_price_jpy != null ? row.buy_price_jpy : 0);
+  const base = Number(
+    row.buy_price_jpy !== null && row.buy_price_jpy !== undefined
+      ? row.buy_price_jpy
+      : 0
+  );
   if (!Number.isNaN(qty) && !Number.isNaN(base)) {
     return qty * base;
   }
@@ -101,32 +118,50 @@ function getRowMarketValueBuy(row) {
 function calcTotalValue(rows) {
   if (!Array.isArray(rows)) return 0;
   let sum = 0;
-
   for (const row of rows) {
     const v = getRowMarketValueBuy(row);
     const num = Number(v);
-    if (!Number.isNaN(num)) {
-      sum += num;
-    }
+    if (!Number.isNaN(num)) sum += num;
   }
-
   return sum;
 }
 
 function updateTotals() {
+  const totalAll = calcTotalValue(allRows);
+  const totalFiltered = calcTotalValue(filteredRows);
+
   if (totalAllValueEl) {
-    const totalAll = calcTotalValue(allRows);
     totalAllValueEl.textContent = formatNumber(totalAll);
   }
 
   if (totalFilteredValueEl) {
-    const totalFiltered = calcTotalValue(filteredRows);
-    totalFilteredValueEl.textContent = formatNumber(totalFiltered);
+    const ratio =
+      totalAll > 0 ? Math.round((totalFiltered / totalAll) * 100) : 0;
+    totalFilteredValueEl.textContent = `${formatNumber(
+      totalFiltered
+    )}（占全部的 ${ratio}%）`;
   }
 
   if (totalFilteredCountEl) {
     totalFilteredCountEl.textContent = filteredRows.length;
   }
+}
+
+function updateFilterSummary() {
+  if (!filterSummaryEl) return;
+
+  const expansion = expansionFilter.value || "全部系列";
+  const name = nameFilter.value || "全部角色";
+  const keyword = searchInput.value.trim() || "（未輸入）";
+
+  const noFilter =
+    !expansionFilter.value &&
+    !nameFilter.value &&
+    !searchInput.value.trim();
+
+  filterSummaryEl.textContent = noFilter
+    ? "目前顯示全部持有卡片（未套用任何篩選）。"
+    : `目前篩選條件：系列＝${expansion}，角色＝${name}，關鍵字＝${keyword}。`;
 }
 
 /* ---------------- 取資料 ---------------- */
@@ -138,7 +173,6 @@ async function fetchPortfolio() {
   const query = new URLSearchParams({
     select:
       "card_code,rarity_code,name_ja,image_url,qty,sell_price_jpy,buy_price_jpy,market_value_jpy,buy_url,sell_url,expansion",
-
     order: "card_code.asc",
   });
 
@@ -185,8 +219,10 @@ async function loadAllRowsFromSupabase() {
 
     populateExpansionFilter();
     populateNameFilter();
-    applyFiltersAndRender();
+    sortFilteredRows();
     updateTotals();
+    updateFilterSummary();
+    renderTable();
 
     setStatus(
       `載入完成，共 ${allRows.length} 筆。持有市值＝持有張數 × YUYU 收購價。`
@@ -241,9 +277,7 @@ function populateNameFilter() {
 }
 
 function applyFiltersAndRender() {
-  const keyword = searchInput.value.trim();
-  const keywordLower = keyword.toLowerCase();
-
+  const keyword = searchInput.value.trim().toLowerCase();
   const expansion = expansionFilter.value;
   const name = nameFilter.value;
 
@@ -251,10 +285,10 @@ function applyFiltersAndRender() {
     if (expansion && row.expansion !== expansion) return false;
     if (name && row.name_ja !== name) return false;
 
-    if (keywordLower) {
+    if (keyword) {
       const code = (row.card_code || "").toLowerCase();
       const nm = (row.name_ja || "").toLowerCase();
-      if (!code.includes(keywordLower) && !nm.includes(keywordLower)) {
+      if (!code.includes(keyword) && !nm.includes(keyword)) {
         return false;
       }
     }
@@ -263,9 +297,39 @@ function applyFiltersAndRender() {
   });
 
   currentPage = 1;
+  sortFilteredRows();
   updateTotals();
+  updateFilterSummary();
   renderTable();
 }
+
+/* ---------------- 排序 ---------------- */
+
+function sortFilteredRows() {
+  filteredRows.sort((a, b) => {
+    const av =
+      sortKey === "market_value_buy"
+        ? getRowMarketValueBuy(a)
+        : a[sortKey];
+    const bv =
+      sortKey === "market_value_buy"
+        ? getRowMarketValueBuy(b)
+        : b[sortKey];
+
+    if (av == null && bv == null) return 0;
+    if (av == null) return 1;
+    if (bv == null) return -1;
+
+    if (typeof av === "number" && typeof bv === "number") {
+      return sortAsc ? av - bv : bv - av;
+    }
+    const as = String(av);
+    const bs = String(bv);
+    return sortAsc ? as.localeCompare(bs) : bs.localeCompare(as);
+  });
+}
+
+/* ---------------- 分頁與表格 ---------------- */
 
 function getPagedRows() {
   const start = (currentPage - 1) * pageSize;
@@ -284,8 +348,6 @@ function updatePager() {
   if (currentPage > totalPages) currentPage = totalPages;
   pageInfoEl.textContent = `第 ${currentPage} / ${totalPages} 頁（共 ${total} 筆）`;
 }
-
-/* ---------------- 表格繪製 ---------------- */
 
 function attachImageModal(img) {
   if (!imageModal || !modalImage) return;
@@ -365,6 +427,10 @@ function renderTable() {
     const mvBuy = getRowMarketValueBuy(row);
     tdValue.textContent = formatNumber(mvBuy);
     tdValue.classList.add("num");
+    const thresholdValue = 5000;
+    if (mvBuy >= thresholdValue) {
+      tdValue.classList.add("highlight-value");
+    }
     tr.appendChild(tdValue);
 
     const tdLinks = document.createElement("td");
@@ -403,15 +469,6 @@ function renderTable() {
 }
 
 /* ---------------- Decklog JSON 比對 ---------------- */
-
-const decklogInput = document.getElementById("decklogInput");
-const decklogCompareBtn = document.getElementById("decklogCompareBtn");
-const decklogStatusSpan = document.getElementById("decklogStatus");
-const decklogResultBody = document.getElementById("decklogResultBody");
-const decklogDownloadCsvBtn = document.getElementById("decklogDownloadCsvBtn");
-const decklogClearBtn = document.getElementById("decklogClearBtn");
-
-let lastDecklogDiffRows = [];
 
 function setDecklogStatus(msg) {
   if (decklogStatusSpan) {
@@ -474,7 +531,7 @@ function buildDeckRequirementMap(deckJson) {
     }
   };
 
-  // 書籤 summary 版
+  // 書籤 summary 版（main/sub/partner）
   if (deckJson.main || deckJson.sub || deckJson.partner) {
     addFromObj(deckJson.main);
     addFromObj(deckJson.sub);
@@ -482,7 +539,7 @@ function buildDeckRequirementMap(deckJson) {
     return map;
   }
 
-  // Decklog 原始 JSON 版
+  // Decklog 原始 JSON 版（list / sub_list / p_list）
   addFromList(deckJson.list);
   addFromList(deckJson.sub_list);
   addFromList(deckJson.p_list);
@@ -553,24 +610,31 @@ function diffDeckAndInventory(deckMap) {
   return { rows: result, totalDeckNeeded, totalMissing };
 }
 
-function renderDecklogResultsTable(diffRows) {
+function renderDecklogResultsTable(diffRows, showAll = false) {
   if (!decklogResultBody) return;
+
+  const rows = showAll
+    ? diffRows
+    : diffRows.filter((r) => (r.missing_qty || 0) > 0);
 
   decklogResultBody.innerHTML = "";
 
-  if (!diffRows || diffRows.length === 0) {
+  if (!rows || rows.length === 0) {
     const tr = document.createElement("tr");
     const td = document.createElement("td");
     td.colSpan = 11;
     td.textContent =
-      "尚未載入任何 Decklog 牌組，或目前這副牌你庫存都足夠。";
+      "這副牌沒有缺卡，或是目前牌組配置沒有讀到有效資料。";
     tr.appendChild(td);
     decklogResultBody.appendChild(tr);
     return;
   }
 
-  for (const row of diffRows) {
+  for (const row of rows) {
     const tr = document.createElement("tr");
+    if ((row.missing_qty || 0) > 0) {
+      tr.classList.add("missing-row");
+    }
 
     const tdCode = document.createElement("td");
     tdCode.textContent = row.card_code;
@@ -732,6 +796,7 @@ function downloadDecklogCsv() {
 
 /* ---------------- 事件綁定 / 入口 ---------------- */
 
+// 搜尋與篩選
 if (searchInput) {
   searchInput.addEventListener("input", () => {
     applyFiltersAndRender();
@@ -759,6 +824,7 @@ if (nameFilter) {
   });
 }
 
+// 分頁
 if (pageSizeSelect) {
   pageSizeSelect.addEventListener("change", () => {
     pageSize = Number(pageSizeSelect.value || 50);
@@ -786,12 +852,14 @@ if (nextPageBtn) {
   });
 }
 
+// 重新載入
 if (reloadBtn) {
   reloadBtn.addEventListener("click", () => {
     loadAllRowsFromSupabase();
   });
 }
 
+// Decklog 比對
 if (decklogCompareBtn) {
   decklogCompareBtn.addEventListener("click", () => {
     try {
@@ -800,7 +868,7 @@ if (decklogCompareBtn) {
 
       if (!deckMap || deckMap.size === 0) {
         setDecklogStatus("Decklog JSON 裡沒有讀到任何卡片。");
-        renderDecklogResultsTable([]);
+        renderDecklogResultsTable([], decklogShowAllFlag);
         lastDecklogDiffRows = [];
         if (decklogDownloadCsvBtn) decklogDownloadCsvBtn.disabled = true;
         return;
@@ -809,19 +877,25 @@ if (decklogCompareBtn) {
       const { rows, totalDeckNeeded, totalMissing } =
         diffDeckAndInventory(deckMap);
       lastDecklogDiffRows = rows;
-      renderDecklogResultsTable(rows);
+
+      renderDecklogResultsTable(rows, decklogShowAllFlag);
 
       if (decklogDownloadCsvBtn) {
         decklogDownloadCsvBtn.disabled = rows.length === 0;
       }
 
-      if (rows.length === 0) {
+      if (rows.length === 0 || totalMissing === 0) {
         setDecklogStatus(
           `牌組總共需要 ${totalDeckNeeded} 張，你的庫存全部足夠。`
         );
       } else {
+        const totalCost = rows.reduce(
+          (sum, r) => sum + (r.missing_value_buy || 0),
+          0
+        );
         setDecklogStatus(
-          `牌組總共需要 ${totalDeckNeeded} 張，其中有 ${totalMissing} 張不足（${rows.length} 種卡）。`
+          `牌組總共需要 ${totalDeckNeeded} 張，其中有 ${totalMissing} 張不足，` +
+            `估計補齊成本約 ¥${formatJPY(totalCost)}。`
         );
       }
     } catch (err) {
@@ -840,9 +914,7 @@ if (decklogDownloadCsvBtn) {
 
 if (decklogClearBtn) {
   decklogClearBtn.addEventListener("click", () => {
-    if (decklogInput) {
-      decklogInput.value = "";
-    }
+    if (decklogInput) decklogInput.value = "";
     lastDecklogDiffRows = [];
     if (decklogResultBody) {
       decklogResultBody.innerHTML = "";
@@ -859,6 +931,30 @@ if (decklogClearBtn) {
     setDecklogStatus("尚未載入任何 Decklog 牌組。");
   });
 }
+
+if (decklogShowAll) {
+  decklogShowAll.addEventListener("change", () => {
+    decklogShowAllFlag = decklogShowAll.checked;
+    renderDecklogResultsTable(lastDecklogDiffRows, decklogShowAllFlag);
+  });
+}
+
+// 表頭排序
+document.querySelectorAll("th[data-sort-key]").forEach((th) => {
+  th.classList.add("sortable");
+  th.addEventListener("click", () => {
+    const key = th.dataset.sortKey;
+    if (!key) return;
+    if (sortKey === key) {
+      sortAsc = !sortAsc;
+    } else {
+      sortKey = key;
+      sortAsc = true;
+    }
+    sortFilteredRows();
+    renderTable();
+  });
+});
 
 // 初始化
 loadAllRowsFromSupabase();

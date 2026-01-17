@@ -70,6 +70,12 @@
         font-weight: 600;
       }
 
+      .status {
+        font-size: 12px;
+        color: #555;
+        margin-top: 6px;
+      }
+
       .pager {
         display: flex;
         flex-wrap: wrap;
@@ -88,12 +94,6 @@
       .pager select {
         font-size: 12px;
         padding: 2px 4px;
-      }
-
-      .status {
-        font-size: 12px;
-        color: #555;
-        margin-top: 6px;
       }
 
       .table-wrapper {
@@ -128,17 +128,19 @@
       th {
         font-weight: 600;
         white-space: nowrap;
+        cursor: default;
       }
 
-      tr:nth-child(even) td {
+      th.sortable {
+        cursor: pointer;
+      }
+
+      tbody tr:nth-child(even) td {
         background: #fcfcfc;
       }
 
-      img.card-img {
-        max-height: 90px;
-        max-width: 90px;
-        border-radius: 4px;
-        cursor: pointer;
+      tbody tr:hover td {
+        background: #e5f3ff;
       }
 
       .num {
@@ -169,6 +171,20 @@
         background: #eef2ff;
       }
 
+      .rarity-osr {
+        border-color: #10b981;
+        background: #ecfdf5;
+      }
+
+      .rarity-pr {
+        border-color: #3b82f6;
+        background: #eff6ff;
+      }
+
+      .highlight-value {
+        font-weight: 700;
+      }
+
       .link-btn {
         display: inline-block;
         padding: 2px 6px;
@@ -184,13 +200,18 @@
         background: #f3f4f6;
       }
 
-      .badge {
-        display: inline-block;
-        padding: 1px 4px;
-        border-radius: 999px;
-        background: #e5e7eb;
-        font-size: 10px;
-        margin-left: 2px;
+      .yuyu-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        justify-content: flex-start;
+      }
+
+      img.card-img {
+        max-height: 90px;
+        max-width: 90px;
+        border-radius: 4px;
+        cursor: pointer;
       }
 
       .image-modal {
@@ -269,11 +290,8 @@
         font-size: 12px;
       }
 
-      .yuyu-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 4px;
-        justify-content: flex-start;
+      .missing-row td {
+        background: #fef2f2;
       }
 
       @media (max-width: 768px) {
@@ -334,7 +352,7 @@
           placeholder="搜尋卡號或名稱（例如 hBP04-001 / 天音）"
         />
 
-        <button id="clearSearchBtn">清除搜尋 / 篩選</button>
+        <button id="clearSearchBtn" type="button">清除搜尋 / 篩選</button>
 
         <select id="expansionFilter">
           <option value="">全部系列</option>
@@ -346,7 +364,7 @@
           <!-- options 由 main.js 動態產生 -->
         </select>
 
-        <button id="reloadBtn">重新載入持有清單</button>
+        <button id="reloadBtn" type="button">重新載入持有清單</button>
       </div>
 
       <div class="totals">
@@ -364,6 +382,10 @@
         </div>
       </div>
 
+      <div id="filterSummary" class="status">
+        目前顯示全部持有卡片（未套用任何篩選）。
+      </div>
+
       <div class="pager">
         <label>
           每頁顯示
@@ -375,8 +397,8 @@
           </select>
           筆
         </label>
-        <button id="prevPageBtn">&lt; 上一頁</button>
-        <button id="nextPageBtn">下一頁 &gt;</button>
+        <button id="prevPageBtn" type="button">&lt; 上一頁</button>
+        <button id="nextPageBtn" type="button">下一頁 &gt;</button>
         <span id="pageInfo"></span>
       </div>
 
@@ -384,14 +406,16 @@
         <table id="portfolioTable">
           <thead>
             <tr>
-              <th>卡號</th>
+              <th data-sort-key="card_code" class="sortable">卡號</th>
               <th>稀有度</th>
-              <th>日文名稱</th>
+              <th data-sort-key="name_ja" class="sortable">日文名稱</th>
               <th>圖片</th>
-              <th>持有張數</th>
-              <th>YUYU 賣價</th>
-              <th>YUYU 收購價</th>
-              <th>持有市值（收購價）</th>
+              <th data-sort-key="qty" class="sortable">持有張數</th>
+              <th data-sort-key="sell_price_jpy" class="sortable">YUYU 賣價</th>
+              <th data-sort-key="buy_price_jpy" class="sortable">YUYU 收購價</th>
+              <th data-sort-key="market_value_buy" class="sortable">
+                持有市值（收購價）
+              </th>
               <th>YUYU 連結</th>
             </tr>
           </thead>
@@ -405,7 +429,7 @@
 
       <div class="status" id="status">初始化中...</div>
 
-      <!-- Decklog JSON 版比對區：移到頁面最下方 -->
+      <!-- Decklog JSON 版比對區：放在頁面最下方 -->
       <section class="decklog-panel">
         <h2>Decklog 牌組比對</h2>
         <p class="decklog-help">
@@ -419,11 +443,15 @@
         ></textarea>
 
         <div class="decklog-actions">
-          <button id="decklogCompareBtn">比對 Decklog</button>
-          <button id="decklogDownloadCsvBtn" disabled>
+          <button id="decklogCompareBtn" type="button">比對 Decklog</button>
+          <button id="decklogDownloadCsvBtn" type="button" disabled>
             下載比對結果 CSV
           </button>
           <button id="decklogClearBtn" type="button">清除 Decklog</button>
+          <label style="font-size: 12px;">
+            <input type="checkbox" id="decklogShowAll" />
+            顯示已足夠卡片
+          </label>
           <span id="decklogStatus" class="decklog-status">
             尚未載入任何 Decklog 牌組。
           </span>
@@ -460,6 +488,6 @@
       </div>
     </main>
 
-    <script src="main.js?v=decklog-json-1"></script>
+    <script src="main.js?v=decklog-json-2"></script>
   </body>
 </html>
