@@ -139,7 +139,8 @@ async function fetchPortfolio() {
 
   const query = new URLSearchParams({
     select:
-      "card_code,rarity_code,name_ja,image_url,qty,yuyu_sell_jpy,yuyu_buy_jpy,market_value_jpy,buy_url,sell_url,expansion",
+  "card_code,rarity_code,name_ja,image_url,qty,sell_price_jpy,buy_price_jpy,market_value_jpy,buy_url,sell_url,expansion",
+
     order: "card_code.asc",
   });
 
@@ -173,8 +174,8 @@ async function loadAllRowsFromSupabase() {
       name_ja: r.name_ja,
       image_url: r.image_url,
       qty: Number(r.qty || 0),
-      sell_price_jpy: r.yuyu_sell_jpy,
-      buy_price_jpy: r.yuyu_buy_jpy,
+      sell_price_jpy: r.sell_price_jpy,
+      buy_price_jpy: r.buy_price_jpy,
       market_value_jpy: r.market_value_jpy,
       buy_url: r.buy_url,
       sell_url: r.sell_url,
