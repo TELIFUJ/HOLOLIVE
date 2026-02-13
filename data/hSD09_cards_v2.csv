@@ -1,5 +1,5 @@
 expansion,card_code,name_ja,card_page_url,image_url,release_dates,products,illustrator_name,qa_count,qa_text,effect_text
-hSD09,hBP01-108,じゃあ敵だね,https://hololive-official-cardgame.com/cardlist/?id=149&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD09&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-108_U.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年08月29日(金),ブースターパック「ブルーミングレディアンス」 / スタートデッキ 赤 百鬼あやめ / スタートデッキ 青 猫又おかゆ / スタートデッキ 白 轟はじめ / スタートデッキ 白 天音かなた / スタートデッキ 赤 宝鐘マリン,カードナンバー：hBP01-108,3,"Q: Q hBP01-108〈じゃあ敵だね〉について、相手のステージにセンターホロメンがいない場合や、バックホロメンがいない場合に、このカードを使用することはできますか？
+hSD09,hBP01-108,じゃあ敵だね,https://hololive-official-cardgame.com/cardlist/?id=149&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD09&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-108_U.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年08月29日(金) / 2026年02月20日(金),ブースターパック「ブルーミングレディアンス」 / スタートデッキ 赤 百鬼あやめ / スタートデッキ 青 猫又おかゆ / スタートデッキ 白 轟はじめ / スタートデッキ 白 天音かなた / スタートデッキ 赤 宝鐘マリン / スタートデッキ 推し Advent,カードナンバー：hBP01-108,3,"Q: Q hBP01-108〈じゃあ敵だね〉について、相手のステージにセンターホロメンがいない場合や、バックホロメンがいない場合に、このカードを使用することはできますか？
 A: A いいえ、使用できません。対象を選ぶことができず、その後の効果を解決できない場合に、サポートカードの使用ができません。
 
 Q: Q hBP01-108〈じゃあ敵だね〉について、相手のセンターホロメンとバックホロメンを交代させる時、お休みしているホロメンを選ぶことはできますか？
@@ -17,6 +17,7 @@ U
 スタートデッキ 白 轟はじめ
 スタートデッキ 白 天音かなた
 スタートデッキ 赤 宝鐘マリン
+スタートデッキ 推し Advent
 能力テキスト
 相手のセンターホロメンとバックホロメン１人を交代させる。
 LIMITED：ターンに１枚しか使えない。
@@ -359,7 +360,7 @@ Debut
 スライム
 カードナンバー：
 hSD09-007"
-hSD09,hY03-001,赤エール,https://hololive-official-cardgame.com/cardlist/?id=170&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD09&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY03-001_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年03月21日(金) / 2025年08月29日(金),ブースターパック「ブルーミングレディアンス」 / ブースターパック「クインテットスペクトラム」 / ブースターパック「エリートスパーク」 / スタートデッキ 赤 百鬼あやめ / スタートデッキ 赤 宝鐘マリン / スタートエールセット,イラストレーター名：はずきカードナンバー：hY03-001,0,,"カードタイプ
+hSD09,hY03-001,赤エール,https://hololive-official-cardgame.com/cardlist/?id=170&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD09&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY03-001_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年03月21日(金) / 2025年08月29日(金) / 2026年02月20日(金),ブースターパック「ブルーミングレディアンス」 / ブースターパック「クインテットスペクトラム」 / ブースターパック「エリートスパーク」 / スタートデッキ 赤 百鬼あやめ / スタートデッキ 赤 宝鐘マリン / スタートデッキ 推し Justice / スタートエールセット,イラストレーター名：はずきカードナンバー：hY03-001,0,,"カードタイプ
 エール
 レアリティ
 C
@@ -369,6 +370,7 @@ C
 ブースターパック「エリートスパーク」
 スタートデッキ 赤 百鬼あやめ
 スタートデッキ 赤 宝鐘マリン
+スタートデッキ 推し Justice
 スタートエールセット
 能力テキスト
 ■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。
