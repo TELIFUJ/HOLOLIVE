@@ -1908,7 +1908,10 @@ PRカード
 JinArt こばやかわやまと
 カードナンバー：
 hBP01-115"
-hPR,hBP01-126,座員,https://hololive-official-cardgame.com/cardlist/?id=857&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-126_P_02.png,,PRカード,イラストレーター名：JinArt KABAKURAカードナンバー：hBP01-126,9,"Q: Q 自分のアーカイブにhBP01-126〈座員〉が4枚ある時、hBP05-034〈尾丸ポルカ〉のブルームエフェクト「おまたせ～！」の能力で手札を4枚捨てました。 この場合、必ずhBP01-126〈座員〉を4枚手札に戻さなければなりませんか？
+hPR,hBP01-126,座員,https://hololive-official-cardgame.com/cardlist/?id=857&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-126_P_02.png,,PRカード,イラストレーター名：JinArt KABAKURAカードナンバー：hBP01-126,10,"Q: Q 自分のセンターホロメンがhBP07-044〈尾丸ポルカ〉の時、hBP01-126〈座員〉が付いているhBP01-071〈尾丸ポルカ〉がダウンしました。 この場合、ライフダメージはいくつになりますか？
+A: A この場合、hBP07-044〈尾丸ポルカ〉のギフト「The Show Must Go On」の能力によって減るライフが-1となるため、ライフダメージは1となります。
+
+Q: Q 自分のアーカイブにhBP01-126〈座員〉が4枚ある時、hBP05-034〈尾丸ポルカ〉のブルームエフェクト「おまたせ～！」の能力で手札を4枚捨てました。 この場合、必ずhBP01-126〈座員〉を4枚手札に戻さなければなりませんか？
 A: A はい、必ず戻します。
 
 Q: Q hBP05-034〈尾丸ポルカ〉のブルームエフェクト「おまたせ～！」の能力で、自分のアーカイブにあるhBP01-126〈座員〉の枚数以上のカードを捨てることはできますか？
@@ -2311,7 +2314,10 @@ PRカード
 JinArt こばやかわやまと
 カードナンバー：
 hBP03-105"
-hPR,hBP03-107,35P,https://hololive-official-cardgame.com/cardlist/?id=823&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-107_P.png,,PRカード,イラストレーター名：くまらんカードナンバー：hBP03-107,4,"Q: Q 自分のコラボポジションにhBP05-066〈不知火フレア〉がいる時に、hBP05-016〈兎田ぺこら〉がアーツを使い、hBP03-107〈35P〉が付いている〈さくらみこ〉をダウンさせました。 この場合、hBP05-016〈兎田ぺこら〉のギフト「最強女神」の能力とhBP05-066〈不知火フレア〉のギフト「冬の旅」の能力、hBP03-107〈35P〉の能力はどの順で処理されますか？
+hPR,hBP03-107,35P,https://hololive-official-cardgame.com/cardlist/?id=823&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-107_P.png,,PRカード,イラストレーター名：くまらんカードナンバー：hBP03-107,5,"Q: Q hBP03-107〈35P〉が2枚付いているhBP07-043〈さくらみこ〉がアーツ「桜は花に顕る」を使いました。 この場合、アーツの能力で引けるカードは何枚になりますか？
+A: A 2枚となります。
+
+Q: Q 自分のコラボポジションにhBP05-066〈不知火フレア〉がいる時に、hBP05-016〈兎田ぺこら〉がアーツを使い、hBP03-107〈35P〉が付いている〈さくらみこ〉をダウンさせました。 この場合、hBP05-016〈兎田ぺこら〉のギフト「最強女神」の能力とhBP05-066〈不知火フレア〉のギフト「冬の旅」の能力、hBP03-107〈35P〉の能力はどの順で処理されますか？
 A: A 処理の優先順位として、ルールとして処理されるもの（ダウン処理など）が優先的にすべて処理されるため、hBP03-107〈35P〉の能力を先に処理します。 次にターンプレイヤー側で処理すべき能力（使った時に発揮される能力など）を処理するので、hBP05-016〈兎田ぺこら〉のギフト「最強女神」の能力とhBP05-066〈不知火フレア〉のギフト「冬の旅」の能力を好きな順で処理します。
 
 Q: Q 相手の手札が０枚の時、hBP03-107〈35P〉とhBP05-085〈みこだにぇー〉が付いているhBP05-035〈さくらみこ〉がダウンした場合、hBP03-107〈35P〉とhBP05-085〈みこだにぇー〉はどの順で処理されますか？
@@ -2793,6 +2799,29 @@ LIMITED：ターンに1枚しか使えない。
 神奈ぺろん
 カードナンバー：
 hBP06-096"
+hPR,hBP07-009,角巻わため,https://hololive-official-cardgame.com/cardlist/?id=2047&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-009_P.png,,PRカード,イラストレーター名：ふーみカードナンバー：hBP07-009,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#4期生
+#ケモミミ
+#歌
+レアリティ
+P
+収録商品
+PRカード
+色
+HP
+130
+Bloomレベル
+バトンタッチ
+アーツ
+ガブガブ！　20+
+[センターポジション限定]このアーツ+20。
+イラストレーター名：
+ふーみ
+カードナンバー：
+hBP07-009"
 hPR,hPR-002,ReGLOSS,https://hololive-official-cardgame.com/cardlist/?id=202&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hPR-002.png,,PRカード,イラストレーター名：Fajyoboreカードナンバー：hPR-002,0,,"カードタイプ
 サポート・イベント・LIMITED
 レアリティ
@@ -4846,30 +4875,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP02-042"
-hPR,hBP02-043,紫咲シオン,https://hololive-official-cardgame.com/cardlist/?id=508&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-043_P.png,,PRカード,イラストレーター名：しゅがおカードナンバー：hBP02-043,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#2期生
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-50
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-魔法見せてあげる
-サイコロを1回振れる：4以上の時、自分のデッキから、#魔法を持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。
-アーツ
-一緒に行こう　30
-イラストレーター名：
-しゅがお
-カードナンバー：
-hBP02-043"
 hPR,hBP02-047,紫咲シオン,https://hololive-official-cardgame.com/cardlist/?id=485&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-047_P.png,,PRカード,イラストレーター名：チェリ子カードナンバー：hBP02-047,1,"Q: Q 自分のセンターホロメンのhBP02-047〈紫咲シオン〉のブルームエフェクト「いたずらの魔法」を使い、サイコロを1回振りました。 その後、hBP02-005〈紫咲シオン〉の推しスキル「ねえ゛え゛え゛え゛え゛え゛え゛」を使い、サイコロを1回振り直しました。 この場合、コラボポジションのhBP04-059〈ラプラス・ダークネス〉がアーツ「吾輩最強伝説」を使ったなら、能力で数える「サイコロを振った回数」は何回になりますか？
 A: A hBP02-005〈紫咲シオン〉の能力によって前のサイコロの結果を無くしているため、数える回数は1回になります。","カードタイプ
 ホロメン
@@ -6393,7 +6398,13 @@ Debut
 お絵かきたのしー！　20
 カードナンバー：
 hSD01-012"
-hPR,hSD01-013,SorAZ,https://hololive-official-cardgame.com/cardlist/?id=833&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD01-013_P.png,,PRカード,イラストレーター名：はたほまめカードナンバー：hSD01-013,10,"Q: Q hBP04-089〈ツートンカラーパソコン〉を使い、自分のステージに色が1色で異なる色のホロメンとして、〈ときのそら〉と〈フワワ・アビスガード〉を選びました。 この場合、選んだホロメンと同色の1stホロメンとして、hSD01-013〈SorAZ〉とhBP03-050〈FUWAMOCO〉を手札に加えられますか？
+hPR,hSD01-013,SorAZ,https://hololive-official-cardgame.com/cardlist/?id=833&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD01-013_P.png,,PRカード,イラストレーター名：はたほまめカードナンバー：hSD01-013,12,"Q: Q hSD01-013〈SorAZ〉のエクストラ能力「このホロメンは〈ときのそら〉〈AZKi〉としても扱う」とは、どういう意味ですか？
+A: A カード名として、〈ときのそら〉、〈AZKi〉、〈SorAZ〉を持つことを指します。
+
+Q: Q 自分のhSD01-013〈SorAZ〉が1人いる時、hBP07-068〈AZKi〉がコラボしました。 この場合、コラボエフェクト「共に歩んできた軌跡」の能力で、hSD01-013〈SorAZ〉を〈ときのそら〉、〈SorAZ〉の2人分として数えることはできますか？
+A: A いいえ、できません。
+
+Q: Q hBP04-089〈ツートンカラーパソコン〉を使い、自分のステージに色が1色で異なる色のホロメンとして、〈ときのそら〉と〈フワワ・アビスガード〉を選びました。 この場合、選んだホロメンと同色の1stホロメンとして、hSD01-013〈SorAZ〉とhBP03-050〈FUWAMOCO〉を手札に加えられますか？
 A: A はい、加えられます。
 
 Q: Q hBP04-089〈ツートンカラーパソコン〉の「色が1色で異なる色のホロメン」とはどういう意味ですか？
