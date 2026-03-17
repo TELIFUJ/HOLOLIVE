@@ -15,6 +15,7 @@ const prevPageBtn = document.getElementById("prevPageBtn");
 const nextPageBtn = document.getElementById("nextPageBtn");
 const pageSizeSelect = document.getElementById("pageSizeSelect");
 const expansionFilter = document.getElementById("expansionFilter");
+const rarityFilter = document.getElementById("rarityFilter");
 const nameFilter = document.getElementById("nameFilter");
 const totalAllValueEl = document.getElementById("totalAllValue");
 const totalFilteredValueEl = document.getElementById("totalFilteredValue");
@@ -151,17 +152,19 @@ function updateFilterSummary() {
   if (!filterSummaryEl) return;
 
   const expansion = expansionFilter.value || "全部系列";
+  const rarity = rarityFilter && rarityFilter.value ? rarityFilter.value : "全部稀有度";
   const name = nameFilter.value || "全部角色";
   const keyword = searchInput.value.trim() || "（未輸入）";
 
   const noFilter =
     !expansionFilter.value &&
+    !(rarityFilter && rarityFilter.value) &&
     !nameFilter.value &&
     !searchInput.value.trim();
 
   filterSummaryEl.textContent = noFilter
     ? "目前顯示全部持有卡片（未套用任何篩選）。"
-    : `目前篩選條件：系列＝${expansion}，角色＝${name}，關鍵字＝${keyword}。`;
+    : `目前篩選條件：系列＝${expansion}，稀有度＝${rarity}，角色＝${name}，關鍵字＝${keyword}。`;
 }
 
 /* ---------------- 取資料 ---------------- */
@@ -218,6 +221,7 @@ async function loadAllRowsFromSupabase() {
     currentPage = 1;
 
     populateExpansionFilter();
+    populateRarityFilter();
     populateNameFilter();
     sortFilteredRows();
     updateTotals();
@@ -257,6 +261,25 @@ function populateExpansionFilter() {
     });
 }
 
+function populateRarityFilter() {
+  if (!rarityFilter) return;
+  const rarities = new Set(
+    allRows
+      .map((r) => (r.rarity_code || "").trim())
+      .filter((x) => x.length > 0)
+  );
+
+  rarityFilter.innerHTML = `<option value="">全部稀有度</option>`;
+  Array.from(rarities)
+    .sort((a, b) => a.localeCompare(b))
+    .forEach((rarity) => {
+      const opt = document.createElement("option");
+      opt.value = rarity;
+      opt.textContent = rarity;
+      rarityFilter.appendChild(opt);
+    });
+}
+
 function populateNameFilter() {
   if (!nameFilter) return;
   const names = new Set(
@@ -279,10 +302,12 @@ function populateNameFilter() {
 function applyFiltersAndRender() {
   const keyword = searchInput.value.trim().toLowerCase();
   const expansion = expansionFilter.value;
+  const rarity = rarityFilter ? rarityFilter.value : "";
   const name = nameFilter.value;
 
   filteredRows = allRows.filter((row) => {
     if (expansion && row.expansion !== expansion) return false;
+    if (rarity && (row.rarity_code || "") !== rarity) return false;
     if (name && row.name_ja !== name) return false;
 
     if (keyword) {
@@ -384,7 +409,14 @@ function renderTable() {
     const tdRarity = document.createElement("td");
     const spanR = document.createElement("span");
     spanR.textContent = row.rarity_code || "";
-    spanR.className = rarityToClass(row.rarity_code);
+    spanR.className = `${rarityToClass(row.rarity_code)} is-clickable`;
+    spanR.title = "點選後只看這個稀有度";
+    spanR.addEventListener("click", () => {
+      if (rarityFilter) {
+        rarityFilter.value = row.rarity_code || "";
+        applyFiltersAndRender();
+      }
+    });
     tdRarity.appendChild(spanR);
     tr.appendChild(tdRarity);
 
@@ -807,6 +839,7 @@ if (clearSearchBtn) {
   clearSearchBtn.addEventListener("click", () => {
     if (searchInput) searchInput.value = "";
     if (expansionFilter) expansionFilter.value = "";
+    if (rarityFilter) rarityFilter.value = "";
     if (nameFilter) nameFilter.value = "";
     applyFiltersAndRender();
   });
@@ -814,6 +847,12 @@ if (clearSearchBtn) {
 
 if (expansionFilter) {
   expansionFilter.addEventListener("change", () => {
+    applyFiltersAndRender();
+  });
+}
+
+if (rarityFilter) {
+  rarityFilter.addEventListener("change", () => {
     applyFiltersAndRender();
   });
 }

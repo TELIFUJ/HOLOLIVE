@@ -156,6 +156,14 @@
         background: #fafafa;
       }
 
+      .rarity-chip.is-clickable {
+        cursor: pointer;
+      }
+
+      .rarity-chip.is-clickable:hover {
+        filter: brightness(0.97);
+      }
+
       .rarity-sec {
         border-color: #f59e0b;
         background: #fffbeb;
@@ -357,6 +365,11 @@
         <select id="expansionFilter">
           <option value="">全部系列</option>
           <!-- options 由 main.js 動態產生（如果 view 有 expansion 欄位） -->
+        </select>
+
+        <select id="rarityFilter">
+          <option value="">全部稀有度</option>
+          <!-- options 由 main.js 動態產生 -->
         </select>
 
         <select id="nameFilter">
