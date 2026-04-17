@@ -76,10 +76,10 @@ hSD10-009"
 hSD10,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=145&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-104_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年11月21日(金) / 2026年02月20日(金),ブースターパック「ブルーミングレディアンス」 / スタートデッキ 赤 百鬼あやめ / スタートデッキ 紫 癒月ちょこ / スタートデッキ 白 轟はじめ / スタートデッキ 緑 風真いろは / スタートデッキ 黄 不知火フレア / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ FLOW GLOW 推し 虎金妃笑虎 / スタートデッキ 推し Advent / スタートデッキ 推し Justice,イラストレーター名：JinArt KABAKURAカードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
 A: A はい、されます。
 
-Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない時に、hBP01-104〈ふつうのパソコン〉を使用することができますか？
+Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
 A: A いいえ、使用できません。
 
-Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、他にDebutホロメンがある場合でもそれを公開しなくてもよいですか？
+Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
 A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
 サポート・アイテム
 レアリティ
@@ -96,13 +96,13 @@ C
 スタートデッキ 推し Advent
 スタートデッキ 推し Justice
 能力テキスト
-自分のデッキから、Debutホロメン１枚を公開し、ステージに出す。そしてデッキをシャッフルする。
+自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
 イラストレーター名：
 JinArt KABAKURA
 カードナンバー：
 hBP01-104"
-hSD10,hBP02-077,レトロパソコン,https://hololive-official-cardgame.com/cardlist/?id=344&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-077_C.png,2024年12月20日(金) / 2025年11月21日(金) / 2026年02月20日(金),ブースターパック「クインテットスペクトラム」 / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ 推し Advent,イラストレーター名：はずきカードナンバー：hBP02-077,1,"Q: Q hBP02-077〈レトロパソコン〉は、アーカイブにホロメンが1枚もいない状態で使用できますか？
-A: A いいえ、使用できません。 そのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。","カードタイプ
+hSD10,hBP02-077,レトロパソコン,https://hololive-official-cardgame.com/cardlist/?id=344&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-077_C.png,2024年12月20日(金) / 2025年11月21日(金) / 2026年02月20日(金) / 2026年04月24日(金),ブースターパック「クインテットスペクトラム」 / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ 推し Advent / ライブスタートデッキ 白上フブキ / ライブスタートデッキ 儒烏風亭らでん / ライブスタートデッキ さくらみこ / ライブスタートデッキ 星街すいせい / ライブスタートデッキ 森カリオペ / ライブスタートデッキ 大空スバル,イラストレーター名：はずきカードナンバー：hBP02-077,1,"Q: Q hBP02-077〈レトロパソコン〉は、アーカイブにホロメンが1枚もいない時は使えますか？
+A: A いいえ、使えません。 そのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードは使えません。","カードタイプ
 サポート・アイテム・LIMITED
 レアリティ
 C
@@ -110,10 +110,16 @@ C
 ブースターパック「クインテットスペクトラム」
 スタートデッキ FLOW GLOW 推し 輪堂千速
 スタートデッキ 推し Advent
+ライブスタートデッキ 白上フブキ
+ライブスタートデッキ 儒烏風亭らでん
+ライブスタートデッキ さくらみこ
+ライブスタートデッキ 星街すいせい
+ライブスタートデッキ 森カリオペ
+ライブスタートデッキ 大空スバル
 能力テキスト
 このカードは、自分のライフが3以下でなければ使えない。
-自分のアーカイブのホロメン１枚を手札に戻す。
-LIMITED：ターンに１枚しか使えない。
+自分のアーカイブのホロメン1枚を手札に戻す。
+LIMITED:ターンに1枚しか使えない。
 イラストレーター名：
 はずき
 カードナンバー：
@@ -136,13 +142,13 @@ C
 スタートデッキ 推し Advent
 スタートデッキ 推し Justice
 能力テキスト
-自分のデッキを３枚引く。
-LIMITED：ターンに１枚しか使えない。
+自分のデッキを3枚引く。
+LIMITED:ターンに1枚しか使えない。
 イラストレーター名：
 Yoshimo
 カードナンバー：
 hSD01-016"
-hSD10,hSD01-017,マネちゃん,https://hololive-official-cardgame.com/cardlist/?id=17&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年08月29日(金) / 2025年11月21日(金),スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 赤 百鬼あやめ / スタートデッキ 青 猫又おかゆ / スタートデッキ 紫 癒月ちょこ / スタートデッキ 白 轟はじめ / スタートデッキ 緑 風真いろは / スタートデッキ 黄 不知火フレア / スタートデッキ 白 天音かなた / スタートデッキ 赤 宝鐘マリン / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ FLOW GLOW 推し 虎金妃笑虎,イラストレーター名：株式会社HIKE / Trigonoカードナンバー：hSD01-017,2,"Q: Q 自分の手札が5枚で、デッキが0枚の時に、手札にあるhSD01-017〈マネちゃん〉を使用できますか？
+hSD10,hSD01-017,マネちゃん,https://hololive-official-cardgame.com/cardlist/?id=17&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年08月29日(金) / 2025年11月21日(金) / 2026年04月24日(金),スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 赤 百鬼あやめ / スタートデッキ 青 猫又おかゆ / スタートデッキ 紫 癒月ちょこ / スタートデッキ 白 轟はじめ / スタートデッキ 緑 風真いろは / スタートデッキ 黄 不知火フレア / スタートデッキ 白 天音かなた / スタートデッキ 赤 宝鐘マリン / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ FLOW GLOW 推し 虎金妃笑虎 / ライブスタートデッキ 白上フブキ / ライブスタートデッキ 儒烏風亭らでん / ライブスタートデッキ さくらみこ / ライブスタートデッキ 星街すいせい / ライブスタートデッキ 森カリオペ / ライブスタートデッキ 大空スバル,イラストレーター名：株式会社HIKE / Trigonoカードナンバー：hSD01-017,2,"Q: Q 自分の手札が5枚で、デッキが0枚の時に、手札にあるhSD01-017〈マネちゃん〉を使用できますか？
 A: A はい、できます。 その場合、手札をすべてデッキに戻してシャッフルした後、デッキから可能な限り引きます。
 
 Q: Q hSD01-017〈マネちゃん〉の「このカードは、自分の手札がこのカードを含まずに１枚以上なければ使えない。」とは1枚のときも含みますか？
@@ -162,15 +168,21 @@ C
 スタートデッキ 赤 宝鐘マリン
 スタートデッキ FLOW GLOW 推し 輪堂千速
 スタートデッキ FLOW GLOW 推し 虎金妃笑虎
+ライブスタートデッキ 白上フブキ
+ライブスタートデッキ 儒烏風亭らでん
+ライブスタートデッキ さくらみこ
+ライブスタートデッキ 星街すいせい
+ライブスタートデッキ 森カリオペ
+ライブスタートデッキ 大空スバル
 能力テキスト
-このカードは、自分の手札がこのカードを含まずに１枚以上なければ使えない。
-自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを５枚引く。
-LIMITED：ターンに１枚しか使えない。
+このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。
+自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。
+LIMITED:ターンに1枚しか使えない。
 イラストレーター名：
 株式会社HIKE / Trigono
 カードナンバー：
 hSD01-017"
-hSD10,hSD10-001,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1456&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-001_OSR.png,2025年11月21日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：株式会社スタジオヴィガカードナンバー：hSD10-001,2,"Q: Q hSD10-001〈輪堂千速〉の推しスキル「エンジン全開！レッツゴー！」の能力をhSD10-006〈輪堂千速〉に使い、その後hSD10-006〈輪堂千速〉にBloomしました。 この場合、Bloom後のhSD10-006〈輪堂千速〉は+30されたままになりますか？
+hSD10,hSD10-001,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1456&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-001_OSR.png,2025年11月21日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：株式会社スタジオヴィガカードナンバー：hSD10-001,2,"Q: Q hSD10-001〈輪堂千速〉の推しスキル「エンジン全開！レッツゴー！」の能力をhSD10-006〈輪堂千速〉に使い、その後hSD10-006〈輪堂千速〉にBloomしました。 この場合、Bloom後のhSD10-006〈輪堂千速〉は+30されたままになりますか？
 A: A はい、なります。
 
 Q: Q hSD10-001〈輪堂千速〉の推しスキル「エンジン全開！レッツゴー！」の能力は、Bloomしたホロメン以外も選べますか？
@@ -185,18 +197,18 @@ OSR
 LIFE
 5
 推しスキル
-[ホロパワー：-2]
+[ホロパワー:-2]
 エンジン全開！レッツゴー！
 [ターンに1回]このターンに自分のホロメンがBloomしていたなら、このターンの間、自分のステージの#FLOW GLOWを持つホロメン1人のアーツ+30。
 SP推しスキル
-[ホロパワー：-2]
+[ホロパワー:-2]
 向こう側の景色を見に行かない？
 [ゲームに1回]自分のエールデッキの上から1枚を自分のホロメンに送る。その後、自分の#FLOW GLOWを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのエール1枚につき、選んだホロメンのアーツ+20。
 イラストレーター名：
 株式会社スタジオヴィガ
 カードナンバー：
 hSD10-001"
-hSD10,hSD10-002,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1457&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-002_C.png,2025年11月21日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：おげげカードナンバー：hSD10-002,0,,"カードタイプ
+hSD10,hSD10-002,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1457&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-002_C.png,2025年11月21日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：おげげカードナンバー：hSD10-002,0,,"カードタイプ
 ホロメン
 タグ
 #DEV_IS
@@ -220,7 +232,7 @@ Debut
 おげげ
 カードナンバー：
 hSD10-002"
-hSD10,hSD10-003,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1458&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-003_C.png,2025年11月21日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：Whoamiカードナンバー：hSD10-003,0,,"カードタイプ
+hSD10,hSD10-003,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1458&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-003_C.png,2025年11月21日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：Whoamiカードナンバー：hSD10-003,0,,"カードタイプ
 ホロメン
 タグ
 #DEV_IS
@@ -244,7 +256,7 @@ Bloomレベル
 Whoami
 カードナンバー：
 hSD10-003"
-hSD10,hSD10-004,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1459&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-004_U.png,2025年11月21日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：猫山 桜梨カードナンバー：hSD10-004,1,"Q: Q hSD10-004〈輪堂千速〉のギフト「300馬力だよ！」の能力は、自分ホロメンが1stホロメンへBloomした直後でなくても使えますか？
+hSD10,hSD10-004,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1459&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-004_U.png,2025年11月21日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：猫山 桜梨カードナンバー：hSD10-004,1,"Q: Q hSD10-004〈輪堂千速〉のギフト「300馬力だよ！」の能力は、自分ホロメンが1stホロメンへBloomした直後でなくても使えますか？
 A: A はい、使えます。","カードタイプ
 ホロメン
 タグ
@@ -271,7 +283,7 @@ Bloomレベル
 猫山 桜梨
 カードナンバー：
 hSD10-004"
-hSD10,hSD10-005,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1460&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-005_U.png,2025年11月21日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：トリダモノカードナンバー：hSD10-005,0,,"カードタイプ
+hSD10,hSD10-005,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1460&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-005_U.png,2025年11月21日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：トリダモノカードナンバー：hSD10-005,0,,"カードタイプ
 ホロメン
 タグ
 #DEV_IS
@@ -297,7 +309,7 @@ FLOW GLOWのDJ兼運転手担当
 トリダモノ
 カードナンバー：
 hSD10-005"
-hSD10,hSD10-006,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1461&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-006_RR.png,2025年11月21日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：株式会社スタジオヴィガカードナンバー：hSD10-006,3,"Q: Q 残りHPが80のホロメンに、hSD10-006〈輪堂千速〉のアーツ「アクセラビートブレイズ」を使い、140ダメージを与えました。 この場合、何枚自分のバックホロメンにエールを送りますか？
+hSD10,hSD10-006,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=1461&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-006_RR.png,2025年11月21日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ FLOW GLOW 推し 輪堂千速,イラストレーター名：株式会社スタジオヴィガカードナンバー：hSD10-006,3,"Q: Q 残りHPが80のホロメンに、hSD10-006〈輪堂千速〉のアーツ「アクセラビートブレイズ」を使い、140ダメージを与えました。 この場合、何枚自分のバックホロメンにエールを送りますか？
 A: A その場合、60オーバーしているため、2枚送ります。
 
 Q: Q hSD10-006〈輪堂千速〉のアーツ「鼓動の操縦者」の能力は、他の自分のホロメンがBloomしていても+50されますか？
@@ -330,7 +342,7 @@ Bloomレベル
 株式会社スタジオヴィガ
 カードナンバー：
 hSD10-006"
-hSD10,hSD10-010,響咲リオナ,https://hololive-official-cardgame.com/cardlist/?id=1465&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-010_RR.png,2025年11月21日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ FLOW GLOW 推し 虎金妃笑虎,イラストレーター名：株式会社スタジオヴィガカードナンバー：hSD10-010,1,"Q: Q hSD10-010〈響咲リオナ〉のコラボエフェクト「私の元においで～っ」の能力で、コラボエフェクトか#FLOW GLOWのどちらかを持つホロメンを手札に加えることはできますか？
+hSD10,hSD10-010,響咲リオナ,https://hololive-official-cardgame.com/cardlist/?id=1465&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-010_RR.png,2025年11月21日(金),スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ FLOW GLOW 推し 虎金妃笑虎,イラストレーター名：株式会社スタジオヴィガカードナンバー：hSD10-010,1,"Q: Q hSD10-010〈響咲リオナ〉のコラボエフェクト「私の元においで～っ」の能力で、コラボエフェクトか#FLOW GLOWのどちらかを持つホロメンを手札に加えることはできますか？
 A: A いいえ、できません。","カードタイプ
 ホロメン
 タグ
@@ -339,7 +351,6 @@ A: A いいえ、できません。","カードタイプ
 レアリティ
 RR
 収録商品
-【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」
 スタートデッキ FLOW GLOW 推し 輪堂千速
 スタートデッキ FLOW GLOW 推し 虎金妃笑虎
 色
@@ -350,7 +361,7 @@ Spot
 バトンタッチ
 キーワード
 私の元においで～っ
-自分の手札1枚をアーカイブできる：自分のデッキから、[コラボエフェクトと#FLOW GLOWを持つホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。
+自分の手札1枚をアーカイブできる:自分のデッキから、[コラボエフェクトと#FLOW GLOWを持つホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。
 アーツ
 RIONA IN DA HOUSE～!　50+
 自分のステージに#FLOW GLOWを持つ2nd以上のホロメンがいるなら、このアーツ+30。
@@ -374,7 +385,7 @@ U
 能力テキスト
 このカードは、自分のステージのホロメン全員が#FLOW GLOWを持つホロメンでなければ使えない。
 自分のアーカイブのエール3枚を選び、自分のセンターホロメンとコラボホロメンに割り振って送る。ただし、ホロメン1人に送る枚数は2枚まで。
-LIMITED：ターンに1枚しか使えない。
+LIMITED:ターンに1枚しか使えない。
 イラストレーター名：
 おぐち
 カードナンバー：
@@ -389,7 +400,7 @@ U
 能力テキスト
 このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。
 自分のデッキの上から4枚を見る。その中から、#FLOW GLOWを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
-LIMITED：ターンに1枚しか使えない。
+LIMITED:ターンに1枚しか使えない。
 イラストレーター名：
 𝘧𝘳𝘦𝘯𝘨
 カードナンバー：
@@ -406,13 +417,13 @@ C
 能力テキスト
 このツールが付いている#FLOW GLOWを持つホロメンのアーツ+10。
 ◆#FLOW GLOWを持つホロメンに付いていたら能力追加
-自分のエンドステップが開始する時、このターンにこのホロメンがアーツを使っていたなら使える：自分のデッキから、#FLOW GLOWを持つ[DebutホロメンかSpotホロメン]1枚を公開し、ステージに出す。そしてデッキをシャッフルする。その後、このホロメンに付いている〈ふぐ太郎〉1枚をデッキの下に戻す。
+自分のエンドステップが開始する時、このターンにこのホロメンがアーツを使っていたなら使える:自分のデッキから、#FLOW GLOWを持つ[DebutホロメンかSpotホロメン]1枚を公開し、ステージに出す。そしてデッキをシャッフルする。その後、このホロメンに付いている〈ふぐ太郎〉1枚をデッキの下に戻す。
 ツールは、自分のホロメン1人につき1枚だけ付けられる。
 イラストレーター名：
 さかなへん
 カードナンバー：
 hSD10-013"
-hSD10,hY02-001,緑エール,https://hololive-official-cardgame.com/cardlist/?id=169&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY02-001_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年03月21日(金) / 2025年11月21日(金),ブースターパック「ブルーミングレディアンス」 / ブースターパック「クインテットスペクトラム」 / ブースターパック「エリートスパーク」 / スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 緑 風真いろは / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートエールセット,イラストレーター名：はずきカードナンバー：hY02-001,0,,"カードタイプ
+hSD10,hY02-001,緑エール,https://hololive-official-cardgame.com/cardlist/?id=169&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY02-001_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年03月21日(金) / 2025年11月21日(金) / 2026年04月24日(金),ブースターパック「ブルーミングレディアンス」 / ブースターパック「クインテットスペクトラム」 / ブースターパック「エリートスパーク」 / スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 緑 風真いろは / スタートデッキ FLOW GLOW 推し 輪堂千速 / ライブスタートデッキ 儒烏風亭らでん / スタートエールセット,イラストレーター名：はずきカードナンバー：hY02-001,0,,"カードタイプ
 エール
 レアリティ
 C
@@ -423,6 +434,7 @@ C
 スタートデッキ「ときのそら＆AZKi」
 スタートデッキ 緑 風真いろは
 スタートデッキ FLOW GLOW 推し 輪堂千速
+ライブスタートデッキ 儒烏風亭らでん
 スタートエールセット
 能力テキスト
 ■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。
@@ -432,7 +444,7 @@ C
 はずき
 カードナンバー：
 hY02-001"
-hSD10,hY05-001,紫エール,https://hololive-official-cardgame.com/cardlist/?id=267&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY05-001_C.png,2024年12月20日(金) / 2025年03月21日(金) / 2025年11月21日(金) / 2026年02月20日(金),ブースターパック「クインテットスペクトラム」 / ブースターパック「エリートスパーク」 / スタートデッキ 紫 癒月ちょこ / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ 推し Advent,イラストレーター名：はずきカードナンバー：hY05-001,0,,"カードタイプ
+hSD10,hY05-001,紫エール,https://hololive-official-cardgame.com/cardlist/?id=267&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD10&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY05-001_C.png,2024年12月20日(金) / 2025年03月21日(金) / 2025年11月21日(金) / 2026年02月20日(金) / 2026年04月24日(金),ブースターパック「クインテットスペクトラム」 / ブースターパック「エリートスパーク」 / スタートデッキ 紫 癒月ちょこ / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ 推し Advent / ライブスタートデッキ 森カリオペ,イラストレーター名：はずきカードナンバー：hY05-001,0,,"カードタイプ
 エール
 レアリティ
 C
@@ -442,6 +454,7 @@ C
 スタートデッキ 紫 癒月ちょこ
 スタートデッキ FLOW GLOW 推し 輪堂千速
 スタートデッキ 推し Advent
+ライブスタートデッキ 森カリオペ
 能力テキスト
 ■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。
 ■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。

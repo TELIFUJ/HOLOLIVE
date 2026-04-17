@@ -1,22 +1,4 @@
 expansion,card_code,name_ja,card_page_url,image_url,release_dates,products,illustrator_name,qa_count,qa_text,effect_text
-hSD01,hSD01-021,First Gravity,https://hololive-official-cardgame.com/cardlist/?id=21&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-021_C.png,2024年09月20日(金),スタートデッキ「ときのそら＆AZKi」,イラストレーター名：© 2023 Victor Entertainment. © 2016 COVER Corp.カードナンバー：hSD01-021,2,"Q: Q hSD01-021〈First Gravity〉の「〈ときのそら〉と〈AZKi〉を好きな枚数公開し、」とありますが、hSD01-013〈SorAZ〉を公開し、手札に加えることはできますか？
-A: A はい、できます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈ときのそら〉〈AZKi〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
-
-Q: Q hSD01-021〈First Gravity〉の「このカードは、自分の手札がこのカードを含まずに６枚以下でなければ使えない。」とは6枚のときも含みますか？
-A: A はい、含みます。","カードタイプ
-サポート・イベント・LIMITED
-レアリティ
-C
-収録商品
-スタートデッキ「ときのそら＆AZKi」
-能力テキスト
-このカードは、自分の手札がこのカードを含まずに６枚以下でなければ使えない。
-自分のデッキの上から４枚を見る。その中から、〈ときのそら〉と〈AZKi〉を好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
-LIMITED：ターンに１枚しか使えない。
-イラストレーター名：
-© 2023 Victor Entertainment. © 2016 COVER Corp.
-カードナンバー：
-hSD01-021"
 hSD01,hSD01-001,ときのそら,https://hololive-official-cardgame.com/cardlist/?id=1&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-001_OSR.png,2024年09月20日(金),スタートデッキ「ときのそら＆AZKi」,イラストレーター名：でいりーカードナンバー：hSD01-001,4,"Q: Q hSD01-001〈ときのそら〉のSP推しスキル「じゃあ敵だね？」について、相手のステージにセンターホロメンがいない場合や、バックホロメンがいない場合に、このSP推しスキルを使用することはできますか。
 A: A はい、使用できます。可能な限り効果を解決するため「相手のセンターホロメンとバックホロメン１人を交代させる。」については解決せず、「その後、このターンの間、自分の白センターホロメンのアーツ+50。」の部分のみ解決します。
 
@@ -37,43 +19,17 @@ OSR
 LIFE
 5
 推しスキル
-[ホロパワー：-1]
+[ホロパワー:-1]
 リプレイスメント
-[ターンに１回]自分のステージのエール１枚を、自分のホロメンに付け替える。
+[ターンに1回]自分のステージのエール1枚を、自分のホロメンに付け替える。
 SP推しスキル
-[ホロパワー：-2]
+[ホロパワー:-2]
 じゃあ敵だね？
-[ゲームに１回]相手のセンターホロメンとバックホロメン１人を交代させる。その後、このターンの間、自分の白センターホロメンのアーツ+50。
+[ゲームに1回]相手のセンターホロメンとバックホロメン1人を交代させる。その後、このターンの間、自分の白センターホロメンのアーツ+50。
 イラストレーター名：
 でいりー
 カードナンバー：
 hSD01-001"
-hSD01,hSD01-002,AZKi,https://hololive-official-cardgame.com/cardlist/?id=2&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-002_OSR.png,2024年09月20日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：Hachiカードナンバー：hSD01-002,2,"Q: Q 自分の推しホロメンがhSD01-002〈AZKi〉で、自分のホロメンがダメージを受ける時、hBP01-027〈ベスティア・ゼータ〉のギフト「V.7」を使用しました。 この場合、hSD01-002〈AZKi〉の推しスキル「左手に地図」を使用して出る目の数を宣言することはできますか。
-A: A はい、できます。
-
-Q: Q hSD01-002〈AZKi〉のSP推しスキル「右手にマイク」はアーカイブにエールが無くても使用できますか？
-A: A はい、使用できます。","カードタイプ
-推しホロメン
-レアリティ
-OSR
-収録商品
-【使用可能カード】エントリーカップ「ディーヴァフィーバー」
-スタートデッキ「ときのそら＆AZKi」
-色
-LIFE
-6
-推しスキル
-[ホロパワー：-3]
-左手に地図
-[ターンに１回]自分のホロメンの能力でサイコロを振る時に使える：サイコロの目の数１つを宣言し、次に出る目の数を宣言した目として扱う。
-SP推しスキル
-[ホロパワー：-3]
-右手にマイク
-[ゲームに１回]自分のアーカイブのエールを自分の緑ホロメン１人に好きな枚数送る。
-イラストレーター名：
-Hachi
-カードナンバー：
-hSD01-002"
 hSD01,hSD01-003,ときのそら,https://hololive-official-cardgame.com/cardlist/?id=3&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-003_C.png,2024年09月20日(金),スタートデッキ「ときのそら＆AZKi」,イラストレーター名：はこにカードナンバー：hSD01-003,0,,"カードタイプ
 ホロメン
 タグ
@@ -97,7 +53,7 @@ Debut
 カードナンバー：
 hSD01-003"
 hSD01,hSD01-004,ときのそら,https://hololive-official-cardgame.com/cardlist/?id=4&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-004_R.png,2024年09月20日(金),スタートデッキ「ときのそら＆AZKi」,イラストレーター名：りんけてんカードナンバー：hSD01-004,2,"Q: Q 自分のセンターポジションにホロメンAがいる状態で、hSD01-004〈ときのそら〉のコラボエフェクト「レッツダンス！」を発揮してアーツを+20しました。その後、ホロメンAをホロメンBにBloomした場合、ホロメンBのアーツは+20されたままになりますか？
-A: A はい、アーツは+20されたままになります。 センターホロメンはセンターポジションにいるホロメンであるため、能力を発揮したタイミングのホロメンから変わっても、効果は継続します。
+A: A はい、アーツは+20されます。 Bloom後も、そのホロメンにかかっている状態は引き継がれます。
 
 Q: Q hSD01-004〈ときのそら〉のコラボエフェクト「レッツダンス！」の「このターンの間、自分のセンターホロメンのアーツ+20。」はアーツのテキストによる特殊ダメージにも適用されますか？
 A: A いいえ、適用されません。","カードタイプ
@@ -175,7 +131,7 @@ Bloomレベル
 SorAZ シンパシー　60+
 自分のステージにホロメンの〈AZKi〉がいる時、このアーツ+50。
 エクストラ
-このホロメンがダウンした時、自分のライフ-２
+このホロメンがダウンした時、自分のライフ-2
 イラストレーター名：
 I☆LA
 カードナンバー：
@@ -199,12 +155,105 @@ Debut
 バトンタッチ
 キーワード
 HOPE
-自分のホロパワーを見る。その中から１枚を公開し、手札に加える。そして自分の手札１枚をホロパワーにする。
+自分のホロパワーを見る。その中から1枚を公開し、手札に加える。そして自分の手札1枚をホロパワーにする。
 アーツ
 希望の化身　20
 カードナンバー：
 hSD01-007"
-hSD01,hSD01-008,AZKi,https://hololive-official-cardgame.com/cardlist/?id=8&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-008_C.png,2024年09月20日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：はこにカードナンバー：hSD01-008,0,,"カードタイプ
+hSD01,hSD01-014,天音かなた,https://hololive-official-cardgame.com/cardlist/?id=14&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-014_U.png,2024年09月20日(金),スタートデッキ「ときのそら＆AZKi」,カードナンバー：hSD01-014,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#4期生
+#歌
+レアリティ
+U
+収録商品
+スタートデッキ「ときのそら＆AZKi」
+色
+HP
+150
+Bloomレベル
+Spot
+バトンタッチ
+アーツ
+へい　30
+エクストラ
+このホロメンはBloomできない
+カードナンバー：
+hSD01-014"
+hSD01,hSD01-015,博衣こより,https://hololive-official-cardgame.com/cardlist/?id=15&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-015_U.png,2024年09月20日(金),スタートデッキ「ときのそら＆AZKi」,カードナンバー：hSD01-015,1,"Q: Q hSD01-013〈SorAZ〉がセンターポジションにいる状態で、自分のhSD01-015〈博衣こより〉がコラボした場合、コラボエフェクトの能力はどちらの能力も発揮しますか？
+A: A はい、どちらの能力も発揮します。 hSD01-013〈SorAZ〉は、エクストラにより〈ときのそら〉〈AZKi〉として扱うため、どちらのカード名のホロメンもステージにいるものとして扱います。","カードタイプ
+ホロメン
+タグ
+#JP
+#秘密結社holoX
+#ケモミミ
+レアリティ
+U
+収録商品
+スタートデッキ「ときのそら＆AZKi」
+色
+HP
+50
+Bloomレベル
+Spot
+バトンタッチ
+キーワード
+SoAzKo
+■〈ときのそら〉とコラボした時、自分のデッキを1枚引く。
+■〈AZKi〉とコラボした時、自分のエールデッキの上から1枚を、自分のセンターホロメンに送る。
+アーツ
+ピュアピュアピュア～　10
+エクストラ
+このホロメンはBloomできない
+カードナンバー：
+hSD01-015"
+hSD01,hSD01-021,First Gravity,https://hololive-official-cardgame.com/cardlist/?id=21&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-021_C.png,2024年09月20日(金),スタートデッキ「ときのそら＆AZKi」,イラストレーター名：© 2023 Victor Entertainment. © 2016 COVER Corp.カードナンバー：hSD01-021,2,"Q: Q hSD01-021〈First Gravity〉の「〈ときのそら〉と〈AZKi〉を好きな枚数公開し、」とありますが、hSD01-013〈SorAZ〉を公開し、手札に加えることはできますか？
+A: A はい、できます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈ときのそら〉〈AZKi〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
+
+Q: Q hSD01-021〈First Gravity〉の「このカードは、自分の手札がこのカードを含まずに６枚以下でなければ使えない。」とは6枚のときも含みますか？
+A: A はい、含みます。","カードタイプ
+サポート・イベント・LIMITED
+レアリティ
+C
+収録商品
+スタートデッキ「ときのそら＆AZKi」
+能力テキスト
+このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。
+自分のデッキの上から4枚を見る。その中から、〈ときのそら〉と〈AZKi〉を好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
+LIMITED:ターンに1枚しか使えない。
+イラストレーター名：
+© 2023 Victor Entertainment. © 2016 COVER Corp.
+カードナンバー：
+hSD01-021"
+hSD01,hSD01-002,AZKi,https://hololive-official-cardgame.com/cardlist/?id=2&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-002_OSR.png,2024年09月20日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：Hachiカードナンバー：hSD01-002,2,"Q: Q 自分の推しホロメンがhSD01-002〈AZKi〉で、自分のホロメンがダメージを受ける時、hBP01-027〈ベスティア・ゼータ〉のギフト「V.7」を使用しました。 この場合、hSD01-002〈AZKi〉の推しスキル「左手に地図」を使用して出る目の数を宣言することはできますか。
+A: A はい、できます。
+
+Q: Q hSD01-002〈AZKi〉のSP推しスキル「右手にマイク」はアーカイブにエールが無くても使用できますか？
+A: A はい、使用できます。","カードタイプ
+推しホロメン
+レアリティ
+OSR
+収録商品
+【使用可能カード】エントリーカップ「ディーヴァフィーバー」
+スタートデッキ「ときのそら＆AZKi」
+色
+LIFE
+6
+推しスキル
+[ホロパワー:-3]
+左手に地図
+[ターンに1回]自分のホロメンの能力でサイコロを振る時に使える:サイコロの目の数１つを宣言し、次に出る目の数を宣言した目として扱う。
+SP推しスキル
+[ホロパワー:-3]
+右手にマイク
+[ゲームに1回]自分のアーカイブのエールを自分の緑ホロメン1人に好きな枚数送る。
+イラストレーター名：
+Hachi
+カードナンバー：
+hSD01-002"
+hSD01,hSD01-008,AZKi,https://hololive-official-cardgame.com/cardlist/?id=8&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-008_C.png,2024年09月20日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：はこにカードナンバー：hSD01-008,0,,"カードタイプ
 ホロメン
 タグ
 #JP
@@ -227,7 +276,7 @@ Debut
 はこに
 カードナンバー：
 hSD01-008"
-hSD01,hSD01-009,AZKi,https://hololive-official-cardgame.com/cardlist/?id=9&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-009_R.png,2024年09月20日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：ヒノカードナンバー：hSD01-009,3,"Q: Q hSD01-009〈AZKi〉のコラボエフェクト「広がる地図」の能力でバックポジションに移動し、コラボポジションが空きました。このターン、もう一度コラボできますか？
+hSD01,hSD01-009,AZKi,https://hololive-official-cardgame.com/cardlist/?id=9&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-009_R.png,2024年09月20日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：ヒノカードナンバー：hSD01-009,3,"Q: Q hSD01-009〈AZKi〉のコラボエフェクト「広がる地図」の能力でバックポジションに移動し、コラボポジションが空きました。このターン、もう一度コラボできますか？
 A: A いいえ、できません。 コラボできるのは1ターンに1回までです。
 
 Q: Q hSD01-009〈AZKi〉のコラボエフェクト「広がる地図」の能力でバックポジションに移動した場合、このホロメンはお休みになりますか？
@@ -253,14 +302,14 @@ Debut
 バトンタッチ
 キーワード
 広がる地図
-サイコロを１回振れる：４以下の時、自分のエールデッキの上から１枚を、自分のバックホロメンに送る。１の時、さらに、このホロメンをバックポジションに移動できる。
+サイコロを1回振れる:４以下の時、自分のエールデッキの上から1枚を、自分のバックホロメンに送る。１の時、さらに、このホロメンをバックポジションに移動できる。
 アーツ
 ほいでほいで　10
 イラストレーター名：
 ヒノ
 カードナンバー：
 hSD01-009"
-hSD01,hSD01-010,AZKi,https://hololive-official-cardgame.com/cardlist/?id=10&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-010_U.png,2024年09月20日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：松うにカードナンバー：hSD01-010,0,,"カードタイプ
+hSD01,hSD01-010,AZKi,https://hololive-official-cardgame.com/cardlist/?id=10&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-010_U.png,2024年09月20日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：松うにカードナンバー：hSD01-010,0,,"カードタイプ
 ホロメン
 タグ
 #JP
@@ -283,7 +332,7 @@ Bloomレベル
 松うに
 カードナンバー：
 hSD01-010"
-hSD01,hSD01-011,AZKi,https://hololive-official-cardgame.com/cardlist/?id=11&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-011_RR.png,2024年09月20日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：I☆LAカードナンバー：hSD01-011,1,"Q: Q hSD01-011〈AZKi〉のアーツ「SorAZ グラビティ」は、自分のホロメンに〈ときのそら〉がいなくてもhSD01-013〈SorAZ〉がいれば自分のエールデッキの上から１枚を、自分のホロメンに送れますか？
+hSD01,hSD01-011,AZKi,https://hololive-official-cardgame.com/cardlist/?id=11&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-011_RR.png,2024年09月20日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：I☆LAカードナンバー：hSD01-011,1,"Q: Q hSD01-011〈AZKi〉のアーツ「SorAZ グラビティ」は、自分のホロメンに〈ときのそら〉がいなくてもhSD01-013〈SorAZ〉がいれば自分のエールデッキの上から１枚を、自分のホロメンに送れますか？
 A: A はい、送れます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈ときのそら〉〈AZKi〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。","カードタイプ
 ホロメン
 タグ
@@ -303,15 +352,15 @@ Bloomレベル
 バトンタッチ
 アーツ
 SorAZ グラビティ　60
-自分のステージにホロメンの〈ときのそら〉がいる時、自分のエールデッキの上から１枚を、自分のホロメンに送る。
+自分のステージにホロメンの〈ときのそら〉がいる時、自分のエールデッキの上から1枚を、自分のホロメンに送る。
 アーツ
 デスティニーソング　100+
-サイコロを１回振れる：奇数の時、このアーツ+50。１の時、さらに、このアーツ+50。
+サイコロを1回振れる:奇数の時、このアーツ+50。１の時、さらに、このアーツ+50。
 イラストレーター名：
 I☆LA
 カードナンバー：
 hSD01-011"
-hSD01,hSD01-012,アイラニ・イオフィフティーン,https://hololive-official-cardgame.com/cardlist/?id=12&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-012_C.png,2024年09月20日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,カードナンバー：hSD01-012,0,,"カードタイプ
+hSD01,hSD01-012,アイラニ・イオフィフティーン,https://hololive-official-cardgame.com/cardlist/?id=12&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-012_C.png,2024年09月20日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,カードナンバー：hSD01-012,0,,"カードタイプ
 ホロメン
 タグ
 #ID
@@ -330,12 +379,12 @@ Debut
 バトンタッチ
 キーワード
 一緒にお絵かき！
-自分のアーカイブの[白エールか緑エール]１枚を自分のセンターホロメンに送れる。
+自分のアーカイブの[白エールか緑エール]1枚を自分のセンターホロメンに送れる。
 アーツ
 お絵かきたのしー！　20
 カードナンバー：
 hSD01-012"
-hSD01,hSD01-013,SorAZ,https://hololive-official-cardgame.com/cardlist/?id=13&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-013_R.png,2024年09月20日(金) / 2026年12月31日(木),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：© 2023 Victor Entertainment.カードナンバー：hSD01-013,12,"Q: Q hSD01-013〈SorAZ〉のエクストラ能力「このホロメンは〈ときのそら〉〈AZKi〉としても扱う」とは、どういう意味ですか？
+hSD01,hSD01-013,SorAZ,https://hololive-official-cardgame.com/cardlist/?id=13&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-013_R.png,2024年09月20日(金),【使用可能カード】エントリーカップ「ディーヴァフィーバー」 / スタートデッキ「ときのそら＆AZKi」,イラストレーター名：© 2023 Victor Entertainment.カードナンバー：hSD01-013,12,"Q: Q hSD01-013〈SorAZ〉のエクストラ能力「このホロメンは〈ときのそら〉〈AZKi〉としても扱う」とは、どういう意味ですか？
 A: A カード名として、〈ときのそら〉、〈AZKi〉、〈SorAZ〉を持つことを指します。
 
 Q: Q 自分のhSD01-013〈SorAZ〉が1人いる時、hBP07-068〈AZKi〉がコラボしました。 この場合、コラボエフェクト「共に歩んできた軌跡」の能力で、hSD01-013〈SorAZ〉を〈ときのそら〉、〈SorAZ〉の2人分として数えることはできますか？
@@ -388,63 +437,13 @@ Bloomレベル
 バトンタッチ
 アーツ
 越えたい未来　50
-サイコロを１回振れる：奇数の時、自分のエールデッキの上から１枚を、このホロメンに送る。偶数の時、自分のデッキを１枚引く。
+サイコロを1回振れる:奇数の時、自分のエールデッキの上から1枚を、このホロメンに送る。偶数の時、自分のデッキを1枚引く。
 エクストラ
 このホロメンは〈ときのそら〉〈AZKi〉としても扱う
 イラストレーター名：
 © 2023 Victor Entertainment.
 カードナンバー：
 hSD01-013"
-hSD01,hSD01-014,天音かなた,https://hololive-official-cardgame.com/cardlist/?id=14&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-014_U.png,2024年09月20日(金),スタートデッキ「ときのそら＆AZKi」,カードナンバー：hSD01-014,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#4期生
-#歌
-レアリティ
-U
-収録商品
-スタートデッキ「ときのそら＆AZKi」
-色
-HP
-150
-Bloomレベル
-Spot
-バトンタッチ
-アーツ
-へい　30
-エクストラ
-このホロメンはBloomできない
-カードナンバー：
-hSD01-014"
-hSD01,hSD01-015,博衣こより,https://hololive-official-cardgame.com/cardlist/?id=15&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-015_U.png,2024年09月20日(金),【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」 / スタートデッキ「ときのそら＆AZKi」,カードナンバー：hSD01-015,1,"Q: Q hSD01-013〈SorAZ〉がセンターポジションにいる状態で、自分のhSD01-015〈博衣こより〉がコラボした場合、コラボエフェクトの能力はどちらの能力も発揮しますか？
-A: A はい、どちらの能力も発揮します。 hSD01-013〈SorAZ〉は、エクストラにより〈ときのそら〉〈AZKi〉として扱うため、どちらのカード名のホロメンもステージにいるものとして扱います。","カードタイプ
-ホロメン
-タグ
-#JP
-#秘密結社holoX
-#ケモミミ
-レアリティ
-U
-収録商品
-【使用可能カード】エントリーカップ「アヤカシヴァーミリオン」
-スタートデッキ「ときのそら＆AZKi」
-色
-HP
-50
-Bloomレベル
-Spot
-バトンタッチ
-キーワード
-SoAzKo
-■〈ときのそら〉とコラボした時、自分のデッキを１枚引く。
-■〈AZKi〉とコラボした時、自分のエールデッキの上から１枚を、自分のセンターホロメンに送る。
-アーツ
-ピュアピュアピュア～　10
-エクストラ
-このホロメンはBloomできない
-カードナンバー：
-hSD01-015"
 hSD01,hSD01-016,春先のどか,https://hololive-official-cardgame.com/cardlist/?id=16&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-016_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年11月21日(金) / 2026年02月20日(金),ブースターパック「ブルーミングレディアンス」 / スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 赤 百鬼あやめ / スタートデッキ 青 猫又おかゆ / スタートデッキ 紫 癒月ちょこ / スタートデッキ 白 轟はじめ / スタートデッキ 緑 風真いろは / スタートデッキ 黄 不知火フレア / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ FLOW GLOW 推し 虎金妃笑虎 / スタートデッキ 推し Advent / スタートデッキ 推し Justice,イラストレーター名：Yoshimoカードナンバー：hSD01-016,0,,"カードタイプ
 サポート・スタッフ・LIMITED
 レアリティ
@@ -463,13 +462,13 @@ C
 スタートデッキ 推し Advent
 スタートデッキ 推し Justice
 能力テキスト
-自分のデッキを３枚引く。
-LIMITED：ターンに１枚しか使えない。
+自分のデッキを3枚引く。
+LIMITED:ターンに1枚しか使えない。
 イラストレーター名：
 Yoshimo
 カードナンバー：
 hSD01-016"
-hSD01,hSD01-017,マネちゃん,https://hololive-official-cardgame.com/cardlist/?id=17&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年08月29日(金) / 2025年11月21日(金),スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 赤 百鬼あやめ / スタートデッキ 青 猫又おかゆ / スタートデッキ 紫 癒月ちょこ / スタートデッキ 白 轟はじめ / スタートデッキ 緑 風真いろは / スタートデッキ 黄 不知火フレア / スタートデッキ 白 天音かなた / スタートデッキ 赤 宝鐘マリン / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ FLOW GLOW 推し 虎金妃笑虎,イラストレーター名：株式会社HIKE / Trigonoカードナンバー：hSD01-017,2,"Q: Q 自分の手札が5枚で、デッキが0枚の時に、手札にあるhSD01-017〈マネちゃん〉を使用できますか？
+hSD01,hSD01-017,マネちゃん,https://hololive-official-cardgame.com/cardlist/?id=17&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年08月29日(金) / 2025年11月21日(金) / 2026年04月24日(金),スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 赤 百鬼あやめ / スタートデッキ 青 猫又おかゆ / スタートデッキ 紫 癒月ちょこ / スタートデッキ 白 轟はじめ / スタートデッキ 緑 風真いろは / スタートデッキ 黄 不知火フレア / スタートデッキ 白 天音かなた / スタートデッキ 赤 宝鐘マリン / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートデッキ FLOW GLOW 推し 虎金妃笑虎 / ライブスタートデッキ 白上フブキ / ライブスタートデッキ 儒烏風亭らでん / ライブスタートデッキ さくらみこ / ライブスタートデッキ 星街すいせい / ライブスタートデッキ 森カリオペ / ライブスタートデッキ 大空スバル,イラストレーター名：株式会社HIKE / Trigonoカードナンバー：hSD01-017,2,"Q: Q 自分の手札が5枚で、デッキが0枚の時に、手札にあるhSD01-017〈マネちゃん〉を使用できますか？
 A: A はい、できます。 その場合、手札をすべてデッキに戻してシャッフルした後、デッキから可能な限り引きます。
 
 Q: Q hSD01-017〈マネちゃん〉の「このカードは、自分の手札がこのカードを含まずに１枚以上なければ使えない。」とは1枚のときも含みますか？
@@ -489,10 +488,16 @@ C
 スタートデッキ 赤 宝鐘マリン
 スタートデッキ FLOW GLOW 推し 輪堂千速
 スタートデッキ FLOW GLOW 推し 虎金妃笑虎
+ライブスタートデッキ 白上フブキ
+ライブスタートデッキ 儒烏風亭らでん
+ライブスタートデッキ さくらみこ
+ライブスタートデッキ 星街すいせい
+ライブスタートデッキ 森カリオペ
+ライブスタートデッキ 大空スバル
 能力テキスト
-このカードは、自分の手札がこのカードを含まずに１枚以上なければ使えない。
-自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを５枚引く。
-LIMITED：ターンに１枚しか使えない。
+このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。
+自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。
+LIMITED:ターンに1枚しか使えない。
 イラストレーター名：
 株式会社HIKE / Trigono
 カードナンバー：
@@ -506,12 +511,15 @@ C
 スタートデッキ 赤 百鬼あやめ
 スタートデッキ 黄 不知火フレア
 能力テキスト
-自分のデッキの上から５枚を見る。その中から、LIMITEDのサポートカード１枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
+自分のデッキの上から5枚を見る。その中から、LIMITEDのサポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
 イラストレーター名：
 JinArt こばやかわやまと
 カードナンバー：
 hSD01-018"
-hSD01,hSD01-019,スゴイパソコン,https://hololive-official-cardgame.com/cardlist/?id=19&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-019_C_02.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年11月21日(金) / 2026年02月20日(金),ブースターパック「ブルーミングレディアンス」 / スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 青 猫又おかゆ / スタートデッキ 紫 癒月ちょこ / スタートデッキ FLOW GLOW 推し 虎金妃笑虎 / スタートデッキ 推し Justice,イラストレーター名：JinArt KABAKURAカードナンバー：hSD01-019,1,"Q: Q hSD01-019〈スゴイパソコン〉の「このカードは、自分のエール１枚をアーカイブしなければ使えない。」とは、エールデッキにあるエールをアーカイブにすることはできますか？
+hSD01,hSD01-019,スゴイパソコン,https://hololive-official-cardgame.com/cardlist/?id=19&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-019_C_02.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年11月21日(金) / 2026年02月20日(金) / 2026年04月24日(金),ブースターパック「ブルーミングレディアンス」 / スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 青 猫又おかゆ / スタートデッキ 紫 癒月ちょこ / スタートデッキ FLOW GLOW 推し 虎金妃笑虎 / スタートデッキ 推し Justice / ライブスタートデッキ 白上フブキ / ライブスタートデッキ 儒烏風亭らでん / ライブスタートデッキ さくらみこ / ライブスタートデッキ 星街すいせい / ライブスタートデッキ 大空スバル,イラストレーター名：JinArt KABAKURAカードナンバー：hSD01-019,2,"Q: Q hSD01-019〈スゴイパソコン〉を使い、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
+A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。
+
+Q: Q hSD01-019〈スゴイパソコン〉の「このカードは、自分のエール１枚をアーカイブしなければ使えない。」とは、エールデッキにあるエールをアーカイブにすることはできますか？
 A: A いいえ、できません。 能力でカード名やカードタイプのみを指定されている場合は、ステージにあるカードのみを選ぶことができます。","カードタイプ
 サポート・アイテム・LIMITED
 レアリティ
@@ -523,10 +531,15 @@ C
 スタートデッキ 紫 癒月ちょこ
 スタートデッキ FLOW GLOW 推し 虎金妃笑虎
 スタートデッキ 推し Justice
+ライブスタートデッキ 白上フブキ
+ライブスタートデッキ 儒烏風亭らでん
+ライブスタートデッキ さくらみこ
+ライブスタートデッキ 星街すいせい
+ライブスタートデッキ 大空スバル
 能力テキスト
 このカードは、自分のステージのエール1枚をアーカイブしなければ使えない。
-自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]１枚を公開し、手札に加える。そしてデッキをシャッフルする。
-LIMITED：ターンに1枚しか使えない。
+自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。
+LIMITED:ターンに1枚しか使えない。
 イラストレーター名：
 JinArt KABAKURA
 カードナンバー：
@@ -543,12 +556,12 @@ C
 ブースターパック「ブルーミングレディアンス」
 スタートデッキ「ときのそら＆AZKi」
 能力テキスト
-サイコロを１回振る：３以上の時、自分のアーカイブのエール１枚を自分のホロメンに送る。
+サイコロを1回振る:3以上の時、自分のアーカイブのエール1枚を自分のホロメンに送る。
 イラストレーター名：
 JinArt KABAKURA
 カードナンバー：
 hSD01-020"
-hSD01,hY01-001,白エール,https://hololive-official-cardgame.com/cardlist/?id=168&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY01-001_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年03月21日(金) / 2025年08月29日(金),ブースターパック「ブルーミングレディアンス」 / ブースターパック「クインテットスペクトラム」 / ブースターパック「エリートスパーク」 / スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 白 轟はじめ / スタートデッキ 白 天音かなた / スタートエールセット,イラストレーター名：はずきカードナンバー：hY01-001,0,,"カードタイプ
+hSD01,hY01-001,白エール,https://hololive-official-cardgame.com/cardlist/?id=168&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY01-001_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年03月21日(金) / 2025年08月29日(金) / 2026年04月24日(金),ブースターパック「ブルーミングレディアンス」 / ブースターパック「クインテットスペクトラム」 / ブースターパック「エリートスパーク」 / スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 白 轟はじめ / スタートデッキ 白 天音かなた / ライブスタートデッキ 白上フブキ / スタートエールセット,イラストレーター名：はずきカードナンバー：hY01-001,0,,"カードタイプ
 エール
 レアリティ
 C
@@ -559,6 +572,7 @@ C
 スタートデッキ「ときのそら＆AZKi」
 スタートデッキ 白 轟はじめ
 スタートデッキ 白 天音かなた
+ライブスタートデッキ 白上フブキ
 スタートエールセット
 能力テキスト
 ■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。
@@ -568,7 +582,7 @@ C
 はずき
 カードナンバー：
 hY01-001"
-hSD01,hY02-001,緑エール,https://hololive-official-cardgame.com/cardlist/?id=169&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY02-001_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年03月21日(金) / 2025年11月21日(金),ブースターパック「ブルーミングレディアンス」 / ブースターパック「クインテットスペクトラム」 / ブースターパック「エリートスパーク」 / スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 緑 風真いろは / スタートデッキ FLOW GLOW 推し 輪堂千速 / スタートエールセット,イラストレーター名：はずきカードナンバー：hY02-001,0,,"カードタイプ
+hSD01,hY02-001,緑エール,https://hololive-official-cardgame.com/cardlist/?id=169&%2Fcardlist%2Fcardsearch_ex=&expansion=hSD01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY02-001_C.png,2024年09月20日(金) / 2024年12月20日(金) / 2025年02月28日(金) / 2025年03月21日(金) / 2025年11月21日(金) / 2026年04月24日(金),ブースターパック「ブルーミングレディアンス」 / ブースターパック「クインテットスペクトラム」 / ブースターパック「エリートスパーク」 / スタートデッキ「ときのそら＆AZKi」 / スタートデッキ 緑 風真いろは / スタートデッキ FLOW GLOW 推し 輪堂千速 / ライブスタートデッキ 儒烏風亭らでん / スタートエールセット,イラストレーター名：はずきカードナンバー：hY02-001,0,,"カードタイプ
 エール
 レアリティ
 C
@@ -579,6 +593,7 @@ C
 スタートデッキ「ときのそら＆AZKi」
 スタートデッキ 緑 風真いろは
 スタートデッキ FLOW GLOW 推し 輪堂千速
+ライブスタートデッキ 儒烏風亭らでん
 スタートエールセット
 能力テキスト
 ■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。
