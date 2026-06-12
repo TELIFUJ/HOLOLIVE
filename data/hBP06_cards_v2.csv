@@ -356,7 +356,10 @@ SP推しスキル
 望田とうり
 カードナンバー：
 hBP06-004"
-hBP06,hBP06-005,ハコス・ベールズ,https://hololive-official-cardgame.com/cardlist/?id=1482&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-005_OSR.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：株式会社ジーアングルカードナンバー：hBP06-005,3,"Q: Q hBP06-005〈ハコス・ベールズ〉のSP推しスキル「🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲」の能力は、サイコロを振らずに処理を終えることはできますか？
+hBP06,hBP06-005,ハコス・ベールズ,https://hololive-official-cardgame.com/cardlist/?id=1482&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-005_OSR.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：株式会社ジーアングルカードナンバー：hBP06-005,4,"Q: Q hBP08-045〈ハコス・ベールズ〉のコラボエフェクト「今年は豊作になりそうやねん！」の能力を使った後、hBP06-005〈ハコス・ベールズ〉の推しスキル「混沌の化身」の能力でサイコロを振り、6が出ました。 この場合、12枚になるまでカードを引かず、6枚まで引くことはできますか？
+A: A いいえ、できません。 この場合、サイコロの目の数すべてを倍として扱うため、必ず12枚になるまで引きます。
+
+Q: Q hBP06-005〈ハコス・ベールズ〉のSP推しスキル「🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲」の能力は、サイコロを振らずに処理を終えることはできますか？
 A: A いいえ、できません。
 
 Q: Q hBP06-005〈ハコス・ベールズ〉の推しスキル「混沌の化身」の能力は、サイコロを振り、出た目の数と同じになるまでカードを引かなければなりませんか？
@@ -431,7 +434,7 @@ SP推しスキル
 カードナンバー：
 hBP06-007"
 hBP06,hBP06-008,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1485&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-008_OSR.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：薫る石カードナンバー：hBP06-008,4,"Q: Q 自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。 このターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？
-A: A いいえ、できません。 hBP06-090〈ブルームステージ〉は、真下にあるカードがDebutホロメンである1stホロメンをもう1回Bloomさせることができます。
+A: A いいえ、できません。 「DebutホロメンからBloomした1stホロメン」ではなく、「1stホロメンからBloomした1stホロメン」に使用しているため、hBP06-090〈ブルームステージ〉でそのホロメンをもう一度Bloomさせることはできません。
 
 Q: Q hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」の能力は、先攻1ターン目でも使えるサポートカードの枚数は2枚になりますか？
 A: A いいえ、なりません。
@@ -2539,11 +2542,14 @@ LIMITED:ターンに1枚しか使えない。
 ぱとり
 カードナンバー：
 hBP06-089"
-hBP06,hBP06-090,ブルームステージ,https://hololive-official-cardgame.com/cardlist/?id=1567&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-090_U.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：みゃーこカードナンバー：hBP06-090,2,"Q: Q 自分のステージのDebutホロメンの〈宝鐘マリン〉をhBP02-032〈宝鐘マリン〉にBloomさせました。このとき、ブルームエフェクト「宝鐘の海賊団」を使用しませんでした。その後、同ターン中にhBP06-090〈ブルームステージ〉を使用して、hBP02-032〈宝鐘マリン〉をもう一度hBP02-032〈宝鐘マリン〉にBloomさせました。この2度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用することはできますか？
+hBP06,hBP06-090,ブルームステージ,https://hololive-official-cardgame.com/cardlist/?id=1567&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-090_U.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：みゃーこカードナンバー：hBP06-090,3,"Q: Q このターンに、自分のDebutの〈ジジ・ムリン〉をhSD13-011〈ジジ・ムリン〉にBloomさせ、hSD13-011〈ジジ・ムリン〉のブルームエフェクト「I am Gonathan G.」の能力で重なっているDebutの〈ジジ・ムリン〉をアーカイブしました。 この場合、hBP06-090〈ブルームステージ〉を使ってもう一度Bloomさせることはできますか？
+A: A はい、「このターンにDebutホロメンからBloomした1stホロメン」であるためできます。
+
+Q: Q 自分のステージのDebutホロメンの〈宝鐘マリン〉をhBP02-032〈宝鐘マリン〉にBloomさせました。このとき、ブルームエフェクト「宝鐘の海賊団」を使用しませんでした。その後、同ターン中にhBP06-090〈ブルームステージ〉を使用して、hBP02-032〈宝鐘マリン〉をもう一度hBP02-032〈宝鐘マリン〉にBloomさせました。この2度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用することはできますか？
 A: A いいえ、使用できません。 ブルームエフェクトはすべて強制発揮のため、すでに1度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用している扱いとなります。 そのため『自分のブルームエフェクト「宝鐘の海賊団」はターンに1回しか使えない。』が有効となっており、同じターンの間、ブルームエフェクト「宝鐘の海賊団」は使用できません。
 
 Q: Q 自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。 このターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？
-A: A いいえ、できません。 hBP06-090〈ブルームステージ〉は、真下にあるカードがDebutホロメンである1stホロメンをもう1回Bloomさせることができます。","カードタイプ
+A: A いいえ、できません。 「DebutホロメンからBloomした1stホロメン」ではなく、「1stホロメンからBloomした1stホロメン」に使用しているため、hBP06-090〈ブルームステージ〉でそのホロメンをもう一度Bloomさせることはできません。","カードタイプ
 サポート・イベント・LIMITED
 レアリティ
 U
@@ -2685,7 +2691,8 @@ U
 さかなへん
 カードナンバー：
 hBP06-099"
-hBP06,hBP06-100,Chattino,https://hololive-official-cardgame.com/cardlist/?id=1577&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-100_C.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：いじゅういんカードナンバー：hBP06-100,0,,"カードタイプ
+hBP06,hBP06-100,Chattino,https://hololive-official-cardgame.com/cardlist/?id=1577&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-100_C.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：いじゅういんカードナンバー：hBP06-100,1,"Q: Q hBP01-114〈石の斧〉が付いている残りHP10のhBP08-019〈ラオーラ・パンテーラ〉がアーツ「この幸せをシェアしよう」を使いました。 この場合、10ダメージを受ける前にデッキからhBP06-100〈Chattino〉を先に付けることはできますか？
+A: A はい、できます。","カードタイプ
 サポート・マスコット
 レアリティ
 C
@@ -3199,7 +3206,10 @@ SP推しスキル
 望田とうり
 カードナンバー：
 hBP06-004"
-hBP06,hBP06-005,ハコス・ベールズ,https://hololive-official-cardgame.com/cardlist/?id=1598&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-005_OUR.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：株式会社ジーアングルカードナンバー：hBP06-005,3,"Q: Q hBP06-005〈ハコス・ベールズ〉のSP推しスキル「🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲」の能力は、サイコロを振らずに処理を終えることはできますか？
+hBP06,hBP06-005,ハコス・ベールズ,https://hololive-official-cardgame.com/cardlist/?id=1598&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-005_OUR.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：株式会社ジーアングルカードナンバー：hBP06-005,4,"Q: Q hBP08-045〈ハコス・ベールズ〉のコラボエフェクト「今年は豊作になりそうやねん！」の能力を使った後、hBP06-005〈ハコス・ベールズ〉の推しスキル「混沌の化身」の能力でサイコロを振り、6が出ました。 この場合、12枚になるまでカードを引かず、6枚まで引くことはできますか？
+A: A いいえ、できません。 この場合、サイコロの目の数すべてを倍として扱うため、必ず12枚になるまで引きます。
+
+Q: Q hBP06-005〈ハコス・ベールズ〉のSP推しスキル「🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲」の能力は、サイコロを振らずに処理を終えることはできますか？
 A: A いいえ、できません。
 
 Q: Q hBP06-005〈ハコス・ベールズ〉の推しスキル「混沌の化身」の能力は、サイコロを振り、出た目の数と同じになるまでカードを引かなければなりませんか？
@@ -3274,7 +3284,7 @@ SP推しスキル
 カードナンバー：
 hBP06-007"
 hBP06,hBP06-008,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1601&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-008_OUR.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：gahaカードナンバー：hBP06-008,4,"Q: Q 自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。 このターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？
-A: A いいえ、できません。 hBP06-090〈ブルームステージ〉は、真下にあるカードがDebutホロメンである1stホロメンをもう1回Bloomさせることができます。
+A: A いいえ、できません。 「DebutホロメンからBloomした1stホロメン」ではなく、「1stホロメンからBloomした1stホロメン」に使用しているため、hBP06-090〈ブルームステージ〉でそのホロメンをもう一度Bloomさせることはできません。
 
 Q: Q hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」の能力は、先攻1ターン目でも使えるサポートカードの枚数は2枚になりますか？
 A: A いいえ、なりません。
@@ -3305,7 +3315,7 @@ gaha
 カードナンバー：
 hBP06-008"
 hBP06,hBP06-008,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1605&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-008_SEC.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：gahaカードナンバー：hBP06-008,4,"Q: Q 自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。 このターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？
-A: A いいえ、できません。 hBP06-090〈ブルームステージ〉は、真下にあるカードがDebutホロメンである1stホロメンをもう1回Bloomさせることができます。
+A: A いいえ、できません。 「DebutホロメンからBloomした1stホロメン」ではなく、「1stホロメンからBloomした1stホロメン」に使用しているため、hBP06-090〈ブルームステージ〉でそのホロメンをもう一度Bloomさせることはできません。
 
 Q: Q hBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」の能力は、先攻1ターン目でも使えるサポートカードの枚数は2枚になりますか？
 A: A いいえ、なりません。
@@ -5559,11 +5569,14 @@ LIMITED:ターンに1枚しか使えない。
 ぱとり
 カードナンバー：
 hBP06-089"
-hBP06,hBP06-090,ブルームステージ,https://hololive-official-cardgame.com/cardlist/?id=1690&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-090_S.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：みゃーこカードナンバー：hBP06-090,2,"Q: Q 自分のステージのDebutホロメンの〈宝鐘マリン〉をhBP02-032〈宝鐘マリン〉にBloomさせました。このとき、ブルームエフェクト「宝鐘の海賊団」を使用しませんでした。その後、同ターン中にhBP06-090〈ブルームステージ〉を使用して、hBP02-032〈宝鐘マリン〉をもう一度hBP02-032〈宝鐘マリン〉にBloomさせました。この2度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用することはできますか？
+hBP06,hBP06-090,ブルームステージ,https://hololive-official-cardgame.com/cardlist/?id=1690&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-090_S.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：みゃーこカードナンバー：hBP06-090,3,"Q: Q このターンに、自分のDebutの〈ジジ・ムリン〉をhSD13-011〈ジジ・ムリン〉にBloomさせ、hSD13-011〈ジジ・ムリン〉のブルームエフェクト「I am Gonathan G.」の能力で重なっているDebutの〈ジジ・ムリン〉をアーカイブしました。 この場合、hBP06-090〈ブルームステージ〉を使ってもう一度Bloomさせることはできますか？
+A: A はい、「このターンにDebutホロメンからBloomした1stホロメン」であるためできます。
+
+Q: Q 自分のステージのDebutホロメンの〈宝鐘マリン〉をhBP02-032〈宝鐘マリン〉にBloomさせました。このとき、ブルームエフェクト「宝鐘の海賊団」を使用しませんでした。その後、同ターン中にhBP06-090〈ブルームステージ〉を使用して、hBP02-032〈宝鐘マリン〉をもう一度hBP02-032〈宝鐘マリン〉にBloomさせました。この2度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用することはできますか？
 A: A いいえ、使用できません。 ブルームエフェクトはすべて強制発揮のため、すでに1度目のBloomで、ブルームエフェクト「宝鐘の海賊団」を使用している扱いとなります。 そのため『自分のブルームエフェクト「宝鐘の海賊団」はターンに1回しか使えない。』が有効となっており、同じターンの間、ブルームエフェクト「宝鐘の海賊団」は使用できません。
 
 Q: Q 自分のステージのDebutホロメンを1stホロメンにBloomさせました。その後、hBP06-090〈ブルームステージ〉を使用し、この1stホロメンを別の1stホロメンにBloomさせました。 このターンにhBP06-008〈夏色まつり〉のSP推しスキル「絶対勝ちたい！！！！！！！」を使用した場合、hBP06-090〈ブルームステージ〉を使用して、この1stホロメンをもう一度Bloomできますか？
-A: A いいえ、できません。 hBP06-090〈ブルームステージ〉は、真下にあるカードがDebutホロメンである1stホロメンをもう1回Bloomさせることができます。","カードタイプ
+A: A いいえ、できません。 「DebutホロメンからBloomした1stホロメン」ではなく、「1stホロメンからBloomした1stホロメン」に使用しているため、hBP06-090〈ブルームステージ〉でそのホロメンをもう一度Bloomさせることはできません。","カードタイプ
 サポート・イベント・LIMITED
 レアリティ
 S
@@ -5663,7 +5676,8 @@ S
 さかなへん
 カードナンバー：
 hBP06-099"
-hBP06,hBP06-100,Chattino,https://hololive-official-cardgame.com/cardlist/?id=1697&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-100_S.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：いじゅういんカードナンバー：hBP06-100,0,,"カードタイプ
+hBP06,hBP06-100,Chattino,https://hololive-official-cardgame.com/cardlist/?id=1697&%2Fcardlist%2Fcardsearch_ex=&expansion=hBP06&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP06/hBP06-100_S.png,2025年12月19日(金),ブースターパック「アヤカシヴァーミリオン」,イラストレーター名：いじゅういんカードナンバー：hBP06-100,1,"Q: Q hBP01-114〈石の斧〉が付いている残りHP10のhBP08-019〈ラオーラ・パンテーラ〉がアーツ「この幸せをシェアしよう」を使いました。 この場合、10ダメージを受ける前にデッキからhBP06-100〈Chattino〉を先に付けることはできますか？
+A: A はい、できます。","カードタイプ
 サポート・マスコット
 レアリティ
 S
