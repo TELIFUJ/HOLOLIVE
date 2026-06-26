@@ -1,23 +1,4 @@
 expansion,card_code,name_ja,card_page_url,image_url,release_dates,products,illustrator_name,qa_count,qa_text,effect_text
-hPC01,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=841&%2Fcardlist%2Fcardsearch_ex=&expansion=hPC01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_SR.png,2025年05月02日(金),【イベント物販／hololive production OFFICIAL SHOP限定商品】オフィシャルホロカコレクション-PCセット-,イラストレーター名：yukiカードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
-A: A はい、されます。
-
-Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
-A: A いいえ、使用できません。
-
-Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
-A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
-サポート・アイテム
-レアリティ
-SR
-収録商品
-【イベント物販／hololive production OFFICIAL SHOP限定商品】オフィシャルホロカコレクション-PCセット-
-能力テキスト
-自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
-イラストレーター名：
-yuki
-カードナンバー：
-hBP01-104"
 hPC01,hBP02-076,カスタムパソコン,https://hololive-official-cardgame.com/cardlist/?id=844&%2Fcardlist%2Fcardsearch_ex=&expansion=hPC01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-076_SR.png,2025年05月02日(金),【イベント物販／hololive production OFFICIAL SHOP限定商品】オフィシャルホロカコレクション-PCセット-,イラストレーター名：pbjカードナンバー：hBP02-076,1,"Q: Q hBP02-076〈カスタムパソコン〉は、手札にDebutホロメンが1枚も無い時に使用できますか？
 A: A いいえ、使用できません。 プレイに際し、「自分の手札のDebutホロメン1枚を公開し、デッキの下に戻す。」を行う必要があるため、1枚も無い場合は使用できません。","カードタイプ
 サポート・アイテム
@@ -76,3 +57,23 @@ LIMITED:ターンに1枚しか使えない。
 yuki
 カードナンバー：
 hSD01-019"
+hPC01,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=841&%2Fcardlist%2Fcardsearch_ex=&expansion=hPC01&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_SR.png,2025年05月02日(金) / 2026年07月01日(水),【イベント物販／hololive production OFFICIAL SHOP限定商品】オフィシャルホロカコレクション-PCセット- / 【使用可能カード】セレクションカップ,イラストレーター名：yukiカードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
+A: A はい、されます。
+
+Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
+A: A いいえ、使用できません。
+
+Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
+A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
+サポート・アイテム
+レアリティ
+SR
+収録商品
+【イベント物販／hololive production OFFICIAL SHOP限定商品】オフィシャルホロカコレクション-PCセット-
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
+イラストレーター名：
+yuki
+カードナンバー：
+hBP01-104"
