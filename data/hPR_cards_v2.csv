@@ -1768,29 +1768,6 @@ Bloomレベル
 高崎律
 カードナンバー：
 hBP01-020"
-hPR,hBP01-021,ときのそら,https://hololive-official-cardgame.com/cardlist/?id=189&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-021_P.png,,PRカード,カードナンバー：hBP01-021,1,"Q: Q hBP04-089〈ツートンカラーパソコン〉の「色が1色で異なる色のホロメン」とはどういう意味ですか？
-A: A そのホロメンが持つ色が1色のみであり、2人以上いることを指します。 例としてhBP01-021〈ときのそら〉は持っている色が1色ですが、hSD01-013〈SorAZ〉は持っている色が2色となります。","カードタイプ
-ホロメン
-タグ
-#JP
-#0期生
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-みんな～こんそめ～　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP01-021"
 hPR,hBP01-022,ときのそら,https://hololive-official-cardgame.com/cardlist/?id=205&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-022_P.png,,PRカード,カードナンバー：hBP01-022,0,,"カードタイプ
 ホロメン
 タグ
@@ -1858,51 +1835,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP01-024"
-hPR,hBP01-026,ベスティア・ゼータ,https://hololive-official-cardgame.com/cardlist/?id=206&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-026_P.png,,PRカード,カードナンバー：hBP01-026,1,"Q: Q hBP01-026〈ベスティア・ゼータ〉のブルームエフェクト「新たな運命」は1stホロメンからBloomしても能力は発揮しますか？
-A: A いいえ、発揮しません。","カードタイプ
-ホロメン
-タグ
-#ID
-#ID3期生
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-110
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-新たな運命
-DebutからBloomした時、自分のデッキから、#ID3期生を持つBuzz以外の[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。
-アーツ
-ステージみんな「私のもの」　30
-カードナンバー：
-hBP01-026"
-hPR,hBP01-028,IRyS,https://hololive-official-cardgame.com/cardlist/?id=509&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-028_P.png,,PRカード,カードナンバー：hBP01-028,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Promise
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-ハイRyS！　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP01-028"
 hPR,hBP01-030,IRyS,https://hololive-official-cardgame.com/cardlist/?id=207&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-030_P.png,,PRカード,カードナンバー：hBP01-030,2,"Q: Q センターホロメンとコラボホロメンに〈IRyS〉が1人ずついます。それぞれをhBP01-030〈IRyS〉にBloomした場合、ブルームエフェクト「ステージを希望で包もう！」が合計2回発揮されることで、センターホロメンとコラボホロメンのアーツは合計＋60されますか？
 A: A はい、効果が重複して適用されてアーツダメージが合計+60されます。
 
@@ -1930,33 +1862,6 @@ Bloomレベル
 一生懸命歌うから見ててね！　40
 カードナンバー：
 hBP01-030"
-hPR,hBP01-031,IRyS,https://hololive-official-cardgame.com/cardlist/?id=488&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-031_P.png,,PRカード,イラストレーター名：mizuカードナンバー：hBP01-031,1,"Q: Q hBP01-031〈IRyS〉のコラボエフェクト「希望の庭園」の能力でホロパワーにあるカードを見た時、必ず1枚を手札に加え、デッキの上から1枚をホロパワーに置かなければなりませんか？
-A: A はい、ホロパワーが１枚でもある場合は加えなければなりません。","カードタイプ
-ホロメン
-タグ
-#EN
-#Promise
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-200
-Bloomレベル
-2nd
-バトンタッチ
-キーワード
-希望の庭園
-自分のホロパワーを見る。その中から1枚を公開し、手札に加える。そして自分のデッキの上から1枚をホロパワーにする。
-アーツ
-約束の力　50+
-自分の#Promiseを持つホロメン1人につき、このアーツ+20。
-イラストレーター名：
-mizu
-カードナンバー：
-hBP01-031"
 hPR,hBP01-032,アキ・ローゼンタール,https://hololive-official-cardgame.com/cardlist/?id=178&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-032_P.png,,PRカード,カードナンバー：hBP01-032,0,,"カードタイプ
 ホロメン
 タグ
@@ -2099,55 +2004,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP01-038"
-hPR,hBP01-039,兎田ぺこら,https://hololive-official-cardgame.com/cardlist/?id=1720&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-039_P.png,,PRカード,イラストレーター名：憂姫はぐれカードナンバー：hBP01-039,1,"Q: Q hBP01-039〈兎田ぺこら〉のコラボエフェクト「ギャラクシーアイドル」はエールデッキにカードが無い場合でも、能力でサイコロを振ることはできますか？
-A: A はい、できます。","カードタイプ
-ホロメン
-タグ
-#JP
-#3期生
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-60
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-ギャラクシーアイドル
-自分の推しホロメンが〈兎田ぺこら〉の時、サイコロを1回振れる:偶数の時、自分のエールデッキの上から1枚を、自分のホロメンに送る。
-アーツ
-無重力ジャンプ！　30
-イラストレーター名：
-憂姫はぐれ
-カードナンバー：
-hBP01-039"
-hPR,hBP01-041,兎田ぺこら,https://hololive-official-cardgame.com/cardlist/?id=209&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-041_P.png,,PRカード,カードナンバー：hBP01-041,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#3期生
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-90
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-成長した兎田ぺこらを
-自分のエールデッキの上から1枚を、自分のセンターホロメンかコラボホロメンに送る。
-アーツ
-見逃しちゃだめぺこだよ！　30
-カードナンバー：
-hBP01-041"
 hPR,hBP01-042,兎田ぺこら,https://hololive-official-cardgame.com/cardlist/?id=1443&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-042_P.png,,PRカード,イラストレーター名：憂姫はぐれカードナンバー：hBP01-042,0,,"カードタイプ
 ホロメン
 タグ
@@ -2264,74 +2120,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP01-048"
-hPR,hBP01-050,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=211&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-050_P.png,,PRカード,カードナンバー：hBP01-050,4,"Q: Q 自分のセンターホロメンが赤の2ndホロメンでコラボホロメンがhBP01-050〈風真いろは〉の時、相手がhBP01-050〈風真いろは〉へアーツを使いました。 この場合、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」を使って、赤のセンターポジションの2ndホロメンが代わりにダメージを受けることはできますか？
-A: A はい、できます。
-
-Q: Q hBP01-050〈風真いろは〉のアーツ「元気を全力でお届けします！」はエールデッキにカードが無くても使用することはできますか？
-A: A はい、使用できます。
-
-Q: Q hBP01-050〈風真いろは〉のアーツ「元気を全力でお届けします！」のエールを送る能力は、エールの色を確認した後、エールを送るホロメンを選ぶことができますか？
-A: A はい、可能です。 エールデッキの上から1枚を表にして、その後エールを送るホロメンを選んでください。
-
-Q: Q 相手のhBP01-050〈風真いろは〉のギフト「用心棒」が発揮している状態で、hBP01-009〈天音かなた〉の〈こんかなた～〉を使用することはできますか？
-A: A アーツの使用を宣言できますが、正常にアーツの対象を選ぶことができないため、アーツを使ったことにはならず、ダメージを与えることはできません。 [2025/03/11更新]hBP01-009〈天音かなた〉にhBP01-114〈石の斧〉が付いている場合でも、「このツールが付いているホロメンがアーツを使った時」能力は発揮しません。","カードタイプ
-ホロメン
-タグ
-#JP
-#秘密結社holoX
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-140
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-用心棒
-[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない（特殊ダメージは除く）。
-アーツ
-元気を全力でお届けします！　20
-自分のエールデッキの上から1枚を、自分の〈風真いろは〉以外の#秘密結社holoXを持つホロメンに送る。
-カードナンバー：
-hBP01-050"
-hPR,hBP01-050,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=1733&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-050_P_03.png,,PRカード,イラストレーター名：Honshinカードナンバー：hBP01-050,4,"Q: Q 自分のセンターホロメンが赤の2ndホロメンでコラボホロメンがhBP01-050〈風真いろは〉の時、相手がhBP01-050〈風真いろは〉へアーツを使いました。 この場合、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」を使って、赤のセンターポジションの2ndホロメンが代わりにダメージを受けることはできますか？
-A: A はい、できます。
-
-Q: Q hBP01-050〈風真いろは〉のアーツ「元気を全力でお届けします！」はエールデッキにカードが無くても使用することはできますか？
-A: A はい、使用できます。
-
-Q: Q hBP01-050〈風真いろは〉のアーツ「元気を全力でお届けします！」のエールを送る能力は、エールの色を確認した後、エールを送るホロメンを選ぶことができますか？
-A: A はい、可能です。 エールデッキの上から1枚を表にして、その後エールを送るホロメンを選んでください。
-
-Q: Q 相手のhBP01-050〈風真いろは〉のギフト「用心棒」が発揮している状態で、hBP01-009〈天音かなた〉の〈こんかなた～〉を使用することはできますか？
-A: A アーツの使用を宣言できますが、正常にアーツの対象を選ぶことができないため、アーツを使ったことにはならず、ダメージを与えることはできません。 [2025/03/11更新]hBP01-009〈天音かなた〉にhBP01-114〈石の斧〉が付いている場合でも、「このツールが付いているホロメンがアーツを使った時」能力は発揮しません。","カードタイプ
-ホロメン
-タグ
-#JP
-#秘密結社holoX
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-140
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-用心棒
-[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない。ただし、特殊ダメージは除く。
-アーツ
-元気を全力でお届けします！　20
-自分のエールデッキの上から1枚を、自分の〈風真いろは〉以外の#秘密結社holoXを持つホロメンに送る。
-イラストレーター名：
-Honshin
-カードナンバー：
-hBP01-050"
 hPR,hBP01-052,アイラニ・イオフィフティーン,https://hololive-official-cardgame.com/cardlist/?id=510&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-052_P.png,,PRカード,カードナンバー：hBP01-052,0,,"カードタイプ
 ホロメン
 タグ
@@ -2355,192 +2143,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP01-052"
-hPR,hBP01-054,アイラニ・イオフィフティーン,https://hololive-official-cardgame.com/cardlist/?id=212&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-054_P.png,,PRカード,カードナンバー：hBP01-054,1,"Q: Q hBP01-054〈アイラニ・イオフィフティーン〉のブルームエフェクト「緑の光が広がる海」の能力で、このカード以外の「アイラニ・イオフィフティーン」にエールを送ることはできますか？
-A: A いいえ、できません。","カードタイプ
-ホロメン
-タグ
-#ID
-#ID1期生
-#絵
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-緑の光が広がる海
-自分のエールデッキの上から1枚を、自分の〈アイラニ・イオフィフティーン〉以外の#IDを持つホロメンに送る。
-アーツ
-楽しみにしてるよ！　30
-カードナンバー：
-hBP01-054"
-hPR,hBP01-055,アイラニ・イオフィフティーン,https://hololive-official-cardgame.com/cardlist/?id=490&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-055_P.png,,PRカード,イラストレーター名：高崎律カードナンバー：hBP01-055,2,"Q: Q hBP01-055〈アイラニ・イオフィフティーン〉のコラボエフェクト「AREA 15」の能力に表記されている「自分のアーカイブのエール１枚ずつを、自分の#IDを持つホロメン１～３人に送れる。」とは、アーカイブのエールを1種類ずつ選んで１～３人に送れるということでしょうか？
-A: A いいえ、１～３人にアーカイブのエールの種類を問わず１枚ずつ送ることができます。
-
-Q: Q hBP01-055〈アイラニ・イオフィフティーン〉のコラボエフェクト「AREA 15」の「エール１枚ずつ」とは色1色につき、1枚ですか？
-A: A いいえ、エールを送るホロメン1人につき、1枚ずつになります。 同じ色も選択することができます。","カードタイプ
-ホロメン
-タグ
-#ID
-#ID1期生
-#絵
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-180
-Bloomレベル
-2nd
-バトンタッチ
-キーワード
-AREA 15
-自分のアーカイブのエール1枚ずつを、自分の#IDを持つホロメン1～3人に送れる。
-アーツ
-リレーションスカイ　100+
-自分のステージに〈アイラニ・イオフィフティーン〉以外の#IDを持つホロメンがいる時、このアーツ+50。
-イラストレーター名：
-高崎律
-カードナンバー：
-hBP01-055"
-hPR,hBP01-056,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=192&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-056_P.png,,PRカード,カードナンバー：hBP01-056,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#秘密結社holoX
-#トリ
-#お酒
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-皆さん、待っ鷹ね？　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP01-056"
-hPR,hBP01-060,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=213&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-060_P.png,,PRカード,カードナンバー：hBP01-060,1,"Q: Q hBP01-060〈鷹嶺ルイ〉のブルームエフェクト「本当にみんなのおかげ！！」は1stホロメンからBloomしても能力は発揮しますか？
-A: A いいえ、発揮しません。","カードタイプ
-ホロメン
-タグ
-#JP
-#秘密結社holoX
-#トリ
-#お酒
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-本当にみんなのおかげ！！
-DebutからBloomした時、自分の手札1枚をアーカイブできる:自分のデッキを2枚引く。
-アーツ
-しっかりついてきてよね！　40
-カードナンバー：
-hBP01-060"
-hPR,hBP01-061,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=491&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-061_P.png,,PRカード,イラストレーター名：でいりーカードナンバー：hBP01-061,2,"Q: Q hBP01-061〈鷹嶺ルイ〉のアーツ「ホークレイヴ」は能力で必ず1枚以上アーカイブしなければならないですか？
-A: A いいえ、1枚もアーカイブしないことを選べます。
-
-Q: Q hBP01-061〈鷹嶺ルイ〉のブルームエフェクト「組織の司令塔」は、手札に戻せるホロメンがあっても戻さないことを選べますか？
-A: A はい、選べます。 この能力は「手札に戻せる。」と表記されているので戻さないことを選べます。","カードタイプ
-ホロメン
-タグ
-#JP
-#秘密結社holoX
-#トリ
-#お酒
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-190
-Bloomレベル
-2nd
-バトンタッチ
-キーワード
-組織の司令塔
-自分のアーカイブの#秘密結社holoXを持つホロメン1～2枚を手札に戻せる。
-アーツ
-ホークレイヴ　60
-自分の手札1～5枚をアーカイブできる:相手のセンターホロメンかコラボホロメンどちらかに、アーカイブしたカード1枚につき特殊ダメージ20を与える。
-イラストレーター名：
-でいりー
-カードナンバー：
-hBP01-061"
-hPR,hBP01-062,小鳥遊キアラ,https://hololive-official-cardgame.com/cardlist/?id=193&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-062_P.png,,PRカード,カードナンバー：hBP01-062,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Myth
-#トリ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-90
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-キッケリキー！　20+
-自分の手札1枚をアーカイブできる:このアーツ+20。
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP01-062"
-hPR,hBP01-065,小鳥遊キアラ,https://hololive-official-cardgame.com/cardlist/?id=214&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-065_P.png,,PRカード,カードナンバー：hBP01-065,3,"Q: Q hBP01-065〈小鳥遊キアラ〉のブルームエフェクト「Let's do this!!!!」で、デッキの上から見た3枚の中にホロメンがあった場合でも、そのホロメンを手札に加えずに、3枚すべてをアーカイブできますか？
-A: A はい、できます。
-
-Q: Q hBP01-121〈Kotori〉がセットされている1stホロメンのhBP01-065〈小鳥遊キアラ〉に対して、1stホロメンのhBP01-066〈小鳥遊キアラ〉をBloomした場合、hBP01-121〈Kotori〉の能力でカードを引くことができますか？
-A: A いいえ、できません。 Bloomレベルが上がるとは、Debutから1stホロメン、1stホロメンから2ndホロメンになることを指します。同じBloomレベルにBloomした場合は、Bloomレベルが上がったとは扱いません。
-
-Q: Q hBP01-065〈小鳥遊キアラ〉のブルームエフェクト「Let's do this!!!!」は、デッキの残り枚数が2枚以下の時に効果を解決できますか？
-A: A はい、できます。 その場合は、見る枚数は少なくなりますが、その後の効果は通常と同様に処理をします。","カードタイプ
-ホロメン
-タグ
-#EN
-#Myth
-#トリ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-110
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-Let's do this!!!!
-自分のデッキの上から3枚を見る。その中から、ホロメン1枚を公開し、手札に加える。そして残ったカードをアーカイブする。
-アーツ
-盛り上げたいとおもいます！　40
-カードナンバー：
-hBP01-065"
 hPR,hBP01-066,小鳥遊キアラ,https://hololive-official-cardgame.com/cardlist/?id=1450&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-066_P.png,,PRカード,イラストレーター名：タスキブカードナンバー：hBP01-066,4,"Q: Q hBP01-121〈Kotori〉がセットされている1stホロメンのhBP01-065〈小鳥遊キアラ〉に対して、1stホロメンのhBP01-066〈小鳥遊キアラ〉をBloomした場合、hBP01-121〈Kotori〉の能力でカードを引くことができますか？
 A: A いいえ、できません。 Bloomレベルが上がるとは、Debutから1stホロメン、1stホロメンから2ndホロメンになることを指します。同じBloomレベルにBloomした場合は、Bloomレベルが上がったとは扱いません。
 
@@ -2599,103 +2201,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP01-068"
-hPR,hBP01-070,尾丸ポルカ,https://hololive-official-cardgame.com/cardlist/?id=215&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-070_P_01.png,,PRカード,カードナンバー：hBP01-070,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#5期生
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-110
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-宴の始まりだ！
-自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。
-アーツ
-共依存　70
-このアーツは、このホロメンに〈座員〉が付いていないと使えない。
-カードナンバー：
-hBP01-070"
-hPR,hBP01-070,尾丸ポルカ,https://hololive-official-cardgame.com/cardlist/?id=1440&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-070_P_02.png,,PRカード,イラストレーター名：gahaカードナンバー：hBP01-070,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#5期生
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-110
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-宴の始まりだ！
-自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。
-アーツ
-共依存　70
-このアーツは、このホロメンに〈座員〉が付いていないと使えない。
-イラストレーター名：
-gaha
-カードナンバー：
-hBP01-070"
-hPR,hBP01-072,ハコス・ベールズ,https://hololive-official-cardgame.com/cardlist/?id=181&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-072_P.png,,PRカード,カードナンバー：hBP01-072,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Promise
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-80
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-WAZZUP!!　20
-このホロメンに赤エールが付いている時、サイコロを1回振れる:奇数の時、相手のコラボホロメンに特殊ダメージ20を与える。
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP01-072"
-hPR,hBP01-074,ハコス・ベールズ,https://hololive-official-cardgame.com/cardlist/?id=216&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-074_P.png,,PRカード,カードナンバー：hBP01-074,1,"Q: Q hBP01-074〈ハコス・ベールズ〉のブルームエフェクト「ネズミアイドルがいよいよ登場！」は1stホロメンからBloomしても能力は発揮しますか？
-A: A いいえ、発揮しません。","カードタイプ
-ホロメン
-タグ
-#EN
-#Promise
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-90
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-ネズミアイドルがいよいよ登場！
-DebutからBloomした時、自分のアーカイブの[Debutホロメンか1stホロメン]1枚を手札に戻せる:戻したカードが#ENを持つ時、相手のコラボホロメンに特殊ダメージ20を与える。
-アーツ
-楽しい時間の始まりだ！　30
-カードナンバー：
-hBP01-074"
 hPR,hBP01-075,ハコス・ベールズ,https://hololive-official-cardgame.com/cardlist/?id=492&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-075_P.png,,PRカード,イラストレーター名：COGAカードナンバー：hBP01-075,1,"Q: Q hBP01-075〈ハコス・ベールズ〉のコラボエフェクト「カオスシャッフル」の能力は、相手の手札が無い状態かつ、自分の手札が1枚以上ある状態の場合、効果の解決はできますか？
 A: A はい、能力は発揮されます。 一方のプレイヤーの手札が無い（0枚）の場合でも、手札を1枚以上持っているプレイヤーがいる場合は、そのプレイヤーだけ効果を解決して処理を終了します。","カードタイプ
 ホロメン
@@ -2919,75 +2424,6 @@ Bloomレベル
 高崎律
 カードナンバー：
 hBP01-087"
-hPR,hBP01-088,ムーナ・ホシノヴァ,https://hololive-official-cardgame.com/cardlist/?id=195&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-088_P.png,,PRカード,カードナンバー：hBP01-088,0,,"カードタイプ
-ホロメン
-タグ
-#ID
-#ID1期生
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-90
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-ムーン　ムーン　ムーナだよ！　10
-サイコロを1回振れる:偶数の時、相手のバックホロメン1人に特殊ダメージ20を与える（ダウンしても相手のライフは減らない）。
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP01-088"
-hPR,hBP01-090,ムーナ・ホシノヴァ,https://hololive-official-cardgame.com/cardlist/?id=219&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-090_P.png,,PRカード,カードナンバー：hBP01-090,0,,"カードタイプ
-ホロメン
-タグ
-#ID
-#ID1期生
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-110
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-ラピスラズリ
-自分のエールデッキから、[緑エールか青エール]1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。
-アーツ
-楽しみにしてて！！　20
-カードナンバー：
-hBP01-090"
-hPR,hBP01-090,ムーナ・ホシノヴァ,https://hololive-official-cardgame.com/cardlist/?id=2698&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-090_P_02.png,,PRカード,カードナンバー：hBP01-090,0,,"カードタイプ
-ホロメン
-タグ
-#ID
-#ID1期生
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-110
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-ラピスラズリ
-自分のエールデッキから、[緑エールか青エール]1枚を自分のホロメンに送る。そしてエールデッキをシャッフルする。
-アーツ
-楽しみにしてて！！　20
-カードナンバー：
-hBP01-090"
 hPR,hBP01-092,オーロ・クロニー,https://hololive-official-cardgame.com/cardlist/?id=183&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-092_P.png,,PRカード,カードナンバー：hBP01-092,0,,"カードタイプ
 ホロメン
 タグ
@@ -3010,29 +2446,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP01-092"
-hPR,hBP01-094,オーロ・クロニー,https://hololive-official-cardgame.com/cardlist/?id=220&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-094_P.png,,PRカード,カードナンバー：hBP01-094,1,"Q: Q hBP01-094〈オーロ・クロニー〉のブルームエフェクト「クロにちは！」の能力で赤のホロメンを指定し、エールデッキから赤エールを青のホロメンに送れますか。
-A: A はい、送れます。","カードタイプ
-ホロメン
-タグ
-#EN
-#Promise
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-クロにちは！
-自分のエールデッキから、自分の#Promiseを持つホロメン1人と同色のエール1枚を公開し、自分の#Promiseを持つホロメンに送る。そしてエールデッキをシャッフルする。
-アーツ
-忘れられないfesにしよう！　40
-カードナンバー：
-hBP01-094"
 hPR,hBP01-095,オーロ・クロニー,https://hololive-official-cardgame.com/cardlist/?id=494&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-095_P.png,,PRカード,イラストレーター名：syowカードナンバー：hBP01-095,3,"Q: Q 残りHP70のコラボホロメンhBP01-095〈オーロ・クロニー〉のアーツ「早送り」を使い、バックホロメンの〈不知火フレア〉を手札のhSD07-007〈不知火フレア〉にbloomさせました。 その後、ブルームエフェクト「また一つ成長した私を」を使い、hBP01-095〈オーロ・クロニー〉と交代させた場合、アーツを使うことはできますか？
 A: A いいえ、使えません。
 
@@ -3080,139 +2493,6 @@ LIMITED:ターンに1枚しか使えない。
 DSマイル
 カードナンバー：
 hBP01-102"
-hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=184&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P.png,,PRカード,イラストレーター名：JinArt KABAKURAカードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
-A: A はい、されます。
-
-Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
-A: A いいえ、使用できません。
-
-Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
-A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
-サポート・アイテム
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
-イラストレーター名：
-JinArt KABAKURA
-カードナンバー：
-hBP01-104"
-hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2686&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_02.png,,PRカード,イラストレーター名：イマフクカードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
-A: A はい、されます。
-
-Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
-A: A いいえ、使用できません。
-
-Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
-A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
-サポート・アイテム
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
-イラストレーター名：
-イマフク
-カードナンバー：
-hBP01-104"
-hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2687&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_03.png,,PRカード,イラストレーター名：瞭カードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
-A: A はい、されます。
-
-Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
-A: A いいえ、使用できません。
-
-Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
-A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
-サポート・アイテム
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
-イラストレーター名：
-瞭
-カードナンバー：
-hBP01-104"
-hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2688&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_04.png,,PRカード,イラストレーター名：瞭カードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
-A: A はい、されます。
-
-Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
-A: A いいえ、使用できません。
-
-Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
-A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
-サポート・アイテム
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
-イラストレーター名：
-瞭
-カードナンバー：
-hBP01-104"
-hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2689&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_05.png,,PRカード,イラストレーター名：瞭カードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
-A: A はい、されます。
-
-Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
-A: A いいえ、使用できません。
-
-Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
-A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
-サポート・アイテム
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
-イラストレーター名：
-瞭
-カードナンバー：
-hBP01-104"
-hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2690&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_06.png,,PRカード,イラストレーター名：瞭カードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
-A: A はい、されます。
-
-Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
-A: A いいえ、使用できません。
-
-Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
-A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
-サポート・アイテム
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
-イラストレーター名：
-瞭
-カードナンバー：
-hBP01-104"
-hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2691&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_07.png,,PRカード,イラストレーター名：瞭カードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
-A: A はい、されます。
-
-Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
-A: A いいえ、使用できません。
-
-Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
-A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
-サポート・アイテム
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
-イラストレーター名：
-瞭
-カードナンバー：
-hBP01-104"
 hPR,hBP01-108,じゃあ敵だね,https://hololive-official-cardgame.com/cardlist/?id=834&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-108_P.png,,PRカード,イラストレーター名：冬ゆきカードナンバー：hBP01-108,4,"Q: Q 自分のセンターホロメンがhBP08-104〈けはい〉が付いている〈水宮枢〉の時、hBP01-108〈じゃあ敵だね〉を使い、相手のセンターホロメンとバックホロメンを入れ替えました。 この場合、新たにセンターホロメンになったホロメンのバトンタッチに必要な無色は+1されますか？
 A: A はい、されます。 この能力は、hBP08-104〈けはい〉が付いている〈水宮枢〉がセンターホロメンかコラボホロメンである限り、相手の新たなセンターホロメンのバトンタッチに必要な無色も+1します。
 
@@ -3469,101 +2749,6 @@ Debut
 yadapot
 カードナンバー：
 hBP02-009"
-hPR,hBP02-011,白上フブキ,https://hololive-official-cardgame.com/cardlist/?id=1100&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-011_P_02.png,,PRカード,カードナンバー：hBP02-011,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#1期生
-#ゲーマーズ
-#ケモミミ
-#絵
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-白上から目をそらしちゃ
-自分のデッキから、#白上'sキャラクターを持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。
-アーツ
-ダメですよっ！　40
-カードナンバー：
-hBP02-011"
-hPR,hBP02-011,白上フブキ,https://hololive-official-cardgame.com/cardlist/?id=2699&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-011_P_03.png,,PRカード,カードナンバー：hBP02-011,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#1期生
-#ゲーマーズ
-#ケモミミ
-#絵
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-白上から目をそらしちゃ
-自分のデッキから、#白上'sキャラクターを持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。
-アーツ
-ダメですよっ！　40
-カードナンバー：
-hBP02-011"
-hPR,hBP02-014,白銀ノエル,https://hololive-official-cardgame.com/cardlist/?id=511&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-014_P.png,,PRカード,カードナンバー：hBP02-014,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#3期生
-#お酒
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-130
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-こんまっする～！　20
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP02-014"
-hPR,hBP02-018,パヴォリア・レイネ,https://hololive-official-cardgame.com/cardlist/?id=512&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-018_P.png,,PRカード,カードナンバー：hBP02-018,0,,"カードタイプ
-ホロメン
-タグ
-#ID
-#ID2期生
-#トリ
-#絵
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-ペルハティアン！　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP02-018"
 hPR,hBP02-019,パヴォリア・レイネ,https://hololive-official-cardgame.com/cardlist/?id=2041&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-019_P.png,,PRカード,カードナンバー：hBP02-019,0,,"カードタイプ
 ホロメン
 タグ
@@ -3588,104 +2773,6 @@ Debut
 Very Easy!　20
 カードナンバー：
 hBP02-019"
-hPR,hBP02-024,大神ミオ,https://hololive-official-cardgame.com/cardlist/?id=501&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-024_P.png,,PRカード,カードナンバー：hBP02-024,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#ゲーマーズ
-#ケモミミ
-#料理
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-90
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-うちうち、うちだよ～大神ミオだよ～　10
-自分のステージのエール1枚を、自分の#JPを持つホロメンに付け替えられる。
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP02-024"
-hPR,hBP02-024,大神ミオ,https://hololive-official-cardgame.com/cardlist/?id=1101&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-024_P_02.png,,PRカード,イラストレーター名：teffishカードナンバー：hBP02-024,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#ゲーマーズ
-#ケモミミ
-#料理
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-90
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-うちうち、うちだよ～大神ミオだよ～　10
-自分のステージのエール1枚を、自分の#JPを持つホロメンに付け替えられる。
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-イラストレーター名：
-teffish
-カードナンバー：
-hBP02-024"
-hPR,hBP02-028,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=201&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-028_P_2.png,,PRカード,イラストレーター名：あかさあいカードナンバー：hBP02-028,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#3期生
-#絵
-#海
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-宝鐘海賊団船長の宝鐘マリンですぅー！　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-イラストレーター名：
-あかさあい
-カードナンバー：
-hBP02-028"
-hPR,hBP02-028,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=502&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-028_P.png,,PRカード,カードナンバー：hBP02-028,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#3期生
-#絵
-#海
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-宝鐘海賊団船長の宝鐘マリンですぅー！　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP02-028"
 hPR,hBP02-029,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=507&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-029_P.png,,PRカード,イラストレーター名：しゅがおカードナンバー：hBP02-029,0,,"カードタイプ
 ホロメン
 タグ
@@ -3909,90 +2996,6 @@ Debut
 MON
 カードナンバー：
 hBP02-054"
-hPR,hBP02-061,一伊那尓栖,https://hololive-official-cardgame.com/cardlist/?id=515&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-061_P.png,,PRカード,カードナンバー：hBP02-061,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Myth
-#絵
-#海
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-140
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-WAH!　10
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP02-061"
-hPR,hBP02-065,ネリッサ・レイヴンクロフト,https://hololive-official-cardgame.com/cardlist/?id=1106&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-065_P.png,,PRカード,カードナンバー：hBP02-065,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Advent
-#歌
-#トリ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-90
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-Hiya darlings!　30+
-このホロメンに赤エールが付いている時、このアーツ+10。
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP02-065"
-hPR,hBP02-067,ネリッサ・レイヴンクロフト,https://hololive-official-cardgame.com/cardlist/?id=2045&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-067_P.png,,PRカード,カードナンバー：hBP02-067,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Advent
-#歌
-#トリ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-ネリッサとお茶会
-自分のデッキの上から3枚を見る。その中から、#歌を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
-アーツ
-コーヒーよりも紅茶です　20
-カードナンバー：
-hBP02-067"
-hPR,hBP02-079,爆発の魔法,https://hololive-official-cardgame.com/cardlist/?id=1107&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-079_P.png,,PRカード,カードナンバー：hBP02-079,1,"Q: Q hBP02-079〈爆発の魔法〉の「自分の#魔法を持つイベントはターンに1回しか使えない。」というのは、このカードは1ターンに1回しか使えないということですか？
-A: A いいえ、違います。 このカードを使った場合、そのターン中#魔法というタグを持っているイベント全てが使えません。","カードタイプ
-サポート・イベント
-タグ
-#魔法
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。自分の#魔法を持つイベントはターンに1回しか使えない。
-カードナンバー：
-hBP02-079"
 hPR,hBP02-080,秘密結社holoX,https://hololive-official-cardgame.com/cardlist/?id=1745&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-080_P_2.png,,PRカード,イラストレーター名：kobutaカードナンバー：hBP02-080,0,,"カードタイプ
 サポート・イベント・LIMITED
 レアリティ
@@ -4265,53 +3268,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP03-031"
-hPR,hBP03-036,小鳥遊キアラ,https://hololive-official-cardgame.com/cardlist/?id=2043&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-036_P.png,,PRカード,カードナンバー：hBP03-036,1,"Q: Q hBP03-036〈小鳥遊キアラ〉のブルームエフェクト「ハッピータイム」は、1枚もアーカイブせずにデッキの中を見ることはできますか？
-A: A はい、1枚もアーカイブせずにデッキをシャッフルして効果の解決を終えます。","カードタイプ
-ホロメン
-タグ
-#EN
-#Myth
-#トリ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-140
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-ハッピータイム
-自分のデッキから、〈小鳥遊キアラ〉1～4枚を公開し、アーカイブできる。そしてデッキをシャッフルする。
-アーツ
-鋼の翼　50
-カードナンバー：
-hBP03-036"
-hPR,hBP03-037,モココ・アビスガード,https://hololive-official-cardgame.com/cardlist/?id=1108&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-037_P.png,,PRカード,カードナンバー：hBP03-037,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Advent
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-80
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-フワワじゃないよ、モココだよ　20
-このアーツは、自分のセンターホロメンが〈フワワ・アビスガード〉の時、エール1枚を必要とせずに使える。
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP03-037"
 hPR,hBP03-038,モココ・アビスガード,https://hololive-official-cardgame.com/cardlist/?id=2700&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-038_P.png,,PRカード,カードナンバー：hBP03-038,1,"Q: Q hBP03-038〈モココ・アビスガード〉のブルームエフェクト「遊びの時間だー！」の能力で、自分のデッキからhBP03-050〈FUWAMOCO〉を手札に加えることはできますか?
 A: A はい、できます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。","カードタイプ
 ホロメン
@@ -4336,28 +3292,6 @@ DebutからBloomした時、自分のデッキから、1stホロメンの〈フ�
 モココとドーナツクッキング　30
 カードナンバー：
 hBP03-038"
-hPR,hBP03-040,フワワ・アビスガード,https://hololive-official-cardgame.com/cardlist/?id=851&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-040_P.png,,PRカード,カードナンバー：hBP03-040,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Advent
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-チワワじゃないよ、フワワだよ　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP03-040"
 hPR,hBP03-046,火威青,https://hololive-official-cardgame.com/cardlist/?id=852&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-046_P.png,,PRカード,カードナンバー：hBP03-046,0,,"カードタイプ
 ホロメン
 タグ
@@ -4382,115 +3316,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP03-046"
-hPR,hBP03-050,FUWAMOCO,https://hololive-official-cardgame.com/cardlist/?id=2475&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-050_P_03.png,,PRカード,イラストレーター名：dangdidiカードナンバー：hBP03-050,12,"Q: Q hBP03-050〈FUWAMOCO〉のエクストラ能力「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」とは、どういう意味ですか？
-A: A カード名として、〈フワワ・アビスガード〉、〈モココ・アビスガード〉、〈FUWAMOCO〉を持つことを指します。
-
-Q: Q hBP03-050〈FUWAMOCO〉のエクストラ「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」とは、ステージ以外にある場合でも〈フワワ・アビスガード〉〈モココ・アビスガード〉として扱いますか？
-A: A はい、扱います。
-
-Q: Q hBP04-089〈ツートンカラーパソコン〉を使い、自分のステージに色が1色で異なる色のホロメンとして、〈ときのそら〉と〈フワワ・アビスガード〉を選びました。 この場合、選んだホロメンと同色の1stホロメンとして、hSD01-013〈SorAZ〉とhBP03-050〈FUWAMOCO〉を手札に加えられますか？
-A: A はい、加えられます。
-
-Q: Q hBP04-049〈ムーナ・ホシノヴァ〉のアーツ「Shining Moon」の能力は、自分の他のホロメンがhBP03-050〈FUWAMOCO〉のみでも「+50」されますか？
-A: A はい、されます。
-
-Q: Q hBP03-109〈Ruffians〉の「自分のアーカイブの青エールを、自分の〈フワワ・アビスガード〉に送れる。」とは、hBP03-050〈FUWAMOCO〉にも送ることはできますか?
-A: A はい、できます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
-
-Q: Q 自分の推しホロメンがhBP03-004〈FUWAMOCO〉の時、hBP03-084〈ゴージャスパソコン〉でhBP03-050〈FUWAMOCO〉を手札に加えることはできますか？
-A: A はい、できます。 hBP03-050〈FUWAMOCO〉は赤でも青でもあるため、条件を満たします。
-
-Q: Q hBP03-043〈フワワ・アビスガード〉のアーツ「一緒に食べる?」で、自分のhBP03-050〈FUWAMOCO〉にエールを付け替えることはできますか?
-A: A はい、できます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
-
-Q: Q hBP03-039〈モココ・アビスガード〉のアーツ「もこもこしてる方」は、自分のセンターホロメンがhBP03-050〈FUWAMOCO〉の場合でも「+30」されますか?
-A: A はい、されます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
-
-Q: Q hBP03-042〈フワワ・アビスガード〉のブルームエフェクト「フワ花流水」は、他の自分のステージのホロメンがhBP03-050〈FUWAMOCO〉のみの場合でも特殊ダメージ「20」を与えることはできますか?
-A: A はい、与えられます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
-
-Q: Q hBP03-039〈モココ・アビスガード〉のギフト「魔界乃番犬の暴れん坊」は、自分のセンターホロメンがhBP03-050〈FUWAMOCO〉の場合でもお休みせずバックポジションに移動しますか?
-A: A はい、お休みせずに移動します。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
-
-Q: Q hBP03-038〈モココ・アビスガード〉のブルームエフェクト「遊びの時間だー！」の能力で、自分のデッキからhBP03-050〈FUWAMOCO〉を手札に加えることはできますか?
-A: A はい、できます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
-
-Q: Q hBP03-004〈FUWAMOCO〉の推しスキル「モコちゃん！」は、自分のhBP03-050〈FUWAMOCO〉にエールを送ることはできますか？
-A: A はい、できます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。","カードタイプ
-ホロメン
-タグ
-#EN
-#Advent
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-150
-Bloomレベル
-1st
-バトンタッチ
-アーツ
-魔界乃番犬シスターズ　40
-自分のエールデッキから、[赤エールか青エール]1枚を公開し、自分の#Adventを持つホロメンに送る。そしてエールデッキをシャッフルする。
-アーツ
-2人揃ってFUWAMOCOです！　60
-エクストラ
-このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う
-イラストレーター名：
-dangdidi
-カードナンバー：
-hBP03-050"
-hPR,hBP03-051,常闇トワ,https://hololive-official-cardgame.com/cardlist/?id=814&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-051_P.png,,PRカード,カードナンバー：hBP03-051,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#4期生
-#歌
-#シューター
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-110
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-こんやっぴー　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP03-051"
-hPR,hBP03-051,常闇トワ,https://hololive-official-cardgame.com/cardlist/?id=1396&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-051_P_02.png,,PRカード,イラストレーター名：花澤明カードナンバー：hBP03-051,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#4期生
-#歌
-#シューター
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-110
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-こんやっぴー　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-イラストレーター名：
-花澤明
-カードナンバー：
-hBP03-051"
 hPR,hBP03-054,常闇トワ,https://hololive-official-cardgame.com/cardlist/?id=2037&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-054_P.png,,PRカード,カードナンバー：hBP03-054,0,,"カードタイプ
 ホロメン
 タグ
@@ -4538,54 +3363,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP03-057"
-hPR,hBP03-059,ロボ子さん,https://hololive-official-cardgame.com/cardlist/?id=2131&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-059_P.png,,PRカード,イラストレーター名：兎未枝カードナンバー：hBP03-059,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#0期生
-#シューター
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-130
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-PONしたらその分
-自分のデッキの上から3枚を見る。その中から、#0期生を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
-アーツ
-笑顔になーーれっ　40
-イラストレーター名：
-兎未枝
-カードナンバー：
-hBP03-059"
-hPR,hBP03-059,ロボ子さん,https://hololive-official-cardgame.com/cardlist/?id=2701&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-059_P_02.png,,PRカード,カードナンバー：hBP03-059,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#0期生
-#シューター
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-130
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-PONしたらその分
-自分のデッキの上から3枚を見る。その中から、#0期生を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
-アーツ
-笑顔になーーれっ　40
-カードナンバー：
-hBP03-059"
 hPR,hBP03-061,戌神ころね,https://hololive-official-cardgame.com/cardlist/?id=1109&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-061_P.png,,PRカード,カードナンバー：hBP03-061,0,,"カードタイプ
 ホロメン
 タグ
@@ -4683,129 +3460,6 @@ Bloomレベル
 ぷるぷる、おつリス！！！　20
 カードナンバー：
 hBP03-076"
-hPR,hBP03-080,音乃瀬奏,https://hololive-official-cardgame.com/cardlist/?id=816&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-080_P.png,,PRカード,カードナンバー：hBP03-080,0,,"カードタイプ
-ホロメン
-タグ
-#DEV_IS
-#ReGLOSS
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-130
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-ドレミファソラシド～！　20
-アーツ
-音楽家の卵！ 音乃瀬～奏で～～～す！　50
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP03-080"
-hPR,hBP03-088,凸待ち,https://hololive-official-cardgame.com/cardlist/?id=820&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-088_P_1.png,,PRカード,イラストレーター名：夏色まつりカードナンバー：hBP03-088,7,"Q: Q ターンプレイヤーがhBP03-088〈凸待ち〉を使った時、コラボポジションに移動させるバックホロメンを選ぶのはどちらのプレイヤーですか？
-A: A hBP03-088〈凸待ち〉を使っていないプレイヤーになります。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、相手は自身のリセットステップでそのホロメンをバックポジションへ移動させますか？
-A: A はい、バックポジションへ移動させ、お休みさせます。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、「コラボした時」の能力は発揮されますか？
-A: A いいえ、されません。
-
-Q: Q 相手のバックポジションにホロメンがおらず、コラボポジションが不在の時、hBP03-088〈凸待ち〉は使用できますか？
-A: A いいえ、使用できません。 そのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、相手のお休みしているホロメンもコラボポジションへ移動させることはできますか？
-A: A はい、できます。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、コラボポジションにホロメンが移動した時、ホロパワーを貯めることはできますか？
-A: A いいえ、ホロパワーは「コラボする」時のみしか貯めることはできません。
-
-Q: Q hBP03-088〈凸待ち〉は、相手とライフの枚数が同じでも使用できますか？
-A: A いいえ、使用できません。","カードタイプ
-サポート・イベント・LIMITED
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-このカードは、自分のライフが相手より少ない時にしか使えない。
-相手のコラボホロメンがいない時、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。
-LIMITED:ターンに1枚しか使えない。
-イラストレーター名：
-夏色まつり
-カードナンバー：
-hBP03-088"
-hPR,hBP03-088,凸待ち,https://hololive-official-cardgame.com/cardlist/?id=821&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-088_P_2.png,,PRカード,イラストレーター名：森カリオペカードナンバー：hBP03-088,7,"Q: Q ターンプレイヤーがhBP03-088〈凸待ち〉を使った時、コラボポジションに移動させるバックホロメンを選ぶのはどちらのプレイヤーですか？
-A: A hBP03-088〈凸待ち〉を使っていないプレイヤーになります。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、相手は自身のリセットステップでそのホロメンをバックポジションへ移動させますか？
-A: A はい、バックポジションへ移動させ、お休みさせます。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、「コラボした時」の能力は発揮されますか？
-A: A いいえ、されません。
-
-Q: Q 相手のバックポジションにホロメンがおらず、コラボポジションが不在の時、hBP03-088〈凸待ち〉は使用できますか？
-A: A いいえ、使用できません。 そのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、相手のお休みしているホロメンもコラボポジションへ移動させることはできますか？
-A: A はい、できます。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、コラボポジションにホロメンが移動した時、ホロパワーを貯めることはできますか？
-A: A いいえ、ホロパワーは「コラボする」時のみしか貯めることはできません。
-
-Q: Q hBP03-088〈凸待ち〉は、相手とライフの枚数が同じでも使用できますか？
-A: A いいえ、使用できません。","カードタイプ
-サポート・イベント・LIMITED
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-このカードは、自分のライフが相手より少ない時にしか使えない。
-相手のコラボホロメンがいない時、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。
-LIMITED:ターンに1枚しか使えない。
-イラストレーター名：
-森カリオペ
-カードナンバー：
-hBP03-088"
-hPR,hBP03-088,凸待ち,https://hololive-official-cardgame.com/cardlist/?id=822&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-088_P_3.png,,PRカード,イラストレーター名：綺々羅々ヴィヴィカードナンバー：hBP03-088,7,"Q: Q ターンプレイヤーがhBP03-088〈凸待ち〉を使った時、コラボポジションに移動させるバックホロメンを選ぶのはどちらのプレイヤーですか？
-A: A hBP03-088〈凸待ち〉を使っていないプレイヤーになります。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、相手は自身のリセットステップでそのホロメンをバックポジションへ移動させますか？
-A: A はい、バックポジションへ移動させ、お休みさせます。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、「コラボした時」の能力は発揮されますか？
-A: A いいえ、されません。
-
-Q: Q 相手のバックポジションにホロメンがおらず、コラボポジションが不在の時、hBP03-088〈凸待ち〉は使用できますか？
-A: A いいえ、使用できません。 そのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、相手のお休みしているホロメンもコラボポジションへ移動させることはできますか？
-A: A はい、できます。
-
-Q: Q hBP03-088〈凸待ち〉を使用し、コラボポジションにホロメンが移動した時、ホロパワーを貯めることはできますか？
-A: A いいえ、ホロパワーは「コラボする」時のみしか貯めることはできません。
-
-Q: Q hBP03-088〈凸待ち〉は、相手とライフの枚数が同じでも使用できますか？
-A: A いいえ、使用できません。","カードタイプ
-サポート・イベント・LIMITED
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-このカードは、自分のライフが相手より少ない時にしか使えない。
-相手のコラボホロメンがいない時、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。
-LIMITED:ターンに1枚しか使えない。
-イラストレーター名：
-綺々羅々ヴィヴィ
-カードナンバー：
-hBP03-088"
 hPR,hBP03-092,ホロライブ0期生,https://hololive-official-cardgame.com/cardlist/?id=1397&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-092_P.png,,PRカード,イラストレーター名：POROカードナンバー：hBP03-092,0,,"カードタイプ
 サポート・イベント・LIMITED
 レアリティ
@@ -4950,28 +3604,6 @@ SP推しスキル
 はまなし
 カードナンバー：
 hBP04-003"
-hPR,hBP04-008,博衣こより,https://hololive-official-cardgame.com/cardlist/?id=1110&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-008_P.png,,PRカード,カードナンバー：hBP04-008,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#秘密結社holoX
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-こんこよ～　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP04-008"
 hPR,hBP04-009,博衣こより,https://hololive-official-cardgame.com/cardlist/?id=1089&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-009_P_02.png,,PRカード,イラストレーター名：もちぷよ/信澤収カードナンバー：hBP04-009,0,,"カードタイプ
 ホロメン
 タグ
@@ -4995,30 +3627,6 @@ Debut
 もちぷよ/信澤収
 カードナンバー：
 hBP04-009"
-hPR,hBP04-012,博衣こより,https://hololive-official-cardgame.com/cardlist/?id=2702&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-012_P.png,,PRカード,カードナンバー：hBP04-012,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#秘密結社holoX
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-140
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-はい！ はい！ はい！ はい！
-自分のデッキから、#こよラボを持つサポートカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。
-アーツ
-助手くんとこよはずっと一緒だよ！　30
-このホロメンに〈こよりの助手くん〉が付いている時、自分のデッキを1枚引く。
-カードナンバー：
-hBP04-012"
 hPR,hBP04-013,博衣こより,https://hololive-official-cardgame.com/cardlist/?id=1442&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-013_P.png,,PRカード,イラストレーター名：カロクチトセカードナンバー：hBP04-013,3,"Q: Q デッキにカードが1枚以上ある時、hBP04-013〈博衣こより〉のギフト「絶対諦めない！」の能力でホロパワーを加えずに1枚選んで手札に加えることはできますか？
 A: A いいえ、できません。
 
@@ -5102,30 +3710,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP04-020"
-hPR,hBP04-028,セシリア・イマーグリーン,https://hololive-official-cardgame.com/cardlist/?id=1113&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-028_P.png,,PRカード,イラストレーター名：DSマイルカードナンバー：hBP04-028,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Justice
-#語学
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-正義の調べ　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-イラストレーター名：
-DSマイル
-カードナンバー：
-hBP04-028"
 hPR,hBP04-032,一条莉々華,https://hololive-official-cardgame.com/cardlist/?id=1114&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-032_P.png,,PRカード,カードナンバー：hBP04-032,0,,"カードタイプ
 ホロメン
 タグ
@@ -5149,54 +3733,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP04-032"
-hPR,hBP04-039,カエラ・コヴァルスキア,https://hololive-official-cardgame.com/cardlist/?id=1404&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-039_P.png,,PRカード,イラストレーター名：81カードナンバー：hBP04-039,0,,"カードタイプ
-ホロメン
-タグ
-#ID
-#ID3期生
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-おはエラ　20
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-イラストレーター名：
-81
-カードナンバー：
-hBP04-039"
-hPR,hBP04-043,雪花ラミィ,https://hololive-official-cardgame.com/cardlist/?id=1405&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-043_P.png,,PRカード,カードナンバー：hBP04-043,1,"Q: Q hBP04-004〈雪花ラミィ〉のSP推しスキル「ぶーん、バリバリバリバリ」を使い、hBP04-106〈雪民〉が付いているhBP04-043〈雪花ラミィ〉を選びました。 その後、hBP04-047〈雪花ラミィ〉にBloomさせ、コラボエフェクト「fleur」を使い、相手のホロメンをダウンさせて2枚引きました。 この場合、hBP04-047〈雪花ラミィ〉パフォーマンスステップでアーツ「雪が煌く花束」を使い、相手のセンターホロメンをダウンさせてさらに2枚引くことはできますか？
-A: A はい、できます。","カードタイプ
-ホロメン
-タグ
-#JP
-#5期生
-#ハーフエルフ
-#お酒
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-90
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-こんらみ～　20
-相手のホロメン1人に特殊ダメージ10を与える。ただし、ダウンしても相手のライフは減らない。
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP04-043"
 hPR,hBP04-044,雪花ラミィ,https://hololive-official-cardgame.com/cardlist/?id=1115&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-044_P.png,,PRカード,イラストレーター名：Hongカードナンバー：hBP04-044,1,"Q: Q 自分のアーカイブにhBP04-106〈雪民〉が4枚ある場合、hBP04-044〈雪花ラミィ〉のコラボエフェクト「Snow flower」を使うことはできますか？ [8/22更新]6/11(水)掲載時の内容に誤りがございました。訂正してお詫び申し上げます。
 A: A はい、デッキの中を見て、ホロメンに付けられるhBP04-106〈雪民〉が無いので効果の解決を終えます。","カードタイプ
 ホロメン
@@ -5381,31 +3917,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hBP04-063"
-hPR,hBP04-067,大空スバル,https://hololive-official-cardgame.com/cardlist/?id=1118&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-067_P.png,,PRカード,カードナンバー：hBP04-067,1,"Q: Q 自分の推しホロメンがhBP04-006〈大空スバル〉で、センターホロメンとバックホロメン1人がhBP04-067〈大空スバル〉の時、相手がhBP01-087〈こぼ・かなえる〉のアーツ「雨のマントラ」を使いました。 バックホロメンのhBP04-067〈大空スバル〉に、能力による20ダメージが与えられる時に推しスキル「メンタル！ フィジカル！ パッション！」を使った場合、その後のセンターホロメンのhBP04-067〈大空スバル〉に与えられる40ダメージを-30することはできますか？
-A: A いいえ、できません。 一度に受けるダメージを減らす能力のため、推しスキルを使ったタイミングのダメージのみしか減らせません。","カードタイプ
-ホロメン
-タグ
-#JP
-#2期生
-#トリ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-130
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-あじまる！ あじまる！　20
-アーツ
-ちわーす！ ホロライブ2期生 大空スバルっス!!　60
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP04-067"
 hPR,hBP04-068,大空スバル,https://hololive-official-cardgame.com/cardlist/?id=1119&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-068_P.png,,PRカード,イラストレーター名：nokaカードナンバー：hBP04-068,0,,"カードタイプ
 ホロメン
 タグ
@@ -5431,34 +3942,6 @@ Debut
 noka
 カードナンバー：
 hBP04-068"
-hPR,hBP04-072,大空スバル,https://hololive-official-cardgame.com/cardlist/?id=1734&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-072_P_02.png,,PRカード,イラストレーター名：つなかわカードナンバー：hBP04-072,1,"Q: Q hBP04-072〈大空スバル〉のアーツ「太陽少女」は、hBP01-126〈座員〉やhBP03-107〈35P〉も数えることができますか？
-A: A いいえ、数えられません。","カードタイプ
-ホロメン
-タグ
-#JP
-#2期生
-#歌
-#トリ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-190
-Bloomレベル
-2nd
-バトンタッチ
-キーワード
-サンライトステージ
-自分のアーカイブの黄エール1枚を自分のホロメンに送れる。
-アーツ
-太陽少女　100+
-お互いのステージのエール1枚につき、このアーツ+10。ただし、数える枚数は8枚まで。
-イラストレーター名：
-つなかわ
-カードナンバー：
-hBP04-072"
 hPR,hBP04-073,アーニャ・メルフィッサ,https://hololive-official-cardgame.com/cardlist/?id=1407&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-073_P.png,,PRカード,カードナンバー：hBP04-073,0,,"カードタイプ
 ホロメン
 タグ
@@ -5531,31 +4014,6 @@ A Day at the Café
 隣座りますか？　20
 カードナンバー：
 hBP04-074"
-hPR,hBP04-079,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1408&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-079_P.png,,PRカード,カードナンバー：hBP04-079,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#1期生
-#シューター
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-わっしょ～い！
-相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を、自分の他のホロメンに付け替えられる。
-アーツ
-ホロライブの清楚担当　10
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hBP04-079"
 hPR,hBP04-081,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=2033&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-081_P.png,,PRカード,カードナンバー：hBP04-081,0,,"カードタイプ
 ホロメン
 タグ
@@ -5905,53 +4363,6 @@ Debut
 はねこと
 カードナンバー：
 hBP05-068"
-hPR,hBP05-074,フレンドリーパソコン,https://hololive-official-cardgame.com/cardlist/?id=1455&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP05-074_P.png,,PRカード,イラストレーター名：たうたカードナンバー：hBP05-074,1,"Q: Q hBP05-074〈フレンドリーパソコン〉は、自分の手札がこのカードのみの場合でも「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン２枚をステージに出すことはできますか？
-A: A はい、できます。","カードタイプ
-サポート・アイテム
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1～2枚を公開し、ステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。
-イラストレーター名：
-たうた
-カードナンバー：
-hBP05-074"
-hPR,hBP05-074,フレンドリーパソコン,https://hololive-official-cardgame.com/cardlist/?id=2693&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP05-074_P_02.png,,PRカード,イラストレーター名：risumiカードナンバー：hBP05-074,1,"Q: Q hBP05-074〈フレンドリーパソコン〉は、自分の手札がこのカードのみの場合でも「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン２枚をステージに出すことはできますか？
-A: A はい、できます。","カードタイプ
-サポート・アイテム
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1～2枚を公開し、ステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。
-イラストレーター名：
-risumi
-カードナンバー：
-hBP05-074"
-hPR,hBP05-075,牛丼,https://hololive-official-cardgame.com/cardlist/?id=1736&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP05-075_P.png,,PRカード,イラストレーター名：Oliカードナンバー：hBP05-075,3,"Q: Q hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力で、バトンタッチに必要な無色+1されたhBP01-068〈尾丸ポルカ〉に、hBP05-075〈牛丼〉を使いました。 この場合、バトンタッチに必要な「無色」はいくつになりますか？
-A: A この場合、0になります。
-
-Q: Q hBP05-075〈牛丼〉は、バトンタッチのコストが0でHPが減っていないホロメンに使えますか？
-A: A はい、使えます。
-
-Q: Q hBP05-075〈牛丼〉の「無色-2」とは、どういう意味ですか？
-A: A バトンタッチに必要な、アーカイブするエールの数を無色2つ分減らす能力です。","カードタイプ
-サポート・イベント
-タグ
-#食べ物
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のホロメン1人を選ぶ。このターンの間、選んだホロメンのバトンタッチに必要な無色エール-2。その後、選んだホロメンのHP20回復。
-イラストレーター名：
-Oli
-カードナンバー：
-hBP05-075"
 hPR,hBP05-079,み俺恥,https://hololive-official-cardgame.com/cardlist/?id=1411&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP05-079_01_P.png,,PRカード,イラストレーター名：ろぼくろ / roboqloカードナンバー：hBP05-079,2,"Q: Q 相手のhBP04-037〈一条莉々華〉がアーツ「お？　喧嘩する？」を使い、自分のセンターホロメンとコラボホロメンのhBP05-035〈さくらみこ〉がダウンしました。 この場合、ギフト「今のはちょっとね、練習で…」の能力で、hBP05-079〈み俺恥〉は何枚手札に加えられますか？
 A: A センターポジション、コラボポジションでそれぞれ発揮されるため、合計3枚まで加えられます。
 
@@ -5986,19 +4397,6 @@ LIMITED:ターンに1枚しか使えない。
 もちみこ
 カードナンバー：
 hBP05-079"
-hPR,hBP05-080,SorAZセレブレーション,https://hololive-official-cardgame.com/cardlist/?id=1400&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP05-080_P.png,,PRカード,イラストレーター名：ひょんカードナンバー：hBP05-080,0,,"カードタイプ
-サポート・イベント・LIMITED
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキを2枚引く。その後、自分のデッキの上から5枚を見る。その中から、1stホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
-LIMITED:ターンに1枚しか使えない。
-イラストレーター名：
-ひょん
-カードナンバー：
-hBP05-080"
 hPR,hBP06-010,ラオーラ・パンテーラ,https://hololive-official-cardgame.com/cardlist/?id=2187&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP06-010_P.png,,PRカード,イラストレーター名：加川壱互カードナンバー：hBP06-010,0,,"カードタイプ
 ホロメン
 タグ
@@ -7234,632 +5632,6 @@ PRカード
 古弥月
 カードナンバー：
 hBP07-100"
-hPR,hBP08-005,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=2456&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-005_P.png,,PRカード,イラストレーター名：TORYaカードナンバー：hBP08-005,1,"Q: Q 自分の手札が1枚の時、hBP08-005〈鷹嶺ルイ〉の推しスキル「ホイサホイサ」の能力を使いました。 この場合、手札1枚をアーカイブすることはできますか？
-A: A はい、できます。 この場合、1枚アーカイブし、その後何もせず能力の処理を終えます。","カードタイプ
-推しホロメン
-レアリティ
-P
-収録商品
-PRカード
-色
-LIFE
-5
-推しステージスキル
-もう金曜だねルイ姉
-自分のターンが終了する時、自分のセンターホロメンが〈鷹嶺ルイ〉で、自分のコラボホロメンがいるなら、手札が4枚になるまで、自分のデッキを引く。
-推しスキル
-[ホロパワー:-2]
-ホイサホイサ
-[ターンに1回]自分の手札2枚をアーカイブする。この能力で2枚アーカイブしたなら、相手のDebut以外の[センターホロメンとコラボホロメン]に特殊ダメージ50を与える。
-イラストレーター名：
-TORYa
-カードナンバー：
-hBP08-005"
-hPR,hBP08-008,IRyS,https://hololive-official-cardgame.com/cardlist/?id=2461&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-008_P.png,,PRカード,イラストレーター名：なかゥまカードナンバー：hBP08-008,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Promise
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-130
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-Promise of Spring
-自分が後攻で最初のターンなら、自分のステージの#Promiseを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+30。さらに、自分のステージに紫エールがあるなら、自分のデッキを1枚引く。
-アーツ
-芽吹く春　30
-イラストレーター名：
-なかゥま
-カードナンバー：
-hBP08-008"
-hPR,hBP08-012,IRyS,https://hololive-official-cardgame.com/cardlist/?id=2711&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-012_P.png,,PRカード,カードナンバー：hBP08-012,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Promise
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-160
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-希望が照らす轍
-自分のステージのエール1枚をエールデッキの下に戻せる:自分のエールデッキの上から1枚を自分の〈IRyS〉に送る。
-アーツ
-片や天使 片や悪魔　50
-このホロメンに紫エールが付いているなら、相手のセンターホロメンに特殊ダメージ20を与える。
-カードナンバー：
-hBP08-012"
-hPR,hBP08-034,モココ・アビスガード,https://hololive-official-cardgame.com/cardlist/?id=2462&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-034_P.png,,PRカード,イラストレーター名：marumoruカードナンバー：hBP08-034,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Advent
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-FUWAMOCOを信じて！
-自分が後攻で最初のターンなら、自分のデッキから、Debutホロメンの[〈フワワ・アビスガード〉と〈モココ・アビスガード〉]1枚ずつをステージに出す。そしてデッキをシャッフルする。
-アーツ
-あなたのもこもこなモココ　30
-イラストレーター名：
-marumoru
-カードナンバー：
-hBP08-034"
-hPR,hBP08-041,小鳥遊キアラ,https://hololive-official-cardgame.com/cardlist/?id=2463&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-041_P.png,,PRカード,イラストレーター名：岐兎こるたカードナンバー：hBP08-041,1,"Q: Q hBP08-041〈小鳥遊キアラ〉のギフト「不死鳥式エアロビ」の能力でこのホロメンを戻した場合、ライフダメージはどうなりますか？
-A: A この場合、ライフダメージは通常通り処理されます。","カードタイプ
-ホロメン
-タグ
-#EN
-#Myth
-#トリ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-130
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-不死鳥式エアロビ
-相手のターンで、このホロメンがダウンした時、このホロメンをアーカイブするかわりに手札に戻せる。
-アーツ
-""熱狂的な夜""は実在する!!!　20
-自分のデッキの上から1枚をアーカイブする。
-イラストレーター名：
-岐兎こるた
-カードナンバー：
-hBP08-041"
-hPR,hBP08-049,水宮枢,https://hololive-official-cardgame.com/cardlist/?id=2464&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-049_P.png,,PRカード,イラストレーター名：赤木渉カードナンバー：hBP08-049,0,,"カードタイプ
-ホロメン
-タグ
-#DEV_IS
-#FLOW GLOW
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-140
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-君との電話ひとりじめ
-[コラボポジション限定]自分の#FLOW GLOWを持つセンターホロメンがいるなら、相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない。ただし、特殊ダメージは除く。
-アーツ
-君さえよかったらもっとはなそ　50
-イラストレーター名：
-赤木渉
-カードナンバー：
-hBP08-049"
-hPR,hBP08-053,水宮枢,https://hololive-official-cardgame.com/cardlist/?id=2682&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-053_P.png,,PRカード,イラストレーター名：b1ackカードナンバー：hBP08-053,0,,"カードタイプ
-ホロメン
-タグ
-#DEV_IS
-#FLOW GLOW
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-160
-Bloomレベル
-2nd
-バトンタッチ
-キーワード
-しゅぴしゅわ～～っ！！！！
-[センターポジション限定]相手のセンターホロメンのバトンタッチに必要な無色が5つ以上なら、相手のセンターホロメンのアーツに必要な無色+2。
-アーツ
-届け、この愛　50
-相手のセンターホロメンのバトンタッチに必要な無色が5つ以上なら、相手のDebut以外のホロメン1人に特殊ダメージ100を与える。
-イラストレーター名：
-b1ack
-カードナンバー：
-hBP08-053"
-hPR,hBP08-057,フワワ・アビスガード,https://hololive-official-cardgame.com/cardlist/?id=2712&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-057_P.png,,PRカード,カードナンバー：hBP08-057,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Advent
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-180
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-木漏れ日のブランコ
-自分のステージのエールを好きな枚数選び、自分の〈モココ・アビスガード〉1人に付け替えられる。その後、自分のステージにエールが8枚以上あるなら、このターンの間、このホロメンのアーツ+40。
-アーツ
-寄り添うふたり　30+
-このホロメンに赤エールが付いているなら、このアーツ+20。
-カードナンバー：
-hBP08-057"
-hPR,hBP08-060,FUWAMOCO,https://hololive-official-cardgame.com/cardlist/?id=2325&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-060_P.png,,PRカード,イラストレーター名：Hydeカードナンバー：hBP08-060,0,,"カードタイプ
-ホロメン
-タグ
-#EN
-#Advent
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-170
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-“BAU” DOL♡
-[コラボポジション限定]自分の推しスキル「モコちゃん！」の[ホロパワー:-3]を[ホロパワー:-2]に変更する。
-アーツ
-いっしょういっしょ♡　50
-自分の推しホロメンが青の〈FUWAMOCO〉なら、自分のデッキの上から1枚をホロパワーにする。
-エクストラ
-このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う
-イラストレーター名：
-Hyde
-カードナンバー：
-hBP08-060"
-hPR,hBP08-061,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=2465&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-061_P.png,,PRカード,イラストレーター名：いずみけいカードナンバー：hBP08-061,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#秘密結社holoX
-#トリ
-#お酒
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-秘密結社のおもてなし
-自分が後攻で最初のターンで、自分の推しホロメンが〈鷹嶺ルイ〉なら、相手は、自身のホロパワーの上から1枚を手札に加える。
-アーツ
-holoX Coffeeをどうぞ　30
-イラストレーター名：
-いずみけい
-カードナンバー：
-hBP08-061"
-hPR,hBP08-063,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=2713&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-063_P.png,,PRカード,カードナンバー：hBP08-063,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#秘密結社holoX
-#トリ
-#お酒
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-150
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-ホロックス・ディール
-自分のデッキの上から3枚を見る。その中から、#秘密結社holoXを持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
-アーツ
-どう似合ってる？？？　40
-カードナンバー：
-hBP08-063"
-hPR,hBP08-068,一伊那尓栖,https://hololive-official-cardgame.com/cardlist/?id=2466&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-068_P.png,,PRカード,イラストレーター名：黒星紅白カードナンバー：hBP08-068,3,"Q: Q 自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。 その後、そのホロメンがダウンした場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？
-A: A はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。
-
-Q: Q 自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。 その後、そのホロメンがダウンした場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？
-A: A はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。
-
-Q: Q hBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力の「すべての色を持つホロメンとして扱う。」とは、無色も含みますか？
-A: A いいえ、含みません。 色とは、白、緑、赤、青、紫、黄のみを指します。","カードタイプ
-ホロメン
-タグ
-#EN
-#Myth
-#絵
-#海
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-140
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-きタコれ！
-自分が後攻で最初のターンなら、このターンの間、相手のステージのホロメン全員は、すべての色を持つホロメンとして扱う。
-アーツ
-引きこもり娘は外出の夢を見た　10
-相手の推しホロメンと異なる色を持つ相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。
-イラストレーター名：
-黒星紅白
-カードナンバー：
-hBP08-068"
-hPR,hBP08-070,一伊那尓栖,https://hololive-official-cardgame.com/cardlist/?id=2714&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-070_P.png,,PRカード,カードナンバー：hBP08-070,1,"Q: Q hBP08-070〈一伊那尓栖〉のアーツ「私の生涯の友人」の「相手の推しホロメンと異なる色を持つ」とは、どういう意味ですか？
-A: A 相手の推しホロメンが持つ色とは別の色を1色以上持つことを指します。 色とは、白、緑、赤、青、紫、黄を指します。","カードタイプ
-ホロメン
-タグ
-#EN
-#Myth
-#絵
-#海
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-180
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-イナ・イマジネーション
-自分のデッキから、〈Takodachi〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。
-アーツ
-私の生涯の友人　30
-相手の推しホロメンと異なる色を持つ相手のステージのホロメン1人につき、自分の#Mythを持つホロメン1人のHP10回復。
-カードナンバー：
-hBP08-070"
-hPR,hBP08-077,音乃瀬奏,https://hololive-official-cardgame.com/cardlist/?id=2467&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-077_P.png,,PRカード,イラストレーター名：hitokotoカードナンバー：hBP08-077,0,,"カードタイプ
-ホロメン
-タグ
-#DEV_IS
-#ReGLOSS
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-歌ってみた、聴いてください
-自分が後攻で最初のターンなら、自分のデッキから、[1stホロメンの〈音乃瀬奏〉と〈リコーダー〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。
-アーツ
-奏スタンバイ　20
-イラストレーター名：
-hitokoto
-カードナンバー：
-hBP08-077"
-hPR,hBP08-079,音乃瀬奏,https://hololive-official-cardgame.com/cardlist/?id=2715&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-079_P.png,,PRカード,カードナンバー：hBP08-079,0,,"カードタイプ
-ホロメン
-タグ
-#DEV_IS
-#ReGLOSS
-#歌
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-170
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-黎明の歌姫
-自分のステージに#ReGLOSSを持つ2ndホロメンがいるなら、このホロメンのHP+50。
-アーツ
-清廉なる歌声　10
-自分のアーカイブのエール1枚を自分の#ReGLOSSを持つセンターホロメンに送れる。
-カードナンバー：
-hBP08-079"
-hPR,hBP08-085,不知火フレア,https://hololive-official-cardgame.com/cardlist/?id=2716&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-085_P.png,,PRカード,カードナンバー：hBP08-085,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#3期生
-#ハーフエルフ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-手、繋いでいると温かいね
-自分の手札1枚をアーカイブできる:自分のアーカイブの[Debutホロメンか1stホロメンかSpotホロメン]1枚を手札に戻す。
-アーツ
-テレ隠しが下手ですな～　10
-カードナンバー：
-hBP08-085"
-hPR,hBP08-092,思い出のドーナツショップ,https://hololive-official-cardgame.com/cardlist/?id=2468&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-092_P.png,,PRカード,イラストレーター名：ナナテトラカードナンバー：hBP08-092,0,,"カードタイプ
-サポート・イベント・LIMITED
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキから、[〈フワワ・アビスガード〉と〈モココ・アビスガード〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。その後、自分のライフが相手より少ないなら、相手のホロメン1人に特殊ダメージ20を与える。
-LIMITED:ターンに1枚しか使えない。
-イラストレーター名：
-ナナテトラ
-カードナンバー：
-hBP08-092"
-hPR,hBP08-094,パパは仕事を辞める,https://hololive-official-cardgame.com/cardlist/?id=2469&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-094_P.png,,PRカード,イラストレーター名：楪カードナンバー：hBP08-094,3,"Q: Q 自分のコラボポジションにhBP01-027〈ベスティア・ゼータ〉がいる時、hBP08-094〈パパは仕事を辞める〉を使いました。 その後、自分のセンターホロメンがアーツダメージを受ける時、hBP01-027〈ベスティア・ゼータ〉のギフト「V.7」の能力を使い、奇数を出したのでダメージを受けませんでした。 この場合、次に自分のセンターホロメンがアーツダメージを受ける時、受けるダメージを-300することはできますか？
-A: A はい、できます。
-
-Q: Q 自分の推しホロメンがhSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の時、hBP08-094〈パパは仕事を辞める〉を使いました。 その後、自分のセンターホロメンがアーツダメージを受ける時、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」の能力を使い、センターホロメンはダメージを受けませんでした。 この場合、次に自分のセンターホロメンがアーツダメージを受ける時、受けるダメージを-300することはできますか？
-A: A はい、できます。
-
-Q: Q hBP08-094〈パパは仕事を辞める〉の「アーツダメージ」とは、アーツの能力による特殊ダメージも含まれますか？
-A: A いいえ、含みません。","カードタイプ
-サポート・イベント・LIMITED
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-このカードは、自分のコラボホロメンがいる時にしか使えない。
-自分のセンターホロメンを選ぶ。次の相手のターンの間、選んだホロメンがセンターポジションで最初に受けるアーツダメージ-300。
-LIMITED:ターンに1枚しか使えない。
-イラストレーター名：
-楪
-カードナンバー：
-hBP08-094"
-hPR,hBP09-001,大空スバル,https://hololive-official-cardgame.com/cardlist/?id=2841&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-001_P.png,,PRカード,イラストレーター名：にゃまそカードナンバー：hBP09-001,3,"Q: Q 自分のホロパワーが10枚ある時、hBP09-022〈角巻わため〉のブルームエフェクト「わためいとの楽園」の能力で、相手の1stホロメン1人を2ndホロメンにしました。 この場合、hBP09-001〈大空スバル〉の推しスキル「秩序を守る署長」の能力でそのホロメンを選び、1st〈大空スバル〉をステージに出すことはできますか？
-A: A はい、できます。 hBP09-022〈角巻わため〉のブルームエフェクト「わためいとの楽園」の能力で選んだホロメンは1stであり2ndでもあるホロメンとして扱われます。
-
-Q: Q 自分のホロパワーが10枚ある時、hBP09-022〈角巻わため〉のブルームエフェクト「わためいとの楽園」の能力で、相手のホロメン1人を2ndホロメンにしました。 この場合、hBP09-001〈大空スバル〉の推しスキル「秩序を守る署長」の能力でそのホロメンを選び、2nd〈大空スバル〉をステージに出すことはできますか？
-A: A はい、できます。
-
-Q: Q 相手のセンターホロメンが1stの時、hBP09-001〈大空スバル〉の推しスキル「秩序を守る署長」の能力でhBP06-083〈ラムダック〉をステージに出すことはできますか？
-A: A はい、できます。","カードタイプ
-推しホロメン
-レアリティ
-P
-収録商品
-PRカード
-色
-LIFE
-5
-推しステージスキル
-秩序を守る署長
-自分の〈大空スバル〉全員のアーツに必要な白-1。
-推しスキル
-[ホロパワー:-2]
-大空警察出動！
-[ターンに1回]相手のステージのホロメン1人を選ぶ。自分のデッキから、選んだホロメンと同じBloomレベルの〈大空スバル〉1枚をステージに出す。そしてデッキをシャッフルする。
-イラストレーター名：
-にゃまそ
-カードナンバー：
-hBP09-001"
-hPR,hBP09-003,白銀ノエル,https://hololive-official-cardgame.com/cardlist/?id=2842&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-003_P.png,,PRカード,イラストレーター名：WOODDAKカードナンバー：hBP09-003,0,,"カードタイプ
-推しホロメン
-レアリティ
-P
-収録商品
-PRカード
-色
-LIFE
-5
-推しステージスキル
-鉄の胃袋大魔神
-[ターンに1回]自分が〈牛丼〉を使った時、自分のエールデッキの上から1枚を自分の〈白銀ノエル〉に送る。さらに、自分のステージに2ndホロメンがいるなら、自分のデッキを1枚引く。
-推しスキル
-[ホロパワー:-2]
-あふれる牛丼愛
-[ターンに1回]自分のアーカイブのエール1枚を自分の〈白銀ノエル〉に送る。自分のアーカイブに〈牛丼〉が3枚以上あるなら、かわりに、自分のアーカイブのエール1～2枚を自分の〈白銀ノエル〉に割り振って送る。
-イラストレーター名：
-WOODDAK
-カードナンバー：
-hBP09-003"
-hPR,hBP09-007,雪花ラミィ,https://hololive-official-cardgame.com/cardlist/?id=2843&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-007_P.png,,PRカード,イラストレーター名：那桜カードナンバー：hBP09-007,0,,"カードタイプ
-推しホロメン
-レアリティ
-P
-収録商品
-PRカード
-色
-LIFE
-5
-推しステージスキル
-至福のひととき
-自分のステージの〈雪花ラミィ〉全員のアーツ＋20。自分のアーカイブに#ラミィのお酒を持つサポートが5枚以上あるなら、かわりに、自分のステージの〈雪花ラミィ〉全員のアーツ＋50。
-推しスキル
-[ホロパワー:-2]
-愛するものに囲まれて
-[ターンに1回]自分のデッキから、#ラミィのお酒を持つサポート1～2枚を公開し、手札に加える。そしてデッキをシャッフルする。
-イラストレーター名：
-那桜
-カードナンバー：
-hBP09-007"
-hPR,hBP09-010,大空スバル,https://hololive-official-cardgame.com/cardlist/?id=2844&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-010_P.png,,PRカード,イラストレーター名：チェリ子カードナンバー：hBP09-010,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#2期生
-#トリ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-170
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-高まるテンション
-自分のデッキを2枚引き、手札2枚を好きな順でデッキの下に戻す。
-アーツ
-ここから盛り上がるっスよ！　30
-相手のステージのツール1枚をアーカイブする。
-イラストレーター名：
-チェリ子
-カードナンバー：
-hBP09-010"
-hPR,hBP09-081,雪花ラミィ,https://hololive-official-cardgame.com/cardlist/?id=2845&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-081_P.png,,PRカード,イラストレーター名：矢吹健太朗カードナンバー：hBP09-081,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#5期生
-#ハーフエルフ
-#お酒
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-170
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-BIG3懇親会 side L
-自分のアーカイブの#ラミィのお酒を持つサポートが1枚以下なら、このホロメンのアーツに必要な無色+1。
-アーツ
-んー！ うますぎるー！　60
-このホロメンのエール2枚をアーカイブできる:相手のDebut以外のホロメン1人に特殊ダメージ40を与える。
-イラストレーター名：
-矢吹健太朗
-カードナンバー：
-hBP09-081"
-hPR,hBP09-105,BIG3,https://hololive-official-cardgame.com/cardlist/?id=2846&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-105_P.png,,PRカード,イラストレーター名：茶ちえカードナンバー：hBP09-105,0,,"カードタイプ
-サポート・イベント・LIMITED
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-このカードは、自分の推しホロメンが〈大空スバル〉か〈白銀ノエル〉か〈雪花ラミィ〉でなければ使えない。
-自分のデッキを2枚引く。その後、自分のデッキの上から3枚を見る。その中から、自分の推しホロメンと同じカード名のホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
-LIMITED:ターンに1枚しか使えない。
-イラストレーター名：
-茶ちえ
-カードナンバー：
-hBP09-105"
-hPR,hEB01-012,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=2569&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hEB01-012_P.png,,PRカード,イラストレーター名：矢吹健太朗カードナンバー：hEB01-012,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#3期生
-#絵
-#海
-#サマー
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-船長と海に行きたいって～？
-自分が後攻で最初のターンなら、自分のデッキから、ブルームエフェクトを持つ〈宝鐘マリン〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。
-アーツ
-船長の水着見せつけちゃうゾ♡　30
-イラストレーター名：
-矢吹健太朗
-カードナンバー：
-hEB01-012"
-hPR,hEB01-013,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=2717&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hEB01-013_P.png,,PRカード,カードナンバー：hEB01-013,1,"Q: Q hEB01-013〈宝鐘マリン〉のコラボエフェクト「わざと隙、見せてるんだゾ？」の能力で、このカードをアーカイブすることはできますか？
-A: A いいえ、できません。","カードタイプ
-ホロメン
-タグ
-#JP
-#3期生
-#絵
-#海
-#サマー
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-160
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-わざと隙、見せてるんだゾ？
-このホロメンに重なっているホロメン1枚をアーカイブできる：自分のエールデッキの上から1枚を自分のホロメンに送る。
-アーツ
-人混み抜けて……二人きりになっちゃう？　50
-カードナンバー：
-hEB01-013"
 hPR,hPR-001,さくらみこ,https://hololive-official-cardgame.com/cardlist/?id=197&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hPR-001_P.png,,PRカード,イラストレーター名：信澤 収/もちぷよカードナンバー：hPR-001,0,,"カードタイプ
 ホロメン
 タグ
@@ -8184,18 +5956,6 @@ LIMITED:ターンに1枚しか使えない。
 株式会社HIKE / Trigono
 カードナンバー：
 hSD01-017"
-hPR,hSD01-018,サブパソコン,https://hololive-official-cardgame.com/cardlist/?id=506&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD01-018_P.png,,PRカード,イラストレーター名：JinArt こばやかわやまとカードナンバー：hSD01-018,0,,"カードタイプ
-サポート・アイテム
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキの上から5枚を見る。その中から、LIMITEDのサポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
-イラストレーター名：
-JinArt こばやかわやまと
-カードナンバー：
-hSD01-018"
 hPR,hSD02-002,百鬼あやめ,https://hololive-official-cardgame.com/cardlist/?id=817&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD02-002_P.png,,PRカード,カードナンバー：hSD02-002,0,,"カードタイプ
 ホロメン
 タグ
@@ -8218,7 +5978,7 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hSD02-002"
-hPR,hSD02-007,百鬼あやめ,https://hololive-official-cardgame.com/cardlist/?id=497&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD02-007_P.png,,PRカード,カードナンバー：hSD02-007,0,,"カードタイプ
+hPR,hSD02-004,百鬼あやめ,https://hololive-official-cardgame.com/cardlist/?id=2986&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD02-004_P.png,,PRカード,イラストレーター名：ななかぐらカードナンバー：hSD02-004,0,,"カードタイプ
 ホロメン
 タグ
 #JP
@@ -8230,40 +5990,19 @@ P
 PRカード
 色
 HP
-120
+60
 Bloomレベル
-1st
+Debut
 バトンタッチ
 キーワード
-どーっちどっち♪
-DebutからBloomした時、自分のデッキの上から2枚を見る。その中から、1枚を公開し、手札に加える。そして残ったカードをアーカイブする。
+あやめのひととせ
+このホロメンに〈ぽよ余〉が付いている時、このターンの間、自分のセンターホロメンのアーツ+20。
 アーツ
-輝いた余を見逃さないでね～～！！　30
+おだんごおいしい余　30
+イラストレーター名：
+ななかぐら
 カードナンバー：
-hSD02-007"
-hPR,hSD02-007,百鬼あやめ,https://hololive-official-cardgame.com/cardlist/?id=2035&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD02-007_02_P.png,,PRカード,カードナンバー：hSD02-007,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#2期生
-#シューター
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-どーっちどっち♪
-DebutからBloomした時、自分のデッキの上から2枚を見る。その中から、1枚を公開し、手札に加える。そして残ったカードをアーカイブする。
-アーツ
-輝いた余を見逃さないでね～～！！　30
-カードナンバー：
-hSD02-007"
+hSD02-004"
 hPR,hSD02-012,いろはにほへっと あやふぶみ,https://hololive-official-cardgame.com/cardlist/?id=803&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD02-012_P.png,,PRカード,イラストレーター名：林けゐカードナンバー：hSD02-012,1,"Q: Q hSD02-012〈いろはにほへっと あやふぶみ〉の「このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。」とは6枚の時も含みますか。
 A: A はい、含みます。","カードタイプ
 サポート・イベント・LIMITED
@@ -8368,29 +6107,6 @@ Debut
 はねこと
 カードナンバー：
 hSD03-003"
-hPR,hSD03-007,猫又おかゆ,https://hololive-official-cardgame.com/cardlist/?id=498&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD03-007_P.png,,PRカード,カードナンバー：hSD03-007,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#ゲーマーズ
-#ケモミミ
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-110
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-また、たくさん笑ってよね！
-自分のアーカイブのエール1枚を自分の#ゲーマーズを持つホロメンに送れる。
-アーツ
-全力で僕なりの歌、お届けします！　20
-カードナンバー：
-hSD03-007"
 hPR,hSD03-013,おかにゃん,https://hololive-official-cardgame.com/cardlist/?id=1410&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD03-013_P.png,,PRカード,イラストレーター名：JinArt こばやかわやまとカードナンバー：hSD03-013,2,"Q: Q hBP02-092〈フブラ〉の能力でエールをアーカイブする時、hSD03-008〈猫又おかゆ〉に付いているhSD03-013〈おかにゃん〉をアーカイブすることはできますか？
 A: A いいえ、hSD03-013〈おかにゃん〉は、hSD03-013〈おかにゃん〉が付いている〈猫又おかゆ〉の能力によってエールをアーカイブする場合のみ可能となるため、hBP02-092〈フブラ〉の能力でアーカイブすることはできません。
 
@@ -8432,52 +6148,6 @@ Debut
 このホロメンはデッキに何枚でも入れられる
 カードナンバー：
 hSD04-002"
-hPR,hSD04-007,癒月ちょこ,https://hololive-official-cardgame.com/cardlist/?id=499&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD04-007_P.png,,PRカード,カードナンバー：hSD04-007,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#2期生
-#料理
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-110
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-ちょっこーん！
-自分のアーカイブのLIMITED以外のイベント1枚を手札に戻せる。
-アーツ
-大好き！ちゅっ♡　30
-自分のバックホロメン1人のHP20回復。
-カードナンバー：
-hSD04-007"
-hPR,hSD05-002,轟はじめ,https://hololive-official-cardgame.com/cardlist/?id=858&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD05-002_P.png,,PRカード,カードナンバー：hSD05-002,0,,"カードタイプ
-ホロメン
-タグ
-#DEV_IS
-#ReGLOSS
-#ベイビー
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-ぶんぶんぶーん！　30
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-カードナンバー：
-hSD05-002"
 hPR,hSD05-011,一条莉々華,https://hololive-official-cardgame.com/cardlist/?id=1723&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD05-011_P.png,,PRカード,イラストレーター名：Watersnakeカードナンバー：hSD05-011,0,,"カードタイプ
 ホロメン
 タグ
@@ -8503,30 +6173,6 @@ Debut
 Watersnake
 カードナンバー：
 hSD05-011"
-hPR,hSD06-005,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=1721&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD06-005_P.png,,PRカード,イラストレーター名：猫屋敷ぷしおカードナンバー：hSD06-005,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#秘密結社holoX
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-1st
-バトンタッチ
-キーワード
-かざまとおでかけ
-自分のエールデッキの上から1枚を、自分の#秘密結社holoXを持つホロメンに送る。
-アーツ
-かざまといっしょ！　30
-イラストレーター名：
-猫屋敷ぷしお
-カードナンバー：
-hSD06-005"
 hPR,hSD06-006,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=1452&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD06-006_P.png,,PRカード,イラストレーター名：黒井ススムカードナンバー：hSD06-006,0,,"カードタイプ
 Buzzホロメン
 タグ
@@ -8579,22 +6225,6 @@ Debut
 広江礼威
 カードナンバー：
 hSD06-008"
-hPR,hSD06-011,ﾁｬｷ丸,https://hololive-official-cardgame.com/cardlist/?id=1728&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD06-011_P.png,,PRカード,イラストレーター名：なかだ絵眞カードナンバー：hSD06-011,1,"Q: Q hSD06-011〈ﾁｬｷ丸〉が付いているホロメンがダウンした時、このカードの「ダメージを受けた時」という能力で相手ホロメンに特殊ダメージを与えることはできますか？
-A: A はい、与えることができます。","カードタイプ
-サポート・ツール
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-このツールが付いているホロメンのアーツ+10。
-◆1st以上の〈風真いろは〉に付いていたら能力追加
-[ターンに1回]相手のターンで、このツールが付いているホロメンがダメージを受けた時、相手のセンターホロメンに特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。
-ツールは、自分のホロメン1人につき1枚だけ付けられる。
-イラストレーター名：
-なかだ絵眞
-カードナンバー：
-hSD06-011"
 hPR,hSD07-002,不知火フレア,https://hololive-official-cardgame.com/cardlist/?id=859&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD07-002_P.png,,PRカード,カードナンバー：hSD07-002,0,,"カードタイプ
 ホロメン
 タグ
@@ -8740,60 +6370,6 @@ Debut
 TAYA
 カードナンバー：
 hSD08-006"
-hPR,hSD08-007,角巻わため,https://hololive-official-cardgame.com/cardlist/?id=1158&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD08-007_P.png,,PRカード,イラストレーター名：TAYAカードナンバー：hSD08-007,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#4期生
-#ケモミミ
-#歌
-#サマー
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-みんなと夏祭り
-自分のアーカイブのエール1枚を自分の#4期生を持つ2ndホロメンに送れる。
-アーツ
-わたあめおいしいねぇ　10
-イラストレーター名：
-TAYA
-カードナンバー：
-hSD08-007"
-hPR,hSD09-002,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=1160&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD09-002_P.png,,PRカード,イラストレーター名：スライムカードナンバー：hSD09-002,0,,"カードタイプ
-ホロメン
-タグ
-#JP
-#3期生
-#絵
-#海
-#サマー
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-100
-Bloomレベル
-Debut
-バトンタッチ
-キーワード
-ホロサマー
-自分のデッキの上から5枚を見る。その中から、#サマーを持つDebutホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
-アーツ
-船長も一緒にい・か・が？　20
-イラストレーター名：
-スライム
-カードナンバー：
-hSD09-002"
 hPR,hSD09-004,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=1454&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD09-004_P.png,,PRカード,イラストレーター名：株式会社スタジオヴィガカードナンバー：hSD09-004,0,,"カードタイプ
 ホロメン
 タグ
@@ -8954,33 +6530,6 @@ Bloomレベル
 株式会社スタジオヴィガ
 カードナンバー：
 hSD10-006"
-hPR,hSD10-007,綺々羅々ヴィヴィ,https://hololive-official-cardgame.com/cardlist/?id=1725&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD10-007_P.png,,PRカード,イラストレーター名：おげげカードナンバー：hSD10-007,2,"Q: Q hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力で、バトンタッチに必要な無色+1されたhBP01-068〈尾丸ポルカ〉に、hBP05-075〈牛丼〉を使いました。 この場合、バトンタッチに必要な「無色」はいくつになりますか？
-A: A この場合、0になります。
-
-Q: Q hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力の「無色+1」とは、どういう意味ですか？
-A: A バトンタッチに必要な、アーカイブするエールの数を無色1つ分増やす能力です。","カードタイプ
-ホロメン
-タグ
-#DEV_IS
-#FLOW GLOW
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-ん〜〜〜〜〜ッヴィヴィ〜！　20
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-イラストレーター名：
-おげげ
-カードナンバー：
-hSD10-007"
 hPR,hSD10-009,綺々羅々ヴィヴィ,https://hololive-official-cardgame.com/cardlist/?id=2145&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD10-009_P.png,,PRカード,イラストレーター名：株式会社スタジオヴィガカードナンバー：hSD10-009,2,"Q: Q hSD11-009〈水宮枢〉のコラボエフェクト「感情の伝令者」の能力の「無色+3」とは、どういう意味ですか？
 A: A バトンタッチに必要な、アーカイブするエールの数を無色3つ分増やす能力です。
 
@@ -9118,34 +6667,6 @@ Bloomレベル
 株式会社スタジオヴィガ
 カードナンバー：
 hSD11-006"
-hPR,hSD11-007,水宮枢,https://hololive-official-cardgame.com/cardlist/?id=1724&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD11-007_P.png,,PRカード,イラストレーター名：おげげカードナンバー：hSD11-007,2,"Q: Q hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力で、バトンタッチに必要な無色+1されたhBP01-068〈尾丸ポルカ〉に、hBP05-075〈牛丼〉を使いました。 この場合、バトンタッチに必要な「無色」はいくつになりますか？
-A: A この場合、0になります。
-
-Q: Q hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力の「無色+1」とは、どういう意味ですか？
-A: A バトンタッチに必要な、アーカイブするエールの数を無色1つ分増やす能力です。","カードタイプ
-ホロメン
-タグ
-#DEV_IS
-#FLOW GLOW
-レアリティ
-P
-収録商品
-PRカード
-色
-HP
-120
-Bloomレベル
-Debut
-バトンタッチ
-アーツ
-しゅぴしゅわー　20
-相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色+1。
-エクストラ
-このホロメンはデッキに何枚でも入れられる
-イラストレーター名：
-おげげ
-カードナンバー：
-hSD11-007"
 hPR,hSD11-008,水宮枢,https://hololive-official-cardgame.com/cardlist/?id=1742&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD11-008_P.png,,PRカード,イラストレーター名：ぶくろてカードナンバー：hSD11-008,1,"Q: Q hSD11-008〈水宮枢〉のコラボエフェクト「FLOW GLOWのえらい宣伝担当」の能力の「無色+1」とは、どういう意味ですか？
 A: A バトンタッチに必要な、アーカイブするエールの数を無色1つ分増やす能力です。","カードタイプ
 ホロメン
@@ -9495,45 +7016,83 @@ Bloomレベル
 たうた
 カードナンバー：
 hSD13-013"
-hPR,hSD14-010,holoAN,https://hololive-official-cardgame.com/cardlist/?id=2202&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD14-010_P.png,,PRカード,イラストレーター名：ミュシャカードナンバー：hSD14-010,0,,"カードタイプ
-サポート・スタッフ・LIMITED
+hPR,hSD14-004,白上フブキ,https://hololive-official-cardgame.com/cardlist/?id=2987&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD14-004_P.png,,PRカード,イラストレーター名：もも寝子カードナンバー：hSD14-004,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#1期生
+#ゲーマーズ
+#ケモミミ
+#絵
 レアリティ
 P
 収録商品
 PRカード
-能力テキスト
-自分のデッキを３枚引く。
-LIMITED：ターンに1枚しか使えない。
+色
+HP
+90
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+白上のとこにおいでー
+自分が後攻で最初のターンなら、自分のデッキからマスコット1枚を公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+ハイ　フレンズ！　20
+イラストレーター名：
+もも寝子
+カードナンバー：
+hSD14-004"
+hPR,hSD15-004,儒烏風亭らでん,https://hololive-official-cardgame.com/cardlist/?id=2988&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD15-004_P.png,,PRカード,イラストレーター名：ぶしカードナンバー：hSD15-004,0,,"カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#ReGLOSS
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+色
+HP
+90
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+一服朝っぱらでん
+自分が後攻で最初のターンなら、自分のエールデッキの上から1枚を自分のバックホロメンに送る。
+アーツ
+散歩でもいかがですかな？　20
+イラストレーター名：
+ぶし
+カードナンバー：
+hSD15-004"
+hPR,hSD16-004,さくらみこ,https://hololive-official-cardgame.com/cardlist/?id=2989&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD16-004_P.png,,PRカード,イラストレーター名：ミュシャカードナンバー：hSD16-004,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#0期生
+#ベイビー
+レアリティ
+P
+収録商品
+PRカード
+色
+HP
+80
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+後攻なんですｹｰﾄﾞ
+自分が後攻で最初のターンなら、自分のデッキから〈35P〉1枚を公開し、このホロメンに付ける。そしてデッキをシャッフルする。
+アーツ
+でゃまれ！　20
 イラストレーター名：
 ミュシャ
 カードナンバー：
-hSD14-010"
-hPR,hSD14-010,holoAN,https://hololive-official-cardgame.com/cardlist/?id=2470&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD14-010_P_02.png,,PRカード,イラストレーター名：絹谷ゆたかカードナンバー：hSD14-010,0,,"カードタイプ
-サポート・スタッフ・LIMITED
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキを３枚引く。
-LIMITED:ターンに1枚しか使えない。
-イラストレーター名：
-絹谷ゆたか
-カードナンバー：
-hSD14-010"
-hPR,hSD14-010,holoAN,https://hololive-official-cardgame.com/cardlist/?id=2683&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD14-010_P_03.png,,PRカード,イラストレーター名：강소カードナンバー：hSD14-010,0,,"カードタイプ
-サポート・スタッフ・LIMITED
-レアリティ
-P
-収録商品
-PRカード
-能力テキスト
-自分のデッキを３枚引く。
-LIMITED：ターンに1枚しか使えない。
-イラストレーター名：
-강소
-カードナンバー：
-hSD14-010"
+hSD16-004"
 hPR,hSD17-004,星街すいせい,https://hololive-official-cardgame.com/cardlist/?id=2471&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD17-004_P.png,,PRカード,イラストレーター名：ぶしカードナンバー：hSD17-004,0,,"カードタイプ
 ホロメン
 タグ
@@ -9622,6 +7181,2944 @@ Debut
 あす
 カードナンバー：
 hSD19-004"
+hPR,hBP01-021,ときのそら,https://hololive-official-cardgame.com/cardlist/?id=189&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-021_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-021,1,"Q: Q hBP04-089〈ツートンカラーパソコン〉の「色が1色で異なる色のホロメン」とはどういう意味ですか？
+A: A そのホロメンが持つ色が1色のみであり、2人以上いることを指します。 例としてhBP01-021〈ときのそら〉は持っている色が1色ですが、hSD01-013〈SorAZ〉は持っている色が2色となります。","カードタイプ
+ホロメン
+タグ
+#JP
+#0期生
+#歌
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+みんな～こんそめ～　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP01-021"
+hPR,hBP01-026,ベスティア・ゼータ,https://hololive-official-cardgame.com/cardlist/?id=206&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-026_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-026,1,"Q: Q hBP01-026〈ベスティア・ゼータ〉のブルームエフェクト「新たな運命」は1stホロメンからBloomしても能力は発揮しますか？
+A: A いいえ、発揮しません。","カードタイプ
+ホロメン
+タグ
+#ID
+#ID3期生
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+110
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+新たな運命
+DebutからBloomした時、自分のデッキから、#ID3期生を持つBuzz以外の[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+ステージみんな「私のもの」　30
+カードナンバー：
+hBP01-026"
+hPR,hBP01-028,IRyS,https://hololive-official-cardgame.com/cardlist/?id=509&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-028_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-028,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Promise
+#歌
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+ハイRyS！　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP01-028"
+hPR,hBP01-031,IRyS,https://hololive-official-cardgame.com/cardlist/?id=488&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-031_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：mizuカードナンバー：hBP01-031,1,"Q: Q hBP01-031〈IRyS〉のコラボエフェクト「希望の庭園」の能力でホロパワーにあるカードを見た時、必ず1枚を手札に加え、デッキの上から1枚をホロパワーに置かなければなりませんか？
+A: A はい、ホロパワーが１枚でもある場合は加えなければなりません。","カードタイプ
+ホロメン
+タグ
+#EN
+#Promise
+#歌
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+200
+Bloomレベル
+2nd
+バトンタッチ
+キーワード
+希望の庭園
+自分のホロパワーを見る。その中から1枚を公開し、手札に加える。そして自分のデッキの上から1枚をホロパワーにする。
+アーツ
+約束の力　50+
+自分の#Promiseを持つホロメン1人につき、このアーツ+20。
+イラストレーター名：
+mizu
+カードナンバー：
+hBP01-031"
+hPR,hBP01-039,兎田ぺこら,https://hololive-official-cardgame.com/cardlist/?id=1720&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-039_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：憂姫はぐれカードナンバー：hBP01-039,1,"Q: Q hBP01-039〈兎田ぺこら〉のコラボエフェクト「ギャラクシーアイドル」はエールデッキにカードが無い場合でも、能力でサイコロを振ることはできますか？
+A: A はい、できます。","カードタイプ
+ホロメン
+タグ
+#JP
+#3期生
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+60
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+ギャラクシーアイドル
+自分の推しホロメンが〈兎田ぺこら〉の時、サイコロを1回振れる:偶数の時、自分のエールデッキの上から1枚を、自分のホロメンに送る。
+アーツ
+無重力ジャンプ！　30
+イラストレーター名：
+憂姫はぐれ
+カードナンバー：
+hBP01-039"
+hPR,hBP01-041,兎田ぺこら,https://hololive-official-cardgame.com/cardlist/?id=209&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-041_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-041,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#3期生
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+90
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+成長した兎田ぺこらを
+自分のエールデッキの上から1枚を、自分のセンターホロメンかコラボホロメンに送る。
+アーツ
+見逃しちゃだめぺこだよ！　30
+カードナンバー：
+hBP01-041"
+hPR,hBP01-050,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=211&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-050_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-050,4,"Q: Q 自分のセンターホロメンが赤の2ndホロメンでコラボホロメンがhBP01-050〈風真いろは〉の時、相手がhBP01-050〈風真いろは〉へアーツを使いました。 この場合、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」を使って、赤のセンターポジションの2ndホロメンが代わりにダメージを受けることはできますか？
+A: A はい、できます。
+
+Q: Q hBP01-050〈風真いろは〉のアーツ「元気を全力でお届けします！」はエールデッキにカードが無くても使用することはできますか？
+A: A はい、使用できます。
+
+Q: Q hBP01-050〈風真いろは〉のアーツ「元気を全力でお届けします！」のエールを送る能力は、エールの色を確認した後、エールを送るホロメンを選ぶことができますか？
+A: A はい、可能です。 エールデッキの上から1枚を表にして、その後エールを送るホロメンを選んでください。
+
+Q: Q 相手のhBP01-050〈風真いろは〉のギフト「用心棒」が発揮している状態で、hBP01-009〈天音かなた〉の〈こんかなた～〉を使用することはできますか？
+A: A アーツの使用を宣言できますが、正常にアーツの対象を選ぶことができないため、アーツを使ったことにはならず、ダメージを与えることはできません。 [2025/03/11更新]hBP01-009〈天音かなた〉にhBP01-114〈石の斧〉が付いている場合でも、「このツールが付いているホロメンがアーツを使った時」能力は発揮しません。","カードタイプ
+ホロメン
+タグ
+#JP
+#秘密結社holoX
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+140
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+用心棒
+[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない（特殊ダメージは除く）。
+アーツ
+元気を全力でお届けします！　20
+自分のエールデッキの上から1枚を、自分の〈風真いろは〉以外の#秘密結社holoXを持つホロメンに送る。
+カードナンバー：
+hBP01-050"
+hPR,hBP01-050,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=1733&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-050_P_03.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：Honshinカードナンバー：hBP01-050,4,"Q: Q 自分のセンターホロメンが赤の2ndホロメンでコラボホロメンがhBP01-050〈風真いろは〉の時、相手がhBP01-050〈風真いろは〉へアーツを使いました。 この場合、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」を使って、赤のセンターポジションの2ndホロメンが代わりにダメージを受けることはできますか？
+A: A はい、できます。
+
+Q: Q hBP01-050〈風真いろは〉のアーツ「元気を全力でお届けします！」はエールデッキにカードが無くても使用することはできますか？
+A: A はい、使用できます。
+
+Q: Q hBP01-050〈風真いろは〉のアーツ「元気を全力でお届けします！」のエールを送る能力は、エールの色を確認した後、エールを送るホロメンを選ぶことができますか？
+A: A はい、可能です。 エールデッキの上から1枚を表にして、その後エールを送るホロメンを選んでください。
+
+Q: Q 相手のhBP01-050〈風真いろは〉のギフト「用心棒」が発揮している状態で、hBP01-009〈天音かなた〉の〈こんかなた～〉を使用することはできますか？
+A: A アーツの使用を宣言できますが、正常にアーツの対象を選ぶことができないため、アーツを使ったことにはならず、ダメージを与えることはできません。 [2025/03/11更新]hBP01-009〈天音かなた〉にhBP01-114〈石の斧〉が付いている場合でも、「このツールが付いているホロメンがアーツを使った時」能力は発揮しません。","カードタイプ
+ホロメン
+タグ
+#JP
+#秘密結社holoX
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+140
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+用心棒
+[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない。ただし、特殊ダメージは除く。
+アーツ
+元気を全力でお届けします！　20
+自分のエールデッキの上から1枚を、自分の〈風真いろは〉以外の#秘密結社holoXを持つホロメンに送る。
+イラストレーター名：
+Honshin
+カードナンバー：
+hBP01-050"
+hPR,hBP01-054,アイラニ・イオフィフティーン,https://hololive-official-cardgame.com/cardlist/?id=212&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-054_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-054,1,"Q: Q hBP01-054〈アイラニ・イオフィフティーン〉のブルームエフェクト「緑の光が広がる海」の能力で、このカード以外の「アイラニ・イオフィフティーン」にエールを送ることはできますか？
+A: A いいえ、できません。","カードタイプ
+ホロメン
+タグ
+#ID
+#ID1期生
+#絵
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+緑の光が広がる海
+自分のエールデッキの上から1枚を、自分の〈アイラニ・イオフィフティーン〉以外の#IDを持つホロメンに送る。
+アーツ
+楽しみにしてるよ！　30
+カードナンバー：
+hBP01-054"
+hPR,hBP01-055,アイラニ・イオフィフティーン,https://hololive-official-cardgame.com/cardlist/?id=490&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-055_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：高崎律カードナンバー：hBP01-055,2,"Q: Q hBP01-055〈アイラニ・イオフィフティーン〉のコラボエフェクト「AREA 15」の能力に表記されている「自分のアーカイブのエール１枚ずつを、自分の#IDを持つホロメン１～３人に送れる。」とは、アーカイブのエールを1種類ずつ選んで１～３人に送れるということでしょうか？
+A: A いいえ、１～３人にアーカイブのエールの種類を問わず１枚ずつ送ることができます。
+
+Q: Q hBP01-055〈アイラニ・イオフィフティーン〉のコラボエフェクト「AREA 15」の「エール１枚ずつ」とは色1色につき、1枚ですか？
+A: A いいえ、エールを送るホロメン1人につき、1枚ずつになります。 同じ色も選択することができます。","カードタイプ
+ホロメン
+タグ
+#ID
+#ID1期生
+#絵
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+180
+Bloomレベル
+2nd
+バトンタッチ
+キーワード
+AREA 15
+自分のアーカイブのエール1枚ずつを、自分の#IDを持つホロメン1～3人に送れる。
+アーツ
+リレーションスカイ　100+
+自分のステージに〈アイラニ・イオフィフティーン〉以外の#IDを持つホロメンがいる時、このアーツ+50。
+イラストレーター名：
+高崎律
+カードナンバー：
+hBP01-055"
+hPR,hBP01-056,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=192&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-056_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-056,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#秘密結社holoX
+#トリ
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+皆さん、待っ鷹ね？　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP01-056"
+hPR,hBP01-060,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=213&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-060_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-060,1,"Q: Q hBP01-060〈鷹嶺ルイ〉のブルームエフェクト「本当にみんなのおかげ！！」は1stホロメンからBloomしても能力は発揮しますか？
+A: A いいえ、発揮しません。","カードタイプ
+ホロメン
+タグ
+#JP
+#秘密結社holoX
+#トリ
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+本当にみんなのおかげ！！
+DebutからBloomした時、自分の手札1枚をアーカイブできる:自分のデッキを2枚引く。
+アーツ
+しっかりついてきてよね！　40
+カードナンバー：
+hBP01-060"
+hPR,hBP01-061,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=491&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-061_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：でいりーカードナンバー：hBP01-061,2,"Q: Q hBP01-061〈鷹嶺ルイ〉のアーツ「ホークレイヴ」は能力で必ず1枚以上アーカイブしなければならないですか？
+A: A いいえ、1枚もアーカイブしないことを選べます。
+
+Q: Q hBP01-061〈鷹嶺ルイ〉のブルームエフェクト「組織の司令塔」は、手札に戻せるホロメンがあっても戻さないことを選べますか？
+A: A はい、選べます。 この能力は「手札に戻せる。」と表記されているので戻さないことを選べます。","カードタイプ
+ホロメン
+タグ
+#JP
+#秘密結社holoX
+#トリ
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+190
+Bloomレベル
+2nd
+バトンタッチ
+キーワード
+組織の司令塔
+自分のアーカイブの#秘密結社holoXを持つホロメン1～2枚を手札に戻せる。
+アーツ
+ホークレイヴ　60
+自分の手札1～5枚をアーカイブできる:相手のセンターホロメンかコラボホロメンどちらかに、アーカイブしたカード1枚につき特殊ダメージ20を与える。
+イラストレーター名：
+でいりー
+カードナンバー：
+hBP01-061"
+hPR,hBP01-062,小鳥遊キアラ,https://hololive-official-cardgame.com/cardlist/?id=193&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-062_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-062,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Myth
+#トリ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+90
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+キッケリキー！　20+
+自分の手札1枚をアーカイブできる:このアーツ+20。
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP01-062"
+hPR,hBP01-065,小鳥遊キアラ,https://hololive-official-cardgame.com/cardlist/?id=214&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-065_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-065,3,"Q: Q hBP01-065〈小鳥遊キアラ〉のブルームエフェクト「Let's do this!!!!」で、デッキの上から見た3枚の中にホロメンがあった場合でも、そのホロメンを手札に加えずに、3枚すべてをアーカイブできますか？
+A: A はい、できます。
+
+Q: Q hBP01-121〈Kotori〉がセットされている1stホロメンのhBP01-065〈小鳥遊キアラ〉に対して、1stホロメンのhBP01-066〈小鳥遊キアラ〉をBloomした場合、hBP01-121〈Kotori〉の能力でカードを引くことができますか？
+A: A いいえ、できません。 Bloomレベルが上がるとは、Debutから1stホロメン、1stホロメンから2ndホロメンになることを指します。同じBloomレベルにBloomした場合は、Bloomレベルが上がったとは扱いません。
+
+Q: Q hBP01-065〈小鳥遊キアラ〉のブルームエフェクト「Let's do this!!!!」は、デッキの残り枚数が2枚以下の時に効果を解決できますか？
+A: A はい、できます。 その場合は、見る枚数は少なくなりますが、その後の効果は通常と同様に処理をします。","カードタイプ
+ホロメン
+タグ
+#EN
+#Myth
+#トリ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+110
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+Let's do this!!!!
+自分のデッキの上から3枚を見る。その中から、ホロメン1枚を公開し、手札に加える。そして残ったカードをアーカイブする。
+アーツ
+盛り上げたいとおもいます！　40
+カードナンバー：
+hBP01-065"
+hPR,hBP01-070,尾丸ポルカ,https://hololive-official-cardgame.com/cardlist/?id=215&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-070_P_01.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-070,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#5期生
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+110
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+宴の始まりだ！
+自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+共依存　70
+このアーツは、このホロメンに〈座員〉が付いていないと使えない。
+カードナンバー：
+hBP01-070"
+hPR,hBP01-070,尾丸ポルカ,https://hololive-official-cardgame.com/cardlist/?id=1440&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-070_P_02.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：gahaカードナンバー：hBP01-070,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#5期生
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+110
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+宴の始まりだ！
+自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+共依存　70
+このアーツは、このホロメンに〈座員〉が付いていないと使えない。
+イラストレーター名：
+gaha
+カードナンバー：
+hBP01-070"
+hPR,hBP01-072,ハコス・ベールズ,https://hololive-official-cardgame.com/cardlist/?id=181&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-072_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-072,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Promise
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+80
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+WAZZUP!!　20
+このホロメンに赤エールが付いている時、サイコロを1回振れる:奇数の時、相手のコラボホロメンに特殊ダメージ20を与える。
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP01-072"
+hPR,hBP01-074,ハコス・ベールズ,https://hololive-official-cardgame.com/cardlist/?id=216&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-074_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-074,1,"Q: Q hBP01-074〈ハコス・ベールズ〉のブルームエフェクト「ネズミアイドルがいよいよ登場！」は1stホロメンからBloomしても能力は発揮しますか？
+A: A いいえ、発揮しません。","カードタイプ
+ホロメン
+タグ
+#EN
+#Promise
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+90
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+ネズミアイドルがいよいよ登場！
+DebutからBloomした時、自分のアーカイブの[Debutホロメンか1stホロメン]1枚を手札に戻せる:戻したカードが#ENを持つ時、相手のコラボホロメンに特殊ダメージ20を与える。
+アーツ
+楽しい時間の始まりだ！　30
+カードナンバー：
+hBP01-074"
+hPR,hBP01-088,ムーナ・ホシノヴァ,https://hololive-official-cardgame.com/cardlist/?id=195&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-088_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-088,0,,"カードタイプ
+ホロメン
+タグ
+#ID
+#ID1期生
+#歌
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+90
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+ムーン　ムーン　ムーナだよ！　10
+サイコロを1回振れる:偶数の時、相手のバックホロメン1人に特殊ダメージ20を与える（ダウンしても相手のライフは減らない）。
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP01-088"
+hPR,hBP01-090,ムーナ・ホシノヴァ,https://hololive-official-cardgame.com/cardlist/?id=219&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-090_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-090,0,,"カードタイプ
+ホロメン
+タグ
+#ID
+#ID1期生
+#歌
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+110
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+ラピスラズリ
+自分のエールデッキから、[緑エールか青エール]1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。
+アーツ
+楽しみにしてて！！　20
+カードナンバー：
+hBP01-090"
+hPR,hBP01-090,ムーナ・ホシノヴァ,https://hololive-official-cardgame.com/cardlist/?id=2698&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-090_P_02.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-090,0,,"カードタイプ
+ホロメン
+タグ
+#ID
+#ID1期生
+#歌
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+110
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+ラピスラズリ
+自分のエールデッキから、[緑エールか青エール]1枚を自分のホロメンに送る。そしてエールデッキをシャッフルする。
+アーツ
+楽しみにしてて！！　20
+カードナンバー：
+hBP01-090"
+hPR,hBP01-094,オーロ・クロニー,https://hololive-official-cardgame.com/cardlist/?id=220&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-094_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP01-094,1,"Q: Q hBP01-094〈オーロ・クロニー〉のブルームエフェクト「クロにちは！」の能力で赤のホロメンを指定し、エールデッキから赤エールを青のホロメンに送れますか。
+A: A はい、送れます。","カードタイプ
+ホロメン
+タグ
+#EN
+#Promise
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+クロにちは！
+自分のエールデッキから、自分の#Promiseを持つホロメン1人と同色のエール1枚を公開し、自分の#Promiseを持つホロメンに送る。そしてエールデッキをシャッフルする。
+アーツ
+忘れられないfesにしよう！　40
+カードナンバー：
+hBP01-094"
+hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=184&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：JinArt KABAKURAカードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
+A: A はい、されます。
+
+Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
+A: A いいえ、使用できません。
+
+Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
+A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
+サポート・アイテム
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
+イラストレーター名：
+JinArt KABAKURA
+カードナンバー：
+hBP01-104"
+hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2686&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_02.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：イマフクカードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
+A: A はい、されます。
+
+Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
+A: A いいえ、使用できません。
+
+Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
+A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
+サポート・アイテム
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
+イラストレーター名：
+イマフク
+カードナンバー：
+hBP01-104"
+hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2687&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_03.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：瞭カードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
+A: A はい、されます。
+
+Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
+A: A いいえ、使用できません。
+
+Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
+A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
+サポート・アイテム
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
+イラストレーター名：
+瞭
+カードナンバー：
+hBP01-104"
+hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2688&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_04.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：瞭カードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
+A: A はい、されます。
+
+Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
+A: A いいえ、使用できません。
+
+Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
+A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
+サポート・アイテム
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
+イラストレーター名：
+瞭
+カードナンバー：
+hBP01-104"
+hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2689&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_05.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：瞭カードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
+A: A はい、されます。
+
+Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
+A: A いいえ、使用できません。
+
+Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
+A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
+サポート・アイテム
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
+イラストレーター名：
+瞭
+カードナンバー：
+hBP01-104"
+hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2690&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_06.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：瞭カードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
+A: A はい、されます。
+
+Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
+A: A いいえ、使用できません。
+
+Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
+A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
+サポート・アイテム
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
+イラストレーター名：
+瞭
+カードナンバー：
+hBP01-104"
+hPR,hBP01-104,ふつうのパソコン,https://hololive-official-cardgame.com/cardlist/?id=2691&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-104_P_07.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：瞭カードナンバー：hBP01-104,3,"Q: Q hSD13-014〈セシリア・イマーグリーン〉のギフト「正義の旋律」は、hBP01-104〈ふつうのパソコン〉などでステージに出した場合も発揮されますか？
+A: A はい、されます。
+
+Q: Q 自分のステージに6人のホロメンがいて、これ以上ホロメンを出すことができない場合、hBP01-104〈ふつうのパソコン〉を使うことはできますか？
+A: A いいえ、使用できません。
+
+Q: Q hBP01-104〈ふつうのパソコン〉を使用し、デッキの中に望むカードがなかった場合、何も公開しなくてもよいですか？
+A: A はい、公開しなくてもよいです。 その場合は、デッキをシャッフルして能力が終了します。","カードタイプ
+サポート・アイテム
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。
+イラストレーター名：
+瞭
+カードナンバー：
+hBP01-104"
+hPR,hBP01-107,アンコール,https://hololive-official-cardgame.com/cardlist/?id=2990&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP01-107_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：JinArt こばやかわやまとカードナンバー：hBP01-107,1,"Q: Q hBP01-107〈アンコール〉は、自分のアーカイブにエールが無い場合でも使用できますか？
+A: A いいえ、使用できません。 サポートカードは、指定されたカードを選ぶことができず、能力が発揮されても状況が変化しない場合は、使用することができません。","カードタイプ
+サポート・イベント
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のアーカイブのエール1～3枚をエールデッキに戻す。そしてエールデッキをシャッフルする。
+イラストレーター名：
+JinArt こばやかわやまと
+カードナンバー：
+hBP01-107"
+hPR,hBP02-011,白上フブキ,https://hololive-official-cardgame.com/cardlist/?id=1100&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-011_P_02.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP02-011,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#1期生
+#ゲーマーズ
+#ケモミミ
+#絵
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+白上から目をそらしちゃ
+自分のデッキから、#白上'sキャラクターを持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+ダメですよっ！　40
+カードナンバー：
+hBP02-011"
+hPR,hBP02-011,白上フブキ,https://hololive-official-cardgame.com/cardlist/?id=2699&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-011_P_03.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP02-011,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#1期生
+#ゲーマーズ
+#ケモミミ
+#絵
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+白上から目をそらしちゃ
+自分のデッキから、#白上'sキャラクターを持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+ダメですよっ！　40
+カードナンバー：
+hBP02-011"
+hPR,hBP02-014,白銀ノエル,https://hololive-official-cardgame.com/cardlist/?id=511&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-014_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP02-014,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#3期生
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+130
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+こんまっする～！　20
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP02-014"
+hPR,hBP02-018,パヴォリア・レイネ,https://hololive-official-cardgame.com/cardlist/?id=512&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-018_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP02-018,0,,"カードタイプ
+ホロメン
+タグ
+#ID
+#ID2期生
+#トリ
+#絵
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+ペルハティアン！　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP02-018"
+hPR,hBP02-024,大神ミオ,https://hololive-official-cardgame.com/cardlist/?id=501&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-024_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP02-024,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#ゲーマーズ
+#ケモミミ
+#料理
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+90
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+うちうち、うちだよ～大神ミオだよ～　10
+自分のステージのエール1枚を、自分の#JPを持つホロメンに付け替えられる。
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP02-024"
+hPR,hBP02-024,大神ミオ,https://hololive-official-cardgame.com/cardlist/?id=1101&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-024_P_02.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：teffishカードナンバー：hBP02-024,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#ゲーマーズ
+#ケモミミ
+#料理
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+90
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+うちうち、うちだよ～大神ミオだよ～　10
+自分のステージのエール1枚を、自分の#JPを持つホロメンに付け替えられる。
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+イラストレーター名：
+teffish
+カードナンバー：
+hBP02-024"
+hPR,hBP02-028,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=201&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-028_P_2.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：あかさあいカードナンバー：hBP02-028,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#3期生
+#絵
+#海
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+宝鐘海賊団船長の宝鐘マリンですぅー！　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+イラストレーター名：
+あかさあい
+カードナンバー：
+hBP02-028"
+hPR,hBP02-028,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=502&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-028_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP02-028,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#3期生
+#絵
+#海
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+宝鐘海賊団船長の宝鐘マリンですぅー！　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP02-028"
+hPR,hBP02-061,一伊那尓栖,https://hololive-official-cardgame.com/cardlist/?id=515&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-061_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP02-061,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Myth
+#絵
+#海
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+140
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+WAH!　10
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP02-061"
+hPR,hBP02-065,ネリッサ・レイヴンクロフト,https://hololive-official-cardgame.com/cardlist/?id=1106&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-065_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP02-065,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Advent
+#歌
+#トリ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+90
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+Hiya darlings!　30+
+このホロメンに赤エールが付いている時、このアーツ+10。
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP02-065"
+hPR,hBP02-067,ネリッサ・レイヴンクロフト,https://hololive-official-cardgame.com/cardlist/?id=2045&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-067_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP02-067,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Advent
+#歌
+#トリ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+ネリッサとお茶会
+自分のデッキの上から3枚を見る。その中から、#歌を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
+アーツ
+コーヒーよりも紅茶です　20
+カードナンバー：
+hBP02-067"
+hPR,hBP02-079,爆発の魔法,https://hololive-official-cardgame.com/cardlist/?id=1107&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP02-079_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP02-079,1,"Q: Q hBP02-079〈爆発の魔法〉の「自分の#魔法を持つイベントはターンに1回しか使えない。」というのは、このカードは1ターンに1回しか使えないということですか？
+A: A いいえ、違います。 このカードを使った場合、そのターン中#魔法というタグを持っているイベント全てが使えません。","カードタイプ
+サポート・イベント
+タグ
+#魔法
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。自分の#魔法を持つイベントはターンに1回しか使えない。
+カードナンバー：
+hBP02-079"
+hPR,hBP03-036,小鳥遊キアラ,https://hololive-official-cardgame.com/cardlist/?id=2043&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-036_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP03-036,1,"Q: Q hBP03-036〈小鳥遊キアラ〉のブルームエフェクト「ハッピータイム」は、1枚もアーカイブせずにデッキの中を見ることはできますか？
+A: A はい、1枚もアーカイブせずにデッキをシャッフルして効果の解決を終えます。","カードタイプ
+ホロメン
+タグ
+#EN
+#Myth
+#トリ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+140
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+ハッピータイム
+自分のデッキから、〈小鳥遊キアラ〉1～4枚を公開し、アーカイブできる。そしてデッキをシャッフルする。
+アーツ
+鋼の翼　50
+カードナンバー：
+hBP03-036"
+hPR,hBP03-037,モココ・アビスガード,https://hololive-official-cardgame.com/cardlist/?id=1108&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-037_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP03-037,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Advent
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+80
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+フワワじゃないよ、モココだよ　20
+このアーツは、自分のセンターホロメンが〈フワワ・アビスガード〉の時、エール1枚を必要とせずに使える。
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP03-037"
+hPR,hBP03-040,フワワ・アビスガード,https://hololive-official-cardgame.com/cardlist/?id=851&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-040_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP03-040,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Advent
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+チワワじゃないよ、フワワだよ　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP03-040"
+hPR,hBP03-050,FUWAMOCO,https://hololive-official-cardgame.com/cardlist/?id=2475&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-050_P_03.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：dangdidiカードナンバー：hBP03-050,12,"Q: Q hBP03-050〈FUWAMOCO〉のエクストラ能力「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」とは、どういう意味ですか？
+A: A カード名として、〈フワワ・アビスガード〉、〈モココ・アビスガード〉、〈FUWAMOCO〉を持つことを指します。
+
+Q: Q hBP03-050〈FUWAMOCO〉のエクストラ「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」とは、ステージ以外にある場合でも〈フワワ・アビスガード〉〈モココ・アビスガード〉として扱いますか？
+A: A はい、扱います。
+
+Q: Q hBP04-089〈ツートンカラーパソコン〉を使い、自分のステージに色が1色で異なる色のホロメンとして、〈ときのそら〉と〈フワワ・アビスガード〉を選びました。 この場合、選んだホロメンと同色の1stホロメンとして、hSD01-013〈SorAZ〉とhBP03-050〈FUWAMOCO〉を手札に加えられますか？
+A: A はい、加えられます。
+
+Q: Q hBP04-049〈ムーナ・ホシノヴァ〉のアーツ「Shining Moon」の能力は、自分の他のホロメンがhBP03-050〈FUWAMOCO〉のみでも「+50」されますか？
+A: A はい、されます。
+
+Q: Q hBP03-109〈Ruffians〉の「自分のアーカイブの青エールを、自分の〈フワワ・アビスガード〉に送れる。」とは、hBP03-050〈FUWAMOCO〉にも送ることはできますか?
+A: A はい、できます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
+
+Q: Q 自分の推しホロメンがhBP03-004〈FUWAMOCO〉の時、hBP03-084〈ゴージャスパソコン〉でhBP03-050〈FUWAMOCO〉を手札に加えることはできますか？
+A: A はい、できます。 hBP03-050〈FUWAMOCO〉は赤でも青でもあるため、条件を満たします。
+
+Q: Q hBP03-043〈フワワ・アビスガード〉のアーツ「一緒に食べる?」で、自分のhBP03-050〈FUWAMOCO〉にエールを付け替えることはできますか?
+A: A はい、できます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
+
+Q: Q hBP03-039〈モココ・アビスガード〉のアーツ「もこもこしてる方」は、自分のセンターホロメンがhBP03-050〈FUWAMOCO〉の場合でも「+30」されますか?
+A: A はい、されます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
+
+Q: Q hBP03-042〈フワワ・アビスガード〉のブルームエフェクト「フワ花流水」は、他の自分のステージのホロメンがhBP03-050〈FUWAMOCO〉のみの場合でも特殊ダメージ「20」を与えることはできますか?
+A: A はい、与えられます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
+
+Q: Q hBP03-039〈モココ・アビスガード〉のギフト「魔界乃番犬の暴れん坊」は、自分のセンターホロメンがhBP03-050〈FUWAMOCO〉の場合でもお休みせずバックポジションに移動しますか?
+A: A はい、お休みせずに移動します。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
+
+Q: Q hBP03-038〈モココ・アビスガード〉のブルームエフェクト「遊びの時間だー！」の能力で、自分のデッキからhBP03-050〈FUWAMOCO〉を手札に加えることはできますか?
+A: A はい、できます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。
+
+Q: Q hBP03-004〈FUWAMOCO〉の推しスキル「モコちゃん！」は、自分のhBP03-050〈FUWAMOCO〉にエールを送ることはできますか？
+A: A はい、できます。 カード名称に該当のカードがない場合でもエクストラに「このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う」の様に特定のカード名として扱うカードが存在している場合は、その条件を満たします。","カードタイプ
+ホロメン
+タグ
+#EN
+#Advent
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+150
+Bloomレベル
+1st
+バトンタッチ
+アーツ
+魔界乃番犬シスターズ　40
+自分のエールデッキから、[赤エールか青エール]1枚を公開し、自分の#Adventを持つホロメンに送る。そしてエールデッキをシャッフルする。
+アーツ
+2人揃ってFUWAMOCOです！　60
+エクストラ
+このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う
+イラストレーター名：
+dangdidi
+カードナンバー：
+hBP03-050"
+hPR,hBP03-051,常闇トワ,https://hololive-official-cardgame.com/cardlist/?id=814&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-051_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP03-051,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#4期生
+#歌
+#シューター
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+110
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+こんやっぴー　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP03-051"
+hPR,hBP03-051,常闇トワ,https://hololive-official-cardgame.com/cardlist/?id=1396&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-051_P_02.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：花澤明カードナンバー：hBP03-051,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#4期生
+#歌
+#シューター
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+110
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+こんやっぴー　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+イラストレーター名：
+花澤明
+カードナンバー：
+hBP03-051"
+hPR,hBP03-059,ロボ子さん,https://hololive-official-cardgame.com/cardlist/?id=2131&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-059_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：兎未枝カードナンバー：hBP03-059,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#0期生
+#シューター
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+130
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+PONしたらその分
+自分のデッキの上から3枚を見る。その中から、#0期生を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
+アーツ
+笑顔になーーれっ　40
+イラストレーター名：
+兎未枝
+カードナンバー：
+hBP03-059"
+hPR,hBP03-059,ロボ子さん,https://hololive-official-cardgame.com/cardlist/?id=2701&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-059_P_02.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP03-059,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#0期生
+#シューター
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+130
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+PONしたらその分
+自分のデッキの上から3枚を見る。その中から、#0期生を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
+アーツ
+笑顔になーーれっ　40
+カードナンバー：
+hBP03-059"
+hPR,hBP03-080,音乃瀬奏,https://hololive-official-cardgame.com/cardlist/?id=816&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-080_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP03-080,0,,"カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#ReGLOSS
+#歌
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+130
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+ドレミファソラシド～！　20
+アーツ
+音楽家の卵！ 音乃瀬～奏で～～～す！　50
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP03-080"
+hPR,hBP03-088,凸待ち,https://hololive-official-cardgame.com/cardlist/?id=820&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-088_P_1.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：夏色まつりカードナンバー：hBP03-088,7,"Q: Q ターンプレイヤーがhBP03-088〈凸待ち〉を使った時、コラボポジションに移動させるバックホロメンを選ぶのはどちらのプレイヤーですか？
+A: A hBP03-088〈凸待ち〉を使っていないプレイヤーになります。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、相手は自身のリセットステップでそのホロメンをバックポジションへ移動させますか？
+A: A はい、バックポジションへ移動させ、お休みさせます。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、「コラボした時」の能力は発揮されますか？
+A: A いいえ、されません。
+
+Q: Q 相手のバックポジションにホロメンがおらず、コラボポジションが不在の時、hBP03-088〈凸待ち〉は使用できますか？
+A: A いいえ、使用できません。 そのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、相手のお休みしているホロメンもコラボポジションへ移動させることはできますか？
+A: A はい、できます。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、コラボポジションにホロメンが移動した時、ホロパワーを貯めることはできますか？
+A: A いいえ、ホロパワーは「コラボする」時のみしか貯めることはできません。
+
+Q: Q hBP03-088〈凸待ち〉は、相手とライフの枚数が同じでも使用できますか？
+A: A いいえ、使用できません。","カードタイプ
+サポート・イベント・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+このカードは、自分のライフが相手より少ない時にしか使えない。
+相手のコラボホロメンがいない時、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。
+LIMITED:ターンに1枚しか使えない。
+イラストレーター名：
+夏色まつり
+カードナンバー：
+hBP03-088"
+hPR,hBP03-088,凸待ち,https://hololive-official-cardgame.com/cardlist/?id=821&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-088_P_2.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：森カリオペカードナンバー：hBP03-088,7,"Q: Q ターンプレイヤーがhBP03-088〈凸待ち〉を使った時、コラボポジションに移動させるバックホロメンを選ぶのはどちらのプレイヤーですか？
+A: A hBP03-088〈凸待ち〉を使っていないプレイヤーになります。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、相手は自身のリセットステップでそのホロメンをバックポジションへ移動させますか？
+A: A はい、バックポジションへ移動させ、お休みさせます。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、「コラボした時」の能力は発揮されますか？
+A: A いいえ、されません。
+
+Q: Q 相手のバックポジションにホロメンがおらず、コラボポジションが不在の時、hBP03-088〈凸待ち〉は使用できますか？
+A: A いいえ、使用できません。 そのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、相手のお休みしているホロメンもコラボポジションへ移動させることはできますか？
+A: A はい、できます。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、コラボポジションにホロメンが移動した時、ホロパワーを貯めることはできますか？
+A: A いいえ、ホロパワーは「コラボする」時のみしか貯めることはできません。
+
+Q: Q hBP03-088〈凸待ち〉は、相手とライフの枚数が同じでも使用できますか？
+A: A いいえ、使用できません。","カードタイプ
+サポート・イベント・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+このカードは、自分のライフが相手より少ない時にしか使えない。
+相手のコラボホロメンがいない時、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。
+LIMITED:ターンに1枚しか使えない。
+イラストレーター名：
+森カリオペ
+カードナンバー：
+hBP03-088"
+hPR,hBP03-088,凸待ち,https://hololive-official-cardgame.com/cardlist/?id=822&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP03-088_P_3.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：綺々羅々ヴィヴィカードナンバー：hBP03-088,7,"Q: Q ターンプレイヤーがhBP03-088〈凸待ち〉を使った時、コラボポジションに移動させるバックホロメンを選ぶのはどちらのプレイヤーですか？
+A: A hBP03-088〈凸待ち〉を使っていないプレイヤーになります。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、相手は自身のリセットステップでそのホロメンをバックポジションへ移動させますか？
+A: A はい、バックポジションへ移動させ、お休みさせます。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、相手のバックホロメンをコラボポジションに移動させた場合、「コラボした時」の能力は発揮されますか？
+A: A いいえ、されません。
+
+Q: Q 相手のバックポジションにホロメンがおらず、コラボポジションが不在の時、hBP03-088〈凸待ち〉は使用できますか？
+A: A いいえ、使用できません。 そのカードを解決した結果、そのサポートカードがアーカイブに置かれる以外にゲームの状態が変化しない場合、そのサポートカードはプレイできません。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、相手のお休みしているホロメンもコラボポジションへ移動させることはできますか？
+A: A はい、できます。
+
+Q: Q hBP03-088〈凸待ち〉を使用し、コラボポジションにホロメンが移動した時、ホロパワーを貯めることはできますか？
+A: A いいえ、ホロパワーは「コラボする」時のみしか貯めることはできません。
+
+Q: Q hBP03-088〈凸待ち〉は、相手とライフの枚数が同じでも使用できますか？
+A: A いいえ、使用できません。","カードタイプ
+サポート・イベント・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+このカードは、自分のライフが相手より少ない時にしか使えない。
+相手のコラボホロメンがいない時、相手は、自身のバックホロメン1人をコラボポジションに移動させる（移動はコラボとしては扱わない）。
+LIMITED:ターンに1枚しか使えない。
+イラストレーター名：
+綺々羅々ヴィヴィ
+カードナンバー：
+hBP03-088"
+hPR,hBP04-008,博衣こより,https://hololive-official-cardgame.com/cardlist/?id=1110&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-008_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP04-008,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#秘密結社holoX
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+こんこよ～　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP04-008"
+hPR,hBP04-012,博衣こより,https://hololive-official-cardgame.com/cardlist/?id=2702&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-012_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP04-012,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#秘密結社holoX
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+140
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+はい！ はい！ はい！ はい！
+自分のデッキから、#こよラボを持つサポートカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+助手くんとこよはずっと一緒だよ！　30
+このホロメンに〈こよりの助手くん〉が付いている時、自分のデッキを1枚引く。
+カードナンバー：
+hBP04-012"
+hPR,hBP04-028,セシリア・イマーグリーン,https://hololive-official-cardgame.com/cardlist/?id=1113&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-028_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：DSマイルカードナンバー：hBP04-028,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Justice
+#語学
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+正義の調べ　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+イラストレーター名：
+DSマイル
+カードナンバー：
+hBP04-028"
+hPR,hBP04-039,カエラ・コヴァルスキア,https://hololive-official-cardgame.com/cardlist/?id=1404&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-039_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：81カードナンバー：hBP04-039,0,,"カードタイプ
+ホロメン
+タグ
+#ID
+#ID3期生
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+おはエラ　20
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+イラストレーター名：
+81
+カードナンバー：
+hBP04-039"
+hPR,hBP04-043,雪花ラミィ,https://hololive-official-cardgame.com/cardlist/?id=1405&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-043_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP04-043,1,"Q: Q hBP04-004〈雪花ラミィ〉のSP推しスキル「ぶーん、バリバリバリバリ」を使い、hBP04-106〈雪民〉が付いているhBP04-043〈雪花ラミィ〉を選びました。 その後、hBP04-047〈雪花ラミィ〉にBloomさせ、コラボエフェクト「fleur」を使い、相手のホロメンをダウンさせて2枚引きました。 この場合、hBP04-047〈雪花ラミィ〉パフォーマンスステップでアーツ「雪が煌く花束」を使い、相手のセンターホロメンをダウンさせてさらに2枚引くことはできますか？
+A: A はい、できます。","カードタイプ
+ホロメン
+タグ
+#JP
+#5期生
+#ハーフエルフ
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+90
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+こんらみ～　20
+相手のホロメン1人に特殊ダメージ10を与える。ただし、ダウンしても相手のライフは減らない。
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP04-043"
+hPR,hBP04-067,大空スバル,https://hololive-official-cardgame.com/cardlist/?id=1118&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-067_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP04-067,1,"Q: Q 自分の推しホロメンがhBP04-006〈大空スバル〉で、センターホロメンとバックホロメン1人がhBP04-067〈大空スバル〉の時、相手がhBP01-087〈こぼ・かなえる〉のアーツ「雨のマントラ」を使いました。 バックホロメンのhBP04-067〈大空スバル〉に、能力による20ダメージが与えられる時に推しスキル「メンタル！ フィジカル！ パッション！」を使った場合、その後のセンターホロメンのhBP04-067〈大空スバル〉に与えられる40ダメージを-30することはできますか？
+A: A いいえ、できません。 一度に受けるダメージを減らす能力のため、推しスキルを使ったタイミングのダメージのみしか減らせません。","カードタイプ
+ホロメン
+タグ
+#JP
+#2期生
+#トリ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+130
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+あじまる！ あじまる！　20
+アーツ
+ちわーす！ ホロライブ2期生 大空スバルっス!!　60
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP04-067"
+hPR,hBP04-072,大空スバル,https://hololive-official-cardgame.com/cardlist/?id=1734&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-072_P_02.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：つなかわカードナンバー：hBP04-072,1,"Q: Q hBP04-072〈大空スバル〉のアーツ「太陽少女」は、hBP01-126〈座員〉やhBP03-107〈35P〉も数えることができますか？
+A: A いいえ、数えられません。","カードタイプ
+ホロメン
+タグ
+#JP
+#2期生
+#歌
+#トリ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+190
+Bloomレベル
+2nd
+バトンタッチ
+キーワード
+サンライトステージ
+自分のアーカイブの黄エール1枚を自分のホロメンに送れる。
+アーツ
+太陽少女　100+
+お互いのステージのエール1枚につき、このアーツ+10。ただし、数える枚数は8枚まで。
+イラストレーター名：
+つなかわ
+カードナンバー：
+hBP04-072"
+hPR,hBP04-079,夏色まつり,https://hololive-official-cardgame.com/cardlist/?id=1408&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP04-079_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP04-079,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#1期生
+#シューター
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+わっしょ～い！
+相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を、自分の他のホロメンに付け替えられる。
+アーツ
+ホロライブの清楚担当　10
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hBP04-079"
+hPR,hBP05-074,フレンドリーパソコン,https://hololive-official-cardgame.com/cardlist/?id=1455&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP05-074_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：たうたカードナンバー：hBP05-074,1,"Q: Q hBP05-074〈フレンドリーパソコン〉は、自分の手札がこのカードのみの場合でも「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン２枚をステージに出すことはできますか？
+A: A はい、できます。","カードタイプ
+サポート・アイテム
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1～2枚を公開し、ステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。
+イラストレーター名：
+たうた
+カードナンバー：
+hBP05-074"
+hPR,hBP05-074,フレンドリーパソコン,https://hololive-official-cardgame.com/cardlist/?id=2693&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP05-074_P_02.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：risumiカードナンバー：hBP05-074,1,"Q: Q hBP05-074〈フレンドリーパソコン〉は、自分の手札がこのカードのみの場合でも「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン２枚をステージに出すことはできますか？
+A: A はい、できます。","カードタイプ
+サポート・アイテム
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1～2枚を公開し、ステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。
+イラストレーター名：
+risumi
+カードナンバー：
+hBP05-074"
+hPR,hBP05-075,牛丼,https://hololive-official-cardgame.com/cardlist/?id=1736&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP05-075_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：Oliカードナンバー：hBP05-075,3,"Q: Q hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力で、バトンタッチに必要な無色+1されたhBP01-068〈尾丸ポルカ〉に、hBP05-075〈牛丼〉を使いました。 この場合、バトンタッチに必要な「無色」はいくつになりますか？
+A: A この場合、0になります。
+
+Q: Q hBP05-075〈牛丼〉は、バトンタッチのコストが0でHPが減っていないホロメンに使えますか？
+A: A はい、使えます。
+
+Q: Q hBP05-075〈牛丼〉の「無色-2」とは、どういう意味ですか？
+A: A バトンタッチに必要な、アーカイブするエールの数を無色2つ分減らす能力です。","カードタイプ
+サポート・イベント
+タグ
+#食べ物
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のホロメン1人を選ぶ。このターンの間、選んだホロメンのバトンタッチに必要な無色エール-2。その後、選んだホロメンのHP20回復。
+イラストレーター名：
+Oli
+カードナンバー：
+hBP05-075"
+hPR,hBP05-080,SorAZセレブレーション,https://hololive-official-cardgame.com/cardlist/?id=1400&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP05-080_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：ひょんカードナンバー：hBP05-080,0,,"カードタイプ
+サポート・イベント・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキを2枚引く。その後、自分のデッキの上から5枚を見る。その中から、1stホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
+LIMITED:ターンに1枚しか使えない。
+イラストレーター名：
+ひょん
+カードナンバー：
+hBP05-080"
+hPR,hBP08-005,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=2456&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-005_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：TORYaカードナンバー：hBP08-005,1,"Q: Q 自分の手札が1枚の時、hBP08-005〈鷹嶺ルイ〉の推しスキル「ホイサホイサ」の能力を使いました。 この場合、手札1枚をアーカイブすることはできますか？
+A: A はい、できます。 この場合、1枚アーカイブし、その後何もせず能力の処理を終えます。","カードタイプ
+推しホロメン
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+LIFE
+5
+推しステージスキル
+もう金曜だねルイ姉
+自分のターンが終了する時、自分のセンターホロメンが〈鷹嶺ルイ〉で、自分のコラボホロメンがいるなら、手札が4枚になるまで、自分のデッキを引く。
+推しスキル
+[ホロパワー:-2]
+ホイサホイサ
+[ターンに1回]自分の手札2枚をアーカイブする。この能力で2枚アーカイブしたなら、相手のDebut以外の[センターホロメンとコラボホロメン]に特殊ダメージ50を与える。
+イラストレーター名：
+TORYa
+カードナンバー：
+hBP08-005"
+hPR,hBP08-008,IRyS,https://hololive-official-cardgame.com/cardlist/?id=2461&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-008_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：なかゥまカードナンバー：hBP08-008,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Promise
+#歌
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+130
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+Promise of Spring
+自分が後攻で最初のターンなら、自分のステージの#Promiseを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+30。さらに、自分のステージに紫エールがあるなら、自分のデッキを1枚引く。
+アーツ
+芽吹く春　30
+イラストレーター名：
+なかゥま
+カードナンバー：
+hBP08-008"
+hPR,hBP08-012,IRyS,https://hololive-official-cardgame.com/cardlist/?id=2711&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-012_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP08-012,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Promise
+#歌
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+160
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+希望が照らす轍
+自分のステージのエール1枚をエールデッキの下に戻せる:自分のエールデッキの上から1枚を自分の〈IRyS〉に送る。
+アーツ
+片や天使 片や悪魔　50
+このホロメンに紫エールが付いているなら、相手のセンターホロメンに特殊ダメージ20を与える。
+カードナンバー：
+hBP08-012"
+hPR,hBP08-021,セシリア・イマーグリーン,https://hololive-official-cardgame.com/cardlist/?id=2977&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-021_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：misyuneカードナンバー：hBP08-021,1,"Q: Q hBP08-021〈セシリア・イマーグリーン〉のコラボエフェクト「Automaton，Roll Out!」の能力は、必ず〈Otomo〉を2枚公開して加えなければなりませんか？
+A: A いいえ、1枚のみを加え、処理を終えることができます。","カードタイプ
+ホロメン
+タグ
+#EN
+#Justice
+#語学
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+Automaton，Roll Out!
+自分が後攻で最初のターンなら、自分のデッキから、〈Otomo〉2枚を公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+祝祭を響かせよう　30
+イラストレーター名：
+misyune
+カードナンバー：
+hBP08-021"
+hPR,hBP08-034,モココ・アビスガード,https://hololive-official-cardgame.com/cardlist/?id=2462&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-034_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：marumoruカードナンバー：hBP08-034,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Advent
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+FUWAMOCOを信じて！
+自分が後攻で最初のターンなら、自分のデッキから、Debutホロメンの[〈フワワ・アビスガード〉と〈モココ・アビスガード〉]1枚ずつをステージに出す。そしてデッキをシャッフルする。
+アーツ
+あなたのもこもこなモココ　30
+イラストレーター名：
+marumoru
+カードナンバー：
+hBP08-034"
+hPR,hBP08-041,小鳥遊キアラ,https://hololive-official-cardgame.com/cardlist/?id=2463&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-041_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：岐兎こるたカードナンバー：hBP08-041,1,"Q: Q hBP08-041〈小鳥遊キアラ〉のギフト「不死鳥式エアロビ」の能力でこのホロメンを戻した場合、ライフダメージはどうなりますか？
+A: A この場合、ライフダメージは通常通り処理されます。","カードタイプ
+ホロメン
+タグ
+#EN
+#Myth
+#トリ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+130
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+不死鳥式エアロビ
+相手のターンで、このホロメンがダウンした時、このホロメンをアーカイブするかわりに手札に戻せる。
+アーツ
+""熱狂的な夜""は実在する!!!　20
+自分のデッキの上から1枚をアーカイブする。
+イラストレーター名：
+岐兎こるた
+カードナンバー：
+hBP08-041"
+hPR,hBP08-047,水宮枢,https://hololive-official-cardgame.com/cardlist/?id=2978&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-047_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：ZETTOカードナンバー：hBP08-047,0,,"カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#FLOW GLOW
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+はい、天才！
+自分が後攻で最初のターンなら、自分のデッキを1枚引き、相手のセンターホロメンのバトンタッチに必要な無色1つにつき、自分のデッキを1枚引く。
+アーツ
+すうの充電たりてる？　30
+イラストレーター名：
+ZETTO
+カードナンバー：
+hBP08-047"
+hPR,hBP08-049,水宮枢,https://hololive-official-cardgame.com/cardlist/?id=2464&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-049_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：赤木渉カードナンバー：hBP08-049,0,,"カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#FLOW GLOW
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+140
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+君との電話ひとりじめ
+[コラボポジション限定]自分の#FLOW GLOWを持つセンターホロメンがいるなら、相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない。ただし、特殊ダメージは除く。
+アーツ
+君さえよかったらもっとはなそ　50
+イラストレーター名：
+赤木渉
+カードナンバー：
+hBP08-049"
+hPR,hBP08-053,水宮枢,https://hololive-official-cardgame.com/cardlist/?id=2682&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-053_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：b1ackカードナンバー：hBP08-053,0,,"カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#FLOW GLOW
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+160
+Bloomレベル
+2nd
+バトンタッチ
+キーワード
+しゅぴしゅわ～～っ！！！！
+[センターポジション限定]相手のセンターホロメンのバトンタッチに必要な無色が5つ以上なら、相手のセンターホロメンのアーツに必要な無色+2。
+アーツ
+届け、この愛　50
+相手のセンターホロメンのバトンタッチに必要な無色が5つ以上なら、相手のDebut以外のホロメン1人に特殊ダメージ100を与える。
+イラストレーター名：
+b1ack
+カードナンバー：
+hBP08-053"
+hPR,hBP08-057,フワワ・アビスガード,https://hololive-official-cardgame.com/cardlist/?id=2712&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-057_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP08-057,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Advent
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+180
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+木漏れ日のブランコ
+自分のステージのエールを好きな枚数選び、自分の〈モココ・アビスガード〉1人に付け替えられる。その後、自分のステージにエールが8枚以上あるなら、このターンの間、このホロメンのアーツ+40。
+アーツ
+寄り添うふたり　30+
+このホロメンに赤エールが付いているなら、このアーツ+20。
+カードナンバー：
+hBP08-057"
+hPR,hBP08-060,FUWAMOCO,https://hololive-official-cardgame.com/cardlist/?id=2325&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-060_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：Hydeカードナンバー：hBP08-060,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Advent
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+170
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+“BAU” DOL♡
+[コラボポジション限定]自分の推しスキル「モコちゃん！」の[ホロパワー:-3]を[ホロパワー:-2]に変更する。
+アーツ
+いっしょういっしょ♡　50
+自分の推しホロメンが青の〈FUWAMOCO〉なら、自分のデッキの上から1枚をホロパワーにする。
+エクストラ
+このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う
+イラストレーター名：
+Hyde
+カードナンバー：
+hBP08-060"
+hPR,hBP08-061,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=2465&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-061_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：いずみけいカードナンバー：hBP08-061,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#秘密結社holoX
+#トリ
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+秘密結社のおもてなし
+自分が後攻で最初のターンで、自分の推しホロメンが〈鷹嶺ルイ〉なら、相手は、自身のホロパワーの上から1枚を手札に加える。
+アーツ
+holoX Coffeeをどうぞ　30
+イラストレーター名：
+いずみけい
+カードナンバー：
+hBP08-061"
+hPR,hBP08-063,鷹嶺ルイ,https://hololive-official-cardgame.com/cardlist/?id=2713&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-063_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP08-063,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#秘密結社holoX
+#トリ
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+150
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+ホロックス・ディール
+自分のデッキの上から3枚を見る。その中から、#秘密結社holoXを持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
+アーツ
+どう似合ってる？？？　40
+カードナンバー：
+hBP08-063"
+hPR,hBP08-068,一伊那尓栖,https://hololive-official-cardgame.com/cardlist/?id=2466&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-068_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：黒星紅白カードナンバー：hBP08-068,3,"Q: Q 自分の推しホロメンがhBP01-006〈小鳥遊キアラ〉の時、相手がhBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力を使い、自分の元々の色が赤でないホロメンをすべての色を持つホロメンにしました。 その後、そのホロメンがダウンした場合、hBP01-006〈小鳥遊キアラ〉の推しスキル「Rise from the ashes」を使うことはできますか？
+A: A はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。
+
+Q: Q 自分の推しホロメンがhBP03-006〈戌神ころね〉の時、相手がhBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力を使い、自分の元々の色が黄でないホロメンをすべての色を持つホロメンにしました。 その後、そのホロメンがダウンした場合、hBP03-006〈戌神ころね〉の推しスキル「ウォウウォウウォウウォウ」を使うことはできますか？
+A: A はい、ダウンしたホロメンはすべての色を持つホロメンとして扱われているため、使うことができます。
+
+Q: Q hBP08-068〈一伊那尓栖〉のコラボエフェクト「きタコれ！」の能力の「すべての色を持つホロメンとして扱う。」とは、無色も含みますか？
+A: A いいえ、含みません。 色とは、白、緑、赤、青、紫、黄のみを指します。","カードタイプ
+ホロメン
+タグ
+#EN
+#Myth
+#絵
+#海
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+140
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+きタコれ！
+自分が後攻で最初のターンなら、このターンの間、相手のステージのホロメン全員は、すべての色を持つホロメンとして扱う。
+アーツ
+引きこもり娘は外出の夢を見た　10
+相手の推しホロメンと異なる色を持つ相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。
+イラストレーター名：
+黒星紅白
+カードナンバー：
+hBP08-068"
+hPR,hBP08-070,一伊那尓栖,https://hololive-official-cardgame.com/cardlist/?id=2714&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-070_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP08-070,1,"Q: Q hBP08-070〈一伊那尓栖〉のアーツ「私の生涯の友人」の「相手の推しホロメンと異なる色を持つ」とは、どういう意味ですか？
+A: A 相手の推しホロメンが持つ色とは別の色を1色以上持つことを指します。 色とは、白、緑、赤、青、紫、黄を指します。","カードタイプ
+ホロメン
+タグ
+#EN
+#Myth
+#絵
+#海
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+180
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+イナ・イマジネーション
+自分のデッキから、〈Takodachi〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+私の生涯の友人　30
+相手の推しホロメンと異なる色を持つ相手のステージのホロメン1人につき、自分の#Mythを持つホロメン1人のHP10回復。
+カードナンバー：
+hBP08-070"
+hPR,hBP08-077,音乃瀬奏,https://hololive-official-cardgame.com/cardlist/?id=2467&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-077_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：hitokotoカードナンバー：hBP08-077,0,,"カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#ReGLOSS
+#歌
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+歌ってみた、聴いてください
+自分が後攻で最初のターンなら、自分のデッキから、[1stホロメンの〈音乃瀬奏〉と〈リコーダー〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+奏スタンバイ　20
+イラストレーター名：
+hitokoto
+カードナンバー：
+hBP08-077"
+hPR,hBP08-079,音乃瀬奏,https://hololive-official-cardgame.com/cardlist/?id=2715&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-079_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP08-079,0,,"カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#ReGLOSS
+#歌
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+170
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+黎明の歌姫
+自分のステージに#ReGLOSSを持つ2ndホロメンがいるなら、このホロメンのHP+50。
+アーツ
+清廉なる歌声　10
+自分のアーカイブのエール1枚を自分の#ReGLOSSを持つセンターホロメンに送れる。
+カードナンバー：
+hBP08-079"
+hPR,hBP08-085,不知火フレア,https://hololive-official-cardgame.com/cardlist/?id=2716&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-085_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hBP08-085,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#3期生
+#ハーフエルフ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+手、繋いでいると温かいね
+自分の手札1枚をアーカイブできる:自分のアーカイブの[Debutホロメンか1stホロメンかSpotホロメン]1枚を手札に戻す。
+アーツ
+テレ隠しが下手ですな～　10
+カードナンバー：
+hBP08-085"
+hPR,hBP08-092,思い出のドーナツショップ,https://hololive-official-cardgame.com/cardlist/?id=2468&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-092_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：ナナテトラカードナンバー：hBP08-092,0,,"カードタイプ
+サポート・イベント・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキから、[〈フワワ・アビスガード〉と〈モココ・アビスガード〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。その後、自分のライフが相手より少ないなら、相手のホロメン1人に特殊ダメージ20を与える。
+LIMITED:ターンに1枚しか使えない。
+イラストレーター名：
+ナナテトラ
+カードナンバー：
+hBP08-092"
+hPR,hBP08-094,パパは仕事を辞める,https://hololive-official-cardgame.com/cardlist/?id=2469&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP08-094_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：楪カードナンバー：hBP08-094,3,"Q: Q 自分のコラボポジションにhBP01-027〈ベスティア・ゼータ〉がいる時、hBP08-094〈パパは仕事を辞める〉を使いました。 その後、自分のセンターホロメンがアーツダメージを受ける時、hBP01-027〈ベスティア・ゼータ〉のギフト「V.7」の能力を使い、奇数を出したのでダメージを受けませんでした。 この場合、次に自分のセンターホロメンがアーツダメージを受ける時、受けるダメージを-300することはできますか？
+A: A はい、できます。
+
+Q: Q 自分の推しホロメンがhSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の時、hBP08-094〈パパは仕事を辞める〉を使いました。 その後、自分のセンターホロメンがアーツダメージを受ける時、hSD13-001〈エリザベス・ローズ・ブラッドフレイム〉の推しスキル「秩序の先駆者」の能力を使い、センターホロメンはダメージを受けませんでした。 この場合、次に自分のセンターホロメンがアーツダメージを受ける時、受けるダメージを-300することはできますか？
+A: A はい、できます。
+
+Q: Q hBP08-094〈パパは仕事を辞める〉の「アーツダメージ」とは、アーツの能力による特殊ダメージも含まれますか？
+A: A いいえ、含みません。","カードタイプ
+サポート・イベント・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+このカードは、自分のコラボホロメンがいる時にしか使えない。
+自分のセンターホロメンを選ぶ。次の相手のターンの間、選んだホロメンがセンターポジションで最初に受けるアーツダメージ-300。
+LIMITED:ターンに1枚しか使えない。
+イラストレーター名：
+楪
+カードナンバー：
+hBP08-094"
+hPR,hBP09-001,大空スバル,https://hololive-official-cardgame.com/cardlist/?id=2841&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-001_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：にゃまそカードナンバー：hBP09-001,3,"Q: Q 自分のホロパワーが10枚ある時、hBP09-022〈角巻わため〉のブルームエフェクト「わためいとの楽園」の能力で、相手の1stホロメン1人を2ndホロメンにしました。 この場合、hBP09-001〈大空スバル〉の推しスキル「大空警察出動！」の能力でそのホロメンを選び、1st〈大空スバル〉をステージに出すことはできますか？
+A: A はい、できます。 hBP09-022〈角巻わため〉のブルームエフェクト「わためいとの楽園」の能力で選んだホロメンは1stであり2ndでもあるホロメンとして扱われます。
+
+Q: Q 自分のホロパワーが10枚ある時、hBP09-022〈角巻わため〉のブルームエフェクト「わためいとの楽園」の能力で、相手のホロメン1人を2ndホロメンにしました。 この場合、hBP09-001〈大空スバル〉の推しスキル「大空警察出動！」の能力でそのホロメンを選び、2nd〈大空スバル〉をステージに出すことはできますか？
+A: A はい、できます。
+
+Q: Q 相手のセンターホロメンが1stの時、hBP09-001〈大空スバル〉の推しスキル「大空警察出動！」の能力でhBP06-083〈ラムダック〉をステージに出すことはできますか？
+A: A はい、できます。","カードタイプ
+推しホロメン
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+LIFE
+5
+推しステージスキル
+秩序を守る署長
+自分の〈大空スバル〉全員のアーツに必要な白-1。
+推しスキル
+[ホロパワー:-2]
+大空警察出動！
+[ターンに1回]相手のステージのホロメン1人を選ぶ。自分のデッキから、選んだホロメンと同じBloomレベルの〈大空スバル〉1枚をステージに出す。そしてデッキをシャッフルする。
+イラストレーター名：
+にゃまそ
+カードナンバー：
+hBP09-001"
+hPR,hBP09-003,白銀ノエル,https://hololive-official-cardgame.com/cardlist/?id=2842&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-003_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：WOODDAKカードナンバー：hBP09-003,0,,"カードタイプ
+推しホロメン
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+LIFE
+5
+推しステージスキル
+鉄の胃袋大魔神
+[ターンに1回]自分が〈牛丼〉を使った時、自分のエールデッキの上から1枚を自分の〈白銀ノエル〉に送る。さらに、自分のステージに2ndホロメンがいるなら、自分のデッキを1枚引く。
+推しスキル
+[ホロパワー:-2]
+あふれる牛丼愛
+[ターンに1回]自分のアーカイブのエール1枚を自分の〈白銀ノエル〉に送る。自分のアーカイブに〈牛丼〉が3枚以上あるなら、かわりに、自分のアーカイブのエール1～2枚を自分の〈白銀ノエル〉に割り振って送る。
+イラストレーター名：
+WOODDAK
+カードナンバー：
+hBP09-003"
+hPR,hBP09-007,雪花ラミィ,https://hololive-official-cardgame.com/cardlist/?id=2843&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-007_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：那桜カードナンバー：hBP09-007,0,,"カードタイプ
+推しホロメン
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+LIFE
+5
+推しステージスキル
+至福のひととき
+自分のステージの〈雪花ラミィ〉全員のアーツ＋20。自分のアーカイブに#ラミィのお酒を持つサポートが5枚以上あるなら、かわりに、自分のステージの〈雪花ラミィ〉全員のアーツ＋50。
+推しスキル
+[ホロパワー:-2]
+愛するものに囲まれて
+[ターンに1回]自分のデッキから、#ラミィのお酒を持つサポート1～2枚を公開し、手札に加える。そしてデッキをシャッフルする。
+イラストレーター名：
+那桜
+カードナンバー：
+hBP09-007"
+hPR,hBP09-008,大空スバル,https://hololive-official-cardgame.com/cardlist/?id=2979&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-008_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：しらまカードナンバー：hBP09-008,1,"Q: Q hBP09-008〈大空スバル〉のギフト「カジュアルスバル」の能力は、相手のセンターホロメンとコラボホロメンがアーツを使い、合わせて40以上のダメージを受けた時でも特殊ダメージ30を与えることはできますか？
+A: A いいえ、できません。","カードタイプ
+ホロメン
+タグ
+#JP
+#2期生
+#トリ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+110
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+カジュアルスバル
+[ターンに1回]相手のターンで、このホロメンが1回に40以上のアーツダメージを受けた時、相手のセンターホロメンに特殊ダメージ30を与える。
+アーツ
+ロング、似合うっスか？　30
+イラストレーター名：
+しらま
+カードナンバー：
+hBP09-008"
+hPR,hBP09-010,大空スバル,https://hololive-official-cardgame.com/cardlist/?id=2844&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-010_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：チェリ子カードナンバー：hBP09-010,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#2期生
+#トリ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+170
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+高まるテンション
+自分のデッキを2枚引き、手札2枚を好きな順でデッキの下に戻す。
+アーツ
+ここから盛り上がるっスよ！　30
+相手のステージのツール1枚をアーカイブする。
+イラストレーター名：
+チェリ子
+カードナンバー：
+hBP09-010"
+hPR,hBP09-025,白銀ノエル,https://hololive-official-cardgame.com/cardlist/?id=2980&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-025_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：ごろー＊カードナンバー：hBP09-025,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#3期生
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+130
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+カジュアルノエル
+自分の推しホロメンが推しステージスキルを持つなら、このホロメンのHP+20。
+アーツ
+今日はプライベート！　20
+イラストレーター名：
+ごろー＊
+カードナンバー：
+hBP09-025"
+hPR,hBP09-039,カエラ・コヴァルスキア,https://hololive-official-cardgame.com/cardlist/?id=2981&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-039_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：mint-tanカードナンバー：hBP09-039,0,,"カードタイプ
+ホロメン
+タグ
+#ID
+#ID3期生
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+130
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+Workaholic！
+自分が後攻で最初のターンなら、自分のデッキから、ツール2枚を公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+資材集めはお任せ！　20
+イラストレーター名：
+mint-tan
+カードナンバー：
+hBP09-039"
+hPR,hBP09-047,ハコス・ベールズ,https://hololive-official-cardgame.com/cardlist/?id=2982&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-047_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：Craneeカードナンバー：hBP09-047,0,,"カードタイプ
+ホロメン
+タグ
+#EN
+#Promise
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+FUNNY RAT
+自分のセンターが〈大空スバル〉なら、自分のデッキを1枚引く。
+アーツ
+風船はいかが？　20+
+自分のステージに〈大空スバル〉がいるなら、このアーツ+20。
+イラストレーター名：
+Cranee
+カードナンバー：
+hBP09-047"
+hPR,hBP09-065,綺々羅々ヴィヴィ,https://hololive-official-cardgame.com/cardlist/?id=2983&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-065_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：Ariaカードナンバー：hBP09-065,0,,"カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#FLOW GLOW
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+キラキラなプレゼント
+自分が後攻で最初のターンなら、自分のデッキから、〈綺々羅々ヴィヴィ〉2枚を公開し、手札に加える。そして自分のデッキをシャッフルする。相手は、自身のデッキを1枚引く。
+アーツ
+喜んでくれたらヴィヴィもうれしい！　20
+イラストレーター名：
+Aria
+カードナンバー：
+hBP09-065"
+hPR,hBP09-077,雪花ラミィ,https://hololive-official-cardgame.com/cardlist/?id=2984&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-077_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：ちひろ綺華カードナンバー：hBP09-077,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#5期生
+#ハーフエルフ
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+130
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+カジュアルラミィ
+サイコロを1回振る。6なら、このターンの間、このホロメンのアーツ+20。1なら、このホロメンをお休みさせる。
+アーツ
+待った？　30
+イラストレーター名：
+ちひろ綺華
+カードナンバー：
+hBP09-077"
+hPR,hBP09-078,雪花ラミィ,https://hololive-official-cardgame.com/cardlist/?id=2985&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-078_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：Craneeカードナンバー：hBP09-078,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#5期生
+#ハーフエルフ
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+130
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+熱を帯びた瞳
+自分が後攻で最初のターンなら、自分のデッキを3枚引き、手札1枚をアーカイブする。アーカイブしたカードが#ラミィのお酒を持たないなら、さらに自分の手札1枚をアーカイブする。
+アーツ
+晩酌のお誘い　10
+イラストレーター名：
+Cranee
+カードナンバー：
+hBP09-078"
+hPR,hBP09-081,雪花ラミィ,https://hololive-official-cardgame.com/cardlist/?id=2845&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-081_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：矢吹健太朗カードナンバー：hBP09-081,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#5期生
+#ハーフエルフ
+#お酒
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+170
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+BIG3懇親会 side L
+自分のアーカイブの#ラミィのお酒を持つサポートが1枚以下なら、このホロメンのアーツに必要な無色+1。
+アーツ
+んー！ うますぎるー！　60
+このホロメンのエール2枚をアーカイブできる:相手のDebut以外のホロメン1人に特殊ダメージ40を与える。
+イラストレーター名：
+矢吹健太朗
+カードナンバー：
+hBP09-081"
+hPR,hBP09-094,大空警察,https://hololive-official-cardgame.com/cardlist/?id=2991&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-094_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：さかなへんカードナンバー：hBP09-094,2,"Q: Q hBP06-001〈ラオーラ・パンテーラ〉のSP推しスキル「BIG TROUBLE!!」を使った後に、相手がhBP09-094〈大空警察〉を使い、相手のバックホロメンの〈ラオーラ・パンテーラ〉を選びました。 この場合、選ばれたホロメンはお休みしますか？
+A: A はい、お休みします。
+
+Q: Q 相手のステージにセンターホロメンとバックホロメンが1人の時、hBP09-094〈大空警察〉を使い、相手のバックホロメンを選びました。 その後、相手のセンターホロメンをダウンさせた場合、相手のリセットステップでセンターポジションに出すホロメンはお休みしたままになりますか？
+A: A はい、お休みしたままになります。","カードタイプ
+サポート・イベント・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+このカードは、自分の推しホロメンが〈大空スバル〉で、前の相手のターンに自分のホロメンがダウンしていなければ使えない。
+相手のバックホロメン1人を選ぶ。選んだホロメンをお休みさせる。そのホロメンは、次の相手のリセットステップでアクティブにならない。
+LIMITED:ターンに1枚しか使えない。
+イラストレーター名：
+さかなへん
+カードナンバー：
+hBP09-094"
+hPR,hBP09-094,大空警察,https://hololive-official-cardgame.com/cardlist/?id=2992&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-094_P_02.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：こまいぬカードナンバー：hBP09-094,2,"Q: Q hBP06-001〈ラオーラ・パンテーラ〉のSP推しスキル「BIG TROUBLE!!」を使った後に、相手がhBP09-094〈大空警察〉を使い、相手のバックホロメンの〈ラオーラ・パンテーラ〉を選びました。 この場合、選ばれたホロメンはお休みしますか？
+A: A はい、お休みします。
+
+Q: Q 相手のステージにセンターホロメンとバックホロメンが1人の時、hBP09-094〈大空警察〉を使い、相手のバックホロメンを選びました。 その後、相手のセンターホロメンをダウンさせた場合、相手のリセットステップでセンターポジションに出すホロメンはお休みしたままになりますか？
+A: A はい、お休みしたままになります。","カードタイプ
+サポート・イベント・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+このカードは、自分の推しホロメンが〈大空スバル〉で、前の相手のターンに自分のホロメンがダウンしていなければ使えない。
+相手のバックホロメン1人を選ぶ。選んだホロメンをお休みさせる。そのホロメンは、次の相手のリセットステップでアクティブにならない。
+LIMITED:ターンに1枚しか使えない。
+イラストレーター名：
+こまいぬ
+カードナンバー：
+hBP09-094"
+hPR,hBP09-105,BIG3,https://hololive-official-cardgame.com/cardlist/?id=2846&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBP09-105_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：茶ちえカードナンバー：hBP09-105,0,,"カードタイプ
+サポート・イベント・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+このカードは、自分の推しホロメンが〈大空スバル〉か〈白銀ノエル〉か〈雪花ラミィ〉でなければ使えない。
+自分のデッキを2枚引く。その後、自分のデッキの上から3枚を見る。その中から、自分の推しホロメンと同じカード名のホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
+LIMITED:ターンに1枚しか使えない。
+イラストレーター名：
+茶ちえ
+カードナンバー：
+hBP09-105"
+hPR,hEB01-012,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=2569&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hEB01-012_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：矢吹健太朗カードナンバー：hEB01-012,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#3期生
+#絵
+#海
+#サマー
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+船長と海に行きたいって～？
+自分が後攻で最初のターンなら、自分のデッキから、ブルームエフェクトを持つ〈宝鐘マリン〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。
+アーツ
+船長の水着見せつけちゃうゾ♡　30
+イラストレーター名：
+矢吹健太朗
+カードナンバー：
+hEB01-012"
+hPR,hEB01-013,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=2717&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hEB01-013_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hEB01-013,1,"Q: Q hEB01-013〈宝鐘マリン〉のコラボエフェクト「わざと隙、見せてるんだゾ？」の能力で、このカードをアーカイブすることはできますか？
+A: A いいえ、できません。","カードタイプ
+ホロメン
+タグ
+#JP
+#3期生
+#絵
+#海
+#サマー
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+160
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+わざと隙、見せてるんだゾ？
+このホロメンに重なっているホロメン1枚をアーカイブできる：自分のエールデッキの上から1枚を自分のホロメンに送る。
+アーツ
+人混み抜けて……二人きりになっちゃう？　50
+カードナンバー：
+hEB01-013"
+hPR,hSD01-018,サブパソコン,https://hololive-official-cardgame.com/cardlist/?id=506&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD01-018_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：JinArt こばやかわやまとカードナンバー：hSD01-018,0,,"カードタイプ
+サポート・アイテム
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキの上から5枚を見る。その中から、LIMITEDのサポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
+イラストレーター名：
+JinArt こばやかわやまと
+カードナンバー：
+hSD01-018"
+hPR,hSD02-007,百鬼あやめ,https://hololive-official-cardgame.com/cardlist/?id=497&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD02-007_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hSD02-007,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#2期生
+#シューター
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+どーっちどっち♪
+DebutからBloomした時、自分のデッキの上から2枚を見る。その中から、1枚を公開し、手札に加える。そして残ったカードをアーカイブする。
+アーツ
+輝いた余を見逃さないでね～～！！　30
+カードナンバー：
+hSD02-007"
+hPR,hSD02-007,百鬼あやめ,https://hololive-official-cardgame.com/cardlist/?id=2035&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD02-007_02_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hSD02-007,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#2期生
+#シューター
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+どーっちどっち♪
+DebutからBloomした時、自分のデッキの上から2枚を見る。その中から、1枚を公開し、手札に加える。そして残ったカードをアーカイブする。
+アーツ
+輝いた余を見逃さないでね～～！！　30
+カードナンバー：
+hSD02-007"
+hPR,hSD03-007,猫又おかゆ,https://hololive-official-cardgame.com/cardlist/?id=498&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD03-007_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hSD03-007,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#ゲーマーズ
+#ケモミミ
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+110
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+また、たくさん笑ってよね！
+自分のアーカイブのエール1枚を自分の#ゲーマーズを持つホロメンに送れる。
+アーツ
+全力で僕なりの歌、お届けします！　20
+カードナンバー：
+hSD03-007"
+hPR,hSD04-007,癒月ちょこ,https://hololive-official-cardgame.com/cardlist/?id=499&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD04-007_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hSD04-007,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#2期生
+#料理
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+110
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+ちょっこーん！
+自分のアーカイブのLIMITED以外のイベント1枚を手札に戻せる。
+アーツ
+大好き！ちゅっ♡　30
+自分のバックホロメン1人のHP20回復。
+カードナンバー：
+hSD04-007"
+hPR,hSD05-002,轟はじめ,https://hololive-official-cardgame.com/cardlist/?id=858&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD05-002_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,カードナンバー：hSD05-002,0,,"カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#ReGLOSS
+#ベイビー
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+ぶんぶんぶーん！　30
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+カードナンバー：
+hSD05-002"
+hPR,hSD06-005,風真いろは,https://hololive-official-cardgame.com/cardlist/?id=1721&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD06-005_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：猫屋敷ぷしおカードナンバー：hSD06-005,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#秘密結社holoX
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+1st
+バトンタッチ
+キーワード
+かざまとおでかけ
+自分のエールデッキの上から1枚を、自分の#秘密結社holoXを持つホロメンに送る。
+アーツ
+かざまといっしょ！　30
+イラストレーター名：
+猫屋敷ぷしお
+カードナンバー：
+hSD06-005"
+hPR,hSD06-011,ﾁｬｷ丸,https://hololive-official-cardgame.com/cardlist/?id=1728&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD06-011_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：なかだ絵眞カードナンバー：hSD06-011,1,"Q: Q hSD06-011〈ﾁｬｷ丸〉が付いているホロメンがダウンした時、このカードの「ダメージを受けた時」という能力で相手ホロメンに特殊ダメージを与えることはできますか？
+A: A はい、与えることができます。","カードタイプ
+サポート・ツール
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+このツールが付いているホロメンのアーツ+10。
+◆1st以上の〈風真いろは〉に付いていたら能力追加
+[ターンに1回]相手のターンで、このツールが付いているホロメンがダメージを受けた時、相手のセンターホロメンに特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。
+ツールは、自分のホロメン1人につき1枚だけ付けられる。
+イラストレーター名：
+なかだ絵眞
+カードナンバー：
+hSD06-011"
+hPR,hSD08-007,角巻わため,https://hololive-official-cardgame.com/cardlist/?id=1158&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD08-007_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：TAYAカードナンバー：hSD08-007,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#4期生
+#ケモミミ
+#歌
+#サマー
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+みんなと夏祭り
+自分のアーカイブのエール1枚を自分の#4期生を持つ2ndホロメンに送れる。
+アーツ
+わたあめおいしいねぇ　10
+イラストレーター名：
+TAYA
+カードナンバー：
+hSD08-007"
+hPR,hSD09-002,宝鐘マリン,https://hololive-official-cardgame.com/cardlist/?id=1160&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD09-002_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：スライムカードナンバー：hSD09-002,0,,"カードタイプ
+ホロメン
+タグ
+#JP
+#3期生
+#絵
+#海
+#サマー
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+100
+Bloomレベル
+Debut
+バトンタッチ
+キーワード
+ホロサマー
+自分のデッキの上から5枚を見る。その中から、#サマーを持つDebutホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。
+アーツ
+船長も一緒にい・か・が？　20
+イラストレーター名：
+スライム
+カードナンバー：
+hSD09-002"
+hPR,hSD10-007,綺々羅々ヴィヴィ,https://hololive-official-cardgame.com/cardlist/?id=1725&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD10-007_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：おげげカードナンバー：hSD10-007,2,"Q: Q hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力で、バトンタッチに必要な無色+1されたhBP01-068〈尾丸ポルカ〉に、hBP05-075〈牛丼〉を使いました。 この場合、バトンタッチに必要な「無色」はいくつになりますか？
+A: A この場合、0になります。
+
+Q: Q hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力の「無色+1」とは、どういう意味ですか？
+A: A バトンタッチに必要な、アーカイブするエールの数を無色1つ分増やす能力です。","カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#FLOW GLOW
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+ん〜〜〜〜〜ッヴィヴィ〜！　20
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+イラストレーター名：
+おげげ
+カードナンバー：
+hSD10-007"
+hPR,hSD11-007,水宮枢,https://hololive-official-cardgame.com/cardlist/?id=1724&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD11-007_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：おげげカードナンバー：hSD11-007,2,"Q: Q hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力で、バトンタッチに必要な無色+1されたhBP01-068〈尾丸ポルカ〉に、hBP05-075〈牛丼〉を使いました。 この場合、バトンタッチに必要な「無色」はいくつになりますか？
+A: A この場合、0になります。
+
+Q: Q hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力の「無色+1」とは、どういう意味ですか？
+A: A バトンタッチに必要な、アーカイブするエールの数を無色1つ分増やす能力です。","カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#FLOW GLOW
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+色
+HP
+120
+Bloomレベル
+Debut
+バトンタッチ
+アーツ
+しゅぴしゅわー　20
+相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色+1。
+エクストラ
+このホロメンはデッキに何枚でも入れられる
+イラストレーター名：
+おげげ
+カードナンバー：
+hSD11-007"
+hPR,hSD14-010,holoAN,https://hololive-official-cardgame.com/cardlist/?id=2202&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD14-010_P.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：ミュシャカードナンバー：hSD14-010,0,,"カードタイプ
+サポート・スタッフ・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキを３枚引く。
+LIMITED：ターンに1枚しか使えない。
+イラストレーター名：
+ミュシャ
+カードナンバー：
+hSD14-010"
+hPR,hSD14-010,holoAN,https://hololive-official-cardgame.com/cardlist/?id=2470&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD14-010_P_02.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：絹谷ゆたかカードナンバー：hSD14-010,0,,"カードタイプ
+サポート・スタッフ・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキを３枚引く。
+LIMITED:ターンに1枚しか使えない。
+イラストレーター名：
+絹谷ゆたか
+カードナンバー：
+hSD14-010"
+hPR,hSD14-010,holoAN,https://hololive-official-cardgame.com/cardlist/?id=2683&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD14-010_P_03.png,2026年09月19日(土),PRカード / 【使用可能カード】セレクションカップ,イラストレーター名：강소カードナンバー：hSD14-010,0,,"カードタイプ
+サポート・スタッフ・LIMITED
+レアリティ
+P
+収録商品
+PRカード
+【使用可能カード】セレクションカップ
+能力テキスト
+自分のデッキを３枚引く。
+LIMITED：ターンに1枚しか使えない。
+イラストレーター名：
+강소
+カードナンバー：
+hSD14-010"
 hPR,hY01-002,白エール,https://hololive-official-cardgame.com/cardlist/?id=196&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hY01-002_P.png,,PRカード,イラストレーター名：餡こたくカードナンバー：hY01-002,0,,"カードタイプ
 エール
 レアリティ
