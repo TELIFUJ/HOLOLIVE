@@ -9793,6 +9793,38 @@ Debut
 おげげ
 カードナンバー：
 hSD10-002"
+hPR,hSD10-006,輪堂千速,https://hololive-official-cardgame.com/cardlist/?id=2144&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD10-006_P.png,,PRカード,イラストレーター名：株式会社スタジオヴィガカードナンバー：hSD10-006,3,"Q: Q 残りHPが80のホロメンに、hSD10-006〈輪堂千速〉のアーツ「アクセラビートブレイズ」を使い、140ダメージを与えました。 この場合、何枚自分のバックホロメンにエールを送りますか？
+A: A その場合、60オーバーしているため、2枚送ります。
+
+Q: Q hSD10-006〈輪堂千速〉のアーツ「鼓動の操縦者」の能力は、他の自分のホロメンがBloomしていても+50されますか？
+A: A はい、されます。
+
+Q: Q hSD10-001〈輪堂千速〉の推しスキル「エンジン全開！レッツゴー！」の能力をhSD10-006〈輪堂千速〉に使い、その後hSD10-006〈輪堂千速〉にBloomしました。 この場合、Bloom後のhSD10-006〈輪堂千速〉は+30されたままになりますか？
+A: A はい、なります。","カードタイプ
+ホロメン
+タグ
+#DEV_IS
+#FLOW GLOW
+レアリティ
+P
+収録商品
+PRカード
+色
+HP
+200
+Bloomレベル
+2nd
+バトンタッチ
+アーツ
+鼓動の操縦者　80+
+このターンに自分のホロメンがBloomしていたなら、このアーツ+50。
+アーツ
+アクセラビートブレイズ　140
+このアーツで相手のセンターホロメンをダウンさせた時、与えたダメージが残りHPをオーバーしていたなら、オーバーしたダメージ30につき、自分のエールデッキの上から1枚を自分のバックホロメン1人に送る。
+イラストレーター名：
+株式会社スタジオヴィガ
+カードナンバー：
+hSD10-006"
 hPR,hSD10-007,綺々羅々ヴィヴィ,https://hololive-official-cardgame.com/cardlist/?id=1725&%2Fcardlist%2Fcardsearch_ex=&expansion=hPR&view=image,https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hSD10-007_P.png,,PRカード,イラストレーター名：おげげカードナンバー：hSD10-007,2,"Q: Q hSD11-007〈水宮枢〉のアーツ「しゅぴしゅわー」の能力で、バトンタッチに必要な無色+1されたhBP01-068〈尾丸ポルカ〉に、hBP05-075〈牛丼〉を使いました。 この場合、バトンタッチに必要な「無色」はいくつになりますか？
 A: A この場合、0になります。
 
